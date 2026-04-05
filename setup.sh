@@ -1,0 +1,42 @@
+#!/bin/bash
+# setup.sh — 一鍵安裝腳本
+# 用法：chmod +x setup.sh && ./setup.sh
+
+set -e
+echo "======================================"
+echo "  VOC 文獻系統 — 環境安裝"
+echo "======================================"
+
+# 建立虛擬環境
+if [ ! -d "venv" ]; then
+    echo "[1/4] 建立 Python 虛擬環境..."
+    python3 -m venv venv
+fi
+
+# 啟動虛擬環境
+source venv/bin/activate
+
+# 安裝套件
+echo "[2/4] 安裝依賴套件..."
+pip install --upgrade pip -q
+pip install -r requirements.txt -q
+
+# 建立資料夾
+echo "[3/4] 建立目錄結構..."
+mkdir -p daily_reports exports
+
+# 初始化資料庫
+echo "[4/4] 初始化資料庫..."
+python -c "from database import init_db; init_db('literature.db')"
+
+echo ""
+echo "✅ 安裝完成！"
+echo ""
+echo "接下來："
+echo "  1. 編輯 config.yaml，填入 Serper API Key"
+echo "  2. 確認 Ollama 已啟動：ollama serve"
+echo "  3. 確認模型已下載：ollama pull gemma3:12b"
+echo "  4. 手動測試：python scheduler.py --dry-run"
+echo "  5. 正式執行：python scheduler.py"
+echo "  6. 啟動介面：streamlit run dashboard.py"
+echo ""

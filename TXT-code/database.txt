@@ -1,0 +1,173 @@
+"""
+database.py — SQLite 資料庫封裝
+所有讀寫操作統一透過此模組
+"""
+
+import sqlite3
+import json
+import csv
+import os
+from datetime import datetime
+from pathlib import Path
+
+
+def get_connection(db_path: str) -> sqlite3.Connection:
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+def init_db(db_path: str):
+    """建立資料表（若不存在）"""
+    conn = get_connection(db_path)
+    cursor = conn.cursor()
+
+    cursor.executescript("""
+        CREATE TABLE IF NOT EXISTS literature (
+            id            INTEGER PRIMARY KEY AUTOINCREMENT,
+            doi           TEXT,
+            pmid          TEXT,
+            title         TEXT NOT NULL,
+            abstract      TEXT,
+            authors       TEXT,
+            year          INTEGER,
+            journal       TEXT,
+            url           TEXT,
+            source        TEXT,
+            is_relevant   INTEGER DEFAULT 0,
+            category      TEXT,
+            score         REAL DEFAULT 0,
+            tags          TEXT,
+            one_line      TEXT,
+            raw_json      TEXT,
+            created_at    TEXT DEFAULT (datetime('now')),
+            UNIQUE(doi),
+            UNIQUE(title)
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_relevant  ON literature(is_relevant);
+        CREATE INDEX IF NOT EXISTS idx_category  ON literature(category);
+        CREATE INDEX IF NOT EXISTS idx_score     ON literature(score);
+        CREATE INDEX IF NOT EXISTS idx_created   ON literature(created_at);
+
+        CREATE TABLE IF NOT EXISTS search_log (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            run_at     TEXT DEFAULT (datetime('now')),
+            query      TEXT,
+            source     TEXT,
+            found      INTEGER,
+            new_added  INTEGER
+        );
+    """)
+
+    conn.commit()
+    conn.close()
+    print(f"[DB] 資料庫初始化完成：{db_path}")
+
+
+def is_duplicate(conn: sqlite3.Connection, doi: str = None, title: str = None) -> bool:
+    """檢查是否已存在（以 DOI 優先，否則以標題比對）"""
+    cursor = conn.cursor()
+    if doi and doi.strip():
+        cursor.execute("SELECT 1 FROM literature WHERE doi = ? LIMIT 1", (doi.strip(),))
+        if cursor.fetchone():
+            return True
+    if title and title.strip():
+        cursor.execute("SELECT 1 FROM literature WHERE title = ? LIMIT 1", (title.strip(),))
+        if cursor.fetchone():
+            return True
+    return False
+
+
+def insert_literature(conn: sqlite3.Connection, record: dict) -> bool:
+    """插入一筆文獻，回傳是否成功（False = 重複跳過）"""
+    if is_duplicate(conn, record.get("doi"), record.get("title")):
+        return False
+
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+            INSERT INTO literature
+                (doi, pmid, title, abstract, authors, year, journal, url,
+                 source, is_relevant, category, score, tags, one_line, raw_json)
+            VALUES
+                (:doi, :pmid, :title, :abstract, :authors, :year, :journal, :url,
+                 :source, :is_relevant, :category, :score, :tags, :one_line, :raw_json)
+        """, {
+            "doi":         record.get("doi", ""),
+            "pmid":        record.get("pmid", ""),
+            "title":       record.get("title", ""),
+            "abstract":    record.get("abstract", ""),
+            "authors":     record.get("authors", ""),
+            "year":        record.get("year"),
+            "journal":     record.get("journal", ""),
+            "url":         record.get("url", ""),
+            "source":      record.get("source", ""),
+            "is_relevant": 1 if record.get("is_relevant") else 0,
+            "category":    record.get("category", "other"),
+            "score":       record.get("score", 0),
+            "tags":        json.dumps(record.get("tags", []), ensure_ascii=False),
+            "one_line":    record.get("one_line", ""),
+            "raw_json":    json.dumps(record, ensure_ascii=False),
+        })
+        conn.commit()
+        return True
+    except sqlite3.IntegrityError:
+        return False
+
+
+def log_search(conn: sqlite3.Connection, query: str, source: str,
+               found: int, new_added: int):
+    conn.execute("""
+        INSERT INTO search_log (query, source, found, new_added)
+        VALUES (?, ?, ?, ?)
+    """, (query, source, found, new_added))
+    conn.commit()
+
+
+def get_recent(conn: sqlite3.Connection, days: int = 7,
+               min_score: float = 0, relevant_only: bool = True) -> list[dict]:
+    where = f"created_at >= datetime('now', '-{days} days')"
+    if relevant_only:
+        where += " AND is_relevant = 1"
+    if min_score > 0:
+        where += f" AND score >= {min_score}"
+    rows = conn.execute(f"""
+        SELECT * FROM literature WHERE {where}
+        ORDER BY score DESC, created_at DESC
+    """).fetchall()
+    return [dict(r) for r in rows]
+
+
+def get_stats(conn: sqlite3.Connection) -> dict:
+    stats = {}
+    stats["total"]    = conn.execute("SELECT COUNT(*) FROM literature").fetchone()[0]
+    stats["relevant"] = conn.execute("SELECT COUNT(*) FROM literature WHERE is_relevant=1").fetchone()[0]
+    stats["today"]    = conn.execute(
+        "SELECT COUNT(*) FROM literature WHERE date(created_at)=date('now')").fetchone()[0]
+    stats["by_category"] = dict(conn.execute("""
+        SELECT category, COUNT(*) FROM literature
+        WHERE is_relevant=1 GROUP BY category ORDER BY COUNT(*) DESC
+    """).fetchall())
+    stats["avg_score"] = conn.execute(
+        "SELECT ROUND(AVG(score),2) FROM literature WHERE is_relevant=1").fetchone()[0] or 0
+    return stats
+
+
+def export_csv(conn: sqlite3.Connection, output_path: str):
+    """匯出全部相關文獻至 CSV"""
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    rows = conn.execute("""
+        SELECT id, title, authors, year, journal, category, score,
+               tags, one_line, doi, url, source, created_at
+        FROM literature WHERE is_relevant=1
+        ORDER BY score DESC, created_at DESC
+    """).fetchall()
+
+    with open(output_path, "w", newline="", encoding="utf-8-sig") as f:
+        writer = csv.writer(f)
+        writer.writerow(["ID","標題","作者","年份","期刊","類別","評分",
+                         "標籤","一行摘要","DOI","URL","來源","加入時間"])
+        for r in rows:
+            writer.writerow(list(r))
+    print(f"[DB] CSV 已匯出：{output_path}（{len(rows)} 筆）")

@@ -1,0 +1,5 @@
+在命令提示字元內，先切換路徑：
+cd /d D:\02-AIProject\voc_literature
+
+就可以執行了
+python scheduler.py --dry-run

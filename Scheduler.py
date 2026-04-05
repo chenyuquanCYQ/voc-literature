@@ -1,0 +1,217 @@
+"""
+scheduler.py — 主流程入口
+可手動執行，或透過 cron / schedule 套件排程
+"""
+
+import yaml
+import time
+import argparse
+import sqlite3
+from datetime import datetime
+from pathlib import Path
+
+from database import init_db, get_connection, insert_literature, log_search, export_csv, get_stats
+from searcher import run_all_searches
+from classifier import classify_batch, check_ollama_available
+from reporter import generate_daily_report
+
+
+def load_config(path: str = "config.yaml") -> dict:
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+
+def run_pipeline(config: dict, dry_run: bool = False):
+    """
+    完整執行一次搜尋→去重→分類→儲存→報告流程
+    dry_run=True 時只搜尋，不寫入資料庫
+    """
+    start_time = datetime.now()
+    print(f"\n{'='*60}")
+    print(f"  VOC 文獻搜尋系統啟動")
+    print(f"  {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"{'='*60}")
+
+    db_path = config.get("database_path", "literature.db")
+
+    # ── 步驟 0：初始化資料庫 ──
+    init_db(db_path)
+    conn = get_connection(db_path)
+
+    # ── 步驟 1：檢查 Ollama ──
+    model = config.get("ollama_model", "gemma3:12b")
+    host  = config.get("ollama_host", "http://localhost:11434")
+    ok, msg = check_ollama_available(host, model)
+    print(f"\n[系統] Ollama 狀態：{msg}")
+    if not ok:
+        print("  ⚠️  將跳過 LLM 分類，文獻以 is_relevant=False 儲存")
+        llm_available = False
+    else:
+        llm_available = True
+
+    # ── 步驟 2：多源搜尋 ──
+    raw_results = run_all_searches(config)
+    if not raw_results:
+        print("[搜尋] 無結果，結束本次執行")
+        conn.close()
+        return
+
+    # ── 步驟 3：去重（對比資料庫） ──
+    new_records = []
+    duplicate_count = 0
+    for rec in raw_results:
+        doi   = rec.get("doi", "")
+        title = rec.get("title", "")
+        cursor = conn.cursor()
+        # DOI 去重
+        if doi:
+            cursor.execute("SELECT 1 FROM literature WHERE doi=? LIMIT 1", (doi,))
+            if cursor.fetchone():
+                duplicate_count += 1
+                continue
+        # 標題去重
+        cursor.execute("SELECT 1 FROM literature WHERE title=? LIMIT 1", (title,))
+        if cursor.fetchone():
+            duplicate_count += 1
+            continue
+        new_records.append(rec)
+
+    print(f"\n[去重] 搜尋得 {len(raw_results)} 筆，"
+          f"已知重複 {duplicate_count} 筆，"
+          f"新文獻 {len(new_records)} 筆")
+
+    if not new_records:
+        print("[去重] 無新文獻，結束本次執行")
+        conn.close()
+        return
+
+    if dry_run:
+        print("[Dry Run] 以下為新文獻預覽（不寫入資料庫）：")
+        for r in new_records[:5]:
+            print(f"  - {r['title'][:80]}")
+        conn.close()
+        return
+
+    # ── 步驟 4：LLM 分類 ──
+    if llm_available:
+        classified = classify_batch(new_records, config)
+    else:
+        # 無 LLM 時，標記為待分類
+        classified = [{**r, "is_relevant": False, "category": "other",
+                       "score": 0, "tags": [], "one_line": "", "reason": "待分類"
+                      } for r in new_records]
+
+    # ── 步驟 5：寫入資料庫 ──
+    added = 0
+    for rec in classified:
+        if insert_literature(conn, rec):
+            added += 1
+
+    # 記錄搜尋 log
+    log_search(conn, "batch", "all", len(raw_results), added)
+
+    print(f"\n[儲存] 寫入 {added} 篇新文獻")
+
+    # ── 步驟 6：匯出 CSV ──
+    csv_path = config.get("csv_export_path", "exports/literature_export.csv")
+    export_csv(conn, csv_path)
+
+    # ── 步驟 7：生成每日報告 ──
+    report_dir = config.get("report_dir", "daily_reports")
+    generate_daily_report(conn, report_dir, added, classified)
+
+    # ── 完成統計 ──
+    stats = get_stats(conn)
+    elapsed = (datetime.now() - start_time).seconds
+    print(f"\n{'='*60}")
+    print(f"  完成！耗時 {elapsed} 秒")
+    print(f"  資料庫總計：{stats['total']} 篇 | 相關：{stats['relevant']} 篇")
+    print(f"  本次新增：{added} 篇")
+    print(f"{'='*60}\n")
+
+    conn.close()
+
+
+# ─────────────────────────────────────────
+# 排程模式（常駐執行）
+# ─────────────────────────────────────────
+
+def run_scheduled(config: dict):
+    """使用 schedule 套件常駐排程"""
+    try:
+        import schedule
+    except ImportError:
+        print("請安裝 schedule：pip install schedule")
+        return
+
+    times = config.get("schedule_times", ["07:00", "19:00"])
+    print(f"[排程] 設定執行時間：{', '.join(times)}")
+
+    for t in times:
+        schedule.every().day.at(t).do(run_pipeline, config=config)
+
+    print("[排程] 常駐等待中，Ctrl+C 停止\n")
+    while True:
+        schedule.run_pending()
+        time.sleep(30)
+
+
+# ─────────────────────────────────────────
+# CLI 入口
+# ─────────────────────────────────────────
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="VOC 文獻自動搜尋系統",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+範例：
+  python scheduler.py                    # 立即執行一次
+  python scheduler.py --daemon           # 常駐排程模式
+  python scheduler.py --dry-run          # 預覽新文獻（不寫入）
+  python scheduler.py --stats            # 顯示資料庫統計
+  python scheduler.py --export-csv       # 手動匯出 CSV
+  python scheduler.py --config my.yaml  # 指定設定檔
+        """
+    )
+    parser.add_argument("--config",     default="config.yaml", help="設定檔路徑")
+    parser.add_argument("--daemon",     action="store_true",   help="常駐排程模式")
+    parser.add_argument("--dry-run",    action="store_true",   help="預覽模式（不寫入）")
+    parser.add_argument("--stats",      action="store_true",   help="顯示統計資料")
+    parser.add_argument("--export-csv", action="store_true",   help="手動匯出 CSV")
+    args = parser.parse_args()
+
+    config = load_config(args.config)
+
+    if args.stats:
+        db_path = config.get("database_path", "literature.db")
+        init_db(db_path)
+        conn = get_connection(db_path)
+        s = get_stats(conn)
+        print(f"\n📊 資料庫統計")
+        print(f"  總文獻數：{s['total']}")
+        print(f"  相關文獻：{s['relevant']}")
+        print(f"  今日新增：{s['today']}")
+        print(f"  平均評分：{s['avg_score']}")
+        print(f"\n  分類分佈：")
+        for cat, cnt in s['by_category'].items():
+            print(f"    {cat:<20} {cnt} 篇")
+        conn.close()
+        return
+
+    if args.export_csv:
+        db_path = config.get("database_path", "literature.db")
+        csv_path = config.get("csv_export_path", "exports/literature_export.csv")
+        conn = get_connection(db_path)
+        export_csv(conn, csv_path)
+        conn.close()
+        return
+
+    if args.daemon:
+        run_scheduled(config)
+    else:
+        run_pipeline(config, dry_run=args.dry_run)
+
+
+if __name__ == "__main__":
+    main()

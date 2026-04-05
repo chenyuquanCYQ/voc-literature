@@ -1,0 +1,245 @@
+"""
+classifier.py — 使用本地 Ollama (Gemma3:12b) 進行文獻分類
+"""
+
+import json
+import re
+import time
+import requests
+from datetime import datetime
+
+# ─────────────────────────────────────────
+# Prompt 設計
+# ─────────────────────────────────────────
+
+CLASSIFY_PROMPT = """你是呼氣代謝體學與人體揮發性有機化合物（VOC）研究的專家分類員。
+
+請根據以下文獻資訊，進行嚴格的相關性判斷與分類。
+
+【研究領域定義】
+- 核心主題：人體呼出氣體/液體（呼氣、尿液、汗液、唾液）中的揮發性代謝物、VOC、代謝體學
+- 相關疾病：癌症、慢性病（糖尿病、腎病、肝病、心血管）、感染症、亞健康
+- 採集技術：呼吸採集裝置、GC-MS、PTR-MS、SIFT-MS、SPME、Tedlar bag
+- 感測器技術：電子鼻、化學感測器、氣體感測器陣列
+- AI/ML 應用：用於 VOC/呼氣數據的機器學習模型
+
+【文獻資訊】
+標題: {title}
+摘要: {abstract}
+
+【分類任務】
+請回傳以下 JSON（只回傳 JSON，不要任何其他文字或 markdown）：
+
+{{
+  "is_relevant": true 或 false,
+  "category": "以下其中一個",
+  "score": 0到5的整數,
+  "tags": ["標籤1", "標籤2"],
+  "one_line": "一句中文描述",
+  "reason": "簡短判斷理由（中文，15字內）"
+}}
+
+【category 選項】
+- "voc_breath"      : 呼氣 VOC / 呼氣代謝體
+- "voc_liquid"      : 液態採集 VOC（尿液/唾液/汗液）
+- "disease_cancer"  : 癌症診斷/篩查應用
+- "disease_chronic" : 慢性病應用（糖尿病/腎病/肝病等）
+- "infection"       : 感染症/敗血症相關
+- "subhealth"       : 亞健康/壓力/疲勞監測
+- "sensor_hardware" : 感測器硬體/電子鼻
+- "ai_model"        : AI/ML 模型（應用於 VOC 數據）
+- "odor_medicine"   : 氣味醫學/嗅覺相關
+- "method_tech"     : 採集技術/分析方法
+- "other"           : 不相關或無法分類
+
+【score 評分標準】
+5 = 高度相關，有明確人體VOC+疾病實驗結果
+4 = 相關，有VOC或代謝體主題，臨床數據
+3 = 部分相關，涉及方法或技術但有應用
+2 = 邊緣相關，需要人工確認
+1 = 低相關，概念提及
+0 = 不相關
+
+【tags 規則】
+最多5個，使用英文或中文關鍵詞，例如：["breath analysis", "lung cancer", "GC-MS", "VOC biomarker"]
+"""
+
+# ─────────────────────────────────────────
+# Ollama 呼叫
+# ─────────────────────────────────────────
+
+def classify_with_ollama(title: str, abstract: str,
+                          model: str = "gemma3:12b",
+                          host: str = "http://localhost:11434",
+                          timeout: int = 120) -> dict:
+    """
+    呼叫本地 Ollama 進行分類
+    回傳結構化 dict
+    """
+    prompt = CLASSIFY_PROMPT.format(
+        title=title or "(無標題)",
+        abstract=abstract[:1500] if abstract else "(無摘要)"
+    )
+
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "stream": False,
+        "options": {
+            "temperature": 0.1,  # 低溫度確保輸出穩定
+            "num_predict": 300,
+        }
+    }
+
+    try:
+        resp = requests.post(
+            f"{host}/api/generate",
+            json=payload,
+            timeout=timeout
+        )
+        resp.raise_for_status()
+        raw_text = resp.json().get("response", "")
+        return parse_llm_response(raw_text, title)
+
+    except requests.exceptions.ConnectionError:
+        print("  [LLM] ❌ 無法連線 Ollama，請確認 `ollama serve` 已啟動")
+        return default_result(title, reason="Ollama 未啟動")
+    except requests.exceptions.Timeout:
+        print(f"  [LLM] ⚠️ 超時 ({timeout}s)：{title[:50]}")
+        return default_result(title, reason="LLM 超時")
+    except Exception as e:
+        print(f"  [LLM] 錯誤：{e}")
+        return default_result(title, reason=str(e)[:30])
+
+
+def parse_llm_response(raw_text: str, title: str = "") -> dict:
+    """解析 LLM 回傳的 JSON"""
+    # 嘗試直接解析
+    text = raw_text.strip()
+
+    # 清除 markdown 代碼塊
+    text = re.sub(r"```json\s*", "", text)
+    text = re.sub(r"```\s*", "", text)
+
+    # 嘗試找到 JSON 物件
+    json_match = re.search(r"\{[\s\S]*\}", text)
+    if not json_match:
+        print(f"  [LLM] 無法解析 JSON: {text[:100]}")
+        return default_result(title, reason="JSON解析失敗")
+
+    try:
+        result = json.loads(json_match.group(0))
+
+        # 驗證必要欄位
+        is_relevant = bool(result.get("is_relevant", False))
+        category = result.get("category", "other")
+        valid_categories = [
+            "voc_breath", "voc_liquid", "disease_cancer", "disease_chronic",
+            "infection", "subhealth", "sensor_hardware", "ai_model",
+            "odor_medicine", "method_tech", "other"
+        ]
+        if category not in valid_categories:
+            category = "other"
+
+        score = float(result.get("score", 0))
+        score = max(0, min(5, score))
+
+        tags = result.get("tags", [])
+        if not isinstance(tags, list):
+            tags = []
+
+        return {
+            "is_relevant": is_relevant,
+            "category":    category,
+            "score":       score,
+            "tags":        tags[:5],
+            "one_line":    str(result.get("one_line", ""))[:200],
+            "reason":      str(result.get("reason", ""))[:50],
+        }
+
+    except json.JSONDecodeError as e:
+        print(f"  [LLM] JSON 解碼錯誤: {e} | 原始: {text[:100]}")
+        return default_result(title, reason="JSON格式錯誤")
+
+
+def default_result(title: str = "", reason: str = "未分類") -> dict:
+    """分類失敗時的預設結果"""
+    return {
+        "is_relevant": False,
+        "category":    "other",
+        "score":       0,
+        "tags":        [],
+        "one_line":    "",
+        "reason":      reason,
+    }
+
+
+# ─────────────────────────────────────────
+# 批次分類
+# ─────────────────────────────────────────
+
+def classify_batch(records: list[dict], config: dict,
+                   progress_callback=None) -> list[dict]:
+    """
+    批次分類文獻列表
+    每篇分類後合併結果並回傳
+    """
+    model = config.get("ollama_model", "gemma3:12b")
+    host  = config.get("ollama_host", "http://localhost:11434")
+    timeout = config.get("llm_timeout", 120)
+
+    total = len(records)
+    results = []
+
+    print(f"\n[分類] 開始分類 {total} 篇文獻（模型：{model}）")
+
+    for i, rec in enumerate(records, 1):
+        title    = rec.get("title", "")
+        abstract = rec.get("abstract", "")
+
+        print(f"  [{i}/{total}] {title[:60]}...")
+
+        classification = classify_with_ollama(
+            title, abstract, model=model, host=host, timeout=timeout
+        )
+
+        # 合併原始記錄與分類結果
+        merged = {**rec, **classification}
+        results.append(merged)
+
+        if progress_callback:
+            progress_callback(i, total, merged)
+
+        # 每 10 篇稍作停頓，避免過熱
+        if i % 10 == 0:
+            time.sleep(2)
+        else:
+            time.sleep(0.3)
+
+    relevant_count = sum(1 for r in results if r.get("is_relevant"))
+    print(f"[分類] 完成 — 相關：{relevant_count}/{total} 篇")
+
+    return results
+
+
+def check_ollama_available(host: str = "http://localhost:11434",
+                           model: str = "gemma3:12b") -> tuple[bool, str]:
+    """
+    檢查 Ollama 服務與模型是否可用
+    回傳 (可用, 訊息)
+    """
+    try:
+        resp = requests.get(f"{host}/api/tags", timeout=5)
+        resp.raise_for_status()
+        models = [m["name"] for m in resp.json().get("models", [])]
+        # 模糊匹配（gemma3:12b 或 gemma3）
+        model_base = model.split(":")[0]
+        found = any(model_base in m for m in models)
+        if found:
+            return True, f"Ollama 正常，模型 {model} 可用"
+        else:
+            return False, f"Ollama 正常，但找不到 {model}。已安裝：{models}"
+    except requests.exceptions.ConnectionError:
+        return False, "Ollama 未啟動，請執行：ollama serve"
+    except Exception as e:
+        return False, f"Ollama 檢查失敗：{e}"

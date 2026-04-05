@@ -1,0 +1,53 @@
+<div style="font-size:14px;color:var(--color-text-primary);line-height:1.7;padding:0.5rem 0">
+
+<div style="background:var(--color-background-secondary);border-radius:12px;border:0.5px solid var(--color-border-tertiary);padding:1rem 1.25rem;margin-bottom:1rem">
+<p style="font-weight:500;font-size:15px;margin:0 0 10px">側欄控制區</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px">
+<tr><td style="padding:4px 8px 4px 0;color:var(--color-text-secondary);white-space:nowrap;vertical-align:top">重新整理</td><td style="padding:4px 0;color:var(--color-text-secondary)">強制重新載入資料庫（每 30 秒自動刷新，手動可即時更新）</td></tr>
+<tr><td style="padding:4px 8px 4px 0;color:var(--color-text-secondary);white-space:nowrap;vertical-align:top">只顯示相關</td><td style="padding:4px 0;color:var(--color-text-secondary)">過濾 LLM 判定不相關的文獻，預設開啟。關掉可看全部 488 篇</td></tr>
+<tr><td style="padding:4px 8px 4px 0;color:var(--color-text-secondary);white-space:nowrap;vertical-align:top">最低評分</td><td style="padding:4px 0;color:var(--color-text-secondary)">0–5 分篩選。預設 2，調到 0 可看到所有匯入文獻</td></tr>
+<tr><td style="padding:4px 8px 4px 0;color:var(--color-text-secondary);white-space:nowrap;vertical-align:top">類別篩選</td><td style="padding:4px 0;color:var(--color-text-secondary)">多選，只看 voc_breath / disease_cancer 等指定分類</td></tr>
+<tr><td style="padding:4px 8px 4px 0;color:var(--color-text-secondary);white-space:nowrap;vertical-align:top">時間範圍</td><td style="padding:4px 0;color:var(--color-text-secondary)">選「全部」才能看到匯入的 488 篇，「今天」只看當日新增</td></tr>
+<tr><td style="padding:4px 8px 4px 0;color:var(--color-text-secondary);white-space:nowrap;vertical-align:top">關鍵字搜尋</td><td style="padding:4px 0;color:var(--color-text-secondary)">同時搜尋標題、一行摘要、標籤，支援中英文</td></tr>
+<tr><td style="padding:4px 8px 4px 0;color:var(--color-text-secondary);white-space:nowrap;vertical-align:top">立即執行搜尋</td><td style="padding:4px 0;color:var(--color-text-secondary)">觸發一次完整搜尋流程，需等待 50–100 分鐘</td></tr>
+</table>
+</div>
+
+<p style="font-weight:500;font-size:15px;margin:0 0 10px">四個分頁的用途與差異</p>
+
+<div style="display:grid;gap:8px;margin-bottom:1rem">
+
+<div style="background:var(--color-background-primary);border-radius:8px;border:0.5px solid var(--color-border-tertiary);padding:0.875rem 1rem">
+<p style="font-weight:500;margin:0 0 4px;font-size:14px">Tab 1 · 總覽</p>
+<p style="font-size:13px;color:var(--color-text-secondary);margin:0">5 個指標卡 + 類別分佈圖 + 搜尋記錄 + 最新高分文獻（score 4+）。不受側欄篩選影響，永遠顯示資料庫全局統計，適合每天開啟時快速掌握整體狀況。</p>
+</div>
+
+<div style="background:var(--color-background-primary);border-radius:8px;border:0.5px solid var(--color-border-tertiary);padding:0.875rem 1rem">
+<p style="font-weight:500;margin:0 0 4px;font-size:14px">Tab 2 · 文獻列表</p>
+<p style="font-size:13px;color:var(--color-text-secondary);margin:0 0 4px">受側欄所有篩選條件影響的完整表格，是日常查找文獻的主要工作區。</p>
+<p style="font-size:13px;color:var(--color-text-secondary);margin:0">底部「詳細檢視」下拉選單只顯示當前篩選結果的前 50 筆。要找到更多可選文獻，把評分設為 0、時間選「全部」即可。選定後顯示完整摘要與原文連結。</p>
+</div>
+
+<div style="background:var(--color-background-primary);border-radius:8px;border:0.5px solid var(--color-border-tertiary);padding:0.875rem 1rem">
+<p style="font-weight:500;margin:0 0 4px;font-size:14px">Tab 3 · 統計分析</p>
+<p style="font-size:13px;color:var(--color-text-secondary);margin:0">評分分佈、來源分佈（serper / pubmed / clinicaltrials / import）、每日新增趨勢、年份分佈、類別 x 平均分交叉表。適合每週回顧資料庫成長狀況與研究趨勢。</p>
+</div>
+
+<div style="background:var(--color-background-primary);border-radius:8px;border:0.5px solid var(--color-border-tertiary);padding:0.875rem 1rem">
+<p style="font-weight:500;margin:0 0 4px;font-size:14px">Tab 4 · 每日報告 vs 文獻列表的差異</p>
+<p style="font-size:13px;color:var(--color-text-secondary);margin:0 0 4px">每日報告是每次執行 scheduler.py 後自動生成的 Markdown 快照，只記錄當次新增的文獻，高分文獻優先排列並附完整摘要，適合直接分享給團隊成員。</p>
+<p style="font-size:13px;color:var(--color-text-secondary);margin:0">文獻列表是資料庫全量查詢，可跨時間搜尋任何關鍵字，是自己研究時找文獻的工具。兩者互補，報告是推播通知，列表是搜尋工具。</p>
+</div>
+
+</div>
+
+<p style="font-weight:500;font-size:15px;margin:0 0 8px">常見操作情境</p>
+<div style="display:grid;gap:5px;font-size:13px;color:var(--color-text-secondary)">
+<div>看全部 488 篇匯入文獻：時間選「全部」+ 評分 0 + 取消「只顯示相關」→ Tab 2</div>
+<div>看今天新搜到的：時間選「今天」→ Tab 2 或 Tab 4 查報告</div>
+<div>找肺癌相關文獻：關鍵字輸入「lung cancer」或類別選 disease_cancer</div>
+<div>分享每日摘要給團隊：Tab 4 選日期 → 下載 Markdown → 貼到 Slack / Email</div>
+<div>匯出給 Excel 使用者：側欄「匯出 CSV」→ exports/literature_export.csv</div>
+</div>
+
+</div>

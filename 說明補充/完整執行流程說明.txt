@@ -1,0 +1,113 @@
+## 完整執行流程說明
+
+---
+
+### 一、第一次使用（只做一次）
+
+1. 把所有 `.py` 和 `config.yaml` 放到同一個資料夾，例如 `D:\02-AIProject\voc_literature\`
+2. 安裝所需套件：`pip install requests pyyaml streamlit pandas openpyxl schedule ollama`
+3. 編輯 `config.yaml`，填入 `contact_email`（任意 email 即可）
+4. 執行 `python import_existing.py --dry-run` 預覽匯入結果，確認欄位對應正確
+5. 執行 `python import_existing.py` 正式匯入，把你的 488 篇寫入 `literature.db`
+6. 執行 `python scheduler.py --stats` 確認資料庫有 488 篇
+
+---
+
+### 二、每次手動搜尋的完整流程（執行一次 `scheduler.py`）
+
+執行 `python scheduler.py` 後，程式依序做以下事情：
+
+**步驟 1 — 讀取設定**
+- 載入 `config.yaml`，取得查詢關鍵字、API 設定、路徑等所有參數
+
+**步驟 2 — 初始化資料庫**
+- 確認 `literature.db` 存在，若不存在則自動建立
+- 建立必要的資料表和索引（已存在則跳過）
+
+**步驟 3 — 檢查 Ollama 狀態**
+- 連線 `http://localhost:11434` 確認 Ollama 服務正在執行
+- 確認 `gemma3:12b` 模型已下載可用
+- 若 Ollama 無法連線，後續仍會搜尋和儲存文獻，但跳過 LLM 分類，所有文獻標記為「待分類」
+
+**步驟 4 — 多源搜尋（searcher.py）**
+- 依序對 `config.yaml` 中的 15 組關鍵字執行以下搜尋，每組之間自動等待避免速率超限：
+  - PubMed：每個關鍵字 → esearch 取 PMID 列表 → efetch 取完整摘要，間隔 1.5 秒
+  - OpenAlex：每個關鍵字 → 直接搜尋回傳結果，間隔 1.0 秒，摘要從倒排索引重建
+  - ClinicalTrials.gov：對 3 組專用查詢搜尋臨床試驗，間隔 1.0 秒
+  - Serper（若 `serper_enabled: true`）：額外補充 Google Scholar 結果
+- 三個來源的結果在記憶體中合併，以 DOI 優先、標題次之進行去重，產生一份無重複的列表
+
+**步驟 5 — 對比資料庫去重**
+- 把搜尋結果的每一筆，拿去比對 `literature.db` 現有記錄
+- DOI 相同 → 跳過；標題相同 → 跳過
+- 只保留真正的新文獻，這批才會進入後續分類流程
+
+**步驟 6 — LLM 分類（classifier.py）**
+- 對每一篇新文獻，把標題和摘要組成 prompt 送給本機 Ollama
+- Gemma3:12b 回傳 JSON，包含：
+  - `is_relevant`：是否與 VOC / 呼氣代謝體相關
+  - `category`：11 個類別之一（voc_breath / disease_cancer 等）
+  - `score`：0–5 分重要性評分
+  - `tags`：最多 5 個關鍵詞標籤
+  - `one_line`：一句中文摘要
+- 每篇分類完等待 0.3 秒，每 10 篇暫停 2 秒讓模型散熱
+- 若某篇解析失敗，標記為 `other`、評分 0，不影響整體流程繼續
+
+**步驟 7 — 寫入資料庫（database.py）**
+- 把分類後的每一篇寫入 `literature.db` 的 `literature` 資料表
+- 同時在 `search_log` 資料表記錄本次執行時間、搜尋到幾筆、新增幾筆
+
+**步驟 8 — 匯出 CSV**
+- 把資料庫中所有 `is_relevant = 1` 的文獻匯出到 `exports/literature_export.csv`
+- 欄位包含標題、作者、年份、期刊、類別、評分、標籤、摘要、DOI、URL
+
+**步驟 9 — 生成每日報告（reporter.py）**
+- 在 `daily_reports/` 資料夾生成 `report_YYYY-MM-DD.md`
+- 報告內容：本次新增統計、評分 4–5 分的重點文獻（含完整摘要）、依類別分組列表
+- 這份報告只記錄「本次新增」的文獻，不是資料庫全部
+
+**步驟 10 — 結束**
+- 印出完成統計（耗時、總文獻數、本次新增數）
+- 程式自動退出，不會繼續在背景執行
+
+---
+
+### 三、每次啟動 Dashboard 的流程（獨立於搜尋流程）
+
+1. 執行 `python -m streamlit run dashboard.py`
+2. 瀏覽器開啟 `http://localhost:8501`
+3. Dashboard 直接讀取 `literature.db`，顯示當下資料庫的所有內容
+4. 每 30 秒自動刷新一次，點「重新整理」可立即更新
+5. 關閉時在終端按 `Ctrl+C`，Dashboard 才會停止
+
+---
+
+### 四、日常排程模式
+
+**方法 A（推薦）— cron 自動執行**
+- 設定系統 cron，每天 07:00 和 19:00 自動執行 `python scheduler.py`
+- 程式跑完自動結束，不需要手動操作
+- Dashboard 可以一直開著，每天自動看到新資料
+
+**方法 B — 手動執行**
+- 想看新文獻時，開終端執行 `python scheduler.py`，等跑完再開 Dashboard
+
+**方法 C — 常駐模式**
+- 執行 `python scheduler.py --daemon`，程式會依照 `schedule_times` 的設定自動定時執行
+- 需要保持終端視窗開著，或放在 tmux 背景執行
+- 用 `Ctrl+C` 終止
+
+---
+
+### 五、各檔案的分工一覽
+
+| 檔案 | 負責的事 | 何時執行 |
+|------|---------|---------|
+| `config.yaml` | 所有設定的來源，程式啟動時讀取 | 不執行，被其他檔案讀取 |
+| `import_existing.py` | 把 xlsx 舊文獻匯入資料庫 | 只執行一次 |
+| `scheduler.py` | 主入口，串接所有步驟 | 每次搜尋時執行 |
+| `searcher.py` | 呼叫三個 API 搜尋文獻 | 由 scheduler 呼叫 |
+| `classifier.py` | 呼叫 Ollama 分類每篇文獻 | 由 scheduler 呼叫 |
+| `database.py` | 讀寫 SQLite 資料庫 | 由 scheduler 和 dashboard 呼叫 |
+| `reporter.py` | 生成每日 Markdown 報告 | 由 scheduler 呼叫 |
+| `dashboard.py` | Streamlit 視覺化介面 | 獨立執行，隨時可開關 |

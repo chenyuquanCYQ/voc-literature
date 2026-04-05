@@ -1,0 +1,473 @@
+"""
+searcher.py — 多源文獻搜尋
+主軸：PubMed E-utilities + OpenAlex API（均免費，無需帳號）
+輔助：ClinicalTrials.gov（免費）
+選用：Serper API（有 Key 且 serper_enabled: true 才啟用）
+
+速率設計（一天兩次、對服務友善）：
+  - PubMed   : 每次請求間隔 1.5 秒
+  - OpenAlex : 每次請求間隔 1.0 秒
+  - ClinicalTrials: 每次請求間隔 1.0 秒
+"""
+
+import requests
+import re
+import time
+import xml.etree.ElementTree as ET
+from datetime import datetime
+
+
+# ─────────────────────────────────────────
+# PubMed E-utilities
+# ─────────────────────────────────────────
+
+PUBMED_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+
+def search_pubmed(query: str, max_results: int = 10,
+                  email: str = "") -> list[dict]:
+    params_search = {
+        "db": "pubmed", "term": query,
+        "retmax": max_results, "retmode": "json", "sort": "relevance",
+    }
+    if email:
+        params_search["email"] = email
+
+    try:
+        resp = requests.get(f"{PUBMED_BASE}/esearch.fcgi",
+                            params=params_search, timeout=30)
+        resp.raise_for_status()
+        pmids = resp.json().get("esearchresult", {}).get("idlist", [])
+    except requests.RequestException as e:
+        print(f"  [PubMed] esearch 失敗：{e}")
+        return []
+
+    if not pmids:
+        print(f"  [PubMed] '{query[:50]}' → 0 筆")
+        return []
+
+    time.sleep(1.0)
+
+    params_fetch = {
+        "db": "pubmed", "id": ",".join(pmids),
+        "retmode": "xml", "rettype": "abstract",
+    }
+    if email:
+        params_fetch["email"] = email
+
+    try:
+        resp = requests.get(f"{PUBMED_BASE}/efetch.fcgi",
+                            params=params_fetch, timeout=60)
+        resp.raise_for_status()
+        xml_text = resp.text
+    except requests.RequestException as e:
+        print(f"  [PubMed] efetch 失敗：{e}")
+        return []
+
+    results = _parse_pubmed_xml(xml_text)
+    print(f"  [PubMed] '{query[:50]}' → {len(results)} 筆")
+    return results
+
+
+def _parse_pubmed_xml(xml_text: str) -> list[dict]:
+    results = []
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return results
+
+    for article in root.findall(".//PubmedArticle"):
+        try:
+            medline = article.find("MedlineCitation")
+            if medline is None:
+                continue
+            art = medline.find("Article")
+            if art is None:
+                continue
+
+            title_el = art.find("ArticleTitle")
+            title = "".join(title_el.itertext()).strip() if title_el is not None else ""
+            if not title:
+                continue
+
+            abstract_parts = art.findall(".//AbstractText")
+            abstract = " ".join("".join(a.itertext()) for a in abstract_parts).strip()
+
+            all_authors = art.findall(".//Author")
+            authors_list = []
+            for author in all_authors[:5]:
+                last  = author.findtext("LastName", "")
+                first = author.findtext("ForeName", "")
+                if last:
+                    authors_list.append(f"{last} {first}".strip())
+            author_str = ", ".join(authors_list)
+            if len(all_authors) > 5:
+                author_str += " et al."
+
+            year = None
+            pub_date = art.find(".//PubDate")
+            if pub_date is not None:
+                year_el = pub_date.find("Year")
+                if year_el is not None and year_el.text:
+                    try:
+                        year = int(year_el.text)
+                    except ValueError:
+                        pass
+
+            journal_el = art.find(".//Journal/Title")
+            journal = journal_el.text.strip() if journal_el is not None else ""
+
+            pmid_el = medline.find("PMID")
+            pmid = pmid_el.text.strip() if pmid_el is not None else ""
+
+            doi = ""
+            for id_el in article.findall(".//ArticleId"):
+                if id_el.get("IdType") == "doi" and id_el.text:
+                    doi = id_el.text.strip()
+                    break
+
+            results.append({
+                "title":    title,
+                "abstract": abstract,
+                "authors":  author_str,
+                "year":     year,
+                "journal":  journal,
+                "url":      f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid else "",
+                "doi":      doi,
+                "pmid":     pmid,
+                "source":   "pubmed",
+            })
+        except Exception:
+            continue
+
+    return results
+
+
+# ─────────────────────────────────────────
+# OpenAlex API
+# ─────────────────────────────────────────
+
+OPENALEX_BASE = "https://api.openalex.org"
+
+def search_openalex(query: str, max_results: int = 10,
+                    email: str = "") -> list[dict]:
+    params = {
+        "search":   query,
+        "per-page": min(max_results, 25),
+        "sort":     "relevance_score:desc",
+        "filter":   "type:article",
+        "select":   "id,title,abstract_inverted_index,authorships,"
+                    "publication_year,primary_location,doi,ids",
+    }
+    if email:
+        params["mailto"] = email
+
+    try:
+        resp = requests.get(f"{OPENALEX_BASE}/works",
+                            params=params, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+    except requests.RequestException as e:
+        print(f"  [OpenAlex] 搜尋失敗：{e}")
+        return []
+
+    results = []
+    for work in data.get("results", []):
+        title = (work.get("title") or "").strip()
+        if not title:
+            continue
+
+        abstract = _rebuild_abstract(work.get("abstract_inverted_index"))
+
+        all_authorships = work.get("authorships", [])
+        authors = ", ".join(
+            a.get("author", {}).get("display_name", "")
+            for a in all_authorships[:5]
+            if a.get("author", {}).get("display_name")
+        )
+        if len(all_authorships) > 5:
+            authors += " et al."
+
+        year = work.get("publication_year")
+
+        primary_loc = work.get("primary_location") or {}
+        source_info = primary_loc.get("source") or {}
+        journal = source_info.get("display_name", "")
+
+        doi = work.get("doi", "") or ""
+        if doi.startswith("https://doi.org/"):
+            doi = doi[len("https://doi.org/"):]
+
+        url = work.get("doi", "") or work.get("id", "")
+
+        pmid = ""
+        ids = work.get("ids", {})
+        if ids.get("pmid"):
+            pmid = str(ids["pmid"]).replace(
+                "https://pubmed.ncbi.nlm.nih.gov/", "").strip("/")
+
+        results.append({
+            "title":    title,
+            "abstract": abstract,
+            "authors":  authors,
+            "year":     year,
+            "journal":  journal,
+            "url":      url,
+            "doi":      doi,
+            "pmid":     pmid,
+            "source":   "openalex",
+        })
+
+    print(f"  [OpenAlex] '{query[:50]}' → {len(results)} 筆")
+    return results
+
+
+def _rebuild_abstract(inverted_index: dict | None) -> str:
+    """重建 OpenAlex 倒排索引格式的摘要"""
+    if not inverted_index:
+        return ""
+    try:
+        positions = {}
+        for word, pos_list in inverted_index.items():
+            for pos in pos_list:
+                positions[pos] = word
+        return " ".join(positions[i] for i in sorted(positions))
+    except Exception:
+        return ""
+
+
+# ─────────────────────────────────────────
+# ClinicalTrials.gov API v2
+# ─────────────────────────────────────────
+
+def search_clinical_trials(query: str, max_results: int = 10) -> list[dict]:
+    params = {
+        "query.term": query,
+        "pageSize":   max_results,
+        "fields":     "NCTId,BriefTitle,BriefSummary,Condition,"
+                      "LeadSponsorName,StartDate,OverallStatus",
+    }
+    try:
+        resp = requests.get("https://clinicaltrials.gov/api/v2/studies",
+                            params=params, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+    except requests.RequestException as e:
+        print(f"  [ClinicalTrials] 搜尋失敗：{e}")
+        return []
+
+    results = []
+    for study in data.get("studies", []):
+        proto       = study.get("protocolSection", {})
+        id_mod      = proto.get("identificationModule", {})
+        desc_mod    = proto.get("descriptionModule", {})
+        cond_mod    = proto.get("conditionsModule", {})
+        sponsor_mod = proto.get("sponsorCollaboratorsModule", {})
+        status_mod  = proto.get("statusModule", {})
+
+        title    = id_mod.get("briefTitle", "").strip()
+        abstract = desc_mod.get("briefSummary", "").strip()
+        if not title or not abstract:
+            continue
+
+        nct_id     = id_mod.get("nctId", "")
+        conditions = ", ".join(cond_mod.get("conditions", [])[:5])
+        sponsor    = sponsor_mod.get("leadSponsor", {}).get("name", "")
+        start_date = status_mod.get("startDateStruct", {}).get("date", "")
+        year = int(start_date[:4]) if start_date and len(start_date) >= 4 else None
+
+        results.append({
+            "title":    f"[CT] {title}",
+            "abstract": abstract,
+            "authors":  sponsor,
+            "year":     year,
+            "journal":  f"ClinicalTrials.gov ({conditions})",
+            "url":      f"https://clinicaltrials.gov/study/{nct_id}",
+            "doi":      "",
+            "pmid":     nct_id,
+            "source":   "clinicaltrials",
+        })
+
+    print(f"  [ClinicalTrials] '{query[:50]}' → {len(results)} 筆")
+    return results
+
+
+# ─────────────────────────────────────────
+# Serper（選用）
+# ─────────────────────────────────────────
+
+def search_serper(query: str, api_key: str, num: int = 10) -> list[dict]:
+    try:
+        resp = requests.post(
+            "https://google.serper.dev/scholar",
+            headers={"X-API-KEY": api_key, "Content-Type": "application/json"},
+            json={"q": query, "num": num},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+    except requests.RequestException as e:
+        print(f"  [Serper] 搜尋失敗：{e}")
+        return []
+
+    results = []
+    for item in data.get("organic", []):
+        title = (item.get("title") or "").strip()
+        if not title:
+            continue
+        raw_pub  = item.get("publicationInfo", {})
+        pub_info = raw_pub if isinstance(raw_pub, dict) else {}
+        pub_str  = raw_pub if isinstance(raw_pub, str)  else ""
+        summary  = pub_info.get("summary", "") or pub_str or item.get("snippet", "")
+        year_m   = re.search(r"\b(19|20)\d{2}\b", summary)
+        year     = int(year_m.group()) if year_m else None
+        author_list = pub_info.get("authors", [])
+        authors = ""
+        if isinstance(author_list, list) and author_list:
+            authors = ", ".join(
+                a.get("name", "") if isinstance(a, dict) else str(a)
+                for a in author_list[:5]
+            )
+            if len(author_list) > 5:
+                authors += " et al."
+        link = item.get("link", "")
+        doi  = extract_doi(link) or extract_doi(item.get("snippet", ""))
+        results.append({
+            "title":    title,
+            "abstract": item.get("snippet", ""),
+            "authors":  authors,
+            "year":     year,
+            "journal":  pub_info.get("journal", ""),
+            "url":      link,
+            "doi":      doi,
+            "pmid":     "",
+            "source":   "serper_scholar",
+        })
+
+    print(f"  [Serper] '{query[:50]}' → {len(results)} 筆")
+    return results
+
+
+# ─────────────────────────────────────────
+# 工具函數
+# ─────────────────────────────────────────
+
+def extract_doi(text: str) -> str:
+    if not text:
+        return ""
+    match = re.search(r"10\.\d{4,9}/[^\s\"'>]+", text)
+    return match.group(0).rstrip(".,;)") if match else ""
+
+
+def _dedup_add(items: list[dict], all_results: list,
+               seen_titles: set, seen_dois: set):
+    """DOI 優先去重，再用標題去重，加入結果列表"""
+    for item in items:
+        title_key = item.get("title", "").lower()[:80].strip()
+        doi_key   = item.get("doi",   "").strip().lower()
+
+        if doi_key and doi_key in seen_dois:
+            continue
+        if title_key and title_key in seen_titles:
+            continue
+
+        if doi_key:
+            seen_dois.add(doi_key)
+        if title_key:
+            seen_titles.add(title_key)
+        all_results.append(item)
+
+
+# ─────────────────────────────────────────
+# 主搜尋流程
+# ─────────────────────────────────────────
+
+def run_all_searches(config: dict) -> list[dict]:
+    """
+    執行所有搜尋，回傳合併去重後的文獻列表
+    搜尋順序：PubMed → OpenAlex → ClinicalTrials → Serper（選用）
+    """
+    queries  = config.get("search_queries", [])
+    max_res  = config.get("max_results_per_query", 10)
+    email    = config.get("contact_email", "")
+
+    pubmed_enabled   = config.get("pubmed_enabled",           True)
+    openalex_enabled = config.get("openalex_enabled",         True)
+    ct_enabled       = config.get("clinical_trials_enabled",  True)
+    ct_queries       = config.get("clinical_trials_queries",  [])
+    ct_max           = config.get("clinical_trials_max",      10)
+
+    serper_key     = config.get("serper_api_key", "")
+    serper_enabled = (
+        serper_key
+        and serper_key != "YOUR_SERPER_API_KEY_HERE"
+        and config.get("serper_enabled", False)
+    )
+
+    pubmed_delay   = config.get("pubmed_delay",   1.5)
+    openalex_delay = config.get("openalex_delay", 1.0)
+    ct_delay       = config.get("ct_delay",       1.0)
+    serper_delay   = config.get("serper_delay",   1.5)
+
+    all_results = []
+    seen_titles = set()
+    seen_dois   = set()
+
+    print(f"\n[搜尋] 開始 — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    sources_on = (
+        (["PubMed"]        if pubmed_enabled   else []) +
+        (["OpenAlex"]      if openalex_enabled else []) +
+        (["ClinicalTrials"]if ct_enabled       else []) +
+        (["Serper"]        if serper_enabled   else [])
+    )
+    print(f"[搜尋] 啟用來源：{' + '.join(sources_on)}")
+    print(f"[搜尋] 查詢組數：{len(queries)} 組\n")
+
+    # 1. PubMed
+    if pubmed_enabled:
+        print(f"[PubMed] 搜尋 {len(queries)} 組...")
+        for q in queries:
+            _dedup_add(
+                search_pubmed(q, max_results=max_res, email=email),
+                all_results, seen_titles, seen_dois
+            )
+            time.sleep(pubmed_delay)
+        print(f"[PubMed] 完成，累計 {len(all_results)} 筆\n")
+
+    # 2. OpenAlex
+    if openalex_enabled:
+        before = len(all_results)
+        print(f"[OpenAlex] 搜尋 {len(queries)} 組...")
+        for q in queries:
+            _dedup_add(
+                search_openalex(q, max_results=max_res, email=email),
+                all_results, seen_titles, seen_dois
+            )
+            time.sleep(openalex_delay)
+        print(f"[OpenAlex] 完成，新增 {len(all_results)-before} 筆，累計 {len(all_results)} 筆\n")
+
+    # 3. ClinicalTrials
+    if ct_enabled and ct_queries:
+        before = len(all_results)
+        print(f"[ClinicalTrials] 搜尋 {len(ct_queries)} 組...")
+        for q in ct_queries:
+            _dedup_add(
+                search_clinical_trials(q, max_results=ct_max),
+                all_results, seen_titles, seen_dois
+            )
+            time.sleep(ct_delay)
+        print(f"[ClinicalTrials] 完成，新增 {len(all_results)-before} 筆，累計 {len(all_results)} 筆\n")
+
+    # 4. Serper（選用）
+    if serper_enabled:
+        before = len(all_results)
+        print(f"[Serper] 搜尋 {len(queries)} 組...")
+        for q in queries:
+            _dedup_add(
+                search_serper(q, api_key=serper_key, num=max_res),
+                all_results, seen_titles, seen_dois
+            )
+            time.sleep(serper_delay)
+        print(f"[Serper] 完成，新增 {len(all_results)-before} 筆，累計 {len(all_results)} 筆\n")
+
+    print(f"[搜尋] 全部完成，合計（跨來源去重後）：{len(all_results)} 筆\n")
+    return all_results

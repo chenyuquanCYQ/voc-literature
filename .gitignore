@@ -1,0 +1,7 @@
+literature.db
+daily_reports/
+logs/
+venv/
+__pycache__/
+*.pyc
+Thumbs.db

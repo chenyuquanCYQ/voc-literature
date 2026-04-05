@@ -120,7 +120,15 @@ def run_pipeline(config: dict, dry_run: bool = False):
     report_dir = config.get("report_dir", "daily_reports")
     generate_daily_report(conn, report_dir, added, classified)
 
-    # ── 完成統計 ──
+    # ── 步驟 8：推送 CSV 到 GitHub（若已設定）──
+    if config.get("git_sync_enabled", False):
+        try:
+            from git_sync import sync_to_github
+            sync_to_github()
+        except Exception as e:
+            print(f"[Git Sync] 推送失敗（不影響本地資料）：{e}")
+
+        # ── 完成統計 ──
     stats = get_stats(conn)
     elapsed = (datetime.now() - start_time).seconds
     print(f"\n{'='*60}")

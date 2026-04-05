@@ -1,0 +1,323 @@
+"""
+dashboard_cloud.py — Streamlit Community Cloud 版本
+從 GitHub repo 的 CSV 檔案讀取資料，供團隊成員瀏覽
+不需要本地 SQLite，適合部署到雲端
+"""
+
+import streamlit as st
+import pandas as pd
+import json
+from datetime import datetime, timedelta
+
+st.set_page_config(
+    page_title="VOC 文獻監控",
+    page_icon="🫁",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+st.markdown("""
+<style>
+    .tag-badge {
+        display: inline-block;
+        background: #e8f4f8;
+        color: #2980b9;
+        border-radius: 4px;
+        padding: 2px 6px;
+        margin: 1px;
+        font-size: 0.8em;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# ─────────────────────────────────────────
+# CSV 路徑設定
+# ─────────────────────────────────────────
+
+CSV_PATH = "exports/literature_export.csv"
+
+CATEGORY_ZH = {
+    "voc_breath":      "🫁 呼氣 VOC",
+    "voc_liquid":      "💧 液態 VOC",
+    "disease_cancer":  "🔬 癌症應用",
+    "disease_chronic": "🩺 慢性病",
+    "infection":       "🦠 感染症",
+    "subhealth":       "⚡ 亞健康",
+    "sensor_hardware": "📡 感測器",
+    "ai_model":        "🤖 AI模型",
+    "odor_medicine":   "👃 氣味醫學",
+    "method_tech":     "🔧 分析方法",
+    "other":           "📄 其他",
+}
+
+# ─────────────────────────────────────────
+# 資料載入
+# ─────────────────────────────────────────
+
+@st.cache_data(ttl=300)   # 5 分鐘快取，避免每次互動重新讀檔
+def load_data() -> pd.DataFrame:
+    try:
+        df = pd.read_csv(CSV_PATH, encoding="utf-8-sig")
+    except FileNotFoundError:
+        st.error(f"找不到資料檔案：{CSV_PATH}")
+        return pd.DataFrame()
+    except Exception as e:
+        st.error(f"讀取資料失敗：{e}")
+        return pd.DataFrame()
+
+    # 欄位標準化（對應 database.py export_csv 的欄位順序）
+    col_rename = {
+        "ID": "id", "標題": "title", "作者": "authors",
+        "年份": "year", "期刊": "journal", "類別": "category",
+        "評分": "score", "標籤": "tags", "一行摘要": "one_line",
+        "DOI": "doi", "URL": "url", "來源": "source", "加入時間": "created_at",
+    }
+    df = df.rename(columns=col_rename)
+
+    # 解析標籤
+    def parse_tags(t):
+        try:
+            v = json.loads(t) if isinstance(t, str) and t.startswith("[") else []
+            return v if isinstance(v, list) else []
+        except Exception:
+            return []
+
+    df["tags_list"] = df["tags"].apply(parse_tags)
+    df["tags_str"]  = df["tags_list"].apply(lambda x: ", ".join(x))
+    df["created_date"] = pd.to_datetime(df["created_at"], errors="coerce").dt.date
+    df["score"] = pd.to_numeric(df["score"], errors="coerce").fillna(0)
+    df["year"]  = pd.to_numeric(df["year"],  errors="coerce")
+
+    return df
+
+
+# ─────────────────────────────────────────
+# Sidebar
+# ─────────────────────────────────────────
+
+with st.sidebar:
+    st.title("🫁 VOC 文獻監控")
+    st.caption("資料每 5 分鐘自動更新")
+    st.markdown("---")
+
+    if st.button("🔄 立即重新整理", use_container_width=True):
+        st.cache_data.clear()
+        st.rerun()
+
+    st.markdown("### 篩選條件")
+
+    min_score = st.slider("最低評分", 0, 5, 2)
+
+    all_cats = list(CATEGORY_ZH.keys())
+    selected_cats = st.multiselect(
+        "類別篩選",
+        options=all_cats,
+        default=all_cats,
+        format_func=lambda x: CATEGORY_ZH.get(x, x)
+    )
+
+    date_range = st.selectbox(
+        "時間範圍",
+        ["全部", "今天", "7天內", "30天內", "90天內"],
+        index=0
+    )
+
+    search_query = st.text_input("關鍵字搜尋", placeholder="例：lung cancer VOC")
+
+    st.markdown("---")
+    st.markdown("### 關於此系統")
+    st.caption("資料由本地端自動搜尋系統每日更新，來源包含 PubMed、OpenAlex、ClinicalTrials.gov")
+
+
+# ─────────────────────────────────────────
+# 主畫面
+# ─────────────────────────────────────────
+
+df_all = load_data()
+
+if df_all.empty:
+    st.warning("⚠️ 尚無資料，請等待資料更新後重新整理。")
+    st.stop()
+
+tab1, tab2, tab3 = st.tabs(["📊 總覽", "📋 文獻列表", "📈 統計分析"])
+
+# ════════════════════════════════════════
+# Tab 1: 總覽
+# ════════════════════════════════════════
+with tab1:
+    st.markdown("## 資料庫總覽")
+
+    today = datetime.now().date()
+    week_ago = (datetime.now() - timedelta(days=7)).date()
+
+    total    = len(df_all)
+    today_n  = len(df_all[df_all["created_date"] == today]) if "created_date" in df_all.columns else 0
+    week_n   = len(df_all[df_all["created_date"] >= week_ago]) if "created_date" in df_all.columns else 0
+    avg_score= round(df_all["score"].mean(), 2) if not df_all.empty else 0
+
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("📚 總文獻數",  total)
+    c2.metric("📅 今日新增",  today_n)
+    c3.metric("📆 本週新增",  week_n)
+    c4.metric("⭐ 平均評分",  avg_score)
+
+    st.markdown("---")
+    col_left, col_right = st.columns(2)
+
+    with col_left:
+        st.markdown("### 類別分佈")
+        by_cat = df_all["category"].value_counts()
+        if not by_cat.empty:
+            cat_df = pd.DataFrame({
+                "類別": [CATEGORY_ZH.get(k, k) for k in by_cat.index],
+                "篇數": by_cat.values
+            })
+            st.bar_chart(cat_df.set_index("類別"))
+
+    with col_right:
+        st.markdown("### 來源分佈")
+        by_src = df_all["source"].value_counts()
+        if not by_src.empty:
+            st.bar_chart(by_src)
+
+    st.markdown("---")
+    st.markdown("### ⭐ 高分文獻（評分 ≥ 4）")
+    df_top = df_all[df_all["score"] >= 4].sort_values("score", ascending=False).head(5)
+
+    if df_top.empty:
+        st.info("尚無評分 ≥ 4 的文獻")
+    else:
+        for _, row in df_top.iterrows():
+            with st.expander(f"{'⭐' * int(row['score'])}  {str(row['title'])[:80]}"):
+                col1, col2 = st.columns([3, 1])
+                with col1:
+                    st.write(f"**摘要**：{row.get('one_line', '')}")
+                    st.write(f"**作者**：{row.get('authors', 'N/A')} | **年份**：{row.get('year', 'N/A')}")
+                    tags_html = " ".join(
+                        f'<span class="tag-badge">{t}</span>'
+                        for t in row.get("tags_list", [])
+                    )
+                    if tags_html:
+                        st.markdown(tags_html, unsafe_allow_html=True)
+                with col2:
+                    st.write(f"**類別**：{CATEGORY_ZH.get(row.get('category',''), row.get('category',''))}")
+                    st.write(f"**評分**：{row['score']}/5")
+                    url = row.get("url", "")
+                    if url and str(url) != "nan":
+                        st.link_button("🔗 查看原文", str(url))
+
+
+# ════════════════════════════════════════
+# Tab 2: 文獻列表
+# ════════════════════════════════════════
+with tab2:
+    df = df_all.copy()
+
+    if min_score > 0:
+        df = df[df["score"] >= min_score]
+    if selected_cats:
+        df = df[df["category"].isin(selected_cats)]
+    if date_range != "全部":
+        days_map = {"今天": 1, "7天內": 7, "30天內": 30, "90天內": 90}
+        cutoff = (datetime.now() - timedelta(days=days_map[date_range])).date()
+        df = df[df["created_date"] >= cutoff]
+    if search_query:
+        mask = (
+            df["title"].str.contains(search_query, case=False, na=False) |
+            df["one_line"].str.contains(search_query, case=False, na=False) |
+            df["tags_str"].str.contains(search_query, case=False, na=False)
+        )
+        df = df[mask]
+
+    st.markdown(f"### 文獻列表（共 {len(df)} 筆）")
+
+    if df.empty:
+        st.info("無符合條件的文獻")
+    else:
+        show_df = df[["title", "category", "score", "year", "tags_str", "one_line", "source"]].copy()
+        show_df.columns = ["標題", "類別", "評分", "年份", "標籤", "一行摘要", "來源"]
+        show_df["類別"] = show_df["類別"].apply(lambda x: CATEGORY_ZH.get(x, x))
+
+        st.dataframe(
+            show_df,
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                "評分": st.column_config.ProgressColumn(
+                    "評分", min_value=0, max_value=5, format="%.1f"
+                ),
+            }
+        )
+
+        st.markdown("---")
+        st.markdown("### 📖 詳細檢視")
+        titles = df["title"].tolist()[:50]
+        if titles:
+            selected_title = st.selectbox(
+                "選擇文獻",
+                options=titles,
+                format_func=lambda x: str(x)[:80]
+            )
+            if selected_title:
+                row = df[df["title"] == selected_title].iloc[0]
+                col1, col2 = st.columns([3, 1])
+                with col1:
+                    st.markdown(f"#### {row['title']}")
+                    st.write(f"**作者**：{row.get('authors', 'N/A')}")
+                    st.write(f"**期刊**：{row.get('journal', 'N/A')} ({row.get('year', 'N/A')})")
+                    st.write(f"**摘要**：{row.get('one_line', '')}")
+                    tags_html = " ".join(
+                        f'<span class="tag-badge">{t}</span>'
+                        for t in row.get("tags_list", [])
+                    )
+                    if tags_html:
+                        st.markdown(f"**標籤**：{tags_html}", unsafe_allow_html=True)
+                    if row.get("doi") and str(row["doi"]) != "nan":
+                        st.write(f"**DOI**：`{row['doi']}`")
+                with col2:
+                    st.metric("評分", f"{row['score']}/5")
+                    st.write(f"**類別**：{CATEGORY_ZH.get(row.get('category',''), '')}")
+                    st.write(f"**來源**：{row.get('source', '')}")
+                    url = row.get("url", "")
+                    if url and str(url) != "nan":
+                        st.link_button("🔗 查看原文", str(url))
+
+
+# ════════════════════════════════════════
+# Tab 3: 統計分析
+# ════════════════════════════════════════
+with tab3:
+    st.markdown("### 📈 統計分析")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("#### 評分分佈")
+        score_dist = df_all["score"].value_counts().sort_index()
+        st.bar_chart(score_dist)
+
+    with col2:
+        st.markdown("#### 年份分佈")
+        year_df = df_all[df_all["year"].notna()]
+        if not year_df.empty:
+            year_dist = year_df["year"].astype(int).value_counts().sort_index()
+            st.bar_chart(year_dist)
+
+    st.markdown("#### 每日新增趨勢（近 30 天）")
+    if "created_date" in df_all.columns:
+        cutoff30 = (datetime.now() - timedelta(days=30)).date()
+        daily = (
+            df_all[df_all["created_date"] >= cutoff30]
+            .groupby("created_date").size()
+            .reset_index(name="新增篇數")
+        )
+        if not daily.empty:
+            st.line_chart(daily.set_index("created_date"))
+
+    st.markdown("#### 類別 × 評分分析")
+    if not df_all.empty:
+        pivot = df_all.groupby("category")["score"].agg(["mean", "count"]).round(2)
+        pivot.index = [CATEGORY_ZH.get(i, i) for i in pivot.index]
+        pivot.columns = ["平均分", "篇數"]
+        pivot = pivot.sort_values("平均分", ascending=False)
+        st.dataframe(pivot, use_container_width=True)

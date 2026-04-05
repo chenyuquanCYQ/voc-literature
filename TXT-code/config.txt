@@ -3,7 +3,7 @@
 # ============================================================
 
 # --- 聯絡 Email（填任意 email，提升 PubMed / OpenAlex 速率配額，不會寄信）---
-contact_email: "g167112007@tmu.edu.tw"
+contact_email: "dadatiger2022@gmail.com"
 
 # --- 搜尋來源開關 ---
 pubmed_enabled:           true    # PubMed（免費主軸，醫學文獻最完整）
@@ -124,3 +124,4 @@ csv_export_path: "exports/literature_export.csv"
 # --- 相關性門檻 ---
 # score >= 此值才納入 Dashboard 預設顯示
 default_min_score: 2
+git_sync_enabled: true

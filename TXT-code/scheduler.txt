@@ -21,6 +21,16 @@ def load_config(path: str = "config.yaml") -> dict:
         return yaml.safe_load(f)
 
 
+def _do_git_sync(config: dict):
+    """執行 Git 推送（共用函數）"""
+    if config.get("git_sync_enabled", False):
+        try:
+            from git_sync import sync_to_github
+            sync_to_github()
+        except Exception as e:
+            print(f"[Git Sync] 推送失敗（不影響本地資料）：{e}")
+
+
 def run_pipeline(config: dict, dry_run: bool = False):
     """
     完整執行一次搜尋→去重→分類→儲存→報告流程
@@ -32,7 +42,9 @@ def run_pipeline(config: dict, dry_run: bool = False):
     print(f"  {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"{'='*60}")
 
-    db_path = config.get("database_path", "literature.db")
+    db_path    = config.get("database_path", "literature.db")
+    report_dir = config.get("report_dir", "daily_reports")
+    csv_path   = config.get("csv_export_path", "exports/literature_export.csv")
 
     # ── 步驟 0：初始化資料庫 ──
     init_db(db_path)
@@ -43,16 +55,20 @@ def run_pipeline(config: dict, dry_run: bool = False):
     host  = config.get("ollama_host", "http://localhost:11434")
     ok, msg = check_ollama_available(host, model)
     print(f"\n[系統] Ollama 狀態：{msg}")
+    llm_available = ok
     if not ok:
         print("  ⚠️  將跳過 LLM 分類，文獻以 is_relevant=False 儲存")
-        llm_available = False
-    else:
-        llm_available = True
 
     # ── 步驟 2：多源搜尋 ──
     raw_results = run_all_searches(config)
+
+    # 搜尋完全無結果（網路問題等）
     if not raw_results:
-        print("[搜尋] 無結果，結束本次執行")
+        print("[搜尋] 本次無搜尋結果（可能為網路問題）")
+        log_search(conn, "batch", "all", 0, 0)
+        generate_daily_report(conn, report_dir, 0, [], reason="搜尋無結果")
+        export_csv(conn, csv_path)
+        _do_git_sync(config)
         conn.close()
         return
 
@@ -63,13 +79,11 @@ def run_pipeline(config: dict, dry_run: bool = False):
         doi   = rec.get("doi", "")
         title = rec.get("title", "")
         cursor = conn.cursor()
-        # DOI 去重
         if doi:
             cursor.execute("SELECT 1 FROM literature WHERE doi=? LIMIT 1", (doi,))
             if cursor.fetchone():
                 duplicate_count += 1
                 continue
-        # 標題去重
         cursor.execute("SELECT 1 FROM literature WHERE title=? LIMIT 1", (title,))
         if cursor.fetchone():
             duplicate_count += 1
@@ -80,8 +94,20 @@ def run_pipeline(config: dict, dry_run: bool = False):
           f"已知重複 {duplicate_count} 筆，"
           f"新文獻 {len(new_records)} 筆")
 
+    # 無新文獻：仍產生報告與推送
     if not new_records:
-        print("[去重] 無新文獻，結束本次執行")
+        print("[去重] 無新文獻，生成本次執行記錄")
+        log_search(conn, "batch", "all", len(raw_results), 0)
+        generate_daily_report(conn, report_dir, 0, [], reason="所有結果皆已存在於資料庫")
+        export_csv(conn, csv_path)
+        _do_git_sync(config)
+        stats = get_stats(conn)
+        elapsed = (datetime.now() - start_time).seconds
+        print(f"\n{'='*60}")
+        print(f"  完成！耗時 {elapsed} 秒")
+        print(f"  資料庫總計：{stats['total']} 篇 | 相關：{stats['relevant']} 篇")
+        print(f"  本次新增：0 篇")
+        print(f"{'='*60}\n")
         conn.close()
         return
 
@@ -96,9 +122,8 @@ def run_pipeline(config: dict, dry_run: bool = False):
     if llm_available:
         classified = classify_batch(new_records, config)
     else:
-        # 無 LLM 時，標記為待分類
         classified = [{**r, "is_relevant": False, "category": "other",
-                       "score": 0, "tags": [], "one_line": "", "reason": "待分類"
+                       "score": 0, "tags": [], "one_line": ""
                       } for r in new_records]
 
     # ── 步驟 5：寫入資料庫 ──
@@ -107,28 +132,19 @@ def run_pipeline(config: dict, dry_run: bool = False):
         if insert_literature(conn, rec):
             added += 1
 
-    # 記錄搜尋 log
     log_search(conn, "batch", "all", len(raw_results), added)
-
     print(f"\n[儲存] 寫入 {added} 篇新文獻")
 
     # ── 步驟 6：匯出 CSV ──
-    csv_path = config.get("csv_export_path", "exports/literature_export.csv")
     export_csv(conn, csv_path)
 
     # ── 步驟 7：生成每日報告 ──
-    report_dir = config.get("report_dir", "daily_reports")
     generate_daily_report(conn, report_dir, added, classified)
 
-    # ── 步驟 8：推送 CSV 到 GitHub（若已設定）──
-    if config.get("git_sync_enabled", False):
-        try:
-            from git_sync import sync_to_github
-            sync_to_github()
-        except Exception as e:
-            print(f"[Git Sync] 推送失敗（不影響本地資料）：{e}")
+    # ── 步驟 8：推送到 GitHub ──
+    _do_git_sync(config)
 
-        # ── 完成統計 ──
+    # ── 完成統計 ──
     stats = get_stats(conn)
     elapsed = (datetime.now() - start_time).seconds
     print(f"\n{'='*60}")

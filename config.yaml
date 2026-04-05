@@ -3,7 +3,7 @@
 # ============================================================
 
 # --- 聯絡 Email（填任意 email，提升 PubMed / OpenAlex 速率配額，不會寄信）---
-contact_email: "g167112007@tmu.edu.tw"
+contact_email: "dadatiger2022@gmail.com"
 
 # --- 搜尋來源開關 ---
 pubmed_enabled:           true    # PubMed（免費主軸，醫學文獻最完整）

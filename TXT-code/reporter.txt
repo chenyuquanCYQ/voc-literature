@@ -27,7 +27,7 @@ def generate_daily_report(conn, report_dir: str,
     """生成每日 Markdown 報告"""
     Path(report_dir).mkdir(parents=True, exist_ok=True)
 
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now().strftime("%Y-%m-%d_%H%M")
     filename = Path(report_dir) / f"report_{today}.md"
 
     # 只保留相關文獻

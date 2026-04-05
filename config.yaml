@@ -124,7 +124,4 @@ csv_export_path: "exports/literature_export.csv"
 # --- 相關性門檻 ---
 # score >= 此值才納入 Dashboard 預設顯示
 default_min_score: 2
-<<<<<<< HEAD
 git_sync_enabled: true
-=======
->>>>>>> 974d51bd1de6dc0a35ce336dc35e60ab96bd69e6

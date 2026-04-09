@@ -22,13 +22,13 @@ def load_config(path: str = "config.yaml") -> dict:
 
 
 def _do_git_sync(config: dict):
-    """執行 Git 推送（共用函數）"""
+    """匯出 JSON 並 git push（共用函數）"""
     if config.get("git_sync_enabled", False):
         try:
-            from git_sync import sync_to_github
-            sync_to_github()
+            from export_to_json import main as export_json
+            export_json()
         except Exception as e:
-            print(f"[Git Sync] 推送失敗（不影響本地資料）：{e}")
+            print(f"[JSON Export] 推送失敗（不影響本地資料）：{e}")
 
 
 def run_pipeline(config: dict, dry_run: bool = False):

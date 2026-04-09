@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOC 文獻監控</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; background: #f4f6f9; color: #333; font-size: 14px; }
+
+  /* ── Header ── */
+  header { background: #1a3a5c; color: #fff; padding: 14px 24px; display: flex; align-items: center; gap: 12px; }
+  header h1 { font-size: 1.25rem; font-weight: 600; }
+  #updated-at { margin-left: auto; font-size: 0.8rem; opacity: .7; }
+
+  /* ── Tabs ── */
+  .tabs { display: flex; background: #fff; border-bottom: 2px solid #e2e8f0; padding: 0 24px; }
+  .tab { padding: 12px 20px; cursor: pointer; font-weight: 500; color: #64748b; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: .15s; }
+  .tab:hover { color: #1a3a5c; }
+  .tab.active { color: #1a3a5c; border-bottom-color: #1a3a5c; }
+
+  /* ── Content ── */
+  .page { display: none; padding: 24px; max-width: 1400px; margin: 0 auto; }
+  .page.active { display: block; }
+
+  /* ── Metric cards ── */
+  .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 16px; margin-bottom: 24px; }
+  .metric { background: #fff; border-radius: 10px; padding: 16px; text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+  .metric .val { font-size: 2rem; font-weight: 700; color: #1a3a5c; }
+  .metric .lbl { font-size: .8rem; color: #64748b; margin-top: 4px; }
+
+  /* ── Grid layout ── */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+  @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+
+  /* ── Cards ── */
+  .card { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+  .card h3 { font-size: .95rem; color: #475569; margin-bottom: 14px; }
+  .card-full { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.08); margin-bottom: 20px; }
+  .card-full h3 { font-size: .95rem; color: #475569; margin-bottom: 14px; }
+
+  /* ── Top papers ── */
+  .top-paper { border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; margin-bottom: 10px; cursor: pointer; }
+  .top-paper:hover { border-color: #94a3b8; }
+  .top-paper .tp-title { font-weight: 600; margin-bottom: 6px; line-height: 1.4; }
+  .top-paper .tp-meta { font-size: .8rem; color: #64748b; display: flex; gap: 12px; flex-wrap: wrap; }
+  .tp-detail { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-size: .85rem; }
+  .tp-detail p { margin-bottom: 6px; line-height: 1.5; }
+
+  /* ── Filters ── */
+  .filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; align-items: center; }
+  .filters input, .filters select { padding: 7px 10px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: .85rem; }
+  .filters input { flex: 1; min-width: 200px; }
+  .filters label { font-size: .85rem; color: #475569; display: flex; align-items: center; gap: 4px; }
+
+  /* ── Table ── */
+  .tbl-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  th { background: #f1f5f9; padding: 9px 12px; text-align: left; white-space: nowrap; color: #475569; font-weight: 600; border-bottom: 2px solid #e2e8f0; }
+  td { padding: 9px 12px; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+  tr:hover td { background: #f8fafc; }
+  tr.selected td { background: #eff6ff; }
+  td.score { font-weight: 700; }
+  .score-5 { color: #059669; }
+  .score-4 { color: #2563eb; }
+  .score-3 { color: #d97706; }
+  .score-2 { color: #64748b; }
+
+  /* ── Detail panel ── */
+  #detail-panel { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.08); margin-top: 20px; display: none; }
+  #detail-panel h2 { font-size: 1.05rem; line-height: 1.4; margin-bottom: 14px; color: #1e293b; }
+  #detail-panel .dp-grid { display: grid; grid-template-columns: 1fr auto; gap: 20px; }
+  #detail-panel .dp-left p { margin-bottom: 8px; font-size: .88rem; line-height: 1.5; }
+  #detail-panel .dp-right { min-width: 160px; }
+  #detail-panel .dp-right p { font-size: .85rem; margin-bottom: 8px; }
+  .tag { display: inline-block; background: #e0f2fe; color: #0369a1; border-radius: 4px; padding: 2px 7px; margin: 2px; font-size: .78rem; }
+  .btn { display: inline-block; padding: 7px 14px; background: #1a3a5c; color: #fff; border-radius: 6px; text-decoration: none; font-size: .82rem; }
+  .btn:hover { background: #2a4a6c; }
+  #result-count { font-size: .85rem; color: #64748b; margin-bottom: 10px; }
+
+  /* ── Log table ── */
+  .log-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  .log-table th { background: #f8fafc; padding: 7px 10px; text-align: left; color: #475569; border-bottom: 1px solid #e2e8f0; }
+  .log-table td { padding: 7px 10px; border-bottom: 1px solid #f1f5f9; }
+
+  /* ── Reports ── */
+  #report-select { padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: .9rem; width: 100%; max-width: 400px; margin-bottom: 20px; }
+  #report-content { background: #fff; border-radius: 10px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,.08); line-height: 1.7; }
+  #report-content h1, #report-content h2, #report-content h3 { margin: 1em 0 .5em; color: #1a3a5c; }
+  #report-content p { margin-bottom: .7em; }
+  #report-content ul, #report-content ol { margin: .5em 0 .7em 1.5em; }
+  #report-content li { margin-bottom: .3em; }
+  #report-content hr { border: none; border-top: 1px solid #e2e8f0; margin: 1.2em 0; }
+
+  /* ── Category badge ── */
+  .cat-badge { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: .75rem; font-weight: 600;
+               background: #e0f2fe; color: #0369a1; white-space: nowrap; }
+
+  /* ── Loading ── */
+  #loading { text-align: center; padding: 60px; color: #64748b; font-size: 1.1rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <span style="font-size:1.5rem">🫁</span>
+  <h1>VOC 文獻監控</h1>
+  <span id="updated-at"></span>
+</header>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab(0)">📊 總覽</div>
+  <div class="tab" onclick="switchTab(1)">📋 文獻列表</div>
+  <div class="tab" onclick="switchTab(2)">📈 統計分析</div>
+  <div class="tab" onclick="switchTab(3)">📅 每日報告</div>
+</div>
+
+<div id="loading">載入資料中…</div>
+
+<!-- ══ Tab 0: Overview ══════════════════════════════════════════ -->
+<div class="page" id="page-0">
+  <div class="metrics" id="metrics"></div>
+  <div class="grid-2">
+    <div class="card">
+      <h3>類別分佈（相關文獻）</h3>
+      <canvas id="chart-category" height="220"></canvas>
+    </div>
+    <div class="card">
+      <h3>最近搜尋記錄</h3>
+      <table class="log-table" id="log-table">
+        <thead><tr><th>執行時間</th><th>搜尋到</th><th>新增</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="card-full">
+    <h3>⭐ 最新高分文獻（score ≥ 4）</h3>
+    <div id="top-papers"></div>
+  </div>
+</div>
+
+<!-- ══ Tab 1: Literature list ════════════════════════════════════ -->
+<div class="page" id="page-1">
+  <div class="filters">
+    <input type="text"   id="f-search"   placeholder="關鍵字搜尋（標題 / 摘要 / 標籤）" oninput="applyFilter()">
+    <select id="f-cat"   onchange="applyFilter()"><option value="">全部類別</option></select>
+    <select id="f-score" onchange="applyFilter()">
+      <option value="0">評分 ≥ 0</option>
+      <option value="2" selected>評分 ≥ 2</option>
+      <option value="3">評分 ≥ 3</option>
+      <option value="4">評分 ≥ 4</option>
+    </select>
+    <select id="f-date"  onchange="applyFilter()">
+      <option value="0">全部時間</option>
+      <option value="1">今天</option>
+      <option value="7">7 天內</option>
+      <option value="30">30 天內</option>
+      <option value="90">90 天內</option>
+    </select>
+    <label><input type="checkbox" id="f-relevant" checked onchange="applyFilter()"> 僅相關</label>
+  </div>
+  <div id="result-count"></div>
+  <div class="tbl-wrap">
+    <table id="lit-table">
+      <thead><tr>
+        <th>標題</th><th>類別</th><th>評分</th><th>年份</th><th>標籤</th><th>來源</th><th>加入日期</th>
+      </tr></thead>
+      <tbody id="lit-tbody"></tbody>
+    </table>
+  </div>
+  <div id="detail-panel">
+    <h2 id="dp-title"></h2>
+    <div class="dp-grid">
+      <div class="dp-left">
+        <p><strong>作者：</strong><span id="dp-authors"></span></p>
+        <p><strong>期刊：</strong><span id="dp-journal"></span>（<span id="dp-year"></span>）</p>
+        <p><strong>摘要：</strong><span id="dp-oneline"></span></p>
+        <p><strong>標籤：</strong><span id="dp-tags"></span></p>
+        <p id="dp-doi-row"><strong>DOI：</strong><code id="dp-doi"></code></p>
+      </div>
+      <div class="dp-right">
+        <p><strong>評分：</strong><span id="dp-score"></span>/5</p>
+        <p><strong>類別：</strong><span id="dp-cat"></span></p>
+        <p><strong>來源：</strong><span id="dp-src"></span></p>
+        <p><strong>加入：</strong><span id="dp-created"></span></p>
+        <p><a id="dp-link" class="btn" href="#" target="_blank" rel="noopener">🔗 查看原文</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ Tab 2: Stats ═══════════════════════════════════════════════ -->
+<div class="page" id="page-2">
+  <div class="grid-2">
+    <div class="card">
+      <h3>評分分佈（相關文獻）</h3>
+      <canvas id="chart-score" height="200"></canvas>
+    </div>
+    <div class="card">
+      <h3>來源分佈</h3>
+      <canvas id="chart-source" height="200"></canvas>
+    </div>
+  </div>
+  <div class="card-full">
+    <h3>每日新增趨勢（近 30 天）</h3>
+    <canvas id="chart-trend" height="100"></canvas>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <h3>年份分佈（相關文獻）</h3>
+      <canvas id="chart-year" height="200"></canvas>
+    </div>
+    <div class="card">
+      <h3>類別 × 平均評分</h3>
+      <canvas id="chart-catScore" height="200"></canvas>
+    </div>
+  </div>
+</div>
+
+<!-- ══ Tab 3: Reports ════════════════════════════════════════════ -->
+<div class="page" id="page-3">
+  <select id="report-select" onchange="renderReport()"></select>
+  <div id="report-content"></div>
+</div>
+
+<script>
+// ── Constants ────────────────────────────────────────────────────
+const CAT_ZH = {
+  voc_breath:      "🫁 呼氣 VOC",
+  voc_liquid:      "💧 液態 VOC",
+  disease_cancer:  "🔬 癌症應用",
+  disease_chronic: "🩺 慢性病",
+  infection:       "🦠 感染症",
+  subhealth:       "⚡ 亞健康",
+  sensor_hardware: "📡 感測器",
+  ai_model:        "🤖 AI 模型",
+  odor_medicine:   "👃 氣味醫學",
+  method_tech:     "🔧 分析方法",
+  other:           "📄 其他",
+};
+
+// ── State ────────────────────────────────────────────────────────
+let ALL_DATA = null;
+let filteredLit = [];
+let selectedRow = null;
+let charts = {};
+
+// ── Tab switch ───────────────────────────────────────────────────
+function switchTab(idx) {
+  document.querySelectorAll(".tab").forEach((t, i) => t.classList.toggle("active", i === idx));
+  document.querySelectorAll(".page").forEach((p, i) => p.classList.toggle("active", i === idx));
+}
+
+// ── Fetch & init ─────────────────────────────────────────────────
+async function init() {
+  try {
+    const resp = await fetch("data/literature_data.json");
+    if (!resp.ok) throw new Error(resp.statusText);
+    ALL_DATA = await resp.json();
+    document.getElementById("loading").style.display = "none";
+    document.querySelectorAll(".page").forEach(p => p.style.display = "");
+    document.getElementById("page-0").classList.add("active");
+
+    document.getElementById("updated-at").textContent =
+      "更新時間：" + (ALL_DATA.meta.updated_at || "").replace("T", " ");
+
+    renderOverview();
+    initFilters();
+    applyFilter();
+    renderStats();
+    renderReportList();
+  } catch (e) {
+    document.getElementById("loading").textContent = "⚠️ 無法載入資料（" + e.message + "）";
+  }
+}
+
+// ── Tab 0: Overview ─────────────────────────────────────────────
+function renderOverview() {
+  const m = ALL_DATA.meta;
+  const s = ALL_DATA.stats;
+
+  document.getElementById("metrics").innerHTML = [
+    ["📚 總文獻", m.total],
+    ["✅ 相關文獻", m.relevant],
+    ["📅 今日新增", m.today],
+    ["📆 本週新增", m.this_week],
+    ["⭐ 平均評分", m.avg_score],
+  ].map(([l, v]) => `<div class="metric"><div class="val">${v}</div><div class="lbl">${l}</div></div>`).join("");
+
+  // Category chart
+  const byCat = s.by_category || {};
+  const catLabels = Object.keys(byCat).map(k => CAT_ZH[k] || k);
+  const catData   = Object.values(byCat);
+  charts.category = new Chart(document.getElementById("chart-category"), {
+    type: "bar",
+    data: { labels: catLabels, datasets: [{ data: catData, backgroundColor: "#3b82f6aa" }] },
+    options: { plugins: { legend: { display: false } }, scales: { x: { ticks: { font: { size: 11 } } } } },
+  });
+
+  // Log table
+  const tbody = document.querySelector("#log-table tbody");
+  tbody.innerHTML = (s.recent_log || []).map(r =>
+    `<tr><td>${(r.run_at||"").slice(0,16)}</td><td>${r.found}</td><td>${r.new_added}</td></tr>`
+  ).join("") || "<tr><td colspan=3>無記錄</td></tr>";
+
+  // Top papers
+  const top = ALL_DATA.literature
+    .filter(p => p.is_relevant && p.score >= 4)
+    .slice(0, 5);
+  document.getElementById("top-papers").innerHTML = top.length
+    ? top.map((p, i) => `
+        <div class="top-paper" onclick="toggleDetail(${i})">
+          <div class="tp-title">${"⭐".repeat(Math.round(p.score))} ${esc(p.title)}</div>
+          <div class="tp-meta">
+            <span>${esc(p.authors?.slice(0,40) || "")}</span>
+            <span>${p.year || ""}</span>
+            <span>${esc(p.journal?.slice(0,30) || "")}</span>
+            <span class="cat-badge">${CAT_ZH[p.category] || p.category}</span>
+          </div>
+          <div class="tp-detail" id="tp-${i}">
+            <p><strong>一行摘要：</strong>${esc(p.one_line)}</p>
+            <p>${p.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</p>
+            ${p.url ? `<a class="btn" href="${p.url}" target="_blank" rel="noopener">🔗 查看原文</a>` : ""}
+          </div>
+        </div>`).join("")
+    : "<p style='color:#94a3b8'>尚無評分 ≥ 4 的文獻</p>";
+}
+
+function toggleDetail(i) {
+  const el = document.getElementById("tp-" + i);
+  el.style.display = el.style.display === "block" ? "none" : "block";
+}
+
+// ── Tab 1: Filters & table ───────────────────────────────────────
+function initFilters() {
+  const cats = [...new Set(ALL_DATA.literature.map(p => p.category).filter(Boolean))];
+  const sel = document.getElementById("f-cat");
+  cats.sort().forEach(c => {
+    const o = document.createElement("option");
+    o.value = c; o.textContent = CAT_ZH[c] || c;
+    sel.appendChild(o);
+  });
+}
+
+function applyFilter() {
+  const q       = document.getElementById("f-search").value.toLowerCase();
+  const cat     = document.getElementById("f-cat").value;
+  const minScore= parseInt(document.getElementById("f-score").value) || 0;
+  const days    = parseInt(document.getElementById("f-date").value) || 0;
+  const relOnly = document.getElementById("f-relevant").checked;
+
+  const cutoff = days > 0 ? new Date(Date.now() - days * 86400000) : null;
+
+  filteredLit = ALL_DATA.literature.filter(p => {
+    if (relOnly && !p.is_relevant) return false;
+    if (p.score < minScore) return false;
+    if (cat && p.category !== cat) return false;
+    if (cutoff && new Date(p.created_at) < cutoff) return false;
+    if (q) {
+      const hay = (p.title + " " + p.one_line + " " + p.tags.join(" ")).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  document.getElementById("result-count").textContent = `共 ${filteredLit.length} 筆`;
+  renderTable();
+  closeDetail();
+}
+
+function renderTable() {
+  const tbody = document.getElementById("lit-tbody");
+  tbody.innerHTML = filteredLit.slice(0, 200).map((p, i) => {
+    const scoreClass = p.score >= 5 ? "score-5" : p.score >= 4 ? "score-4" : p.score >= 3 ? "score-3" : "score-2";
+    return `<tr onclick="selectRow(${i})" id="row-${i}">
+      <td style="max-width:360px;word-break:break-word">${esc(p.title)}</td>
+      <td><span class="cat-badge">${CAT_ZH[p.category] || p.category || ""}</span></td>
+      <td class="score ${scoreClass}">${p.score}</td>
+      <td>${p.year || ""}</td>
+      <td style="max-width:200px">${p.tags.slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</td>
+      <td>${esc(p.source)}</td>
+      <td>${(p.created_at||"").slice(0,10)}</td>
+    </tr>`;
+  }).join("");
+}
+
+function selectRow(i) {
+  if (selectedRow !== null) {
+    const prev = document.getElementById("row-" + selectedRow);
+    if (prev) prev.classList.remove("selected");
+  }
+  selectedRow = i;
+  document.getElementById("row-" + i).classList.add("selected");
+  showDetail(filteredLit[i]);
+}
+
+function showDetail(p) {
+  const panel = document.getElementById("detail-panel");
+  panel.style.display = "block";
+  document.getElementById("dp-title").textContent   = p.title;
+  document.getElementById("dp-authors").textContent  = p.authors || "—";
+  document.getElementById("dp-journal").textContent  = p.journal || "—";
+  document.getElementById("dp-year").textContent     = p.year || "—";
+  document.getElementById("dp-oneline").textContent  = p.one_line || "—";
+  document.getElementById("dp-tags").innerHTML = p.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join("") || "—";
+  document.getElementById("dp-score").textContent    = p.score;
+  document.getElementById("dp-cat").textContent      = CAT_ZH[p.category] || p.category || "—";
+  document.getElementById("dp-src").textContent      = p.source || "—";
+  document.getElementById("dp-created").textContent  = (p.created_at||"").slice(0,16);
+  document.getElementById("dp-doi").textContent      = p.doi || "—";
+  document.getElementById("dp-doi-row").style.display = p.doi ? "" : "none";
+  const link = document.getElementById("dp-link");
+  if (p.url) { link.href = p.url; link.style.display = ""; }
+  else        { link.style.display = "none"; }
+  panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+function closeDetail() {
+  document.getElementById("detail-panel").style.display = "none";
+  selectedRow = null;
+}
+
+// ── Tab 2: Stats ─────────────────────────────────────────────────
+function renderStats() {
+  const s = ALL_DATA.stats;
+
+  // Score distribution
+  const scoreKeys = Object.keys(s.by_score || {}).sort();
+  charts.score = new Chart(document.getElementById("chart-score"), {
+    type: "bar",
+    data: { labels: scoreKeys.map(k => k + "分"), datasets: [{ data: scoreKeys.map(k => s.by_score[k]), backgroundColor: "#6366f1aa" }] },
+    options: { plugins: { legend: { display: false } } },
+  });
+
+  // Source
+  const srcLabels = Object.keys(s.by_source || {});
+  const srcData   = Object.values(s.by_source || {});
+  charts.source = new Chart(document.getElementById("chart-source"), {
+    type: "doughnut",
+    data: { labels: srcLabels, datasets: [{ data: srcData, backgroundColor: ["#3b82f6","#10b981","#f59e0b","#ef4444","#8b5cf6"] }] },
+    options: { plugins: { legend: { position: "right" } } },
+  });
+
+  // Daily trend
+  const trend = s.daily_trend || [];
+  charts.trend = new Chart(document.getElementById("chart-trend"), {
+    type: "line",
+    data: { labels: trend.map(r => r.date), datasets: [{ data: trend.map(r => r.count), borderColor: "#3b82f6", backgroundColor: "#3b82f610", tension: .3, fill: true }] },
+    options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } },
+  });
+
+  // Year
+  const yearKeys = Object.keys(s.by_year || {}).sort();
+  charts.year = new Chart(document.getElementById("chart-year"), {
+    type: "bar",
+    data: { labels: yearKeys, datasets: [{ data: yearKeys.map(k => s.by_year[k]), backgroundColor: "#10b981aa" }] },
+    options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } },
+  });
+
+  // Category × avg score
+  const cs = (s.category_score || []).slice(0, 10);
+  charts.catScore = new Chart(document.getElementById("chart-catScore"), {
+    type: "bar",
+    data: {
+      labels: cs.map(r => CAT_ZH[r.category] || r.category),
+      datasets: [{ label: "平均評分", data: cs.map(r => r.avg_score), backgroundColor: "#f59e0baa" }],
+    },
+    options: { indexAxis: "y", plugins: { legend: { display: false } }, scales: { x: { max: 5, beginAtZero: true } } },
+  });
+}
+
+// ── Tab 3: Reports ───────────────────────────────────────────────
+function renderReportList() {
+  const reports = ALL_DATA.daily_reports || [];
+  const sel = document.getElementById("report-select");
+  if (!reports.length) {
+    sel.innerHTML = "<option>尚無報告</option>";
+    return;
+  }
+  sel.innerHTML = reports.map((r, i) =>
+    `<option value="${i}">${r.date}</option>`
+  ).join("");
+  renderReport();
+}
+
+function renderReport() {
+  const reports = ALL_DATA.daily_reports || [];
+  const idx = parseInt(document.getElementById("report-select").value) || 0;
+  const r = reports[idx];
+  document.getElementById("report-content").innerHTML = r
+    ? marked.parse(r.content)
+    : "<p>無內容</p>";
+}
+
+// ── Utils ────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;");
+}
+
+// ── Boot ─────────────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>

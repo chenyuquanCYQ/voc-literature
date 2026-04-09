@@ -1,5 +1,5 @@
 # ============================================================
-# VOC 文獻自動搜尋系統 — 設定檔 v2
+# VOC 文獻自動搜尋系統 — 設定檔
 # ============================================================
 
 # --- 聯絡 Email（填任意 email，提升 PubMed / OpenAlex 速率配額，不會寄信）---
@@ -9,10 +9,10 @@ contact_email: "dadatiger2022@gmail.com"
 pubmed_enabled:           true    # PubMed（免費主軸，醫學文獻最完整）
 openalex_enabled:         true    # OpenAlex（免費主軸，2.5 億篇，覆蓋更廣）
 clinical_trials_enabled:  true    # ClinicalTrials.gov（免費）
-serper_enabled:           false   # Serper API（選用，預設關閉，改用免費來源）
-serper_api_key: "YOUR_SERPER_API_KEY_HERE"
+serper_enabled:           false   # Serper API（選用，預設關閉）
+serper_api_key:           "0bc82e7a9aa7c8ba79fd1e666d57fb8c7e81949a"
 
-# --- 速率限制（秒）一天兩次、不求快 ---
+# --- 速率限制（秒）---
 pubmed_delay:    1.5
 openalex_delay:  1.0
 ct_delay:        1.0
@@ -53,75 +53,17 @@ schedule_times:
 
 # --- LLM 設定 ---
 ollama_model: "gemma3:12b"
-ollama_host: "http://localhost:11434"
-llm_timeout: 120
+ollama_host:  "http://localhost:11434"
+llm_timeout:  120
 
 # --- 路徑 ---
-database_path: "literature.db"
-report_dir: "daily_reports"
-csv_export_path: "exports/literature_export.csv"
+database_path:     "literature.db"
+report_dir:        "daily_reports"
+csv_export_path:   "exports/literature_export.csv"
+json_export_path:  "data/literature_data.json"
 
 # --- 相關性門檻 ---
-default_min_score: 2# ============================================================
-# VOC 文獻自動搜尋系統 — 設定檔
-# ============================================================
-
-# --- API 金鑰 ---
-serper_api_key: "0bc82e7a9aa7c8ba79fd1e666d57fb8c7e81949a"
-
-# --- 搜尋關鍵字組合 ---
-# 每次執行會依序搜尋所有 query，結果合併後去重
-search_queries:
-  # 呼氣 VOC 核心
-  - "exhaled breath metabolomics VOC biomarker"
-  - "human volatile organic compounds disease diagnosis"
-  - "breath analysis cancer screening VOC"
-  # 液態採集
-  - "saliva urine VOC headspace metabolomics"
-  - "sweat volatile organic compounds disease"
-  # 疾病應用
-  - "breath biomarker lung cancer detection"
-  - "exhaled VOC diabetes chronic kidney disease"
-  - "volatile compounds infection sepsis breath"
-  # 亞健康 / 健康監測
-  - "breath analysis health monitoring wearable"
-  - "VOC subhealth fatigue stress biomarker"
-  # 感測器與技術
-  - "electronic nose exhaled breath analysis"
-  - "SIFT-MS PTR-MS breath analysis clinical"
-  - "GC-MS exhaled breath volatile compounds"
-  # AI 模型
-  - "machine learning breath VOC classification"
-  - "deep learning exhaled metabolomics"
-
-# --- 搜尋參數 ---
-max_results_per_query: 10     # 每個 query 最多取幾筆
-search_source: "scholar"       # scholar / search（Serper 模式）
-
-# --- ClinicalTrials.gov ---
-clinical_trials_enabled: true
-clinical_trials_queries:
-  - "exhaled breath volatile organic compounds"
-  - "breath biomarker cancer screening"
-  - "VOC metabolomics clinical trial"
-clinical_trials_max: 10
-
-# --- 排程 ---
-schedule_times:
-  - "07:00"
-  - "19:00"
-
-# --- LLM 設定 ---
-ollama_model: "gemma3:12b"
-ollama_host: "http://localhost:11434"
-llm_timeout: 120               # 單篇分類最長等待秒數
-
-# --- 路徑 ---
-database_path: "literature.db"
-report_dir: "daily_reports"
-csv_export_path: "exports/literature_export.csv"
-
-# --- 相關性門檻 ---
-# score >= 此值才納入 Dashboard 預設顯示
 default_min_score: 2
+
+# --- GitHub 同步（true = 每次 pipeline 結束後自動 git push）---
 git_sync_enabled: true

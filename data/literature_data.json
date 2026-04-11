@@ -3,15 +3,15 @@
     "total": 912,
     "relevant": 730,
     "today": 0,
-    "this_week": 912,
+    "this_week": 75,
     "avg_score": 3.96,
-    "updated_at": "2026-04-11T07:02:07"
+    "updated_at": "2026-04-12T07:01:59"
   },
   "stats": {
     "total": 912,
     "relevant": 730,
     "today": 0,
-    "this_week": 912,
+    "this_week": 75,
     "avg_score": 3.96,
     "by_category": {
       "voc_breath": 238,
@@ -95,6 +95,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-04-11 23:01:58",
+        "found": 245,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-04-10 23:02:06",
         "found": 244,
         "new_added": 0
@@ -138,11 +143,6 @@
         "run_at": "2026-04-04 18:08:36",
         "found": 244,
         "new_added": 199
-      },
-      {
-        "run_at": "2026-04-04 14:02:21",
-        "found": 155,
-        "new_added": 150
       }
     ],
     "category_score": [
@@ -18978,6 +18978,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-04-12_0701",
+      "content": "# VOC 文獻監控日報 — 2026-04-12\n\n> 執行時間：07:01:59 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 912 |\n| 資料庫相關總數 | 730 |\n| 相關文獻平均分 | 3.96 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-12 07:01:59*\n"
+    },
+    {
       "date": "2026-04-11_0702",
       "content": "# VOC 文獻監控日報 — 2026-04-11\n\n> 執行時間：07:02:06 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 912 |\n| 資料庫相關總數 | 730 |\n| 相關文獻平均分 | 3.96 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-11 07:02:06*\n"
     },
@@ -19000,10 +19004,6 @@
     {
       "date": "2026-04-06_0702",
       "content": "# VOC 文獻監控日報 — 2026-04-06\n\n> 執行時間：07:02:25 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 841 |\n| 資料庫相關總數 | 665 |\n| 相關文獻平均分 | 3.94 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exploring exhaled volatile organic compounds as potential biomarkers in anti-MDA5 antibody-positive interstitial lung disease.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, ILD, MDA5-ILD, GC-MS, VOC biomarker\n- **摘要**：研究呼氣VOC作為MDA5-ILD診斷的潛在生物標記。\n- **作者**：Wang Yuxuan, Wang Xuewen, Yang Luqin, Wang Ke, Zhang Fengqin et al. | **年份**：2025 | DOI: `10.1007/s11010-025-05249-4` | [連結](https://pubmed.ncbi.nlm.nih.gov/40102365/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Exploring exhaled volatile organic compounds as potential biomarkers in anti-MDA5 antibody-positive interstitial lung disease.](https://pubmed.ncbi.nlm.nih.gov/40102365/)**  \n  研究呼氣VOC作為MDA5-ILD診斷的潛在生物標記。 ｜ 2025\n\n---\n*報告生成時間：2026-04-06 07:02:25*\n"
-    },
-    {
-      "date": "2026-04-05_2210",
-      "content": "# VOC 文獻監控日報 — 2026-04-05\n\n> 執行時間：22:10:54 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 840 |\n| 資料庫相關總數 | 664 |\n| 相關文獻平均分 | 3.94 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-05 22:10:54*\n"
     }
   ]
 }

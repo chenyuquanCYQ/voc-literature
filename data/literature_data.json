@@ -3,15 +3,15 @@
     "total": 912,
     "relevant": 730,
     "today": 0,
-    "this_week": 75,
+    "this_week": 72,
     "avg_score": 3.96,
-    "updated_at": "2026-04-12T07:01:59"
+    "updated_at": "2026-04-13T07:02:05"
   },
   "stats": {
     "total": 912,
     "relevant": 730,
     "today": 0,
-    "this_week": 75,
+    "this_week": 72,
     "avg_score": 3.96,
     "by_category": {
       "voc_breath": 238,
@@ -95,6 +95,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-04-12 23:02:04",
+        "found": 245,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-04-11 23:01:58",
         "found": 245,
         "new_added": 0
@@ -138,11 +143,6 @@
         "run_at": "2026-04-04 23:02:31",
         "found": 244,
         "new_added": 3
-      },
-      {
-        "run_at": "2026-04-04 18:08:36",
-        "found": 244,
-        "new_added": 199
       }
     ],
     "category_score": [
@@ -18978,6 +18978,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-04-13_0702",
+      "content": "# VOC 文獻監控日報 — 2026-04-13\n\n> 執行時間：07:02:04 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 912 |\n| 資料庫相關總數 | 730 |\n| 相關文獻平均分 | 3.96 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-13 07:02:04*\n"
+    },
+    {
       "date": "2026-04-12_0701",
       "content": "# VOC 文獻監控日報 — 2026-04-12\n\n> 執行時間：07:01:59 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 912 |\n| 資料庫相關總數 | 730 |\n| 相關文獻平均分 | 3.96 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-12 07:01:59*\n"
     },
@@ -19000,10 +19004,6 @@
     {
       "date": "2026-04-07_0705",
       "content": "# VOC 文獻監控日報 — 2026-04-07\n\n> 執行時間：07:05:05 | 新增 **16** 篇 | 相關 **14** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 16 |\n| 本次相關文獻 | 14 |\n| 資料庫累計總數 | 857 |\n| 資料庫相關總數 | 679 |\n| 相關文獻平均分 | 3.95 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Breath Biopsy® to Identify Exhaled Volatile Organic Compounds Biomarkers for Liver Cirrhosis Detection.\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver cirrhosis, GC-MS, VOC biomarker, liver function\n- **摘要**：利用呼氣VOC診斷肝硬化，並與肝功能指標相關聯。\n- **作者**：Ferrandino Giuseppe, De Palo Giovanna, Murgia Antonio, Birch Owen, Tawfike Ahmed et al. | **年份**：2023 | DOI: `10.14218/JCTH.2022.00309` | [連結](https://pubmed.ncbi.nlm.nih.gov/36969895/)\n\n### [CT] Hybrid-sensor Breath Analysis for Colorectal Cancer Screening\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, colorectal cancer, CRC, GC-MS, hybrid sensor\n- **摘要**：研究呼氣揮發性標記物用於大腸癌篩檢，結合多種分析方法。\n- **作者**：University of Latvia | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05173077)\n\n### [CT] Breath Combined With CT for Diagnoses of Pulmonary Nodules\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, pulmonary nodule, CT\n- **摘要**：利用呼氣VOC與CT影像診斷肺部結節的預測模型建立。\n- **作者**：Peking University People's Hospital | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04948047)\n\n### [CT] Diagnostic Power Comparison Between VOCs and CTCs\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cancer diagnosis, VOC biomarker, exhaled breath, tumor\n- **摘要**：研究比較呼氣VOC與CTC在癌症診斷上的效能。\n- **作者**：Anhui Medical University | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT03958812)\n\n### [CT] A Study Measuring Markers of Airway Inflammation in Breath Samples From People With Respiratory Diseases and Healthy Volunteers.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, Inflammacheck, AI model\n- **摘要**：研究肺癌的呼氣生物標記，並驗證AI模型進行篩查。\n- **作者**：Portsmouth Hospitals NHS Trust | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07426718)\n\n### [CT] Identification of Breath Biomarkers in Esophageal Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, esophageal cancer, VOC biomarker, CRT, breathomics\n- **摘要**：研究呼氣VOC在食道癌治療效果預測和復發風險評估中的作用。\n- **作者**：Mian XI | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05557955)\n\n### [CT] Breath Analysis Using an Electronic Nose in Non Alcoholic Fatty Liver Disease\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, NAFLD, eNose, liver disease, chronic disease\n- **摘要**：利用電子鼻分析非酒精性脂肪肝患者的呼氣，用於無創評估。\n- **作者**：University of Edinburgh | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02950610)\n\n### [CT] New Non-invasive Biomarkers of Metabolic Dysfunction-associated Steatotic Liver Disease (MASLD)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, liver disease, MASLD, VOC biomarker, exhaled breath\n- **摘要**：研究呼氣成分診斷脂肪肝，與代謝功能失調相關。\n- **作者**：General University Hospital, Prague | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT06647095)\n\n### [CT] Exhaled Breath Metabolomic Biomarkers in the Acutely Breathless Patient\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, VOC biomarker, acute breathless, exhaled breath, metabolomics\n- **摘要**：研究急性呼吸困難患者呼氣VOC，旨在發現和驗證生物標記。\n- **作者**：University of Leicester | **年份**：2017 | [連結](https://clinicaltrials.gov/study/NCT03672994)\n\n### [CT] Description of the Short-term Effects of KAFTRIO® by Continuous Monitoring With the PHEAL-CR-K Application in Real Life in Patients With Cystic Fibrosis Eligible for KAFTRIO® Treatment\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, cystic fibrosis, VOC, exhaled air, KAFTRIO®\n- **摘要**：研究CFTR治療中，監測呼氣VOC變化，評估治療效果。\n- **作者**：Hopital Foch | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05295524)\n\n### [CT] Predicting Cancer Risk With Digital and Molecular Markers\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cancer, risk prediction, biomarkers, breast cancer, VOC\n- **摘要**：研究旨在預測癌症風險，特別是乳癌，涉及生物標記物分析。\n- **作者**：University of Erlangen-Nürnberg Medical School | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06962670)\n\n## 📂 依類別分類\n\n### 癌症應用（6 篇）\n\n- ▓▓▓▓▓ **[[CT] Hybrid-sensor Breath Analysis for Colorectal Cancer Screening](https://clinicaltrials.gov/study/NCT05173077)**  \n  研究呼氣揮發性標記物用於大腸癌篩檢，結合多種分析方法。 ｜ 2022\n- ▓▓▓▓▓ **[[CT] Breath Combined With CT for Diagnoses of Pulmonary Nodules](https://clinicaltrials.gov/study/NCT04948047)**  \n  利用呼氣VOC與CT影像診斷肺部結節的預測模型建立。 ｜ 2021\n- ▓▓▓▓▓ **[[CT] Diagnostic Power Comparison Between VOCs and CTCs](https://clinicaltrials.gov/study/NCT03958812)**  \n  研究比較呼氣VOC與CTC在癌症診斷上的效能。 ｜ 2019\n- ▓▓▓▓▓ **[[CT] A Study Measuring Markers of Airway Inflammation in Breath Samples From People With Respiratory Diseases and Healthy Volunteers.](https://clinicaltrials.gov/study/NCT07426718)**  \n  研究肺癌的呼氣生物標記，並驗證AI模型進行篩查。 ｜ 2026\n- ▓▓▓▓▓ **[[CT] Identification of Breath Biomarkers in Esophageal Cancer](https://clinicaltrials.gov/study/NCT05557955)**  \n  研究呼氣VOC在食道癌治療效果預測和復發風險評估中的作用。 ｜ 2022\n- ▓▓▓▓░ **[[CT] Predicting Cancer Risk With Digital and Molecular Markers](https://clinicaltrials.gov/study/NCT06962670)**  \n  研究旨在預測癌症風險，特別是乳癌，涉及生物標記物分析。 ｜ 2024\n\n### 慢性病（3 篇）\n\n- ▓▓▓▓▓ **[Breath Biopsy® to Identify Exhaled Volatile Organic Compounds Biomarkers for Liver Cirrhosis Detection.](https://pubmed.ncbi.nlm.nih.gov/36969895/)**  \n  利用呼氣VOC診斷肝硬化，並與肝功能指標相關聯。 ｜ 2023\n- ▓▓▓▓░ **[[CT] Breath Analysis Using an Electronic Nose in Non Alcoholic Fatty Liver Disease](https://clinicaltrials.gov/study/NCT02950610)**  \n  利用電子鼻分析非酒精性脂肪肝患者的呼氣，用於無創評估。 ｜ 2016\n- ▓▓▓░░ **[[CT] Covid-19 Long Haul Preventative and Health Promotion Care Clinical Trial Acceleration Program.](https://clinicaltrials.gov/study/NCT06441955)**  \n  研究長期新冠後續症狀，尋找生物標記與治療方案。 ｜ 2024\n\n### 呼氣 VOC（3 篇）\n\n- ▓▓▓▓░ **[[CT] New Non-invasive Biomarkers of Metabolic Dysfunction-associated Steatotic Liver Disease (MASLD)](https://clinicaltrials.gov/study/NCT06647095)**  \n  研究呼氣成分診斷脂肪肝，與代謝功能失調相關。 ｜ 2021\n- ▓▓▓▓░ **[[CT] Exhaled Breath Metabolomic Biomarkers in the Acutely Breathless Patient](https://clinicaltrials.gov/study/NCT03672994)**  \n  研究急性呼吸困難患者呼氣VOC，旨在發現和驗證生物標記。 ｜ 2017\n- ▓▓▓▓░ **[[CT] Description of the Short-term Effects of KAFTRIO® by Continuous Monitoring With the PHEAL-CR-K Application in Real Life in Patients With Cystic Fibrosis Eligible for KAFTRIO® Treatment](https://clinicaltrials.gov/study/NCT05295524)**  \n  研究CFTR治療中，監測呼氣VOC變化，評估治療效果。 ｜ 2022\n\n### 亞健康（1 篇）\n\n- ▓▓▓░░ **[[CT] Can You Breathe Your Way To Better Health?](https://clinicaltrials.gov/study/NCT06829836)**  \n  研究呼吸訓練對健康指標和免疫功能的影響。 ｜ 2025\n\n### 其他（1 篇）\n\n- ▓▓░░░ **[[CT] A Biomarker-directed Study of XPro1595 in Patients With Alzheimer's](https://clinicaltrials.gov/study/NCT03943264)**  \n  研究針對阿茲海默症患者的生物標記物，與呼氣代謝體學相關性較低。 ｜ 2019\n\n---\n## ℹ️ 本次排除文獻：2 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-04-07 07:05:05*\n"
-    },
-    {
-      "date": "2026-04-06_0702",
-      "content": "# VOC 文獻監控日報 — 2026-04-06\n\n> 執行時間：07:02:25 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 841 |\n| 資料庫相關總數 | 665 |\n| 相關文獻平均分 | 3.94 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exploring exhaled volatile organic compounds as potential biomarkers in anti-MDA5 antibody-positive interstitial lung disease.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, ILD, MDA5-ILD, GC-MS, VOC biomarker\n- **摘要**：研究呼氣VOC作為MDA5-ILD診斷的潛在生物標記。\n- **作者**：Wang Yuxuan, Wang Xuewen, Yang Luqin, Wang Ke, Zhang Fengqin et al. | **年份**：2025 | DOI: `10.1007/s11010-025-05249-4` | [連結](https://pubmed.ncbi.nlm.nih.gov/40102365/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Exploring exhaled volatile organic compounds as potential biomarkers in anti-MDA5 antibody-positive interstitial lung disease.](https://pubmed.ncbi.nlm.nih.gov/40102365/)**  \n  研究呼氣VOC作為MDA5-ILD診斷的潛在生物標記。 ｜ 2025\n\n---\n*報告生成時間：2026-04-06 07:02:25*\n"
     }
   ]
 }

@@ -1,25 +1,25 @@
 {
   "meta": {
-    "total": 929,
-    "relevant": 744,
-    "today": 11,
-    "this_week": 72,
+    "total": 938,
+    "relevant": 753,
+    "today": 9,
+    "this_week": 65,
     "avg_score": 3.97,
-    "updated_at": "2026-04-15T07:04:58"
+    "updated_at": "2026-04-16T07:03:59"
   },
   "stats": {
-    "total": 929,
-    "relevant": 744,
-    "today": 11,
-    "this_week": 72,
+    "total": 938,
+    "relevant": 753,
+    "today": 9,
+    "this_week": 65,
     "avg_score": 3.97,
     "by_category": {
-      "voc_breath": 241,
-      "disease_cancer": 150,
+      "voc_breath": 242,
+      "disease_cancer": 155,
       "sensor_hardware": 133,
-      "disease_chronic": 53,
+      "disease_chronic": 55,
       "method_tech": 52,
-      "infection": 49,
+      "infection": 50,
       "voc_liquid": 27,
       "ai_model": 19,
       "subhealth": 9,
@@ -27,7 +27,7 @@
       "other": 3
     },
     "by_source": {
-      "clinicaltrials": 97,
+      "clinicaltrials": 106,
       "import": 488,
       "openalex": 107,
       "pubmed": 108,
@@ -35,10 +35,10 @@
     },
     "by_score": {
       "1": 1,
-      "2": 6,
-      "3": 215,
-      "4": 317,
-      "5": 205
+      "2": 7,
+      "3": 216,
+      "4": 318,
+      "5": 211
     },
     "by_year": {
       "1985": 1,
@@ -49,22 +49,22 @@
       "2007": 4,
       "2008": 6,
       "2009": 10,
-      "2010": 8,
+      "2010": 9,
       "2011": 23,
       "2012": 14,
-      "2013": 18,
+      "2013": 19,
       "2014": 18,
       "2015": 21,
-      "2016": 23,
+      "2016": 24,
       "2017": 24,
-      "2018": 22,
-      "2019": 27,
+      "2018": 23,
+      "2019": 29,
       "2020": 30,
       "2021": 35,
       "2022": 49,
-      "2023": 43,
+      "2023": 44,
       "2024": 58,
-      "2025": 48,
+      "2025": 50,
       "2026": 9
     },
     "daily_trend": [
@@ -99,9 +99,18 @@
       {
         "date": "2026-04-14",
         "count": 11
+      },
+      {
+        "date": "2026-04-15",
+        "count": 9
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-04-15 23:03:58",
+        "found": 244,
+        "new_added": 9
+      },
       {
         "run_at": "2026-04-14 23:04:56",
         "found": 244,
@@ -146,33 +155,28 @@
         "run_at": "2026-04-06 23:05:05",
         "found": 243,
         "new_added": 16
-      },
-      {
-        "run_at": "2026-04-05 23:02:25",
-        "found": 244,
-        "new_added": 1
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.51,
-        "count": 150
+        "avg_score": 4.49,
+        "count": 155
       },
       {
         "category": "infection",
-        "avg_score": 4.45,
-        "count": 49
+        "avg_score": 4.46,
+        "count": 50
       },
       {
         "category": "voc_breath",
         "avg_score": 4.23,
-        "count": 241
+        "count": 242
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.08,
-        "count": 53
+        "avg_score": 4.09,
+        "count": 55
       },
       {
         "category": "voc_liquid",
@@ -212,6 +216,204 @@
     ]
   },
   "literature": [
+    {
+      "id": 938,
+      "title": "[CT] Exploring Cancer-Associated Thromboembolism Prognosis Biomarkers and Polymorphisms",
+      "authors": "Lebanese University",
+      "year": 2019,
+      "journal": "ClinicalTrials.gov (Cancer, Solid Tumor, Thromboembolism, Cardiovascular Diseases, Immune System Diseases)",
+      "category": "disease_cancer",
+      "score": 2.0,
+      "tags": [
+        "cancer",
+        "thromboembolism",
+        "biomarkers",
+        "colorectal cancer",
+        "immunology"
+      ],
+      "one_line": "研究癌症相關血栓栓塞的生物標記，與免疫系統的交互作用。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06065592",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:58"
+    },
+    {
+      "id": 937,
+      "title": "[CT] Onco Move - Improvement of Psychophysical Fitness in Adult Cancer Survivors",
+      "authors": "Gdansk University of Physical Education and Sport",
+      "year": 2025,
+      "journal": "ClinicalTrials.gov (Cancer)",
+      "category": "disease_cancer",
+      "score": 3.0,
+      "tags": [
+        "cancer",
+        "exercise",
+        "psychophysical",
+        "well-being",
+        "oncology"
+      ],
+      "one_line": "研究癌症患者運動對身心健康的影響，未涉及VOC分析。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07087652",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:58"
+    },
+    {
+      "id": 936,
+      "title": "[CT] Testing Spectrosense EVA System for Detection of Pancreatic Cancer by Analyzing Volatile Organic Compounds (VOCs) in Exhaled Air",
+      "authors": "Rauscher, Gregory E., M.D. PA",
+      "year": 2013,
+      "journal": "ClinicalTrials.gov (Pancreatic Cancer)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "pancreatic cancer",
+        "VOC biomarker",
+        "GC-MS",
+        "exhaled air"
+      ],
+      "one_line": "利用呼氣VOC分析胰臟癌的診斷研究。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT01994681",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:58"
+    },
+    {
+      "id": 935,
+      "title": "[CT] Volatilome and Single-Lead Electrocardiogram Optimize Ischemic Heart Disease Diagnosis Using Machine Learning Models",
+      "authors": "I.M. Sechenov First Moscow State Medical University",
+      "year": 2023,
+      "journal": "ClinicalTrials.gov (Coronary Artery Disease, Ischemic Heart Disease, Chronic Coronary Disease, Angina Pectoris, Stable Coronary Artery Disease CAD)",
+      "category": "disease_chronic",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "ischemic heart disease",
+        "VOC",
+        "ECG",
+        "machine learning"
+      ],
+      "one_line": "研究結合呼氣VOC和心電圖，用於診斷心臟缺血疾病。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06181799",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:57"
+    },
+    {
+      "id": 934,
+      "title": "[CT] Identifying Patterns in the Breath of Individuals With Breast Cancer",
+      "authors": "Breathe BioMedical Inc",
+      "year": 2025,
+      "journal": "ClinicalTrials.gov (Breast Cancer)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "breast cancer",
+        "VOC biomarker",
+        "machine learning",
+        "spectrometer"
+      ],
+      "one_line": "研究乳癌患者呼氣中的VOC模式，並利用機器學習進行檢測。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06512350",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:57"
+    },
+    {
+      "id": 933,
+      "title": "[CT] Breath Analysis to Diagnose Lung Cancer",
+      "authors": "University Hospital, Lille",
+      "year": 2019,
+      "journal": "ClinicalTrials.gov (Lung Cancer)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "VOC biomarker",
+        "diagnosis",
+        "cancer"
+      ],
+      "one_line": "利用呼氣VOC診斷肺癌，具有高度相關性。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03250390",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:57"
+    },
+    {
+      "id": 932,
+      "title": "[CT] Characterization of Chitin-glucan Fiber Fermentation in Human After a Single Administration",
+      "authors": "Université Catholique de Louvain",
+      "year": 2018,
+      "journal": "ClinicalTrials.gov (Healthy)",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "VOC",
+        "fermentation",
+        "SCFA",
+        "human"
+      ],
+      "one_line": "研究呼氣揮發性化合物，評估膳食纖維發酵過程。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03494491",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:57"
+    },
+    {
+      "id": 931,
+      "title": "[CT] Diagnostic Breath Analysis for Detection of Ventilator Acquired Pneumonia (VAP)",
+      "authors": "Landon Pediatric Foundation",
+      "year": 2016,
+      "journal": "ClinicalTrials.gov (Bacterial Infections)",
+      "category": "infection",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "VAP",
+        "VOC biomarker",
+        "respiratory infection",
+        "diagnosis"
+      ],
+      "one_line": "研究呼氣VOC用於早期檢測呼吸機相關肺炎。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03053258",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:57"
+    },
+    {
+      "id": 930,
+      "title": "[CT] Impact of Hemodialysis on Exhaled Volatile Organic Compounds in End Stage Renal Disease",
+      "authors": "Rambam Health Care Campus",
+      "year": 2010,
+      "journal": "ClinicalTrials.gov (End Stage Renal Disease)",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "renal disease",
+        "hemodialysis",
+        "VOC biomarker",
+        "GC-MS"
+      ],
+      "one_line": "研究血液透析對末期腎臟病患者呼氣揮發性有機化合物的影響。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT01684228",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-04-15 23:03:57"
+    },
     {
       "id": 929,
       "title": "[CT] POSITIVE - Study (Part III) Heidelberg",
@@ -19342,6 +19544,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-04-16_0703",
+      "content": "# VOC 文獻監控日報 — 2026-04-16\n\n> 執行時間：07:03:58 | 新增 **9** 篇 | 相關 **9** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 9 |\n| 本次相關文獻 | 9 |\n| 資料庫累計總數 | 938 |\n| 資料庫相關總數 | 753 |\n| 相關文獻平均分 | 3.97 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Impact of Hemodialysis on Exhaled Volatile Organic Compounds in End Stage Renal Disease\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, renal disease, hemodialysis, VOC biomarker, GC-MS\n- **摘要**：研究血液透析對末期腎臟病患者呼氣揮發性有機化合物的影響。\n- **作者**：Rambam Health Care Campus | **年份**：2010 | [連結](https://clinicaltrials.gov/study/NCT01684228)\n\n### [CT] Diagnostic Breath Analysis for Detection of Ventilator Acquired Pneumonia (VAP)\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VAP, VOC biomarker, respiratory infection, diagnosis\n- **摘要**：研究呼氣VOC用於早期檢測呼吸機相關肺炎。\n- **作者**：Landon Pediatric Foundation | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT03053258)\n\n### [CT] Characterization of Chitin-glucan Fiber Fermentation in Human After a Single Administration\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOC, fermentation, SCFA, human\n- **摘要**：研究呼氣揮發性化合物，評估膳食纖維發酵過程。\n- **作者**：Université Catholique de Louvain | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03494491)\n\n### [CT] Breath Analysis to Diagnose Lung Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, diagnosis, cancer\n- **摘要**：利用呼氣VOC診斷肺癌，具有高度相關性。\n- **作者**：University Hospital, Lille | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT03250390)\n\n### [CT] Identifying Patterns in the Breath of Individuals With Breast Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, breast cancer, VOC biomarker, machine learning, spectrometer\n- **摘要**：研究乳癌患者呼氣中的VOC模式，並利用機器學習進行檢測。\n- **作者**：Breathe BioMedical Inc | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06512350)\n\n### [CT] Testing Spectrosense EVA System for Detection of Pancreatic Cancer by Analyzing Volatile Organic Compounds (VOCs) in Exhaled Air\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, pancreatic cancer, VOC biomarker, GC-MS, exhaled air\n- **摘要**：利用呼氣VOC分析胰臟癌的診斷研究。\n- **作者**：Rauscher, Gregory E., M.D. PA | **年份**：2013 | [連結](https://clinicaltrials.gov/study/NCT01994681)\n\n### [CT] Volatilome and Single-Lead Electrocardiogram Optimize Ischemic Heart Disease Diagnosis Using Machine Learning Models\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, ischemic heart disease, VOC, ECG, machine learning\n- **摘要**：研究結合呼氣VOC和心電圖，用於診斷心臟缺血疾病。\n- **作者**：I.M. Sechenov First Moscow State Medical University | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT06181799)\n\n## 📂 依類別分類\n\n### 癌症應用（5 篇）\n\n- ▓▓▓▓▓ **[[CT] Breath Analysis to Diagnose Lung Cancer](https://clinicaltrials.gov/study/NCT03250390)**  \n  利用呼氣VOC診斷肺癌，具有高度相關性。 ｜ 2019\n- ▓▓▓▓▓ **[[CT] Identifying Patterns in the Breath of Individuals With Breast Cancer](https://clinicaltrials.gov/study/NCT06512350)**  \n  研究乳癌患者呼氣中的VOC模式，並利用機器學習進行檢測。 ｜ 2025\n- ▓▓▓▓▓ **[[CT] Testing Spectrosense EVA System for Detection of Pancreatic Cancer by Analyzing Volatile Organic Compounds (VOCs) in Exhaled Air](https://clinicaltrials.gov/study/NCT01994681)**  \n  利用呼氣VOC分析胰臟癌的診斷研究。 ｜ 2013\n- ▓▓▓░░ **[[CT] Onco Move - Improvement of Psychophysical Fitness in Adult Cancer Survivors](https://clinicaltrials.gov/study/NCT07087652)**  \n  研究癌症患者運動對身心健康的影響，未涉及VOC分析。 ｜ 2025\n- ▓▓░░░ **[[CT] Exploring Cancer-Associated Thromboembolism Prognosis Biomarkers and Polymorphisms](https://clinicaltrials.gov/study/NCT06065592)**  \n  研究癌症相關血栓栓塞的生物標記，與免疫系統的交互作用。 ｜ 2019\n\n### 慢性病（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Impact of Hemodialysis on Exhaled Volatile Organic Compounds in End Stage Renal Disease](https://clinicaltrials.gov/study/NCT01684228)**  \n  研究血液透析對末期腎臟病患者呼氣揮發性有機化合物的影響。 ｜ 2010\n- ▓▓▓▓░ **[[CT] Volatilome and Single-Lead Electrocardiogram Optimize Ischemic Heart Disease Diagnosis Using Machine Learning Models](https://clinicaltrials.gov/study/NCT06181799)**  \n  研究結合呼氣VOC和心電圖，用於診斷心臟缺血疾病。 ｜ 2023\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Diagnostic Breath Analysis for Detection of Ventilator Acquired Pneumonia (VAP)](https://clinicaltrials.gov/study/NCT03053258)**  \n  研究呼氣VOC用於早期檢測呼吸機相關肺炎。 ｜ 2016\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Characterization of Chitin-glucan Fiber Fermentation in Human After a Single Administration](https://clinicaltrials.gov/study/NCT03494491)**  \n  研究呼氣揮發性化合物，評估膳食纖維發酵過程。 ｜ 2018\n\n---\n*報告生成時間：2026-04-16 07:03:58*\n"
+    },
+    {
       "date": "2026-04-15_0704",
       "content": "# VOC 文獻監控日報 — 2026-04-15\n\n> 執行時間：07:04:58 | 新增 **11** 篇 | 相關 **9** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 11 |\n| 本次相關文獻 | 9 |\n| 資料庫累計總數 | 929 |\n| 資料庫相關總數 | 744 |\n| 相關文獻平均分 | 3.97 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Detection of COVID-19 Using Breath Analysis - Validation Study.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COVID-19, SARS-CoV-2, VOC biomarker, infection\n- **摘要**：利用呼氣分析診斷COVID-19的驗證研究，高度相關。\n- **作者**：Scentech Medical Technologies Ltd | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05224622)\n\n### [CT] Volatolomic and Proteomic Profile for Early Diagnosis of Lung Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, GC-MS, VOC biomarker, proteomics\n- **摘要**：研究肺癌早期診斷的呼氣與血清生物標記物。\n- **作者**：European Institute of Oncology | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT06341387)\n\n### [CT] Assessment of Volatile Organic Compounds (VOC) for the Diagnosis of Invasive Aspergillosis (IA) in Lung Transplant Recipients\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, invasive aspergillosis, lung transplant, VOC biomarker, infection\n- **摘要**：評估呼氣VOC診斷肺移植受者侵入性念珠菌病。\n- **作者**：Owlstone Ltd | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT06344117)\n\n### [CT] Analysis of Volatile Organic Compounds in the Exhaled Air in Inflammatory Bowel Disease\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, IBD, VOC biomarker, exhaled breath, diagnosis\n- **摘要**：研究呼氣VOC用於診斷和分層炎症性腸道疾病患者。\n- **作者**：Keimyung University Dongsan Medical Center | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03414580)\n\n### [CT] Hypoxia Driven Metabolic Response in Oesophagogastric Adenocarcinoma\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：oesophageal cancer, hypoxia, biomarker, cancer prognosis, tumor metabolism\n- **摘要**：研究聚焦食道胃癌的缺氧誘導代謝反應，探討診斷方法。\n- **作者**：Imperial College London | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06669663)\n\n### [CT] Application of Nanotechnology and Chemical Sensors for Diagnosis of Decompensated Heart Failure by Respiratory Samples\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath testing, heart failure, chemical sensors, non-invasive, VOC biomarker\n- **摘要**：利用呼氣樣本和化學感測器診斷心臟衰竭的研究。\n- **作者**：Rambam Health Care Campus | **年份**：2017 | [連結](https://clinicaltrials.gov/study/NCT03083717)\n\n### [CT] Physical Exercise and Biomolecular Analysis to Reduce Uremic Toxins in Chronic Kidney Disease: An Exploratory Study\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, chronic kidney disease, uremic toxins, exerkines, metabolic changes\n- **摘要**：研究運動對慢性腎臟病患者體內毒素的影響。\n- **作者**：Catholic University of Brasília | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06910475)\n\n## 📂 依類別分類\n\n### 癌症應用（3 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatolomic and Proteomic Profile for Early Diagnosis of Lung Cancer](https://clinicaltrials.gov/study/NCT06341387)**  \n  研究肺癌早期診斷的呼氣與血清生物標記物。 ｜ 2023\n- ▓▓▓▓░ **[[CT] Hypoxia Driven Metabolic Response in Oesophagogastric Adenocarcinoma](https://clinicaltrials.gov/study/NCT06669663)**  \n  研究聚焦食道胃癌的缺氧誘導代謝反應，探討診斷方法。 ｜ 2024\n- ▓▓▓░░ **[[CT] POSITIVE - Study (Part III) Heidelberg](https://clinicaltrials.gov/study/NCT02055508)**  \n  肺癌患者運動干預對免疫功能及生物標記的臨床研究。 ｜ 2013\n\n### 慢性病（3 篇）\n\n- ▓▓▓▓▓ **[[CT] Analysis of Volatile Organic Compounds in the Exhaled Air in Inflammatory Bowel Disease](https://clinicaltrials.gov/study/NCT03414580)**  \n  研究呼氣VOC用於診斷和分層炎症性腸道疾病患者。 ｜ 2018\n- ▓▓▓▓░ **[[CT] Physical Exercise and Biomolecular Analysis to Reduce Uremic Toxins in Chronic Kidney Disease: An Exploratory Study](https://clinicaltrials.gov/study/NCT06910475)**  \n  研究運動對慢性腎臟病患者體內毒素的影響。 ｜ 2025\n- ▓▓▓░░ **[[CT] Surrogate Markers of Response to New Therapies in Cystic Fibrosis Patients](https://clinicaltrials.gov/study/NCT02965326)**  \n  研究囊性纖維化患者對藥物反應的生物標記物。 ｜ 2016\n\n### 感染症（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Detection of COVID-19 Using Breath Analysis - Validation Study.](https://clinicaltrials.gov/study/NCT05224622)**  \n  利用呼氣分析診斷COVID-19的驗證研究，高度相關。 ｜ 2022\n- ▓▓▓▓▓ **[[CT] Assessment of Volatile Organic Compounds (VOC) for the Diagnosis of Invasive Aspergillosis (IA) in Lung Transplant Recipients](https://clinicaltrials.gov/study/NCT06344117)**  \n  評估呼氣VOC診斷肺移植受者侵入性念珠菌病。 ｜ 2023\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Application of Nanotechnology and Chemical Sensors for Diagnosis of Decompensated Heart Failure by Respiratory Samples](https://clinicaltrials.gov/study/NCT03083717)**  \n  利用呼氣樣本和化學感測器診斷心臟衰竭的研究。 ｜ 2017\n\n---\n## ℹ️ 本次排除文獻：2 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-04-15 07:04:58*\n"
     },
@@ -19364,10 +19570,6 @@
     {
       "date": "2026-04-10_0704",
       "content": "# VOC 文獻監控日報 — 2026-04-10\n\n> 執行時間：07:04:56 | 新增 **14** 篇 | 相關 **13** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 14 |\n| 本次相關文獻 | 13 |\n| 資料庫累計總數 | 912 |\n| 資料庫相關總數 | 730 |\n| 相關文獻平均分 | 3.96 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Breath Volatile Organic Compounds Patterns of Lung Transplant Patients With Chronic Lung Allograft Dysfunction\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung transplant, CLAD, VOC biomarker, chronic lung allograft dysfunction\n- **摘要**：研究呼氣VOC模式，用於診斷慢性肺移植排斥反應。\n- **作者**：Prof. Dr. Jens Hohlfeld | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02836938)\n\n### [CT] Volatile Markers in Digestive Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, gastrointestinal cancer, colorectal cancer, gastric cancer, VOC biomarker\n- **摘要**：研究消化道癌症的呼氣揮發性標記物，具有診斷潛力。\n- **作者**：University of Latvia | **年份**：2014 | [連結](https://clinicaltrials.gov/study/NCT02332213)\n\n### [CT] Volatile Organic Compounds (VOCs) and Liver Diseases\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：liver disease, NAFLD, ALD, VOC, breath analysis\n- **摘要**：研究肝臟疾病患者呼氣中的VOC，用於診斷和追蹤。\n- **作者**：Maastricht University Medical Center | **年份**：2011 | [連結](https://clinicaltrials.gov/study/NCT01279356)\n\n### [CT] Identification of Multiple Pulmonary Diseases Using Volatile Organic Compounds Biomarkers in Human Exhaled Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, pulmonary diseases, AI, VOC biomarker, diagnosis\n- **摘要**：利用呼氣VOC診斷肺部疾病的AI模型研究。\n- **作者**：ChromX Health | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06528418)\n\n### [CT] Distinction Between Lung Cancer and Gynecological Cancers by Canine Scent Detection\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, canine scent detection, tumor, VOC biomarker\n- **摘要**：犬隻嗅覺檢測用於區分肺癌與婦科癌症。\n- **作者**：Schillerhoehe Hospital | **年份**：2011 | [連結](https://clinicaltrials.gov/study/NCT01383408)\n\n### [CT] Screening of Gastric Cancer Via Breath Volatile Organic Compounds by Hybrid Sensing Approach\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, gastric cancer, VOC biomarker, screening, lifestyle factors\n- **摘要**：研究呼氣VOC用於胃癌篩檢，考慮了影響因素。\n- **作者**：University of Latvia | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT04022109)\n\n### [CT] NASH: Non-invasive Diagnostic Markers and Imaging\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：NAFLD, NASH, liver disease, biomarker, diagnosis\n- **摘要**：研究NAFLD/NASH的診斷標記，尋求無創診斷方法。\n- **作者**：Maastricht University Medical Center | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02717000)\n\n### [CT] Bronchial Infection in Patients With COPD and Frequent Exacerbations.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, COPD, exacerbation, electronic nose, VOC biomarker\n- **摘要**：利用電子鼻檢測COPD患者感染性惡化的呼氣VOC模式。\n- **作者**：Fundació Institut de Recerca de l'Hospital de la Santa Creu i Sant Pau | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT03259022)\n\n### [CT] Analysis of Volatile Organic Compounds in Expired Air in Healthy Volunteers: Comparison of Three Mass Spectrometry Techniques for the Characterization of Volatolome in Clinical Studies\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, mass spectrometry, PTR-MS, GC-MS, volatolome\n- **摘要**：比較三種質譜技術用於呼氣揮發性有機化合物分析。\n- **作者**：Hopital Foch | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT06020521)\n\n### [CT] Breath Analysis and Arterial Stiffness in Patients With Respiratory Diseases\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, respiratory diseases, VOC, cardiovascular, chronic disease\n- **摘要**：研究呼吸道疾病患者呼氣VOC模式，評估心血管狀況。\n- **作者**：I.M. Sechenov First Moscow State Medical University | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT05727852)\n\n### [CT] Prevention of CF Exacerbation in Childhood: PREVEC Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, CF, exacerbation, inflammatory markers, pulmonary\n- **摘要**：研究呼氣中的炎症標記物，用於預測囊性纖維病兒童的肺部惡化。\n- **作者**：Maastricht University Medical Center | **年份**：2011 | [連結](https://clinicaltrials.gov/study/NCT01241890)\n\n## 📂 依類別分類\n\n### 癌症應用（4 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Markers in Digestive Cancer](https://clinicaltrials.gov/study/NCT02332213)**  \n  研究消化道癌症的呼氣揮發性標記物，具有診斷潛力。 ｜ 2014\n- ▓▓▓▓▓ **[[CT] Distinction Between Lung Cancer and Gynecological Cancers by Canine Scent Detection](https://clinicaltrials.gov/study/NCT01383408)**  \n  犬隻嗅覺檢測用於區分肺癌與婦科癌症。 ｜ 2011\n- ▓▓▓▓▓ **[[CT] Screening of Gastric Cancer Via Breath Volatile Organic Compounds by Hybrid Sensing Approach](https://clinicaltrials.gov/study/NCT04022109)**  \n  研究呼氣VOC用於胃癌篩檢，考慮了影響因素。 ｜ 2019\n- ▓▓▓░░ **[[CT] SingapOre Lung Cancer Screening Through Integrating CT With Other biomarkErs (SOLSTICE)](https://clinicaltrials.gov/study/NCT05724264)**  \n  研究針對肺癌篩檢，整合CT影像與生物標記，未提及VOC。 ｜ 2022\n\n### 呼氣 VOC（3 篇）\n\n- ▓▓▓▓▓ **[[CT] Breath Volatile Organic Compounds Patterns of Lung Transplant Patients With Chronic Lung Allograft Dysfunction](https://clinicaltrials.gov/study/NCT02836938)**  \n  研究呼氣VOC模式，用於診斷慢性肺移植排斥反應。 ｜ 2016\n- ▓▓▓▓▓ **[[CT] Identification of Multiple Pulmonary Diseases Using Volatile Organic Compounds Biomarkers in Human Exhaled Breath](https://clinicaltrials.gov/study/NCT06528418)**  \n  利用呼氣VOC診斷肺部疾病的AI模型研究。 ｜ 2024\n- ▓▓▓▓░ **[[CT] Prevention of CF Exacerbation in Childhood: PREVEC Study](https://clinicaltrials.gov/study/NCT01241890)**  \n  研究呼氣中的炎症標記物，用於預測囊性纖維病兒童的肺部惡化。 ｜ 2011\n\n### 慢性病（3 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compounds (VOCs) and Liver Diseases](https://clinicaltrials.gov/study/NCT01279356)**  \n  研究肝臟疾病患者呼氣中的VOC，用於診斷和追蹤。 ｜ 2011\n- ▓▓▓▓░ **[[CT] NASH: Non-invasive Diagnostic Markers and Imaging](https://clinicaltrials.gov/study/NCT02717000)**  \n  研究NAFLD/NASH的診斷標記，尋求無創診斷方法。 ｜ 2016\n- ▓▓▓▓░ **[[CT] Breath Analysis and Arterial Stiffness in Patients With Respiratory Diseases](https://clinicaltrials.gov/study/NCT05727852)**  \n  研究呼吸道疾病患者呼氣VOC模式，評估心血管狀況。 ｜ 2023\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Bronchial Infection in Patients With COPD and Frequent Exacerbations.](https://clinicaltrials.gov/study/NCT03259022)**  \n  利用電子鼻檢測COPD患者感染性惡化的呼氣VOC模式。 ｜ 2016\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[[CT] Analysis of Volatile Organic Compounds in Expired Air in Healthy Volunteers: Comparison of Three Mass Spectrometry Techniques for the Characterization of Volatolome in Clinical Studies](https://clinicaltrials.gov/study/NCT06020521)**  \n  比較三種質譜技術用於呼氣揮發性有機化合物分析。 ｜ 2023\n\n### 亞健康（1 篇）\n\n- ▓▓▓░░ **[[CT] Stress Management Intervention for Caregivers of Patients Undergoing Bone Marrow Transplant (BMT)](https://clinicaltrials.gov/study/NCT00833898)**  \n  研究壓力管理對骨髓移植護理者生活品質的影響。 ｜ 2008\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-04-10 07:04:56*\n"
-    },
-    {
-      "date": "2026-04-09_0707",
-      "content": "# VOC 文獻監控日報 — 2026-04-09\n\n> 執行時間：07:07:28 | 新增 **25** 篇 | 相關 **24** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 25 |\n| 本次相關文獻 | 24 |\n| 資料庫累計總數 | 898 |\n| 資料庫相關總數 | 717 |\n| 相關文獻平均分 | 3.95 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Untargeted breathomics identifies metabolic signatures of immune activity, intestinal integrity, and fatigue in systemic lupus erythematosus.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, SLE, VOC biomarker, GC-MS, fatigue\n- **摘要**：研究系統性紅斑狼瘡患者的呼氣代謝體，尋找疾病標記。\n- **作者**：Parodis Ioannis, Iacubino Martina, Rocco Lorenzo, Nikolopoulos Dionysis, Palazzo Leonardo et al. | **年份**：2026 | DOI: `10.1016/j.ard.2025.12.005` | [連結](https://pubmed.ncbi.nlm.nih.gov/41484049/)\n\n### Volatile compounds in human breath: critical review and meta-analysis.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOC biomarker, cancer, meta-analysis, functional grouping\n- **摘要**：综述呼气挥发性化合物与疾病关联，并提出功能性生物标志物策略。\n- **作者**：Issitt Theo, Wiggins Laura, Veysey Martin, Sweeney Sean T, Brackenbury William J et al. | **年份**：2022 | DOI: `10.1088/1752-7163/ac5230` | [連結](https://pubmed.ncbi.nlm.nih.gov/35120340/)\n\n### VOC biomarkers identification and predictive model construction for lung cancer based on exhaled breath analysis: research protocol for an exploratory study.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, GC-MS, Tedlar bag\n- **摘要**：研究肺癌呼氣VOC生物標記，並建立預測模型。\n- **作者**：Li Wenwen, Dai Wei, Liu Mingxin, Long Yijing, Wang Chunyan et al. | **年份**：2019 | DOI: `10.1136/bmjopen-2018-028448` | [連結](https://pubmed.ncbi.nlm.nih.gov/31399453/)\n\n### Biomedical detection dogs for the identification of SARS-CoV-2 infections from axillary sweat and breath samples*.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, SARS-CoV-2, sweat, detection dogs, COVID-19\n- **摘要**：訓練犬隻檢測 SARS-CoV-2 呼氣與汗液中的揮發性化合物。\n- **作者**：Devillier Philippe, Gallet Capucine, Salvator Hélène, Lecoq-Julien Clothilde, Naline Emmanuel et al. | **年份**：2022 | DOI: `10.1088/1752-7163/ac5d8c` | [連結](https://pubmed.ncbi.nlm.nih.gov/35287115/)\n\n### Exhaled volatile organic compounds for cholangiocarcinoma diagnosis.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, CCA, VOC biomarker, GC-MS, diagnosis\n- **摘要**：研究了膽管癌患者呼氣中的VOC，用於診斷應用。\n- **作者**：Siriwong Nanicha, Sukaram Thanikan, Tansawat Rossarin, Apiparakoon Terapap, Tiyarattanachai Thodsawit et al. | **年份**：2022 | DOI: `10.1016/j.livres.2022.09.001` | [連結](https://pubmed.ncbi.nlm.nih.gov/39958199/)\n\n### Relationship between exhaled volatile organic compounds and lung function change in idiopathic pulmonary fibrosis.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, IPF, VOC biomarker, GC-MS, lung function\n- **摘要**：研究呼氣VOC與肺功能變化，可作為IPF的預後指標。\n- **作者**：Hayton Conal, Ahmed Waqar, Terrington Dayle, White Iain R, Chaudhuri Nazia et al. | **年份**：2025 | DOI: `10.1136/thorax-2024-222321` | [連結](https://pubmed.ncbi.nlm.nih.gov/40306949/)\n\n### A Clinical Breathomics Dataset.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOC, clinical dataset, respiratory diseases, GC-MS\n- **摘要**：研究了哮喘、支氣管擴張症和COPD患者的呼氣VOC數據集。\n- **作者**：Kuo Ping-Hung, Jhong Yue-Chen, Kuo Tien-Chueh, Hsu Yu-Ting, Kuo Ching-Hua et al. | **年份**：2024 | DOI: `10.1038/s41597-024-03052-2` | [連結](https://pubmed.ncbi.nlm.nih.gov/38355591/)\n\n### Non-invasive Exhaled Breath and Skin Analysis to Diagnose Lung Cancer: Study of Age Effect on Diagnostic Accuracy.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, GC-MS, VOC biomarker, machine learning\n- **摘要**：研究呼氣VOC用於肺癌診斷，並探討年齡影響。\n- **作者**：Gashimova Elina, Temerdashev Azamat, Porkhanov Vladimir, Polyakov Igor, Perunov Dmitry et al. | **年份**：2022 | DOI: `10.1021/acsomega.2c06132` | [連結](https://pubmed.ncbi.nlm.nih.gov/36440120/)\n\n### [CT] Biomarkers in Exhaled Breath of Glucose Fluctuation in Type 1 Diabetes\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, diabetes, hypoglycemia, VOC biomarker, type 1 diabetes\n- **摘要**：研究糖尿病患者呼氣中低血糖的生物標記。\n- **作者**：East Tennessee State University | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03435198)\n\n### [CT] AUGMENTED RESPONSE OF VOLATILE BIOMARKERS IN THE ASSESSMENT OF OESOPHAGOGASTRIC CANCER (AROMA2)\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, esophageal cancer, gastric cancer, VOC biomarker, non-invasive diagnosis\n- **摘要**：研究呼氣VOC用於食道和胃癌的診斷，並探討代謝底物的影響。\n- **作者**：Imperial College London | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT07260734)\n\n### [CT] Breath Analysis in Early Stage Lung Cancer Using Infrared Spectroscopy\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC, infrared spectroscopy, early diagnosis\n- **摘要**：利用紅外光譜分析肺癌患者呼氣中的VOC，用於早期診斷。\n- **作者**：Breathe BioMedical Inc | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04556435)\n\n### [CT] The Contribution of Induced Glycolysis to the Exhaled Volatile Organic Compounds' (VOCs) Signature in Lung Cancer\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, glycolysis, early detection\n- **摘要**：研究呼氣VOC與肺癌的關聯，探討糖酵解機制。\n- **作者**：Sheba Medical Center | **年份**：2013 | [連結](https://clinicaltrials.gov/study/NCT01852838)\n\n### [CT] Volatolom Variation in Severe COPD During Hospitalization for Exacerbation and After Hospitalization (VOC-BPCO-Exa)\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：COPD, VOC, exacerbation, hospitalization, chronic disease\n- **摘要**：研究COPD急性加重期間及後期的呼氣VOC變化。\n- **作者**：Hopital Foch | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04816695)\n\n### [CT] Single Dose Texas 2017 (H3N2) Challenge Study\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, influenza, VOC biomarker, saliva, infection detection\n- **摘要**：研究利用呼氣VOC和唾液表現型標記物早期檢測流感感染。\n- **作者**：Duke University | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06476275)\n\n### [CT] Evaluating a Treatment Effect in Patients With FBSS Using an Electronic Nose: a Pilot Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, VOC, electronic nose, FBSS, SCS\n- **摘要**：評估脊髓刺激器對 Failed Back Surgery Syndrome 患者呼氣VOC模式的影響。\n- **作者**：Universitair Ziekenhuis Brussel | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04469738)\n\n### [CT] Investigation of Oxidative Stress in Appendectomy - Open Versus Laparoscopic in Childhood and Adolescence\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, surgery, oxidative stress, children, VOC\n- **摘要**：研究兒童闌尾切除術後呼氣VOC，探討氧化壓力。\n- **作者**：Medical University of Graz | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT03723642)\n\n### [CT] Early Screening of Pancreatic Lesions : Development of New Imaging Tools\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：pancreatic cancer, obesity, diabetes, metabolic syndrome, screening\n- **摘要**：研究胰腺癌早期篩檢，與肥胖、糖尿病和代謝症候群相關。\n- **作者**：Assistance Publique - Hôpitaux de Paris | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT04007640)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（8 篇）\n\n- ▓▓▓▓▓ **[Untargeted breathomics identifies metabolic signatures of immune activity, intestinal integrity, and fatigue in systemic lupus erythematosus.](https://pubmed.ncbi.nlm.nih.gov/41484049/)**  \n  研究系統性紅斑狼瘡患者的呼氣代謝體，尋找疾病標記。 ｜ 2026\n- ▓▓▓▓▓ **[Volatile compounds in human breath: critical review and meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/35120340/)**  \n  综述呼气挥发性化合物与疾病关联，并提出功能性生物标志物策略。 ｜ 2022\n- ▓▓▓▓▓ **[Relationship between exhaled volatile organic compounds and lung function change in idiopathic pulmonary fibrosis.](https://pubmed.ncbi.nlm.nih.gov/40306949/)**  \n  研究呼氣VOC與肺功能變化，可作為IPF的預後指標。 ｜ 2025\n- ▓▓▓▓▓ **[A Clinical Breathomics Dataset.](https://pubmed.ncbi.nlm.nih.gov/38355591/)**  \n  研究了哮喘、支氣管擴張症和COPD患者的呼氣VOC數據集。 ｜ 2024\n- ▓▓▓▓▓ **[[CT] The Contribution of Induced Glycolysis to the Exhaled Volatile Organic Compounds' (VOCs) Signature in Lung Cancer](https://clinicaltrials.gov/study/NCT01852838)**  \n  研究呼氣VOC與肺癌的關聯，探討糖酵解機制。 ｜ 2013\n- ▓▓▓▓░ **[[CT] Evaluating a Treatment Effect in Patients With FBSS Using an Electronic Nose: a Pilot Study](https://clinicaltrials.gov/study/NCT04469738)**  \n  評估脊髓刺激器對 Failed Back Surgery Syndrome 患者呼氣VOC模式的影響。 ｜ 2020\n- ▓▓▓▓░ **[[CT] Investigation of Oxidative Stress in Appendectomy - Open Versus Laparoscopic in Childhood and Adolescence](https://clinicaltrials.gov/study/NCT03723642)**  \n  研究兒童闌尾切除術後呼氣VOC，探討氧化壓力。 ｜ 2019\n- ▓▓▓░░ **[[CT] London Asthma Diagnostics Study](https://clinicaltrials.gov/study/NCT06383130)**  \n  研究涉及呼氣分析，評估哮喘診斷的輔助技術。 ｜ 2024\n\n### 癌症應用（8 篇）\n\n- ▓▓▓▓▓ **[VOC biomarkers identification and predictive model construction for lung cancer based on exhaled breath analysis: research protocol for an exploratory study.](https://pubmed.ncbi.nlm.nih.gov/31399453/)**  \n  研究肺癌呼氣VOC生物標記，並建立預測模型。 ｜ 2019\n- ▓▓▓▓▓ **[Exhaled volatile organic compounds for cholangiocarcinoma diagnosis.](https://pubmed.ncbi.nlm.nih.gov/39958199/)**  \n  研究了膽管癌患者呼氣中的VOC，用於診斷應用。 ｜ 2022\n- ▓▓▓▓▓ **[Non-invasive Exhaled Breath and Skin Analysis to Diagnose Lung Cancer: Study of Age Effect on Diagnostic Accuracy.](https://pubmed.ncbi.nlm.nih.gov/36440120/)**  \n  研究呼氣VOC用於肺癌診斷，並探討年齡影響。 ｜ 2022\n- ▓▓▓▓▓ **[[CT] AUGMENTED RESPONSE OF VOLATILE BIOMARKERS IN THE ASSESSMENT OF OESOPHAGOGASTRIC CANCER (AROMA2)](https://clinicaltrials.gov/study/NCT07260734)**  \n  研究呼氣VOC用於食道和胃癌的診斷，並探討代謝底物的影響。 ｜ 2025\n- ▓▓▓▓▓ **[[CT] Breath Analysis in Early Stage Lung Cancer Using Infrared Spectroscopy](https://clinicaltrials.gov/study/NCT04556435)**  \n  利用紅外光譜分析肺癌患者呼氣中的VOC，用於早期診斷。 ｜ 2021\n- ▓▓▓▓░ **[[CT] Early Screening of Pancreatic Lesions : Development of New Imaging Tools](https://clinicaltrials.gov/study/NCT04007640)**  \n  研究胰腺癌早期篩檢，與肥胖、糖尿病和代謝症候群相關。 ｜ 2019\n- ▓▓▓░░ **[[CT] Multicentric Randomized Study of H. Pylori Eradication and Pepsinogen Testing for Prevention of Gastric Cancer Mortality](https://clinicaltrials.gov/study/NCT02047994)**  \n  研究胃幽桿菌清除與胃癌死亡率，未涉及呼氣VOC分析。 ｜ 2013\n- ▓▓▓░░ **[[CT] A Study of Tarceva (Erlotinib) or Placebo in Combination With Platinum-Based Therapy as First Line Treatment in Patients With Advanced or Recurrent Non-Small Cell Lung Cancer](https://clinicaltrials.gov/study/NCT00883779)**  \n  研究肺癌患者的藥物治療，可能涉及呼氣代謝物變化。 ｜ 2009\n\n### 感染症（3 篇）\n\n- ▓▓▓▓▓ **[Biomedical detection dogs for the identification of SARS-CoV-2 infections from axillary sweat and breath samples*.](https://pubmed.ncbi.nlm.nih.gov/35287115/)**  \n  訓練犬隻檢測 SARS-CoV-2 呼氣與汗液中的揮發性化合物。 ｜ 2022\n- ▓▓▓▓░ **[[CT] Single Dose Texas 2017 (H3N2) Challenge Study](https://clinicaltrials.gov/study/NCT06476275)**  \n  研究利用呼氣VOC和唾液表現型標記物早期檢測流感感染。 ｜ 2024\n- ▓▓▓░░ **[Role of microbiota in host-Plasmodium interaction.](https://pubmed.ncbi.nlm.nih.gov/40458493/)**  \n  研究瘧疾中微生物與宿主互動，涉及細菌代謝產物。 ｜ 2025\n\n### 慢性病（3 篇）\n\n- ▓▓▓▓▓ **[[CT] Biomarkers in Exhaled Breath of Glucose Fluctuation in Type 1 Diabetes](https://clinicaltrials.gov/study/NCT03435198)**  \n  研究糖尿病患者呼氣中低血糖的生物標記。 ｜ 2018\n- ▓▓▓▓░ **[[CT] Volatolom Variation in Severe COPD During Hospitalization for Exacerbation and After Hospitalization (VOC-BPCO-Exa)](https://clinicaltrials.gov/study/NCT04816695)**  \n  研究COPD急性加重期間及後期的呼氣VOC變化。 ｜ 2021\n- ▓▓▓░░ **[[CT] Anti-ST2 (MSTT1041A) in COPD (COPD-ST2OP)](https://clinicaltrials.gov/study/NCT03615040)**  \n  研究慢性阻塞性肺病(COPD)的炎症機制，與疾病相關。 ｜ 2018\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[Accuracy of Wearable Transdermal Alcohol Sensors: Systematic Review.](https://pubmed.ncbi.nlm.nih.gov/35436239/)**  \n  評估穿戴式酒精感測器準確性，與呼氣分析相關。 ｜ 2022\n\n### 液態 VOC（1 篇）\n\n- ▓▓░░░ **[[CT] Pectin, Aging and Intestinal Barrier Function](https://clinicaltrials.gov/study/NCT02376270)**  \n  研究評估膳食纖維對老年人腸道屏障功能影響，涉及尿液代謝物。 ｜ 2015\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-04-09 07:07:28*\n"
     }
   ]
 }

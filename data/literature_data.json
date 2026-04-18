@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 959,
-    "relevant": 774,
-    "today": 9,
-    "this_week": 47,
-    "avg_score": 3.98,
-    "updated_at": "2026-04-18T07:04:14"
+    "total": 960,
+    "relevant": 775,
+    "today": 1,
+    "this_week": 48,
+    "avg_score": 3.99,
+    "updated_at": "2026-04-19T07:02:30"
   },
   "stats": {
-    "total": 959,
-    "relevant": 774,
-    "today": 9,
-    "this_week": 47,
-    "avg_score": 3.98,
+    "total": 960,
+    "relevant": 775,
+    "today": 1,
+    "this_week": 48,
+    "avg_score": 3.99,
     "by_category": {
-      "voc_breath": 249,
+      "voc_breath": 250,
       "disease_cancer": 163,
       "sensor_hardware": 133,
       "disease_chronic": 57,
@@ -30,7 +30,7 @@
       "clinicaltrials": 125,
       "import": 488,
       "openalex": 108,
-      "pubmed": 109,
+      "pubmed": 110,
       "serper_scholar": 129
     },
     "by_score": {
@@ -38,7 +38,7 @@
       "2": 7,
       "3": 218,
       "4": 325,
-      "5": 223
+      "5": 224
     },
     "by_year": {
       "1985": 1,
@@ -63,7 +63,7 @@
       "2021": 38,
       "2022": 50,
       "2023": 45,
-      "2024": 60,
+      "2024": 61,
       "2025": 51,
       "2026": 9
     },
@@ -111,9 +111,18 @@
       {
         "date": "2026-04-17",
         "count": 9
+      },
+      {
+        "date": "2026-04-18",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-04-18 23:02:29",
+        "found": 245,
+        "new_added": 1
+      },
       {
         "run_at": "2026-04-17 23:04:13",
         "found": 245,
@@ -158,11 +167,6 @@
         "run_at": "2026-04-09 23:04:56",
         "found": 244,
         "new_added": 14
-      },
-      {
-        "run_at": "2026-04-08 23:07:26",
-        "found": 245,
-        "new_added": 25
       }
     ],
     "category_score": [
@@ -179,7 +183,7 @@
       {
         "category": "voc_breath",
         "avg_score": 4.24,
-        "count": 249
+        "count": 250
       },
       {
         "category": "disease_chronic",
@@ -224,6 +228,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 960,
+      "title": "Combination of real-time and hyphenated mass spectrometry for improved characterisation of exhaled breath biomarkers in clinical research.",
+      "authors": "Lamy Elodie, Roquencourt Camille, Zhou Bingqing, Salvator Hélène, Moine Pierre et al.",
+      "year": 2024,
+      "journal": "Analytical and bioanalytical chemistry",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "PTR-TOF-MS",
+        "GCxGC-TOF-MS",
+        "COVID-19",
+        "VOC biomarker"
+      ],
+      "one_line": "研究結合PTR-TOF-MS和GCxGC-TOF-MS分析呼氣VOC，用於COVID-19診斷。",
+      "doi": "10.1007/s00216-024-05421-7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38980330/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-04-18 23:02:29"
+    },
     {
       "id": 959,
       "title": "[CT] Diagnosis of Lung Cancer From Exhaled Breath With Silicon Biophotonic Device",
@@ -20014,6 +20040,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-04-19_0702",
+      "content": "# VOC 文獻監控日報 — 2026-04-19\n\n> 執行時間：07:02:29 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 960 |\n| 資料庫相關總數 | 775 |\n| 相關文獻平均分 | 3.99 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Combination of real-time and hyphenated mass spectrometry for improved characterisation of exhaled breath biomarkers in clinical research.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, PTR-TOF-MS, GCxGC-TOF-MS, COVID-19, VOC biomarker\n- **摘要**：研究結合PTR-TOF-MS和GCxGC-TOF-MS分析呼氣VOC，用於COVID-19診斷。\n- **作者**：Lamy Elodie, Roquencourt Camille, Zhou Bingqing, Salvator Hélène, Moine Pierre et al. | **年份**：2024 | DOI: `10.1007/s00216-024-05421-7` | [連結](https://pubmed.ncbi.nlm.nih.gov/38980330/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Combination of real-time and hyphenated mass spectrometry for improved characterisation of exhaled breath biomarkers in clinical research.](https://pubmed.ncbi.nlm.nih.gov/38980330/)**  \n  研究結合PTR-TOF-MS和GCxGC-TOF-MS分析呼氣VOC，用於COVID-19診斷。 ｜ 2024\n\n---\n*報告生成時間：2026-04-19 07:02:29*\n"
+    },
+    {
       "date": "2026-04-18_0704",
       "content": "# VOC 文獻監控日報 — 2026-04-18\n\n> 執行時間：07:04:13 | 新增 **9** 篇 | 相關 **9** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 9 |\n| 本次相關文獻 | 9 |\n| 資料庫累計總數 | 959 |\n| 資料庫相關總數 | 774 |\n| 相關文獻平均分 | 3.98 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Combination of exhaled volatile organic compounds with serum biomarkers predicts respiratory infection severity.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, respiratory infection, COVID-19, VOC biomarker, machine learning\n- **摘要**：研究呼氣VOC與血清標記物，用於預測呼吸道感染的嚴重程度。\n- **作者**：Esteban Patricia, Letona-Gimenez Santiago, Domingo Maria Pilar, Morte Elena, Pellejero-Sagastizabal Galadriel et al. | **年份**：2025 | DOI: `10.1080/25310429.2025.2477911` | [連結](https://pubmed.ncbi.nlm.nih.gov/40152323/)\n\n### Rapid “Breath-Print” of Liver Cirrhosis by Proton Transfer Reaction Time-of-Flight Mass Spectrometry. A Pilot Study.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver cirrhosis, PTR-MS, VOC biomarker, 肝硬化\n- **摘要**：利用PTR-MS分析呼氣，可區分肝硬化患者與健康人。\n- **作者**：Filomena Morisco, Eugenio Aprea, Vincenzo Lembo, Vincenzo Fogliano, Paola Vitaglione et al. | **年份**：2013 | DOI: `10.1371/journal.pone.0059658` | [連結](https://doi.org/10.1371/journal.pone.0059658)\n\n### [CT] Early Diagnosis of Upper Digestive Tract Disease\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, upper digestive tract cancer, VOC biomarker, mass spectrometry, early diagnosis\n- **摘要**：利用呼氣和唾液診斷上消化道癌症的非侵入性研究。\n- **作者**：Imperial College London | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT04475952)\n\n### [CT] Augmented Response of Volatile Biomarkers in Assessment of Oesophagogastric Cancer (AROMA 1 / BIORESOURCE)\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, esophageal cancer, gastric cancer, VOC biomarker, non-invasive test\n- **摘要**：研究呼氣VOC用於食道和胃癌的非侵入性檢測。\n- **作者**：Imperial College London | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05412758)\n\n### [CT] A Wearable, Battery-free Screening System for SARS-CoV-2, the Virus Causing COVID-19 Infection\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COVID-19, VOC biomarker, electronic nose, wearable sensor\n- **摘要**：利用電子鼻檢測COVID-19患者呼氣中的VOC，用於篩檢。\n- **作者**：University of Nebraska | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04807075)\n\n### [CT] Diagnosis of Lung Cancer From Exhaled Breath With Silicon Biophotonic Device\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, GC-MS, biophotonic device\n- **摘要**：利用呼氣VOC診斷肺癌，並開發相關感測器平台。\n- **作者**：National University Hospital, Singapore | **年份**：2012 | [連結](https://clinicaltrials.gov/study/NCT01660087)\n\n### [CT] P4O2 ILD Extension\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, ILD, fibrosis, biomarkers, VOC\n- **摘要**：研究肺間質疾病患者的呼氣生物標記物，用於疾病進程預測。\n- **作者**：Amsterdam UMC, location VUmc | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06644144)\n\n### [CT] Using Sensors to Measure Drug Concentrations in Exhaled Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, VOC, sensors, SniffPhone, psychiatric\n- **摘要**：利用感測器測量呼氣中藥物濃度，作為血液檢測的替代方案。\n- **作者**：Nadav Goldental | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT04071145)\n\n### [CT] VOCs in Kidney and Liver Transplants\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, kidney transplant, liver transplant, chronic rejection, VOC biomarker\n- **摘要**：研究呼氣VOC模式以早期檢測腎臟和肝臟移植的慢性排斥反應。\n- **作者**：Societa Italiana di Chirurgia ColoRettale | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04514666)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（3 篇）\n\n- ▓▓▓▓▓ **[Rapid “Breath-Print” of Liver Cirrhosis by Proton Transfer Reaction Time-of-Flight Mass Spectrometry. A Pilot Study.](https://doi.org/10.1371/journal.pone.0059658)**  \n  利用PTR-MS分析呼氣，可區分肝硬化患者與健康人。 ｜ 2013\n- ▓▓▓▓░ **[[CT] P4O2 ILD Extension](https://clinicaltrials.gov/study/NCT06644144)**  \n  研究肺間質疾病患者的呼氣生物標記物，用於疾病進程預測。 ｜ 2024\n- ▓▓▓▓░ **[[CT] Using Sensors to Measure Drug Concentrations in Exhaled Breath](https://clinicaltrials.gov/study/NCT04071145)**  \n  利用感測器測量呼氣中藥物濃度，作為血液檢測的替代方案。 ｜ 2019\n\n### 癌症應用（3 篇）\n\n- ▓▓▓▓▓ **[[CT] Early Diagnosis of Upper Digestive Tract Disease](https://clinicaltrials.gov/study/NCT04475952)**  \n  利用呼氣和唾液診斷上消化道癌症的非侵入性研究。 ｜ 2019\n- ▓▓▓▓▓ **[[CT] Augmented Response of Volatile Biomarkers in Assessment of Oesophagogastric Cancer (AROMA 1 / BIORESOURCE)](https://clinicaltrials.gov/study/NCT05412758)**  \n  研究呼氣VOC用於食道和胃癌的非侵入性檢測。 ｜ 2022\n- ▓▓▓▓▓ **[[CT] Diagnosis of Lung Cancer From Exhaled Breath With Silicon Biophotonic Device](https://clinicaltrials.gov/study/NCT01660087)**  \n  利用呼氣VOC診斷肺癌，並開發相關感測器平台。 ｜ 2012\n\n### 感染症（2 篇）\n\n- ▓▓▓▓▓ **[Combination of exhaled volatile organic compounds with serum biomarkers predicts respiratory infection severity.](https://pubmed.ncbi.nlm.nih.gov/40152323/)**  \n  研究呼氣VOC與血清標記物，用於預測呼吸道感染的嚴重程度。 ｜ 2025\n- ▓▓▓▓▓ **[[CT] A Wearable, Battery-free Screening System for SARS-CoV-2, the Virus Causing COVID-19 Infection](https://clinicaltrials.gov/study/NCT04807075)**  \n  利用電子鼻檢測COVID-19患者呼氣中的VOC，用於篩檢。 ｜ 2021\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓░ **[[CT] VOCs in Kidney and Liver Transplants](https://clinicaltrials.gov/study/NCT04514666)**  \n  研究呼氣VOC模式以早期檢測腎臟和肝臟移植的慢性排斥反應。 ｜ 2021\n\n---\n*報告生成時間：2026-04-18 07:04:13*\n"
     },
@@ -20036,10 +20066,6 @@
     {
       "date": "2026-04-13_0702",
       "content": "# VOC 文獻監控日報 — 2026-04-13\n\n> 執行時間：07:02:04 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 912 |\n| 資料庫相關總數 | 730 |\n| 相關文獻平均分 | 3.96 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-13 07:02:04*\n"
-    },
-    {
-      "date": "2026-04-12_0701",
-      "content": "# VOC 文獻監控日報 — 2026-04-12\n\n> 執行時間：07:01:59 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 912 |\n| 資料庫相關總數 | 730 |\n| 相關文獻平均分 | 3.96 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-12 07:01:59*\n"
     }
   ]
 }

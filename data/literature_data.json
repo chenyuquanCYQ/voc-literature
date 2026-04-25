@@ -2,16 +2,16 @@
   "meta": {
     "total": 998,
     "relevant": 813,
-    "today": 5,
-    "this_week": 48,
+    "today": 0,
+    "this_week": 39,
     "avg_score": 4.01,
-    "updated_at": "2026-04-25T07:03:14"
+    "updated_at": "2026-04-26T07:02:12"
   },
   "stats": {
     "total": 998,
     "relevant": 813,
-    "today": 5,
-    "this_week": 48,
+    "today": 0,
+    "this_week": 39,
     "avg_score": 4.01,
     "by_category": {
       "voc_breath": 260,
@@ -139,6 +139,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-04-25 23:02:11",
+        "found": 243,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-04-24 23:03:13",
         "found": 243,
         "new_added": 5
@@ -182,11 +187,6 @@
         "run_at": "2026-04-16 23:04:32",
         "found": 244,
         "new_added": 12
-      },
-      {
-        "run_at": "2026-04-15 23:03:58",
-        "found": 244,
-        "new_added": 9
       }
     ],
     "category_score": [
@@ -20894,6 +20894,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-04-26_0702",
+      "content": "# VOC 文獻監控日報 — 2026-04-26\n\n> 執行時間：07:02:12 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 998 |\n| 資料庫相關總數 | 813 |\n| 相關文獻平均分 | 4.01 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-26 07:02:12*\n"
+    },
+    {
       "date": "2026-04-25_0703",
       "content": "# VOC 文獻監控日報 — 2026-04-25\n\n> 執行時間：07:03:13 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 998 |\n| 資料庫相關總數 | 813 |\n| 相關文獻平均分 | 4.01 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Detection of Placenta Accreta Via Exhaled Women Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, placenta accreta, electronic nose, VOC biomarker, pregnancy\n- **摘要**：利用呼氣VOC診斷子宮胎盤早期嵌入症，具有高度相關性。\n- **作者**：HaEmek Medical Center, Israel | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT03947047)\n\n### [CT] Detection of COVID-19 Using Breath Analysis - Validation Study\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COVID-19, SARS-CoV-2, VOC biomarker, infection\n- **摘要**：利用呼氣分析診斷COVID-19的驗證研究。\n- **作者**：Scentech Medical Technologies Ltd | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04602949)\n\n### [CT] Tumors and Respiratory System Diseases Due to Air Pollution: New Biomarkers of Exposure and Effects\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, COPD, leukemia, air pollution, biomarkers\n- **摘要**：研究空氣污染對肺癌、COPD、白血病的影響，尋找生物標記。\n- **作者**：IRCCS Azienda Ospedaliero-Universitaria di Bologna | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06800586)\n\n## 📂 依類別分類\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓░ **[[CT] Tumors and Respiratory System Diseases Due to Air Pollution: New Biomarkers of Exposure and Effects](https://clinicaltrials.gov/study/NCT06800586)**  \n  研究空氣污染對肺癌、COPD、白血病的影響，尋找生物標記。 ｜ 2025\n- ▓▓░░░ **[[CT] FAP PET/CT or PET/MR Production in the Diagnosis, Staging, and Efficacy Assessment of Malignant Tumors Application](https://clinicaltrials.gov/study/NCT06270394)**  \n  研究評估癌症診斷和分期中FAPI PET/CT的應用。 ｜ 2022\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Detection of Placenta Accreta Via Exhaled Women Breath](https://clinicaltrials.gov/study/NCT03947047)**  \n  利用呼氣VOC診斷子宮胎盤早期嵌入症，具有高度相關性。 ｜ 2019\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Detection of COVID-19 Using Breath Analysis - Validation Study](https://clinicaltrials.gov/study/NCT04602949)**  \n  利用呼氣分析診斷COVID-19的驗證研究。 ｜ 2020\n\n### 分析方法（1 篇）\n\n- ▓▓░░░ **[Foodomics: Analytical Opportunities and Challenges](https://doi.org/10.1021/acs.analchem.1c04678)**  \n  文獻涉及食品分析方法，與代謝體學分析技術有一定關聯。 ｜ 2021\n\n---\n*報告生成時間：2026-04-25 07:03:13*\n"
     },
@@ -20916,10 +20920,6 @@
     {
       "date": "2026-04-20_0702",
       "content": "# VOC 文獻監控日報 — 2026-04-20\n\n> 執行時間：07:02:12 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 960 |\n| 資料庫相關總數 | 775 |\n| 相關文獻平均分 | 3.99 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-20 07:02:12*\n"
-    },
-    {
-      "date": "2026-04-19_0702",
-      "content": "# VOC 文獻監控日報 — 2026-04-19\n\n> 執行時間：07:02:29 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 960 |\n| 資料庫相關總數 | 775 |\n| 相關文獻平均分 | 3.99 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Combination of real-time and hyphenated mass spectrometry for improved characterisation of exhaled breath biomarkers in clinical research.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, PTR-TOF-MS, GCxGC-TOF-MS, COVID-19, VOC biomarker\n- **摘要**：研究結合PTR-TOF-MS和GCxGC-TOF-MS分析呼氣VOC，用於COVID-19診斷。\n- **作者**：Lamy Elodie, Roquencourt Camille, Zhou Bingqing, Salvator Hélène, Moine Pierre et al. | **年份**：2024 | DOI: `10.1007/s00216-024-05421-7` | [連結](https://pubmed.ncbi.nlm.nih.gov/38980330/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Combination of real-time and hyphenated mass spectrometry for improved characterisation of exhaled breath biomarkers in clinical research.](https://pubmed.ncbi.nlm.nih.gov/38980330/)**  \n  研究結合PTR-TOF-MS和GCxGC-TOF-MS分析呼氣VOC，用於COVID-19診斷。 ｜ 2024\n\n---\n*報告生成時間：2026-04-19 07:02:29*\n"
     }
   ]
 }

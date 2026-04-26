@@ -3,15 +3,15 @@
     "total": 998,
     "relevant": 813,
     "today": 0,
-    "this_week": 39,
+    "this_week": 38,
     "avg_score": 4.01,
-    "updated_at": "2026-04-26T07:02:12"
+    "updated_at": "2026-04-27T07:02:09"
   },
   "stats": {
     "total": 998,
     "relevant": 813,
     "today": 0,
-    "this_week": 39,
+    "this_week": 38,
     "avg_score": 4.01,
     "by_category": {
       "voc_breath": 260,
@@ -139,6 +139,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-04-26 23:02:08",
+        "found": 243,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-04-25 23:02:11",
         "found": 243,
         "new_added": 0
@@ -182,11 +187,6 @@
         "run_at": "2026-04-17 23:04:13",
         "found": 245,
         "new_added": 9
-      },
-      {
-        "run_at": "2026-04-16 23:04:32",
-        "found": 244,
-        "new_added": 12
       }
     ],
     "category_score": [
@@ -20894,6 +20894,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-04-27_0702",
+      "content": "# VOC 文獻監控日報 — 2026-04-27\n\n> 執行時間：07:02:09 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 998 |\n| 資料庫相關總數 | 813 |\n| 相關文獻平均分 | 4.01 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-27 07:02:09*\n"
+    },
+    {
       "date": "2026-04-26_0702",
       "content": "# VOC 文獻監控日報 — 2026-04-26\n\n> 執行時間：07:02:12 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 998 |\n| 資料庫相關總數 | 813 |\n| 相關文獻平均分 | 4.01 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-26 07:02:12*\n"
     },
@@ -20916,10 +20920,6 @@
     {
       "date": "2026-04-21_0704",
       "content": "# VOC 文獻監控日報 — 2026-04-21\n\n> 執行時間：07:04:36 | 新增 **11** 篇 | 相關 **11** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 11 |\n| 本次相關文獻 | 11 |\n| 資料庫累計總數 | 971 |\n| 資料庫相關總數 | 786 |\n| 相關文獻平均分 | 3.99 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Emerging Electronic Nose Design for Breath-Based Cancer Diagnostics: Advances in Machine Learning Approaches and Sensor Architecture Design.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cancer diagnostics, electronic nose, VOC, machine learning\n- **摘要**：探討電子鼻用於癌症診斷的機器學習方法與感測器架構。\n- **作者**：Garay-Rairan Fabian S, Baharfar Mahroo, Wang Qi, Qian Jing, Tricoli Antonio | **年份**：2026 | DOI: `10.1021/acssensors.6c00796` | [連結](https://pubmed.ncbi.nlm.nih.gov/42003788/)\n\n### [CT] BREVOC Study: Exhaled VOCs for High-Risk Chest Pain in the ED\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, chest pain, VOC biomarker, cardiovascular, GC-MS\n- **摘要**：研究高危胸痛患者的呼氣VOC，用於診斷和預測。\n- **作者**：Qilu Hospital of Shandong University | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07379567)\n\n### [CT] Augmentation of Volatile Biomarkers of Oesophageal and Gastric Adenocarcinoma From the Tumour Lipidome\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, OGC, cancer, VOC biomarker, non-invasive\n- **摘要**：研究利用呼氣VOC診斷食道和胃腺癌，並提升檢測率。\n- **作者**：Anuja Mitra | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05600608)\n\n### [CT] Volatile Organic Compounds in Exhaled Air and Sweat of Patients Treated by Immunotherapy for Lung Cancer: Research on Biomarkers for Early Therapeutic Response\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, immunotherapy, VOC biomarker, mass spectrometry\n- **摘要**：研究肺癌免疫治療患者呼氣VOC，尋找早期療效的生物標記。\n- **作者**：Hopital Foch | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03988192)\n\n### [CT] VOC in Breath Samples for the Diagnosis of IPA\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, IPA, AML, GC-MS, VOC biomarker\n- **摘要**：研究呼氣VOC用於侵入性肺曲霉菌感染(IPA)的診斷。\n- **作者**：Rambam Health Care Campus | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05982912)\n\n### [CT] DELIVER Study in a Population With Clinical Suspicion of Liver Cirrhosis\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver cirrhosis, VOC biomarker, EVOC, diagnosis\n- **摘要**：利用呼氣VOC診斷肝硬化，開發風險評估算法。\n- **作者**：Owlstone Ltd | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT07035158)\n\n### [CT] Study of Early Cancer Biomarkers in Breath Condensate in Population of Individuals With High-Risk of Lung Cancer Undergoing LDCT Screening.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, biomarkers, early diagnosis, LDCT\n- **摘要**：研究呼氣冷凝物中的肺癌生物標記，用於早期診斷。\n- **作者**：The Institute of Molecular and Translational Medicine, Czech Republic | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT06016569)\n\n### [CT] Breath Test to Predict Breast Cancer and Outcome of Mammography\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath test, breast cancer, VOC biomarker, mammography, cancer prediction\n- **摘要**：驗證呼氣檢測在預測乳癌風險和乳房攝影異常方面的應用。\n- **作者**：Menssana Research, Inc. | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04755829)\n\n### [CT] Non Invasive Detection of Lung and Breast Cancer by Odor Signature\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, breast cancer, biosensors, early detection\n- **摘要**：利用呼氣和尿液樣本，開發肺癌和乳癌早期檢測方法。\n- **作者**：BioSense Medical LTD | **年份**：2014 | [連結](https://clinicaltrials.gov/study/NCT02195076)\n\n## 📂 依類別分類\n\n### 癌症應用（6 篇）\n\n- ▓▓▓▓▓ **[Emerging Electronic Nose Design for Breath-Based Cancer Diagnostics: Advances in Machine Learning Approaches and Sensor Architecture Design.](https://pubmed.ncbi.nlm.nih.gov/42003788/)**  \n  探討電子鼻用於癌症診斷的機器學習方法與感測器架構。 ｜ 2026\n- ▓▓▓▓▓ **[[CT] Augmentation of Volatile Biomarkers of Oesophageal and Gastric Adenocarcinoma From the Tumour Lipidome](https://clinicaltrials.gov/study/NCT05600608)**  \n  研究利用呼氣VOC診斷食道和胃腺癌，並提升檢測率。 ｜ 2022\n- ▓▓▓▓▓ **[[CT] Study of Early Cancer Biomarkers in Breath Condensate in Population of Individuals With High-Risk of Lung Cancer Undergoing LDCT Screening.](https://clinicaltrials.gov/study/NCT06016569)**  \n  研究呼氣冷凝物中的肺癌生物標記，用於早期診斷。 ｜ 2023\n- ▓▓▓▓▓ **[[CT] Breath Test to Predict Breast Cancer and Outcome of Mammography](https://clinicaltrials.gov/study/NCT04755829)**  \n  驗證呼氣檢測在預測乳癌風險和乳房攝影異常方面的應用。 ｜ 2021\n- ▓▓▓▓▓ **[[CT] Non Invasive Detection of Lung and Breast Cancer by Odor Signature](https://clinicaltrials.gov/study/NCT02195076)**  \n  利用呼氣和尿液樣本，開發肺癌和乳癌早期檢測方法。 ｜ 2014\n- ▓▓▓░░ **[[CT] Integrative Neuromuscular Training in Adolescents and Children Treated for Cancer](https://clinicaltrials.gov/study/NCT04706676)**  \n  研究兒童癌症患者的運動干預對代謝綜合徵的影響。 ｜ 2021\n\n### 呼氣 VOC（4 篇）\n\n- ▓▓▓▓▓ **[[CT] BREVOC Study: Exhaled VOCs for High-Risk Chest Pain in the ED](https://clinicaltrials.gov/study/NCT07379567)**  \n  研究高危胸痛患者的呼氣VOC，用於診斷和預測。 ｜ 2026\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compounds in Exhaled Air and Sweat of Patients Treated by Immunotherapy for Lung Cancer: Research on Biomarkers for Early Therapeutic Response](https://clinicaltrials.gov/study/NCT03988192)**  \n  研究肺癌免疫治療患者呼氣VOC，尋找早期療效的生物標記。 ｜ 2018\n- ▓▓▓▓▓ **[[CT] VOC in Breath Samples for the Diagnosis of IPA](https://clinicaltrials.gov/study/NCT05982912)**  \n  研究呼氣VOC用於侵入性肺曲霉菌感染(IPA)的診斷。 ｜ 2022\n- ▓▓▓░░ **[[CT] Acute Effects of a Urate-lowering Bacterial Therapeutic on Small Intestinal Transcriptomics and Glycomics in Healthy Subjects](https://clinicaltrials.gov/study/NCT07366749)**  \n  研究中收集了呼氣樣本，用於探索代謝和炎症的影響。 ｜ 2026\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] DELIVER Study in a Population With Clinical Suspicion of Liver Cirrhosis](https://clinicaltrials.gov/study/NCT07035158)**  \n  利用呼氣VOC診斷肝硬化，開發風險評估算法。 ｜ 2024\n\n---\n*報告生成時間：2026-04-21 07:04:36*\n"
-    },
-    {
-      "date": "2026-04-20_0702",
-      "content": "# VOC 文獻監控日報 — 2026-04-20\n\n> 執行時間：07:02:12 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 960 |\n| 資料庫相關總數 | 775 |\n| 相關文獻平均分 | 3.99 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-04-20 07:02:12*\n"
     }
   ]
 }

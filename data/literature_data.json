@@ -1,25 +1,25 @@
 {
   "meta": {
-    "total": 1014,
-    "relevant": 828,
-    "today": 0,
-    "this_week": 16,
-    "avg_score": 4.02,
-    "updated_at": "2026-05-04T07:02:05"
+    "total": 1018,
+    "relevant": 832,
+    "today": 4,
+    "this_week": 20,
+    "avg_score": 4.01,
+    "updated_at": "2026-05-05T07:02:57"
   },
   "stats": {
-    "total": 1014,
-    "relevant": 828,
-    "today": 0,
-    "this_week": 16,
-    "avg_score": 4.02,
+    "total": 1018,
+    "relevant": 832,
+    "today": 4,
+    "this_week": 20,
+    "avg_score": 4.01,
     "by_category": {
-      "voc_breath": 263,
-      "disease_cancer": 188,
+      "voc_breath": 264,
+      "disease_cancer": 189,
       "sensor_hardware": 135,
-      "infection": 61,
+      "infection": 62,
       "disease_chronic": 60,
-      "method_tech": 55,
+      "method_tech": 56,
       "voc_liquid": 27,
       "ai_model": 19,
       "subhealth": 9,
@@ -27,17 +27,17 @@
       "other": 3
     },
     "by_source": {
-      "clinicaltrials": 162,
+      "clinicaltrials": 165,
       "import": 488,
       "openalex": 120,
-      "pubmed": 115,
+      "pubmed": 116,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 10,
-      "3": 222,
-      "4": 337,
+      "3": 223,
+      "4": 340,
       "5": 258
     },
     "by_year": {
@@ -56,22 +56,18 @@
       "2014": 21,
       "2015": 25,
       "2016": 26,
-      "2017": 26,
-      "2018": 26,
+      "2017": 27,
+      "2018": 27,
       "2019": 34,
-      "2020": 36,
+      "2020": 37,
       "2021": 47,
       "2022": 53,
       "2023": 50,
       "2024": 64,
       "2025": 56,
-      "2026": 15
+      "2026": 16
     },
     "daily_trend": [
-      {
-        "date": "2026-04-04",
-        "count": 840
-      },
       {
         "date": "2026-04-05",
         "count": 1
@@ -139,9 +135,18 @@
       {
         "date": "2026-05-01",
         "count": 16
+      },
+      {
+        "date": "2026-05-04",
+        "count": 4
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-05-04 23:02:56",
+        "found": 244,
+        "new_added": 4
+      },
       {
         "run_at": "2026-05-03 23:02:04",
         "found": 244,
@@ -186,28 +191,23 @@
         "run_at": "2026-04-21 23:03:20",
         "found": 245,
         "new_added": 5
-      },
-      {
-        "run_at": "2026-04-20 23:04:35",
-        "found": 244,
-        "new_added": 11
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.52,
-        "count": 188
+        "avg_score": 4.51,
+        "count": 189
       },
       {
         "category": "infection",
-        "avg_score": 4.49,
-        "count": 61
+        "avg_score": 4.48,
+        "count": 62
       },
       {
         "category": "voc_breath",
         "avg_score": 4.25,
-        "count": 263
+        "count": 264
       },
       {
         "category": "disease_chronic",
@@ -221,8 +221,8 @@
       },
       {
         "category": "method_tech",
-        "avg_score": 3.38,
-        "count": 55
+        "avg_score": 3.39,
+        "count": 56
       },
       {
         "category": "odor_medicine",
@@ -252,6 +252,93 @@
     ]
   },
   "literature": [
+    {
+      "id": 1018,
+      "title": "[CT] Differences in Exhaled Breath by Using Ion Mobility Spectrometry (IMS) in Subjects Tested for SARS-CoV-2 Infection (COVID-19 Disease)",
+      "authors": "B. Braun Melsungen AG",
+      "year": 2020,
+      "journal": "ClinicalTrials.gov (SARS (Severe Acute Respiratory Syndrome), Covid19)",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "SARS-CoV-2",
+        "COVID-19",
+        "IMS",
+        "infection"
+      ],
+      "one_line": "研究COVID-19感染者呼氣中的VOC模式，使用IMS分析。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04649931",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-04 23:02:56"
+    },
+    {
+      "id": 1017,
+      "title": "[CT] Study to Evaluate Constituents in Exhaled Breath and Room Air From Use of E-vapor Products and Conventional Cigarettes",
+      "authors": "Juul Labs, Inc.",
+      "year": 2018,
+      "journal": "ClinicalTrials.gov (Second Hand Tobacco Smoke)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "e-cigarettes",
+        "conventional cigarettes",
+        "VOC",
+        "exhaled breath"
+      ],
+      "one_line": "研究電子煙和傳統香菸的呼氣排放物，屬於呼氣VOC研究。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03605641",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-04 23:02:56"
+    },
+    {
+      "id": 1016,
+      "title": "[CT] Swimming Pool Environment Impact on the Human Respiratory Health",
+      "authors": "Universidade do Porto",
+      "year": 2017,
+      "journal": "ClinicalTrials.gov (Asthma, Lung Disease, Genotoxicity)",
+      "category": "disease_cancer",
+      "score": 3.0,
+      "tags": [
+        "respiratory health",
+        "swimming pool",
+        "cancer outcomes",
+        "environmental exposure"
+      ],
+      "one_line": "研究游泳池環境對呼吸健康和癌症風險的影響。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03017976",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-04 23:02:56"
+    },
+    {
+      "id": 1015,
+      "title": "Wearable Multimodal Detection System for Real-Time In Situ Analysis of Exhaled Breath Condensate.",
+      "authors": "Yin Zhifu, Qu Yachuan, Yang Yang, Wang Chengxin, Zhang Changchao et al.",
+      "year": 2026,
+      "journal": "ACS sensors",
+      "category": "method_tech",
+      "score": 4.0,
+      "tags": [
+        "breath condensate",
+        "wearable sensor",
+        "EBC analysis",
+        "real-time monitoring",
+        "collection method"
+      ],
+      "one_line": "開發可穿戴式裝置，用於實時分析呼氣冷凝物。",
+      "doi": "10.1021/acssensors.6c00279",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41954121/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-05-04 23:02:56"
+    },
     {
       "id": 1014,
       "title": "[CT] Inhaled DMT for Major Depressive Disorder",
@@ -21248,6 +21335,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-05_0702",
+      "content": "# VOC 文獻監控日報 — 2026-05-05\n\n> 執行時間：07:02:57 | 新增 **4** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 4 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1018 |\n| 資料庫相關總數 | 832 |\n| 相關文獻平均分 | 4.01 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Wearable Multimodal Detection System for Real-Time In Situ Analysis of Exhaled Breath Condensate.\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath condensate, wearable sensor, EBC analysis, real-time monitoring, collection method\n- **摘要**：開發可穿戴式裝置，用於實時分析呼氣冷凝物。\n- **作者**：Yin Zhifu, Qu Yachuan, Yang Yang, Wang Chengxin, Zhang Changchao et al. | **年份**：2026 | DOI: `10.1021/acssensors.6c00279` | [連結](https://pubmed.ncbi.nlm.nih.gov/41954121/)\n\n### [CT] Study to Evaluate Constituents in Exhaled Breath and Room Air From Use of E-vapor Products and Conventional Cigarettes\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, e-cigarettes, conventional cigarettes, VOC, exhaled breath\n- **摘要**：研究電子煙和傳統香菸的呼氣排放物，屬於呼氣VOC研究。\n- **作者**：Juul Labs, Inc. | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03605641)\n\n### [CT] Differences in Exhaled Breath by Using Ion Mobility Spectrometry (IMS) in Subjects Tested for SARS-CoV-2 Infection (COVID-19 Disease)\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, SARS-CoV-2, COVID-19, IMS, infection\n- **摘要**：研究COVID-19感染者呼氣中的VOC模式，使用IMS分析。\n- **作者**：B. Braun Melsungen AG | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04649931)\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Wearable Multimodal Detection System for Real-Time In Situ Analysis of Exhaled Breath Condensate.](https://pubmed.ncbi.nlm.nih.gov/41954121/)**  \n  開發可穿戴式裝置，用於實時分析呼氣冷凝物。 ｜ 2026\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Study to Evaluate Constituents in Exhaled Breath and Room Air From Use of E-vapor Products and Conventional Cigarettes](https://clinicaltrials.gov/study/NCT03605641)**  \n  研究電子煙和傳統香菸的呼氣排放物，屬於呼氣VOC研究。 ｜ 2018\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Differences in Exhaled Breath by Using Ion Mobility Spectrometry (IMS) in Subjects Tested for SARS-CoV-2 Infection (COVID-19 Disease)](https://clinicaltrials.gov/study/NCT04649931)**  \n  研究COVID-19感染者呼氣中的VOC模式，使用IMS分析。 ｜ 2020\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[[CT] Swimming Pool Environment Impact on the Human Respiratory Health](https://clinicaltrials.gov/study/NCT03017976)**  \n  研究游泳池環境對呼吸健康和癌症風險的影響。 ｜ 2017\n\n---\n*報告生成時間：2026-05-05 07:02:57*\n"
+    },
+    {
       "date": "2026-05-04_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-04\n\n> 執行時間：07:02:05 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1014 |\n| 資料庫相關總數 | 828 |\n| 相關文獻平均分 | 4.02 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-04 07:02:05*\n"
     },
@@ -21270,10 +21361,6 @@
     {
       "date": "2026-04-25_0703",
       "content": "# VOC 文獻監控日報 — 2026-04-25\n\n> 執行時間：07:03:13 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 998 |\n| 資料庫相關總數 | 813 |\n| 相關文獻平均分 | 4.01 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Detection of Placenta Accreta Via Exhaled Women Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, placenta accreta, electronic nose, VOC biomarker, pregnancy\n- **摘要**：利用呼氣VOC診斷子宮胎盤早期嵌入症，具有高度相關性。\n- **作者**：HaEmek Medical Center, Israel | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT03947047)\n\n### [CT] Detection of COVID-19 Using Breath Analysis - Validation Study\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COVID-19, SARS-CoV-2, VOC biomarker, infection\n- **摘要**：利用呼氣分析診斷COVID-19的驗證研究。\n- **作者**：Scentech Medical Technologies Ltd | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04602949)\n\n### [CT] Tumors and Respiratory System Diseases Due to Air Pollution: New Biomarkers of Exposure and Effects\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, COPD, leukemia, air pollution, biomarkers\n- **摘要**：研究空氣污染對肺癌、COPD、白血病的影響，尋找生物標記。\n- **作者**：IRCCS Azienda Ospedaliero-Universitaria di Bologna | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06800586)\n\n## 📂 依類別分類\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓░ **[[CT] Tumors and Respiratory System Diseases Due to Air Pollution: New Biomarkers of Exposure and Effects](https://clinicaltrials.gov/study/NCT06800586)**  \n  研究空氣污染對肺癌、COPD、白血病的影響，尋找生物標記。 ｜ 2025\n- ▓▓░░░ **[[CT] FAP PET/CT or PET/MR Production in the Diagnosis, Staging, and Efficacy Assessment of Malignant Tumors Application](https://clinicaltrials.gov/study/NCT06270394)**  \n  研究評估癌症診斷和分期中FAPI PET/CT的應用。 ｜ 2022\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Detection of Placenta Accreta Via Exhaled Women Breath](https://clinicaltrials.gov/study/NCT03947047)**  \n  利用呼氣VOC診斷子宮胎盤早期嵌入症，具有高度相關性。 ｜ 2019\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Detection of COVID-19 Using Breath Analysis - Validation Study](https://clinicaltrials.gov/study/NCT04602949)**  \n  利用呼氣分析診斷COVID-19的驗證研究。 ｜ 2020\n\n### 分析方法（1 篇）\n\n- ▓▓░░░ **[Foodomics: Analytical Opportunities and Challenges](https://doi.org/10.1021/acs.analchem.1c04678)**  \n  文獻涉及食品分析方法，與代謝體學分析技術有一定關聯。 ｜ 2021\n\n---\n*報告生成時間：2026-04-25 07:03:13*\n"
-    },
-    {
-      "date": "2026-04-24_0704",
-      "content": "# VOC 文獻監控日報 — 2026-04-24\n\n> 執行時間：07:04:27 | 新增 **9** 篇 | 相關 **9** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 9 |\n| 本次相關文獻 | 9 |\n| 資料庫累計總數 | 993 |\n| 資料庫相關總數 | 808 |\n| 相關文獻平均分 | 4.01 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### AI-driven breath biopsy from a case-control study assists in the early detection of paediatric brain tumours.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, pediatric brain tumor, VOC biomarker, machine learning, GC-MS\n- **摘要**：利用呼氣VOC代謝體學，AI輔助早期兒童腦瘤診斷。\n- **作者**：Li Shangzhewen, Cen Zhengnan, Chen Yufan, Huang Yuerun, Dong Shanshan et al. | **年份**：2025 | DOI: `10.1016/j.ebiom.2025.106010` | [連結](https://pubmed.ncbi.nlm.nih.gov/41205293/)\n\n### [CT] Mass Spectral Fingerprinting in Lung Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, mass spectrometry, VOC biomarker, exhaled breath\n- **摘要**：利用呼氣分析質譜法診斷肺癌的代謝體學研究。\n- **作者**：University of Zurich | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02781857)\n\n### [CT] Detection of COVID-19 Subjects Using DiaNose Exhalation Test\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COVID-19, electronic nose, VOC biomarker, infection\n- **摘要**：利用電子鼻檢測COVID-19患者呼出氣體中的VOC。\n- **作者**：Nanose Medical Ltd. | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04476927)\n\n### [CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma (VAPOR2)\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, pancreatic cancer, VOC biomarker, early diagnosis, non-invasive\n- **摘要**：研究開發胰腺癌早期診斷的呼氣VOC檢測方法。\n- **作者**：Imperial College London | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT07243262)\n\n### [CT] Identification of Differences in Breath Components Detected With IMS in Patients Tested on SARS-CoV-2 (COVID-19)\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, SARS-CoV-2, COVID-19, VOC biomarker, infection\n- **摘要**：研究COVID-19患者呼氣中的VOC生物標記，具有高度相關性。\n- **作者**：B. Braun Melsungen AG | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04556318)\n\n### [CT] Volatiles in Exhaled Breath and Blood in Crohn's Disease: Validation Cohort\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, Crohn's Disease, VOC biomarker, exhaled breath, metabolites\n- **摘要**：研究呼氣VOC用於克隆氏症的疾病活動監測，驗證先前發現。\n- **作者**：Dartmouth-Hitchcock Medical Center | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02641171)\n\n### Sorbent-coated metal discs: A hybrid active/passive exhaled breath sampling alternative for early lung cancer screening.\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath sampling, VOC extraction, GC-MS, sorbent disc, lung cancer screening\n- **摘要**：研究新型呼氣VOC採集方法，用於肺癌篩檢。\n- **作者**：Lundberg Robert, Lundeberg Thomas, Andrasko Jan, Lagesson-Andrasko Ludmila, Dahlén Johan | **年份**：2026 | DOI: `10.1016/j.jpba.2026.117509` | [連結](https://pubmed.ncbi.nlm.nih.gov/41967139/)\n\n### [CT] HOspital Versus Primary Care Breath Test Environment (HOPE) Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, VOC, primary care, secondary care, reproducibility\n- **摘要**：研究呼氣VOC在不同醫療環境下的可重複性，支持臨床應用。\n- **作者**：Imperial College London | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06611293)\n\n### [CT] Multicentre Study for Data Collection, Development, and Evaluation of Novel CRC Screening and Diagnostic Methods\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：CRC, colon cancer, screening, diagnostic, early detection\n- **摘要**：開發用於大腸癌篩檢和診斷的易於使用的診斷工具。\n- **作者**：Firalis SA | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06515821)\n\n## 📂 依類別分類\n\n### 癌症應用（4 篇）\n\n- ▓▓▓▓▓ **[AI-driven breath biopsy from a case-control study assists in the early detection of paediatric brain tumours.](https://pubmed.ncbi.nlm.nih.gov/41205293/)**  \n  利用呼氣VOC代謝體學，AI輔助早期兒童腦瘤診斷。 ｜ 2025\n- ▓▓▓▓▓ **[[CT] Mass Spectral Fingerprinting in Lung Cancer](https://clinicaltrials.gov/study/NCT02781857)**  \n  利用呼氣分析質譜法診斷肺癌的代謝體學研究。 ｜ 2016\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma (VAPOR2)](https://clinicaltrials.gov/study/NCT07243262)**  \n  研究開發胰腺癌早期診斷的呼氣VOC檢測方法。 ｜ 2025\n- ▓▓▓▓░ **[[CT] Multicentre Study for Data Collection, Development, and Evaluation of Novel CRC Screening and Diagnostic Methods](https://clinicaltrials.gov/study/NCT06515821)**  \n  開發用於大腸癌篩檢和診斷的易於使用的診斷工具。 ｜ 2024\n\n### 感染症（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Detection of COVID-19 Subjects Using DiaNose Exhalation Test](https://clinicaltrials.gov/study/NCT04476927)**  \n  利用電子鼻檢測COVID-19患者呼出氣體中的VOC。 ｜ 2020\n- ▓▓▓▓▓ **[[CT] Identification of Differences in Breath Components Detected With IMS in Patients Tested on SARS-CoV-2 (COVID-19)](https://clinicaltrials.gov/study/NCT04556318)**  \n  研究COVID-19患者呼氣中的VOC生物標記，具有高度相關性。 ｜ 2020\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatiles in Exhaled Breath and Blood in Crohn's Disease: Validation Cohort](https://clinicaltrials.gov/study/NCT02641171)**  \n  研究呼氣VOC用於克隆氏症的疾病活動監測，驗證先前發現。 ｜ 2015\n- ▓▓▓▓░ **[[CT] HOspital Versus Primary Care Breath Test Environment (HOPE) Study](https://clinicaltrials.gov/study/NCT06611293)**  \n  研究呼氣VOC在不同醫療環境下的可重複性，支持臨床應用。 ｜ 2025\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Sorbent-coated metal discs: A hybrid active/passive exhaled breath sampling alternative for early lung cancer screening.](https://pubmed.ncbi.nlm.nih.gov/41967139/)**  \n  研究新型呼氣VOC採集方法，用於肺癌篩檢。 ｜ 2026\n\n---\n*報告生成時間：2026-04-24 07:04:27*\n"
     }
   ]
 }

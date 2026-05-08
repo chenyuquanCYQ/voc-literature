@@ -1,24 +1,24 @@
 {
   "meta": {
-    "total": 1031,
-    "relevant": 845,
+    "total": 1036,
+    "relevant": 850,
     "today": 5,
-    "this_week": 33,
+    "this_week": 38,
     "avg_score": 4.02,
-    "updated_at": "2026-05-08T07:04:02"
+    "updated_at": "2026-05-09T07:03:16"
   },
   "stats": {
-    "total": 1031,
-    "relevant": 845,
+    "total": 1036,
+    "relevant": 850,
     "today": 5,
-    "this_week": 33,
+    "this_week": 38,
     "avg_score": 4.02,
     "by_category": {
       "voc_breath": 267,
-      "disease_cancer": 192,
+      "disease_cancer": 195,
       "sensor_hardware": 136,
-      "infection": 65,
-      "disease_chronic": 61,
+      "infection": 66,
+      "disease_chronic": 62,
       "method_tech": 56,
       "voc_liquid": 28,
       "ai_model": 19,
@@ -27,18 +27,18 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 176,
+      "clinicaltrials": 180,
       "import": 488,
       "openalex": 121,
-      "pubmed": 117,
+      "pubmed": 118,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 11,
-      "3": 224,
-      "4": 343,
-      "5": 266
+      "3": 225,
+      "4": 344,
+      "5": 269
     },
     "by_year": {
       "1985": 1,
@@ -51,7 +51,7 @@
       "2009": 13,
       "2010": 10,
       "2011": 25,
-      "2012": 16,
+      "2012": 17,
       "2013": 20,
       "2014": 22,
       "2015": 26,
@@ -60,18 +60,14 @@
       "2018": 28,
       "2019": 36,
       "2020": 38,
-      "2021": 47,
+      "2021": 48,
       "2022": 53,
-      "2023": 50,
-      "2024": 65,
-      "2025": 59,
+      "2023": 51,
+      "2024": 66,
+      "2025": 60,
       "2026": 16
     },
     "daily_trend": [
-      {
-        "date": "2026-04-07",
-        "count": 16
-      },
       {
         "date": "2026-04-08",
         "count": 25
@@ -143,9 +139,18 @@
       {
         "date": "2026-05-07",
         "count": 5
+      },
+      {
+        "date": "2026-05-08",
+        "count": 5
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-05-08 23:03:15",
+        "found": 244,
+        "new_added": 5
+      },
       {
         "run_at": "2026-05-07 23:04:01",
         "found": 236,
@@ -190,23 +195,18 @@
         "run_at": "2026-04-25 23:02:11",
         "found": 243,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-04-24 23:03:13",
-        "found": 243,
-        "new_added": 5
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.52,
-        "count": 192
+        "avg_score": 4.51,
+        "count": 195
       },
       {
         "category": "infection",
-        "avg_score": 4.48,
-        "count": 65
+        "avg_score": 4.47,
+        "count": 66
       },
       {
         "category": "voc_breath",
@@ -215,8 +215,8 @@
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.1,
-        "count": 61
+        "avg_score": 4.11,
+        "count": 62
       },
       {
         "category": "voc_liquid",
@@ -256,6 +256,116 @@
     ]
   },
   "literature": [
+    {
+      "id": 1036,
+      "title": "[CT] Breathomics: May it Become an Affordable, New Tool for Early Diagnosis and Screening of Lung Cancer?",
+      "authors": "Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari",
+      "year": 2021,
+      "journal": "ClinicalTrials.gov (Lung Cancer)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "VOC",
+        "diagnosis",
+        "screening"
+      ],
+      "one_line": "探討呼氣VOC在肺癌早期診斷和篩查的應用。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06034730",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-08 23:03:15"
+    },
+    {
+      "id": 1035,
+      "title": "[CT] Clinical Study on the Prevention and Treatment of Postoperative Metastasis of Lung Cancer by Fuzheng Quxie Recipe",
+      "authors": "Jianhui Tian",
+      "year": 2023,
+      "journal": "ClinicalTrials.gov (Lung Cancer)",
+      "category": "disease_cancer",
+      "score": 3.0,
+      "tags": [
+        "lung cancer",
+        "postoperative metastasis",
+        "clinical study",
+        "cancer treatment",
+        "VOC biomarker"
+      ],
+      "one_line": "研究肺癌術後轉移的預防與治療，可能涉及呼氣代謝物。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06381960",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-08 23:03:14"
+    },
+    {
+      "id": 1034,
+      "title": "[CT] Early Liver Disease Breath Detection",
+      "authors": "Owlstone Ltd",
+      "year": 2024,
+      "journal": "ClinicalTrials.gov (Liver Fibrosis, NASH, Liver Diseases)",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "liver disease",
+        "VOC biomarker",
+        "EVOC",
+        "early diagnosis"
+      ],
+      "one_line": "研究利用呼氣EVOC診斷早期肝臟疾病的潛力。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT05935488",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-08 23:03:14"
+    },
+    {
+      "id": 1033,
+      "title": "[CT] Siemens VOC TB Pilot Study",
+      "authors": "Research Center Borstel",
+      "year": 2012,
+      "journal": "ClinicalTrials.gov (Tuberculosis)",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "tuberculosis",
+        "VOC biomarker",
+        "electronic nose",
+        "lung disease"
+      ],
+      "one_line": "利用電子鼻檢測肺結核患者呼出氣體中的揮發性有機化合物。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT01748357",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-08 23:03:14"
+    },
+    {
+      "id": 1032,
+      "title": "Development of a Predictive Model for Colorectal Cancer Using Exhaled Volatile Organic Compounds.",
+      "authors": "Baek Se-Jin, Lim Hosub, Oh Selim, Lee Seohee, Kim Yanghee et al.",
+      "year": 2025,
+      "journal": "Diseases of the colon and rectum",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "colorectal cancer",
+        "VOC biomarker",
+        "GC-MS",
+        "diagnosis"
+      ],
+      "one_line": "利用呼氣VOC建立大腸癌預測模型的研究。",
+      "doi": "10.1097/DCR.0000000000003706",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40044408/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-05-08 23:03:14"
+    },
     {
       "id": 1031,
       "title": "[CT] Breath Analysis in Patients With Suspected Sarcoidosis: The VOCs-IS Study",
@@ -21625,6 +21735,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-09_0703",
+      "content": "# VOC 文獻監控日報 — 2026-05-09\n\n> 執行時間：07:03:15 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1036 |\n| 資料庫相關總數 | 850 |\n| 相關文獻平均分 | 4.02 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Development of a Predictive Model for Colorectal Cancer Using Exhaled Volatile Organic Compounds.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, colorectal cancer, VOC biomarker, GC-MS, diagnosis\n- **摘要**：利用呼氣VOC建立大腸癌預測模型的研究。\n- **作者**：Baek Se-Jin, Lim Hosub, Oh Selim, Lee Seohee, Kim Yanghee et al. | **年份**：2025 | DOI: `10.1097/DCR.0000000000003706` | [連結](https://pubmed.ncbi.nlm.nih.gov/40044408/)\n\n### [CT] Early Liver Disease Breath Detection\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver disease, VOC biomarker, EVOC, early diagnosis\n- **摘要**：研究利用呼氣EVOC診斷早期肝臟疾病的潛力。\n- **作者**：Owlstone Ltd | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT05935488)\n\n### [CT] Breathomics: May it Become an Affordable, New Tool for Early Diagnosis and Screening of Lung Cancer?\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC, diagnosis, screening\n- **摘要**：探討呼氣VOC在肺癌早期診斷和篩查的應用。\n- **作者**：Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT06034730)\n\n### [CT] Siemens VOC TB Pilot Study\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, tuberculosis, VOC biomarker, electronic nose, lung disease\n- **摘要**：利用電子鼻檢測肺結核患者呼出氣體中的揮發性有機化合物。\n- **作者**：Research Center Borstel | **年份**：2012 | [連結](https://clinicaltrials.gov/study/NCT01748357)\n\n## 📂 依類別分類\n\n### 癌症應用（3 篇）\n\n- ▓▓▓▓▓ **[Development of a Predictive Model for Colorectal Cancer Using Exhaled Volatile Organic Compounds.](https://pubmed.ncbi.nlm.nih.gov/40044408/)**  \n  利用呼氣VOC建立大腸癌預測模型的研究。 ｜ 2025\n- ▓▓▓▓▓ **[[CT] Breathomics: May it Become an Affordable, New Tool for Early Diagnosis and Screening of Lung Cancer?](https://clinicaltrials.gov/study/NCT06034730)**  \n  探討呼氣VOC在肺癌早期診斷和篩查的應用。 ｜ 2021\n- ▓▓▓░░ **[[CT] Clinical Study on the Prevention and Treatment of Postoperative Metastasis of Lung Cancer by Fuzheng Quxie Recipe](https://clinicaltrials.gov/study/NCT06381960)**  \n  研究肺癌術後轉移的預防與治療，可能涉及呼氣代謝物。 ｜ 2023\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Early Liver Disease Breath Detection](https://clinicaltrials.gov/study/NCT05935488)**  \n  研究利用呼氣EVOC診斷早期肝臟疾病的潛力。 ｜ 2024\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Siemens VOC TB Pilot Study](https://clinicaltrials.gov/study/NCT01748357)**  \n  利用電子鼻檢測肺結核患者呼出氣體中的揮發性有機化合物。 ｜ 2012\n\n---\n*報告生成時間：2026-05-09 07:03:15*\n"
+    },
+    {
       "date": "2026-05-08_0704",
       "content": "# VOC 文獻監控日報 — 2026-05-08\n\n> 執行時間：07:04:01 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1031 |\n| 資料庫相關總數 | 845 |\n| 相關文獻平均分 | 4.02 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Exhaled Breath Analysis in the Early Detection of Aspergillosis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, aspergillosis, eNose, GC-MS, VOC biomarker\n- **摘要**：研究利用呼氣分析診斷侵入性念珠菌病，具有明確的疾病與VOC實驗結果。\n- **作者**：Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA) | **年份**：2012 | [連結](https://clinicaltrials.gov/study/NCT02106117)\n\n### [CT] Breath Analysis in Patients With Suspected Sarcoidosis: The VOCs-IS Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, sarcoidosis, VOCs, lung disease, exhaled breath\n- **摘要**：研究呼氣VOCs在肺部疾病（sarcoidosis）患者中的差異。\n- **作者**：Manchester University NHS Foundation Trust | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT04318392)\n\n### Fully Wearable Devices for Real-Time Health Monitoring and Multimodal Sensing in Nanomedicine Using Multiplexed Green Biofuels.\n\n- **類別**：液態 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, sweat, saliva, wearable sensor, machine learning\n- **摘要**：可穿戴裝置監測汗液、呼氣、唾液中的葡萄糖和酒精。\n- **作者**：Wang Futing, Song Changxiao, Li Yujin, Yang Hongfen, Yang Dan et al. | **年份**：2025 | DOI: `10.1021/acs.nanolett.5c02380` | [連結](https://pubmed.ncbi.nlm.nih.gov/40491013/)\n\n### Future directions: what LIES ahead for smart biochemical wearables in health monitoring?\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, VOC, wearables, biochemical markers, health monitoring\n- **摘要**：探討穿戴式設備監測呼氣VOC在健康監測中的應用。\n- **作者**：Simmi Kharb | **年份**：2025 | DOI: `10.3389/frans.2024.1509815` | [連結](https://doi.org/10.3389/frans.2024.1509815)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Breath Analysis in Patients With Suspected Sarcoidosis: The VOCs-IS Study](https://clinicaltrials.gov/study/NCT04318392)**  \n  研究呼氣VOCs在肺部疾病（sarcoidosis）患者中的差異。 ｜ 2018\n- ▓▓▓▓░ **[Future directions: what LIES ahead for smart biochemical wearables in health monitoring?](https://doi.org/10.3389/frans.2024.1509815)**  \n  探討穿戴式設備監測呼氣VOC在健康監測中的應用。 ｜ 2025\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Exhaled Breath Analysis in the Early Detection of Aspergillosis](https://clinicaltrials.gov/study/NCT02106117)**  \n  研究利用呼氣分析診斷侵入性念珠菌病，具有明確的疾病與VOC實驗結果。 ｜ 2012\n\n### 液態 VOC（1 篇）\n\n- ▓▓▓▓░ **[Fully Wearable Devices for Real-Time Health Monitoring and Multimodal Sensing in Nanomedicine Using Multiplexed Green Biofuels.](https://pubmed.ncbi.nlm.nih.gov/40491013/)**  \n  可穿戴裝置監測汗液、呼氣、唾液中的葡萄糖和酒精。 ｜ 2025\n\n### 其他（1 篇）\n\n- ▓▓░░░ **[[CT] Concentration Impact Nicotine Salt](https://clinicaltrials.gov/study/NCT04725656)**  \n  研究尼古丁鹽對戒菸成功率和健康風險的影響。 ｜ 2024\n\n---\n*報告生成時間：2026-05-08 07:04:02*\n"
     },
@@ -21647,10 +21761,6 @@
     {
       "date": "2026-05-03_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-03\n\n> 執行時間：07:02:06 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1014 |\n| 資料庫相關總數 | 828 |\n| 相關文獻平均分 | 4.02 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-03 07:02:06*\n"
-    },
-    {
-      "date": "2026-05-02_0705",
-      "content": "# VOC 文獻監控日報 — 2026-05-02\n\n> 執行時間：07:05:03 | 新增 **16** 篇 | 相關 **15** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 16 |\n| 本次相關文獻 | 15 |\n| 資料庫累計總數 | 1014 |\n| 資料庫相關總數 | 828 |\n| 相關文獻平均分 | 4.02 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Prediction of lung cancer using volatile biomarkers in breath1\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, GC-MS, prediction\n- **摘要**：利用呼氣VOC预测肺癌，具有高敏感性和特異性。\n- **作者**：Michael Phillips, Nasser K. Altorki, John H. M. Austin, Robert B. Cameron, Renee N. Cataneo et al. | **年份**：2007 | DOI: `10.3233/cbm-2007-3204` | [連結](https://doi.org/10.3233/cbm-2007-3204)\n\n### Chemical signature of colorectal cancer: case–control study for profiling the breath print\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, colorectal cancer, VOC biomarker, GC-MS, screening\n- **摘要**：研究呼氣VOC用於大腸癌篩檢，具有高準確性。\n- **作者**：Donato F. Altomare, Arcangelo Picciariello, M. T. Rotelli, M Fazio, Antonella Aresta et al. | **年份**：2020 | DOI: `10.1002/bjs5.50354` | [連結](https://doi.org/10.1002/bjs5.50354)\n\n### Sex and Smoking Status Effects on the Early Detection of Early Lung Cancer in High-Risk Smokers Using an Electronic Nose\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, e-nose, VOC biomarker, screening\n- **摘要**：電子鼻可區分肺癌患者與高風險吸菸者，性別與吸菸狀況影響準確度。\n- **作者**：Annette McWilliams, Parmida Beigi, Akhila Srinidhi, Stephen Lam, Calum MacAulay | **年份**：2015 | DOI: `10.1109/tbme.2015.2409092` | [連結](https://doi.org/10.1109/tbme.2015.2409092)\n\n### Exhaled volatile organic compounds in patients with non-small cell lung cancer: cross sectional and nested short-term follow-up study\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, GC-MS, NSCLC\n- **摘要**：研究呼氣VOC在肺癌患者的診斷和短期追蹤中的應用。\n- **作者**：Diana Poli, Paolo Carbognani, Massimo Corradi, Matteo Goldoni, Olga Acampa et al. | **年份**：2005 | DOI: `10.1186/1465-9921-6-71` | [連結](https://doi.org/10.1186/1465-9921-6-71)\n\n### Prospective Detection of Early Lung Cancer in Patients With COPD in Regular Care by Electronic Nose Analysis of Exhaled Breath\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, COPD, eNose, early detection\n- **摘要**：利用電子鼻分析呼氣，用於早期肺癌的預測。\n- **作者**：R. de Vries, Niloufar Farzan, Timon M. Fabius, Frans H. de Jongh, Patrick Jak et al. | **年份**：2023 | DOI: `10.1016/j.chest.2023.04.050` | [連結](https://doi.org/10.1016/j.chest.2023.04.050)\n\n### Detection of lung, breast, colorectal, and prostate cancers from exhaled breath using a single array of nanosensors\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, breast cancer, colorectal cancer, prostate cancer\n- **摘要**：利用奈米感測器陣列，區分不同癌症患者的呼氣VOC模式。\n- **作者**：Gang Peng, Marwan Hakim, Yoav Y. Broza, Salem Billan, Roxolyana Abdah‐Bortnyak et al. | **年份**：2010 | DOI: `10.1038/sj.bjc.6605810` | [連結](https://doi.org/10.1038/sj.bjc.6605810)\n\n### Ion mobility spectrometry for the detection of volatile organic compounds in exhaled breath of patients with lung cancer: results of a pilot study\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, IMS, diagnosis\n- **摘要**：利用IMS分析肺癌患者呼氣VOC，可進行診斷區分。\n- **作者**：Michael Westhoff, P Litterst, L Freitag, Wolfgang Urfer, S. Bader et al. | **年份**：2009 | DOI: `10.1136/thx.2008.099465` | [連結](https://doi.org/10.1136/thx.2008.099465)\n\n### Determination of volatile organic compounds in exhaled breath of patients with lung cancer using solid phase microextraction and gas chromatography mass spectrometry\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, GC-MS, VOC biomarker, exhaled VOC\n- **摘要**：研究肺癌患者呼氣中的VOC，使用GC-MS分析方法。\n- **作者**：Magdalena Ligor, Tomasz Ligor, Amel Bajtarevic, Clemens Ager, Martin Pienz et al. | **年份**：2009 | DOI: `10.1515/cclm.2009.133` | [連結](https://doi.org/10.1515/cclm.2009.133)\n\n### Breath carbonyl compounds as biomarkers of lung cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, carbonyl compounds, 呼氣\n- **摘要**：研究呼氣中的羰基化合物作為肺癌的生物標記。\n- **作者**：Mingxiao Li, Dake Yang, Guy Brock, Ralph J. Knipp, Michael Bousamra et al. | **年份**：2015 | DOI: `10.1016/j.lungcan.2015.07.005` | [連結](https://doi.org/10.1016/j.lungcan.2015.07.005)\n\n### Self-powered triboelectric nanogenerator sensor for detecting humidity level and monitoring ethanol variation in a simulated exhalation environment\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath sensor, triboelectric nanogenerator, ethanol, wearable device, lung cancer\n- **摘要**：開發用於呼氣乙醇監測的自供電感測器，可應用於肺癌監測。\n- **作者**：Nima Mohamadbeigi, Leyla Shooshtari, Somayeh Fardindoost, Mohaddeseh Vafaiee, Azam Iraji zad et al. | **年份**：2024 | DOI: `10.1038/s41598-024-51862-6` | [連結](https://doi.org/10.1038/s41598-024-51862-6)\n\n### Detection of COPD and Lung Cancer with electronic nose using ensemble learning methods\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, COPD, electronic nose, cancer diagnosis, breath analysis\n- **摘要**：利用電子鼻檢測COPD和肺癌，具有疾病診斷應用。\n- **作者**：V A Binson, M. Subramoniam, Luke Mathew | **年份**：2021 | DOI: `10.1016/j.cca.2021.10.005` | [連結](https://doi.org/10.1016/j.cca.2021.10.005)\n\n### [CT] Nanotechnology for Detection of Multiple Sclerosis Compared to Autoimmune and Neurological Diseases by Exhaled Samples\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：electronic nose, nanomaterials, MS, breath analysis, diagnosis\n- **摘要**：利用奈米材料電子鼻診斷多發性硬化症的研究。\n- **作者**：Carmel Medical Center | **年份**：2011 | [連結](https://clinicaltrials.gov/study/NCT01465087)\n\n### [CT] Analysis of Volatile Organic Compounds in the Breath of Lung Transplant Rejection Patients Using Infrared Spectroscopy\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, VOC, lung transplant, infrared spectroscopy, rejection\n- **摘要**：研究肺移植排斥反應患者呼氣中的揮發性有機化合物。\n- **作者**：Paragonix Technologies | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT06309628)\n\n### [CT] Use of a Modern Breath Sampling System (the Pneumopipe® Combined With an Array of E-nose Sensors) for the Prediction of Treatment Response in Persistent Asthmatic Children\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breathomics, asthma, e-nose, VOC, pneumopipe\n- **摘要**：研究呼氣VOC用於兒童哮喘治療反應預測，採用電子鼻。\n- **作者**：Istituto per la Ricerca e l'Innovazione Biomedica | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT04326530)\n\n## 📂 依類別分類\n\n### 癌症應用（9 篇）\n\n- ▓▓▓▓▓ **[Prediction of lung cancer using volatile biomarkers in breath1](https://doi.org/10.3233/cbm-2007-3204)**  \n  利用呼氣VOC预测肺癌，具有高敏感性和特異性。 ｜ 2007\n- ▓▓▓▓▓ **[Chemical signature of colorectal cancer: case–control study for profiling the breath print](https://doi.org/10.1002/bjs5.50354)**  \n  研究呼氣VOC用於大腸癌篩檢，具有高準確性。 ｜ 2020\n- ▓▓▓▓▓ **[Sex and Smoking Status Effects on the Early Detection of Early Lung Cancer in High-Risk Smokers Using an Electronic Nose](https://doi.org/10.1109/tbme.2015.2409092)**  \n  電子鼻可區分肺癌患者與高風險吸菸者，性別與吸菸狀況影響準確度。 ｜ 2015\n- ▓▓▓▓▓ **[Exhaled volatile organic compounds in patients with non-small cell lung cancer: cross sectional and nested short-term follow-up study](https://doi.org/10.1186/1465-9921-6-71)**  \n  研究呼氣VOC在肺癌患者的診斷和短期追蹤中的應用。 ｜ 2005\n- ▓▓▓▓▓ **[Prospective Detection of Early Lung Cancer in Patients With COPD in Regular Care by Electronic Nose Analysis of Exhaled Breath](https://doi.org/10.1016/j.chest.2023.04.050)**  \n  利用電子鼻分析呼氣，用於早期肺癌的預測。 ｜ 2023\n- ▓▓▓▓▓ **[Detection of lung, breast, colorectal, and prostate cancers from exhaled breath using a single array of nanosensors](https://doi.org/10.1038/sj.bjc.6605810)**  \n  利用奈米感測器陣列，區分不同癌症患者的呼氣VOC模式。 ｜ 2010\n- ▓▓▓▓▓ **[Ion mobility spectrometry for the detection of volatile organic compounds in exhaled breath of patients with lung cancer: results of a pilot study](https://doi.org/10.1136/thx.2008.099465)**  \n  利用IMS分析肺癌患者呼氣VOC，可進行診斷區分。 ｜ 2009\n- ▓▓▓▓▓ **[Breath carbonyl compounds as biomarkers of lung cancer](https://doi.org/10.1016/j.lungcan.2015.07.005)**  \n  研究呼氣中的羰基化合物作為肺癌的生物標記。 ｜ 2015\n- ▓▓▓▓░ **[Detection of COPD and Lung Cancer with electronic nose using ensemble learning methods](https://doi.org/10.1016/j.cca.2021.10.005)**  \n  利用電子鼻檢測COPD和肺癌，具有疾病診斷應用。 ｜ 2021\n\n### 呼氣 VOC（3 篇）\n\n- ▓▓▓▓▓ **[Determination of volatile organic compounds in exhaled breath of patients with lung cancer using solid phase microextraction and gas chromatography mass spectrometry](https://doi.org/10.1515/cclm.2009.133)**  \n  研究肺癌患者呼氣中的VOC，使用GC-MS分析方法。 ｜ 2009\n- ▓▓▓▓░ **[[CT] Analysis of Volatile Organic Compounds in the Breath of Lung Transplant Rejection Patients Using Infrared Spectroscopy](https://clinicaltrials.gov/study/NCT06309628)**  \n  研究肺移植排斥反應患者呼氣中的揮發性有機化合物。 ｜ 2023\n- ▓▓▓▓░ **[[CT] Use of a Modern Breath Sampling System (the Pneumopipe® Combined With an Array of E-nose Sensors) for the Prediction of Treatment Response in Persistent Asthmatic Children](https://clinicaltrials.gov/study/NCT04326530)**  \n  研究呼氣VOC用於兒童哮喘治療反應預測，採用電子鼻。 ｜ 2023\n\n### 感測器（2 篇）\n\n- ▓▓▓▓░ **[Self-powered triboelectric nanogenerator sensor for detecting humidity level and monitoring ethanol variation in a simulated exhalation environment](https://doi.org/10.1038/s41598-024-51862-6)**  \n  開發用於呼氣乙醇監測的自供電感測器，可應用於肺癌監測。 ｜ 2024\n- ▓▓▓▓░ **[[CT] Nanotechnology for Detection of Multiple Sclerosis Compared to Autoimmune and Neurological Diseases by Exhaled Samples](https://clinicaltrials.gov/study/NCT01465087)**  \n  利用奈米材料電子鼻診斷多發性硬化症的研究。 ｜ 2011\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[[CT] Detecting Drugs of Abuse Via Exhaled Breath Samples Using Differential Mobility Spectrometry](https://clinicaltrials.gov/study/NCT05384470)**  \n  利用呼氣樣本檢測毒品，涉及分析方法。 ｜ 2021\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-05-02 07:05:03*\n"
     }
   ]
 }

@@ -209,13 +209,17 @@
   </div>
   <div class="grid-2">
     <div class="card">
-      <h3>年份分佈（相關文獻）</h3>
-      <canvas id="chart-year" height="200"></canvas>
+      <h3>📄 年份分佈 — 研究期刊文獻</h3>
+      <canvas id="chart-year-journal" height="200"></canvas>
     </div>
     <div class="card">
-      <h3>類別 × 平均評分</h3>
-      <canvas id="chart-catScore" height="200"></canvas>
+      <h3>🏥 年份分佈 — 臨床研究案（ClinicalTrials.gov）</h3>
+      <canvas id="chart-year-ct" height="200"></canvas>
     </div>
+  </div>
+  <div class="card-full">
+    <h3>類別 × 平均評分</h3>
+    <canvas id="chart-catScore" height="100"></canvas>
   </div>
 </div>
 
@@ -451,12 +455,47 @@ function renderStats() {
     options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } },
   });
 
-  // Year
-  const yearKeys = Object.keys(s.by_year || {}).sort();
-  charts.year = new Chart(document.getElementById("chart-year"), {
+  // Year — split journals vs ClinicalTrials
+  const allLit = ALL_DATA.literature || [];
+
+  function buildYearDist(items) {
+    const dist = {};
+    items.forEach(p => {
+      if (p.year) dist[p.year] = (dist[p.year] || 0) + 1;
+    });
+    return dist;
+  }
+
+  const litJournals = allLit.filter(p => !String(p.source || "").toLowerCase().includes("clinicaltrials"));
+  const litCT       = allLit.filter(p =>  String(p.source || "").toLowerCase().includes("clinicaltrials"));
+
+  const yearJournalDist = buildYearDist(litJournals);
+  const yearCTDist      = buildYearDist(litCT);
+
+  const yearJKeys = Object.keys(yearJournalDist).sort();
+  charts.yearJournal = new Chart(document.getElementById("chart-year-journal"), {
     type: "bar",
-    data: { labels: yearKeys, datasets: [{ data: yearKeys.map(k => s.by_year[k]), backgroundColor: "#10b981aa" }] },
-    options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } },
+    data: {
+      labels: yearJKeys,
+      datasets: [{ data: yearJKeys.map(k => yearJournalDist[k]), backgroundColor: "#10b981aa" }]
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }
+    },
+  });
+
+  const yearCTKeys = Object.keys(yearCTDist).sort();
+  charts.yearCT = new Chart(document.getElementById("chart-year-ct"), {
+    type: "bar",
+    data: {
+      labels: yearCTKeys.length ? yearCTKeys : ["（無資料）"],
+      datasets: [{ data: yearCTKeys.length ? yearCTKeys.map(k => yearCTDist[k]) : [0], backgroundColor: "#6366f1aa" }]
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }
+    },
   });
 
   // Category × avg score

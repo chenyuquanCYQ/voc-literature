@@ -5,7 +5,7 @@
     "today": 0,
     "this_week": 22,
     "avg_score": 4.02,
-    "updated_at": "2026-05-10T07:02:04"
+    "updated_at": "2026-05-11T07:02:04"
   },
   "stats": {
     "total": 1036,
@@ -68,10 +68,6 @@
       "2026": 16
     },
     "daily_trend": [
-      {
-        "date": "2026-04-09",
-        "count": 14
-      },
       {
         "date": "2026-04-13",
         "count": 6
@@ -143,6 +139,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-05-10 23:02:03",
+        "found": 245,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-05-09 23:02:03",
         "found": 244,
         "new_added": 0
@@ -186,11 +187,6 @@
         "run_at": "2026-05-01 23:05:03",
         "found": 244,
         "new_added": 16
-      },
-      {
-        "run_at": "2026-04-26 23:02:08",
-        "found": 243,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -21731,6 +21727,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-11_0702",
+      "content": "# VOC 文獻監控日報 — 2026-05-11\n\n> 執行時間：07:02:04 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1036 |\n| 資料庫相關總數 | 850 |\n| 相關文獻平均分 | 4.02 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-11 07:02:04*\n"
+    },
+    {
       "date": "2026-05-10_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-10\n\n> 執行時間：07:02:04 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1036 |\n| 資料庫相關總數 | 850 |\n| 相關文獻平均分 | 4.02 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-10 07:02:04*\n"
     },
@@ -21753,10 +21753,6 @@
     {
       "date": "2026-05-05_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-05\n\n> 執行時間：07:02:57 | 新增 **4** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 4 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1018 |\n| 資料庫相關總數 | 832 |\n| 相關文獻平均分 | 4.01 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Wearable Multimodal Detection System for Real-Time In Situ Analysis of Exhaled Breath Condensate.\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath condensate, wearable sensor, EBC analysis, real-time monitoring, collection method\n- **摘要**：開發可穿戴式裝置，用於實時分析呼氣冷凝物。\n- **作者**：Yin Zhifu, Qu Yachuan, Yang Yang, Wang Chengxin, Zhang Changchao et al. | **年份**：2026 | DOI: `10.1021/acssensors.6c00279` | [連結](https://pubmed.ncbi.nlm.nih.gov/41954121/)\n\n### [CT] Study to Evaluate Constituents in Exhaled Breath and Room Air From Use of E-vapor Products and Conventional Cigarettes\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, e-cigarettes, conventional cigarettes, VOC, exhaled breath\n- **摘要**：研究電子煙和傳統香菸的呼氣排放物，屬於呼氣VOC研究。\n- **作者**：Juul Labs, Inc. | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03605641)\n\n### [CT] Differences in Exhaled Breath by Using Ion Mobility Spectrometry (IMS) in Subjects Tested for SARS-CoV-2 Infection (COVID-19 Disease)\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, SARS-CoV-2, COVID-19, IMS, infection\n- **摘要**：研究COVID-19感染者呼氣中的VOC模式，使用IMS分析。\n- **作者**：B. Braun Melsungen AG | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04649931)\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Wearable Multimodal Detection System for Real-Time In Situ Analysis of Exhaled Breath Condensate.](https://pubmed.ncbi.nlm.nih.gov/41954121/)**  \n  開發可穿戴式裝置，用於實時分析呼氣冷凝物。 ｜ 2026\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Study to Evaluate Constituents in Exhaled Breath and Room Air From Use of E-vapor Products and Conventional Cigarettes](https://clinicaltrials.gov/study/NCT03605641)**  \n  研究電子煙和傳統香菸的呼氣排放物，屬於呼氣VOC研究。 ｜ 2018\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Differences in Exhaled Breath by Using Ion Mobility Spectrometry (IMS) in Subjects Tested for SARS-CoV-2 Infection (COVID-19 Disease)](https://clinicaltrials.gov/study/NCT04649931)**  \n  研究COVID-19感染者呼氣中的VOC模式，使用IMS分析。 ｜ 2020\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[[CT] Swimming Pool Environment Impact on the Human Respiratory Health](https://clinicaltrials.gov/study/NCT03017976)**  \n  研究游泳池環境對呼吸健康和癌症風險的影響。 ｜ 2017\n\n---\n*報告生成時間：2026-05-05 07:02:57*\n"
-    },
-    {
-      "date": "2026-05-04_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-04\n\n> 執行時間：07:02:05 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1014 |\n| 資料庫相關總數 | 828 |\n| 相關文獻平均分 | 4.02 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-04 07:02:05*\n"
     }
   ]
 }

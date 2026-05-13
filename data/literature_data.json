@@ -1,24 +1,24 @@
 {
   "meta": {
-    "total": 1046,
-    "relevant": 860,
-    "today": 3,
-    "this_week": 28,
+    "total": 1051,
+    "relevant": 864,
+    "today": 5,
+    "this_week": 25,
     "avg_score": 4.03,
-    "updated_at": "2026-05-13T07:02:45"
+    "updated_at": "2026-05-14T07:03:08"
   },
   "stats": {
-    "total": 1046,
-    "relevant": 860,
-    "today": 3,
-    "this_week": 28,
+    "total": 1051,
+    "relevant": 864,
+    "today": 5,
+    "this_week": 25,
     "avg_score": 4.03,
     "by_category": {
-      "voc_breath": 272,
+      "voc_breath": 273,
       "disease_cancer": 199,
       "sensor_hardware": 136,
-      "infection": 66,
-      "disease_chronic": 63,
+      "infection": 67,
+      "disease_chronic": 65,
       "method_tech": 56,
       "voc_liquid": 28,
       "ai_model": 19,
@@ -27,7 +27,7 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 185,
+      "clinicaltrials": 190,
       "import": 488,
       "openalex": 121,
       "pubmed": 123,
@@ -36,9 +36,9 @@
     "by_score": {
       "1": 1,
       "2": 11,
-      "3": 226,
-      "4": 346,
-      "5": 276
+      "3": 228,
+      "4": 347,
+      "5": 277
     },
     "by_year": {
       "1985": 1,
@@ -54,18 +54,18 @@
       "2012": 17,
       "2013": 20,
       "2014": 22,
-      "2015": 26,
+      "2015": 27,
       "2016": 27,
       "2017": 29,
       "2018": 29,
       "2019": 36,
-      "2020": 38,
+      "2020": 40,
       "2021": 49,
       "2022": 54,
       "2023": 52,
       "2024": 66,
       "2025": 62,
-      "2026": 17
+      "2026": 18
     },
     "daily_trend": [
       {
@@ -143,9 +143,18 @@
       {
         "date": "2026-05-12",
         "count": 3
+      },
+      {
+        "date": "2026-05-13",
+        "count": 5
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-05-13 23:03:07",
+        "found": 245,
+        "new_added": 5
+      },
       {
         "run_at": "2026-05-12 23:02:40",
         "found": 245,
@@ -190,11 +199,6 @@
         "run_at": "2026-05-04 23:02:56",
         "found": 244,
         "new_added": 4
-      },
-      {
-        "run_at": "2026-05-03 23:02:04",
-        "found": 244,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -205,18 +209,18 @@
       },
       {
         "category": "infection",
-        "avg_score": 4.47,
-        "count": 66
+        "avg_score": 4.48,
+        "count": 67
       },
       {
         "category": "voc_breath",
         "avg_score": 4.26,
-        "count": 272
+        "count": 273
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.1,
-        "count": 63
+        "avg_score": 4.06,
+        "count": 65
       },
       {
         "category": "voc_liquid",
@@ -256,6 +260,110 @@
     ]
   },
   "literature": [
+    {
+      "id": 1051,
+      "title": "[CT] Lungs on Fire: Wildfire Smoke, Incident Diseases, Susceptible Populations, and Community Values in Canada",
+      "authors": "University of British Columbia",
+      "year": 2026,
+      "journal": "ClinicalTrials.gov (Asthma, Chronic Obstructive Pulmonary Disease (COPD), Lung Cancer)",
+      "category": "disease_chronic",
+      "score": 3.0,
+      "tags": [
+        "wildfire smoke",
+        "lung disease",
+        "exposure",
+        "chronic illness",
+        "air pollution"
+      ],
+      "one_line": "研究野火煙霧暴露對長期肺部疾病的影響，有慢性病相關。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07536178",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-13 23:03:07"
+    },
+    {
+      "id": 1050,
+      "title": "[CT] Can the Electronic Nose Smell COVID-19 Antibodies?",
+      "authors": "Maastricht University Medical Center",
+      "year": 2020,
+      "journal": "ClinicalTrials.gov (SARS-CoV Infection, Covid19)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "COVID-19",
+        "electronic nose",
+        "VOC",
+        "diagnosis"
+      ],
+      "one_line": "利用電子鼻分析呼氣VOC，用於COVID-19抗體檢測。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04475575",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-13 23:03:07"
+    },
+    {
+      "id": 1049,
+      "title": "[CT] Characterization of the Intestinal Microbiota in Patients With Inflammatory Bowel Disease and/or Spondyloarthritis and Study of the Impact of an Anti-TNF Alpha Therapy",
+      "authors": "University Hospital, Bordeaux",
+      "year": 2018,
+      "journal": "ClinicalTrials.gov (Spondyloarthritis, Crohn Disease, Ulcerative Colitis)",
+      "category": "other",
+      "score": 0,
+      "tags": [],
+      "one_line": "本研究主要關注糞便微生物群，與呼氣VOC無關。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03359642",
+      "source": "clinicaltrials",
+      "is_relevant": false,
+      "created_at": "2026-05-13 23:03:06"
+    },
+    {
+      "id": 1048,
+      "title": "[CT] Diagnostic Breath Analysis Study to Detect Sepsis",
+      "authors": "Landon Pediatric Foundation",
+      "year": 2015,
+      "journal": "ClinicalTrials.gov (Puerperal: [Major Infection] or [Sepsis])",
+      "category": "infection",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "sepsis",
+        "VOC biomarker",
+        "GC-MS",
+        "SIRS"
+      ],
+      "one_line": "利用呼氣VOC診斷敗血症的研究，具有高度相關性。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT02532959",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-13 23:03:06"
+    },
+    {
+      "id": 1047,
+      "title": "[CT] Predictors of Acute Exacerbation in Patients With COPD - an Observational Study",
+      "authors": "Schön Klinik Berchtesgadener Land",
+      "year": 2020,
+      "journal": "ClinicalTrials.gov (Chronic Obstructive Pulmonary Disease, COPD, COPD Exacerbation, COPD Exacerbation Acute)",
+      "category": "disease_chronic",
+      "score": 3.0,
+      "tags": [
+        "COPD",
+        "exacerbation",
+        "chronic disease",
+        "breath analysis",
+        "clinical data"
+      ],
+      "one_line": "研究慢性阻塞性肺病急性加重事件的臨床預測因子。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04140097",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-13 23:03:06"
+    },
     {
       "id": 1046,
       "title": "[CT] Volatiles in Breath and Headspace Analysis - Diagnostic Markers",
@@ -21955,6 +22063,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-14_0703",
+      "content": "# VOC 文獻監控日報 — 2026-05-14\n\n> 執行時間：07:03:07 | 新增 **5** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1051 |\n| 資料庫相關總數 | 864 |\n| 相關文獻平均分 | 4.03 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Diagnostic Breath Analysis Study to Detect Sepsis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, sepsis, VOC biomarker, GC-MS, SIRS\n- **摘要**：利用呼氣VOC診斷敗血症的研究，具有高度相關性。\n- **作者**：Landon Pediatric Foundation | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02532959)\n\n### [CT] Can the Electronic Nose Smell COVID-19 Antibodies?\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, COVID-19, electronic nose, VOC, diagnosis\n- **摘要**：利用電子鼻分析呼氣VOC，用於COVID-19抗體檢測。\n- **作者**：Maastricht University Medical Center | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04475575)\n\n## 📂 依類別分類\n\n### 慢性病（2 篇）\n\n- ▓▓▓░░ **[[CT] Predictors of Acute Exacerbation in Patients With COPD - an Observational Study](https://clinicaltrials.gov/study/NCT04140097)**  \n  研究慢性阻塞性肺病急性加重事件的臨床預測因子。 ｜ 2020\n- ▓▓▓░░ **[[CT] Lungs on Fire: Wildfire Smoke, Incident Diseases, Susceptible Populations, and Community Values in Canada](https://clinicaltrials.gov/study/NCT07536178)**  \n  研究野火煙霧暴露對長期肺部疾病的影響，有慢性病相關。 ｜ 2026\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Diagnostic Breath Analysis Study to Detect Sepsis](https://clinicaltrials.gov/study/NCT02532959)**  \n  利用呼氣VOC診斷敗血症的研究，具有高度相關性。 ｜ 2015\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Can the Electronic Nose Smell COVID-19 Antibodies?](https://clinicaltrials.gov/study/NCT04475575)**  \n  利用電子鼻分析呼氣VOC，用於COVID-19抗體檢測。 ｜ 2020\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-05-14 07:03:07*\n"
+    },
+    {
       "date": "2026-05-13_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-13\n\n> 執行時間：07:02:43 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1046 |\n| 資料庫相關總數 | 860 |\n| 相關文獻平均分 | 4.03 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Analysis the Vocs in Upper GI Bleeding Patients\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOC, upper GI bleeding, diagnostic criteria, GC-MS\n- **摘要**：研究上消化道出血患者呼氣VOC，建立診斷模型。\n- **作者**：Affiliated Hospital to Academy of Military Medical Sciences | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05457062)\n\n### [CT] Volatiles in Breath and Headspace Analysis - Diagnostic Markers\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, VOC, screening, nano-chemo sensors, diagnostic markers\n- **摘要**：研究呼氣中的VOC，可用於篩查和監測。\n- **作者**：University of Latvia | **年份**：2017 | [連結](https://clinicaltrials.gov/study/NCT03228095)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Analysis the Vocs in Upper GI Bleeding Patients](https://clinicaltrials.gov/study/NCT05457062)**  \n  研究上消化道出血患者呼氣VOC，建立診斷模型。 ｜ 2022\n- ▓▓▓▓░ **[[CT] Volatiles in Breath and Headspace Analysis - Diagnostic Markers](https://clinicaltrials.gov/study/NCT03228095)**  \n  研究呼氣中的VOC，可用於篩查和監測。 ｜ 2017\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] Integrated Radiographic and Metabolomics Risk Assessment in Patients With Interstitial Lung Diseases](https://clinicaltrials.gov/study/NCT04119115)**  \n  研究結合影像和代謝體學評估間質性肺疾病的風險。 ｜ 2021\n\n---\n*報告生成時間：2026-05-13 07:02:44*\n"
     },
@@ -21977,10 +22089,6 @@
     {
       "date": "2026-05-08_0704",
       "content": "# VOC 文獻監控日報 — 2026-05-08\n\n> 執行時間：07:04:01 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1031 |\n| 資料庫相關總數 | 845 |\n| 相關文獻平均分 | 4.02 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Exhaled Breath Analysis in the Early Detection of Aspergillosis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, aspergillosis, eNose, GC-MS, VOC biomarker\n- **摘要**：研究利用呼氣分析診斷侵入性念珠菌病，具有明確的疾病與VOC實驗結果。\n- **作者**：Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA) | **年份**：2012 | [連結](https://clinicaltrials.gov/study/NCT02106117)\n\n### [CT] Breath Analysis in Patients With Suspected Sarcoidosis: The VOCs-IS Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, sarcoidosis, VOCs, lung disease, exhaled breath\n- **摘要**：研究呼氣VOCs在肺部疾病（sarcoidosis）患者中的差異。\n- **作者**：Manchester University NHS Foundation Trust | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT04318392)\n\n### Fully Wearable Devices for Real-Time Health Monitoring and Multimodal Sensing in Nanomedicine Using Multiplexed Green Biofuels.\n\n- **類別**：液態 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, sweat, saliva, wearable sensor, machine learning\n- **摘要**：可穿戴裝置監測汗液、呼氣、唾液中的葡萄糖和酒精。\n- **作者**：Wang Futing, Song Changxiao, Li Yujin, Yang Hongfen, Yang Dan et al. | **年份**：2025 | DOI: `10.1021/acs.nanolett.5c02380` | [連結](https://pubmed.ncbi.nlm.nih.gov/40491013/)\n\n### Future directions: what LIES ahead for smart biochemical wearables in health monitoring?\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, VOC, wearables, biochemical markers, health monitoring\n- **摘要**：探討穿戴式設備監測呼氣VOC在健康監測中的應用。\n- **作者**：Simmi Kharb | **年份**：2025 | DOI: `10.3389/frans.2024.1509815` | [連結](https://doi.org/10.3389/frans.2024.1509815)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Breath Analysis in Patients With Suspected Sarcoidosis: The VOCs-IS Study](https://clinicaltrials.gov/study/NCT04318392)**  \n  研究呼氣VOCs在肺部疾病（sarcoidosis）患者中的差異。 ｜ 2018\n- ▓▓▓▓░ **[Future directions: what LIES ahead for smart biochemical wearables in health monitoring?](https://doi.org/10.3389/frans.2024.1509815)**  \n  探討穿戴式設備監測呼氣VOC在健康監測中的應用。 ｜ 2025\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Exhaled Breath Analysis in the Early Detection of Aspergillosis](https://clinicaltrials.gov/study/NCT02106117)**  \n  研究利用呼氣分析診斷侵入性念珠菌病，具有明確的疾病與VOC實驗結果。 ｜ 2012\n\n### 液態 VOC（1 篇）\n\n- ▓▓▓▓░ **[Fully Wearable Devices for Real-Time Health Monitoring and Multimodal Sensing in Nanomedicine Using Multiplexed Green Biofuels.](https://pubmed.ncbi.nlm.nih.gov/40491013/)**  \n  可穿戴裝置監測汗液、呼氣、唾液中的葡萄糖和酒精。 ｜ 2025\n\n### 其他（1 篇）\n\n- ▓▓░░░ **[[CT] Concentration Impact Nicotine Salt](https://clinicaltrials.gov/study/NCT04725656)**  \n  研究尼古丁鹽對戒菸成功率和健康風險的影響。 ｜ 2024\n\n---\n*報告生成時間：2026-05-08 07:04:02*\n"
-    },
-    {
-      "date": "2026-05-07_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-07\n\n> 執行時間：07:02:46 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1026 |\n| 資料庫相關總數 | 840 |\n| 相關文獻平均分 | 4.02 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Breath Analysis in Chronic Obstructive Lung Disease (COPD)\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COPD, mass spectrometry, VOC biomarker, chronic disease\n- **摘要**：研究COPD患者呼氣VOC譜，尋找疾病特異性指標。\n- **作者**：University of Zurich | **年份**：2014 | [連結](https://clinicaltrials.gov/study/NCT02186639)\n\n### [CT] Evaluating the Pulmonary Nodule With Imaging and Biomarkers\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, exhaled breath, pulmonary nodule\n- **摘要**：研究呼氣VOC用於肺部腫瘤的診斷與篩查。\n- **作者**：National University Hospital, Singapore | **年份**：2011 | [連結](https://clinicaltrials.gov/study/NCT01739881)\n\n### [CT] Exhaled Breath Olfactory Signature of Pulmonary Arterial Hypertension\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, electronic nose, pulmonary hypertension, PAH, E-nose\n- **摘要**：評估電子鼻在肺動脈高壓診斷上的表現。\n- **作者**：Assistance Publique - Hôpitaux de Paris | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02782026)\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Breath Analysis in Chronic Obstructive Lung Disease (COPD)](https://clinicaltrials.gov/study/NCT02186639)**  \n  研究COPD患者呼氣VOC譜，尋找疾病特異性指標。 ｜ 2014\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Evaluating the Pulmonary Nodule With Imaging and Biomarkers](https://clinicaltrials.gov/study/NCT01739881)**  \n  研究呼氣VOC用於肺部腫瘤的診斷與篩查。 ｜ 2011\n\n### 感測器（1 篇）\n\n- ▓▓▓▓░ **[[CT] Exhaled Breath Olfactory Signature of Pulmonary Arterial Hypertension](https://clinicaltrials.gov/study/NCT02782026)**  \n  評估電子鼻在肺動脈高壓診斷上的表現。 ｜ 2016\n\n---\n*報告生成時間：2026-05-07 07:02:46*\n"
     }
   ]
 }

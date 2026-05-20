@@ -1,24 +1,24 @@
 {
   "meta": {
-    "total": 1068,
-    "relevant": 881,
-    "today": 3,
-    "this_week": 22,
+    "total": 1069,
+    "relevant": 882,
+    "today": 1,
+    "this_week": 23,
     "avg_score": 4.04,
-    "updated_at": "2026-05-20T07:02:53"
+    "updated_at": "2026-05-21T07:02:29"
   },
   "stats": {
-    "total": 1068,
-    "relevant": 881,
-    "today": 3,
-    "this_week": 22,
+    "total": 1069,
+    "relevant": 882,
+    "today": 1,
+    "this_week": 23,
     "avg_score": 4.04,
     "by_category": {
       "voc_breath": 279,
       "disease_cancer": 204,
       "sensor_hardware": 137,
+      "infection": 69,
       "disease_chronic": 69,
-      "infection": 68,
       "method_tech": 56,
       "voc_liquid": 28,
       "ai_model": 19,
@@ -27,7 +27,7 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 203,
+      "clinicaltrials": 204,
       "import": 488,
       "openalex": 121,
       "pubmed": 127,
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 11,
       "3": 230,
-      "4": 353,
+      "4": 354,
       "5": 286
     },
     "by_year": {
@@ -48,7 +48,7 @@
       "2006": 1,
       "2007": 5,
       "2008": 7,
-      "2009": 13,
+      "2009": 14,
       "2010": 10,
       "2011": 25,
       "2012": 17,
@@ -143,9 +143,18 @@
       {
         "date": "2026-05-19",
         "count": 3
+      },
+      {
+        "date": "2026-05-20",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-05-20 23:02:25",
+        "found": 244,
+        "new_added": 1
+      },
       {
         "run_at": "2026-05-19 23:02:48",
         "found": 244,
@@ -190,11 +199,6 @@
         "run_at": "2026-05-11 23:03:42",
         "found": 245,
         "new_added": 7
-      },
-      {
-        "run_at": "2026-05-10 23:02:03",
-        "found": 245,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -205,8 +209,8 @@
       },
       {
         "category": "infection",
-        "avg_score": 4.49,
-        "count": 68
+        "avg_score": 4.48,
+        "count": 69
       },
       {
         "category": "voc_breath",
@@ -256,6 +260,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1069,
+      "title": "[CT] Volatile Organic Compounds in Cystic Fibrosis",
+      "authors": "Landon Pediatric Foundation",
+      "year": 2009,
+      "journal": "ClinicalTrials.gov (Cystic Fibrosis, Pseudomonas Aeruginosa)",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "cystic fibrosis",
+        "VOC biomarker",
+        "infection",
+        "electronic nose"
+      ],
+      "one_line": "利用呼氣VOC診斷囊性纖維化患者下呼吸道感染。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT01379040",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-20 23:02:25"
+    },
     {
       "id": 1068,
       "title": "[CT] Mass Spectral Fingerprinting in Obstructive Sleep Apnoea",
@@ -22433,6 +22459,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-21_0702",
+      "content": "# VOC 文獻監控日報 — 2026-05-21\n\n> 執行時間：07:02:28 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1069 |\n| 資料庫相關總數 | 882 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compounds in Cystic Fibrosis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, cystic fibrosis, VOC biomarker, infection, electronic nose\n- **摘要**：利用呼氣VOC診斷囊性纖維化患者下呼吸道感染。\n- **作者**：Landon Pediatric Foundation | **年份**：2009 | [連結](https://clinicaltrials.gov/study/NCT01379040)\n\n## 📂 依類別分類\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Volatile Organic Compounds in Cystic Fibrosis](https://clinicaltrials.gov/study/NCT01379040)**  \n  利用呼氣VOC診斷囊性纖維化患者下呼吸道感染。 ｜ 2009\n\n---\n*報告生成時間：2026-05-21 07:02:29*\n"
+    },
+    {
       "date": "2026-05-20_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-20\n\n> 執行時間：07:02:52 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1068 |\n| 資料庫相關總數 | 881 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compounds for the Assessment of Liver Disease\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver disease, VOC biomarker, mass spectrometry, hepatic fibrosis\n- **摘要**：研究肝臟疾病的呼氣揮發性有機化合物生物標記物。\n- **作者**：Imperial College London | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04620538)\n\n### [CT] Electronic Nose Identification of Fasting and Non-fasting Breath Profiles\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：electronic nose, breath analysis, fasting, screening, endoscopy\n- **摘要**：利用電子鼻辨識禁食與非禁食呼吸氣體特徵。\n- **作者**：Mayo Clinic | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02419976)\n\n### [CT] Mass Spectral Fingerprinting in Obstructive Sleep Apnoea\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, mass spectrometry, OSA, VOC, sleep apnea\n- **摘要**：利用質譜分析睡眠呼吸暫停症患者的呼氣代謝物。\n- **作者**：University of Zurich | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02810158)\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compounds for the Assessment of Liver Disease](https://clinicaltrials.gov/study/NCT04620538)**  \n  研究肝臟疾病的呼氣揮發性有機化合物生物標記物。 ｜ 2021\n\n### 感測器（1 篇）\n\n- ▓▓▓▓░ **[[CT] Electronic Nose Identification of Fasting and Non-fasting Breath Profiles](https://clinicaltrials.gov/study/NCT02419976)**  \n  利用電子鼻辨識禁食與非禁食呼吸氣體特徵。 ｜ 2015\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Mass Spectral Fingerprinting in Obstructive Sleep Apnoea](https://clinicaltrials.gov/study/NCT02810158)**  \n  利用質譜分析睡眠呼吸暫停症患者的呼氣代謝物。 ｜ 2016\n\n---\n*報告生成時間：2026-05-20 07:02:52*\n"
     },
@@ -22455,10 +22485,6 @@
     {
       "date": "2026-05-15_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-15\n\n> 執行時間：07:02:54 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1054 |\n| 資料庫相關總數 | 867 |\n| 相關文獻平均分 | 4.03 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Cancer Diagnoses From Exhaled Breath With Na-nose\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cancer diagnosis, Na-nose, VOC biomarker, malignant tumors\n- **摘要**：利用Na-nose檢測呼氣VOC，用於癌症診斷的臨床驗證。\n- **作者**：Anhui Medical University | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT03967652)\n\n### [CT] The Microenvironment in Barrett's Esophagus\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath test, exhaled volatile organic compounds, Barrett's esophagus, esophageal adenocarcinoma, VOC biomarker\n- **摘要**：研究呼氣VOC用於食道癌篩檢與監測，具有臨床意義。\n- **作者**：Columbia University | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03060642)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Cancer Diagnoses From Exhaled Breath With Na-nose](https://clinicaltrials.gov/study/NCT03967652)**  \n  利用Na-nose檢測呼氣VOC，用於癌症診斷的臨床驗證。 ｜ 2019\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] The Microenvironment in Barrett's Esophagus](https://clinicaltrials.gov/study/NCT03060642)**  \n  研究呼氣VOC用於食道癌篩檢與監測，具有臨床意義。 ｜ 2018\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] TAAI Erasmus Research Initiative to Fight CF: Monitoring Inflammation in CF Lung Disease Into a New Era](https://clinicaltrials.gov/study/NCT05752019)**  \n  研究囊性纖維化肺部炎症監測，與慢性病相關。 ｜ 2022\n\n---\n*報告生成時間：2026-05-15 07:02:54*\n"
-    },
-    {
-      "date": "2026-05-14_0703",
-      "content": "# VOC 文獻監控日報 — 2026-05-14\n\n> 執行時間：07:03:07 | 新增 **5** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1051 |\n| 資料庫相關總數 | 864 |\n| 相關文獻平均分 | 4.03 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Diagnostic Breath Analysis Study to Detect Sepsis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, sepsis, VOC biomarker, GC-MS, SIRS\n- **摘要**：利用呼氣VOC診斷敗血症的研究，具有高度相關性。\n- **作者**：Landon Pediatric Foundation | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02532959)\n\n### [CT] Can the Electronic Nose Smell COVID-19 Antibodies?\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, COVID-19, electronic nose, VOC, diagnosis\n- **摘要**：利用電子鼻分析呼氣VOC，用於COVID-19抗體檢測。\n- **作者**：Maastricht University Medical Center | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04475575)\n\n## 📂 依類別分類\n\n### 慢性病（2 篇）\n\n- ▓▓▓░░ **[[CT] Predictors of Acute Exacerbation in Patients With COPD - an Observational Study](https://clinicaltrials.gov/study/NCT04140097)**  \n  研究慢性阻塞性肺病急性加重事件的臨床預測因子。 ｜ 2020\n- ▓▓▓░░ **[[CT] Lungs on Fire: Wildfire Smoke, Incident Diseases, Susceptible Populations, and Community Values in Canada](https://clinicaltrials.gov/study/NCT07536178)**  \n  研究野火煙霧暴露對長期肺部疾病的影響，有慢性病相關。 ｜ 2026\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Diagnostic Breath Analysis Study to Detect Sepsis](https://clinicaltrials.gov/study/NCT02532959)**  \n  利用呼氣VOC診斷敗血症的研究，具有高度相關性。 ｜ 2015\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Can the Electronic Nose Smell COVID-19 Antibodies?](https://clinicaltrials.gov/study/NCT04475575)**  \n  利用電子鼻分析呼氣VOC，用於COVID-19抗體檢測。 ｜ 2020\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-05-14 07:03:07*\n"
     }
   ]
 }

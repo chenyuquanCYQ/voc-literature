@@ -2,16 +2,16 @@
   "meta": {
     "total": 1069,
     "relevant": 882,
-    "today": 1,
-    "this_week": 23,
+    "today": 0,
+    "this_week": 18,
     "avg_score": 4.04,
-    "updated_at": "2026-05-21T07:02:29"
+    "updated_at": "2026-05-22T07:02:02"
   },
   "stats": {
     "total": 1069,
     "relevant": 882,
-    "today": 1,
-    "this_week": 23,
+    "today": 0,
+    "this_week": 18,
     "avg_score": 4.04,
     "by_category": {
       "voc_breath": 279,
@@ -68,10 +68,6 @@
       "2026": 18
     },
     "daily_trend": [
-      {
-        "date": "2026-04-20",
-        "count": 11
-      },
       {
         "date": "2026-04-21",
         "count": 5
@@ -151,6 +147,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-05-21 23:02:02",
+        "found": 244,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-05-20 23:02:25",
         "found": 244,
         "new_added": 1
@@ -194,11 +195,6 @@
         "run_at": "2026-05-12 23:02:40",
         "found": 245,
         "new_added": 3
-      },
-      {
-        "run_at": "2026-05-11 23:03:42",
-        "found": 245,
-        "new_added": 7
       }
     ],
     "category_score": [
@@ -22459,6 +22455,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-22_0702",
+      "content": "# VOC 文獻監控日報 — 2026-05-22\n\n> 執行時間：07:02:02 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1069 |\n| 資料庫相關總數 | 882 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-22 07:02:02*\n"
+    },
+    {
       "date": "2026-05-21_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-21\n\n> 執行時間：07:02:28 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1069 |\n| 資料庫相關總數 | 882 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compounds in Cystic Fibrosis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, cystic fibrosis, VOC biomarker, infection, electronic nose\n- **摘要**：利用呼氣VOC診斷囊性纖維化患者下呼吸道感染。\n- **作者**：Landon Pediatric Foundation | **年份**：2009 | [連結](https://clinicaltrials.gov/study/NCT01379040)\n\n## 📂 依類別分類\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Volatile Organic Compounds in Cystic Fibrosis](https://clinicaltrials.gov/study/NCT01379040)**  \n  利用呼氣VOC診斷囊性纖維化患者下呼吸道感染。 ｜ 2009\n\n---\n*報告生成時間：2026-05-21 07:02:29*\n"
     },
@@ -22481,10 +22481,6 @@
     {
       "date": "2026-05-16_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-16\n\n> 執行時間：07:02:49 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1057 |\n| 資料庫相關總數 | 870 |\n| 相關文獻平均分 | 4.03 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Breath Analysis in Lung Fibrosis\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung fibrosis, mass spectrometry, VOC biomarker, metabolomics\n- **摘要**：研究肺纖維化患者呼氣中的疾病特異性代謝體。\n- **作者**：University of Zurich | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02437448)\n\n### [CT] Rapid Diagnosis of COVID-19 by Chemical Analysis of Exhaled Air\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：COVID-19, VOC, breath analysis, mass spectrometry, diagnosis\n- **摘要**：研究利用呼氣VOC分析快速診斷COVID-19，具有高度相關性。\n- **作者**：Hospices Civils de Lyon | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04706039)\n\n### [CT] Nicotine Pharmacokinetic in Blood and Analysis of Exhaled Breath After E-cigarette Smoking.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：exhaled breath, nicotine, pharmacokinetics, e-cigarette, VOC\n- **摘要**：研究電子煙吸菸後呼氣中的尼古丁藥代動力學及相關VOC。\n- **作者**：University Hospital, Strasbourg, France | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03573154)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Breath Analysis in Lung Fibrosis](https://clinicaltrials.gov/study/NCT02437448)**  \n  研究肺纖維化患者呼氣中的疾病特異性代謝體。 ｜ 2015\n- ▓▓▓▓░ **[[CT] Nicotine Pharmacokinetic in Blood and Analysis of Exhaled Breath After E-cigarette Smoking.](https://clinicaltrials.gov/study/NCT03573154)**  \n  研究電子煙吸菸後呼氣中的尼古丁藥代動力學及相關VOC。 ｜ 2018\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Rapid Diagnosis of COVID-19 by Chemical Analysis of Exhaled Air](https://clinicaltrials.gov/study/NCT04706039)**  \n  研究利用呼氣VOC分析快速診斷COVID-19，具有高度相關性。 ｜ 2021\n\n---\n*報告生成時間：2026-05-16 07:02:50*\n"
-    },
-    {
-      "date": "2026-05-15_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-15\n\n> 執行時間：07:02:54 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1054 |\n| 資料庫相關總數 | 867 |\n| 相關文獻平均分 | 4.03 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Cancer Diagnoses From Exhaled Breath With Na-nose\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cancer diagnosis, Na-nose, VOC biomarker, malignant tumors\n- **摘要**：利用Na-nose檢測呼氣VOC，用於癌症診斷的臨床驗證。\n- **作者**：Anhui Medical University | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT03967652)\n\n### [CT] The Microenvironment in Barrett's Esophagus\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath test, exhaled volatile organic compounds, Barrett's esophagus, esophageal adenocarcinoma, VOC biomarker\n- **摘要**：研究呼氣VOC用於食道癌篩檢與監測，具有臨床意義。\n- **作者**：Columbia University | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03060642)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Cancer Diagnoses From Exhaled Breath With Na-nose](https://clinicaltrials.gov/study/NCT03967652)**  \n  利用Na-nose檢測呼氣VOC，用於癌症診斷的臨床驗證。 ｜ 2019\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] The Microenvironment in Barrett's Esophagus](https://clinicaltrials.gov/study/NCT03060642)**  \n  研究呼氣VOC用於食道癌篩檢與監測，具有臨床意義。 ｜ 2018\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] TAAI Erasmus Research Initiative to Fight CF: Monitoring Inflammation in CF Lung Disease Into a New Era](https://clinicaltrials.gov/study/NCT05752019)**  \n  研究囊性纖維化肺部炎症監測，與慢性病相關。 ｜ 2022\n\n---\n*報告生成時間：2026-05-15 07:02:54*\n"
     }
   ]
 }

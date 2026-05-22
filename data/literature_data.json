@@ -1,24 +1,24 @@
 {
   "meta": {
-    "total": 1069,
-    "relevant": 882,
-    "today": 0,
-    "this_week": 18,
+    "total": 1074,
+    "relevant": 887,
+    "today": 5,
+    "this_week": 17,
     "avg_score": 4.04,
-    "updated_at": "2026-05-22T07:02:02"
+    "updated_at": "2026-05-23T07:03:19"
   },
   "stats": {
-    "total": 1069,
-    "relevant": 882,
-    "today": 0,
-    "this_week": 18,
+    "total": 1074,
+    "relevant": 887,
+    "today": 5,
+    "this_week": 17,
     "avg_score": 4.04,
     "by_category": {
-      "voc_breath": 279,
-      "disease_cancer": 204,
+      "voc_breath": 281,
+      "disease_cancer": 205,
       "sensor_hardware": 137,
-      "infection": 69,
-      "disease_chronic": 69,
+      "infection": 70,
+      "disease_chronic": 70,
       "method_tech": 56,
       "voc_liquid": 28,
       "ai_model": 19,
@@ -27,18 +27,18 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 204,
+      "clinicaltrials": 208,
       "import": 488,
       "openalex": 121,
-      "pubmed": 127,
+      "pubmed": 128,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 11,
       "3": 230,
-      "4": 354,
-      "5": 286
+      "4": 355,
+      "5": 290
     },
     "by_year": {
       "1985": 1,
@@ -53,25 +53,21 @@
       "2011": 25,
       "2012": 17,
       "2013": 20,
-      "2014": 23,
-      "2015": 29,
-      "2016": 28,
+      "2014": 24,
+      "2015": 30,
+      "2016": 29,
       "2017": 29,
       "2018": 31,
       "2019": 37,
       "2020": 40,
-      "2021": 54,
+      "2021": 55,
       "2022": 55,
       "2023": 52,
       "2024": 68,
       "2025": 64,
-      "2026": 18
+      "2026": 19
     },
     "daily_trend": [
-      {
-        "date": "2026-04-21",
-        "count": 5
-      },
       {
         "date": "2026-04-22",
         "count": 8
@@ -143,9 +139,18 @@
       {
         "date": "2026-05-20",
         "count": 1
+      },
+      {
+        "date": "2026-05-22",
+        "count": 5
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-05-22 23:03:18",
+        "found": 244,
+        "new_added": 5
+      },
       {
         "run_at": "2026-05-21 23:02:02",
         "found": 244,
@@ -190,33 +195,28 @@
         "run_at": "2026-05-13 23:03:07",
         "found": 245,
         "new_added": 5
-      },
-      {
-        "run_at": "2026-05-12 23:02:40",
-        "found": 245,
-        "new_added": 3
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.52,
-        "count": 204
+        "avg_score": 4.53,
+        "count": 205
       },
       {
         "category": "infection",
-        "avg_score": 4.48,
-        "count": 69
+        "avg_score": 4.49,
+        "count": 70
       },
       {
         "category": "voc_breath",
         "avg_score": 4.27,
-        "count": 279
+        "count": 281
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.04,
-        "count": 69
+        "avg_score": 4.06,
+        "count": 70
       },
       {
         "category": "voc_liquid",
@@ -256,6 +256,116 @@
     ]
   },
   "literature": [
+    {
+      "id": 1074,
+      "title": "[CT] Breath Analysis in Children by New Point-of-care Instruments",
+      "authors": "Maastricht University Medical Center",
+      "year": 2016,
+      "journal": "ClinicalTrials.gov (Asthma, Cystic Fibrosis)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "children",
+        "asthma",
+        "CF",
+        "point-of-care"
+      ],
+      "one_line": "研究兒童哮喘、囊性纖維症患者的呼氣分析可行性。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03377686",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-22 23:03:18"
+    },
+    {
+      "id": 1073,
+      "title": "[CT] The Use of Breath Volatile Organic Compounds in Early Detection of Acute Pulmonary Exacerbations in Cystic Fibrosis",
+      "authors": "Papworth Hospital NHS Foundation Trust",
+      "year": 2021,
+      "journal": "ClinicalTrials.gov (Cystic Fibrosis)",
+      "category": "infection",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "cystic fibrosis",
+        "pulmonary infection",
+        "VOC biomarker",
+        "exhaled breath"
+      ],
+      "one_line": "研究利用呼氣VOC診斷囊性纖維化肺部感染，具有潛在應用價值。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT05944367",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-22 23:03:17"
+    },
+    {
+      "id": 1072,
+      "title": "[CT] Identification of Volatile Organic Compounds in Exhaled Air During Exacerbation of Chronic Obstructive Pulmonary Disease",
+      "authors": "Centre Hospitalier Universitaire de Saint Etienne",
+      "year": 2014,
+      "journal": "ClinicalTrials.gov (Chronic Obstructive Pulmonary Disease)",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "COPD",
+        "VOC biomarker",
+        "exacerbation",
+        "chronic disease"
+      ],
+      "one_line": "研究呼氣VOC與慢性阻塞性肺病急性惡化之間的關係。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT02529891",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-22 23:03:17"
+    },
+    {
+      "id": 1071,
+      "title": "[CT] Lung Cancer Indicator Detection",
+      "authors": "Owlstone Ltd",
+      "year": 2015,
+      "journal": "ClinicalTrials.gov (Lung Cancer)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "VOC biomarker",
+        "FAIMS",
+        "exhaled VOC"
+      ],
+      "one_line": "研究呼氣VOC用於肺癌診斷的診斷準確性。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT02612532",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-22 23:03:17"
+    },
+    {
+      "id": 1070,
+      "title": "Soft ionization by chemical reaction in transfer-high-resolution mass spectrometry for clinical exhaled breath profiling.",
+      "authors": "Roquencourt Camille, Lamy Elodie, Hunzinger Nicolas, Salvator Hélène, Devillier Philippe et al.",
+      "year": 2026,
+      "journal": "Analytical and bioanalytical chemistry",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "VOC",
+        "metabolomics",
+        "HRMS",
+        "clinical"
+      ],
+      "one_line": "研究使用HRMS分析呼氣VOC，並探討其在臨床應用中的可行性。",
+      "doi": "10.1007/s00216-026-06425-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41832327/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-05-22 23:03:17"
+    },
     {
       "id": 1069,
       "title": "[CT] Volatile Organic Compounds in Cystic Fibrosis",
@@ -22455,6 +22565,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-23_0703",
+      "content": "# VOC 文獻監控日報 — 2026-05-23\n\n> 執行時間：07:03:18 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1074 |\n| 資料庫相關總數 | 887 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Soft ionization by chemical reaction in transfer-high-resolution mass spectrometry for clinical exhaled breath profiling.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOC, metabolomics, HRMS, clinical\n- **摘要**：研究使用HRMS分析呼氣VOC，並探討其在臨床應用中的可行性。\n- **作者**：Roquencourt Camille, Lamy Elodie, Hunzinger Nicolas, Salvator Hélène, Devillier Philippe et al. | **年份**：2026 | DOI: `10.1007/s00216-026-06425-1` | [連結](https://pubmed.ncbi.nlm.nih.gov/41832327/)\n\n### [CT] Lung Cancer Indicator Detection\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, FAIMS, exhaled VOC\n- **摘要**：研究呼氣VOC用於肺癌診斷的診斷準確性。\n- **作者**：Owlstone Ltd | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02612532)\n\n### [CT] Identification of Volatile Organic Compounds in Exhaled Air During Exacerbation of Chronic Obstructive Pulmonary Disease\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COPD, VOC biomarker, exacerbation, chronic disease\n- **摘要**：研究呼氣VOC與慢性阻塞性肺病急性惡化之間的關係。\n- **作者**：Centre Hospitalier Universitaire de Saint Etienne | **年份**：2014 | [連結](https://clinicaltrials.gov/study/NCT02529891)\n\n### [CT] The Use of Breath Volatile Organic Compounds in Early Detection of Acute Pulmonary Exacerbations in Cystic Fibrosis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cystic fibrosis, pulmonary infection, VOC biomarker, exhaled breath\n- **摘要**：研究利用呼氣VOC診斷囊性纖維化肺部感染，具有潛在應用價值。\n- **作者**：Papworth Hospital NHS Foundation Trust | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT05944367)\n\n### [CT] Breath Analysis in Children by New Point-of-care Instruments\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, children, asthma, CF, point-of-care\n- **摘要**：研究兒童哮喘、囊性纖維症患者的呼氣分析可行性。\n- **作者**：Maastricht University Medical Center | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT03377686)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Soft ionization by chemical reaction in transfer-high-resolution mass spectrometry for clinical exhaled breath profiling.](https://pubmed.ncbi.nlm.nih.gov/41832327/)**  \n  研究使用HRMS分析呼氣VOC，並探討其在臨床應用中的可行性。 ｜ 2026\n- ▓▓▓▓░ **[[CT] Breath Analysis in Children by New Point-of-care Instruments](https://clinicaltrials.gov/study/NCT03377686)**  \n  研究兒童哮喘、囊性纖維症患者的呼氣分析可行性。 ｜ 2016\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Lung Cancer Indicator Detection](https://clinicaltrials.gov/study/NCT02612532)**  \n  研究呼氣VOC用於肺癌診斷的診斷準確性。 ｜ 2015\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Identification of Volatile Organic Compounds in Exhaled Air During Exacerbation of Chronic Obstructive Pulmonary Disease](https://clinicaltrials.gov/study/NCT02529891)**  \n  研究呼氣VOC與慢性阻塞性肺病急性惡化之間的關係。 ｜ 2014\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] The Use of Breath Volatile Organic Compounds in Early Detection of Acute Pulmonary Exacerbations in Cystic Fibrosis](https://clinicaltrials.gov/study/NCT05944367)**  \n  研究利用呼氣VOC診斷囊性纖維化肺部感染，具有潛在應用價值。 ｜ 2021\n\n---\n*報告生成時間：2026-05-23 07:03:18*\n"
+    },
+    {
       "date": "2026-05-22_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-22\n\n> 執行時間：07:02:02 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1069 |\n| 資料庫相關總數 | 882 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-22 07:02:02*\n"
     },
@@ -22477,10 +22591,6 @@
     {
       "date": "2026-05-17_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-17\n\n> 執行時間：07:02:10 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1057 |\n| 資料庫相關總數 | 870 |\n| 相關文獻平均分 | 4.03 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-17 07:02:10*\n"
-    },
-    {
-      "date": "2026-05-16_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-16\n\n> 執行時間：07:02:49 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1057 |\n| 資料庫相關總數 | 870 |\n| 相關文獻平均分 | 4.03 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Breath Analysis in Lung Fibrosis\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung fibrosis, mass spectrometry, VOC biomarker, metabolomics\n- **摘要**：研究肺纖維化患者呼氣中的疾病特異性代謝體。\n- **作者**：University of Zurich | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02437448)\n\n### [CT] Rapid Diagnosis of COVID-19 by Chemical Analysis of Exhaled Air\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：COVID-19, VOC, breath analysis, mass spectrometry, diagnosis\n- **摘要**：研究利用呼氣VOC分析快速診斷COVID-19，具有高度相關性。\n- **作者**：Hospices Civils de Lyon | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04706039)\n\n### [CT] Nicotine Pharmacokinetic in Blood and Analysis of Exhaled Breath After E-cigarette Smoking.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：exhaled breath, nicotine, pharmacokinetics, e-cigarette, VOC\n- **摘要**：研究電子煙吸菸後呼氣中的尼古丁藥代動力學及相關VOC。\n- **作者**：University Hospital, Strasbourg, France | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03573154)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Breath Analysis in Lung Fibrosis](https://clinicaltrials.gov/study/NCT02437448)**  \n  研究肺纖維化患者呼氣中的疾病特異性代謝體。 ｜ 2015\n- ▓▓▓▓░ **[[CT] Nicotine Pharmacokinetic in Blood and Analysis of Exhaled Breath After E-cigarette Smoking.](https://clinicaltrials.gov/study/NCT03573154)**  \n  研究電子煙吸菸後呼氣中的尼古丁藥代動力學及相關VOC。 ｜ 2018\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Rapid Diagnosis of COVID-19 by Chemical Analysis of Exhaled Air](https://clinicaltrials.gov/study/NCT04706039)**  \n  研究利用呼氣VOC分析快速診斷COVID-19，具有高度相關性。 ｜ 2021\n\n---\n*報告生成時間：2026-05-16 07:02:50*\n"
     }
   ]
 }

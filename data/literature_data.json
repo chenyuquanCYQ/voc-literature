@@ -2,15 +2,15 @@
   "meta": {
     "total": 1074,
     "relevant": 887,
-    "today": 5,
+    "today": 0,
     "this_week": 17,
     "avg_score": 4.04,
-    "updated_at": "2026-05-23T07:03:19"
+    "updated_at": "2026-05-24T07:02:07"
   },
   "stats": {
     "total": 1074,
     "relevant": 887,
-    "today": 5,
+    "today": 0,
     "this_week": 17,
     "avg_score": 4.04,
     "by_category": {
@@ -68,10 +68,6 @@
       "2026": 19
     },
     "daily_trend": [
-      {
-        "date": "2026-04-22",
-        "count": 8
-      },
       {
         "date": "2026-04-23",
         "count": 9
@@ -147,6 +143,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-05-23 23:02:07",
+        "found": 244,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-05-22 23:03:18",
         "found": 244,
         "new_added": 5
@@ -190,11 +191,6 @@
         "run_at": "2026-05-14 23:02:53",
         "found": 243,
         "new_added": 3
-      },
-      {
-        "run_at": "2026-05-13 23:03:07",
-        "found": 245,
-        "new_added": 5
       }
     ],
     "category_score": [
@@ -22565,6 +22561,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-24_0702",
+      "content": "# VOC 文獻監控日報 — 2026-05-24\n\n> 執行時間：07:02:07 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1074 |\n| 資料庫相關總數 | 887 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-24 07:02:07*\n"
+    },
+    {
       "date": "2026-05-23_0703",
       "content": "# VOC 文獻監控日報 — 2026-05-23\n\n> 執行時間：07:03:18 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1074 |\n| 資料庫相關總數 | 887 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Soft ionization by chemical reaction in transfer-high-resolution mass spectrometry for clinical exhaled breath profiling.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOC, metabolomics, HRMS, clinical\n- **摘要**：研究使用HRMS分析呼氣VOC，並探討其在臨床應用中的可行性。\n- **作者**：Roquencourt Camille, Lamy Elodie, Hunzinger Nicolas, Salvator Hélène, Devillier Philippe et al. | **年份**：2026 | DOI: `10.1007/s00216-026-06425-1` | [連結](https://pubmed.ncbi.nlm.nih.gov/41832327/)\n\n### [CT] Lung Cancer Indicator Detection\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, FAIMS, exhaled VOC\n- **摘要**：研究呼氣VOC用於肺癌診斷的診斷準確性。\n- **作者**：Owlstone Ltd | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02612532)\n\n### [CT] Identification of Volatile Organic Compounds in Exhaled Air During Exacerbation of Chronic Obstructive Pulmonary Disease\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COPD, VOC biomarker, exacerbation, chronic disease\n- **摘要**：研究呼氣VOC與慢性阻塞性肺病急性惡化之間的關係。\n- **作者**：Centre Hospitalier Universitaire de Saint Etienne | **年份**：2014 | [連結](https://clinicaltrials.gov/study/NCT02529891)\n\n### [CT] The Use of Breath Volatile Organic Compounds in Early Detection of Acute Pulmonary Exacerbations in Cystic Fibrosis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cystic fibrosis, pulmonary infection, VOC biomarker, exhaled breath\n- **摘要**：研究利用呼氣VOC診斷囊性纖維化肺部感染，具有潛在應用價值。\n- **作者**：Papworth Hospital NHS Foundation Trust | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT05944367)\n\n### [CT] Breath Analysis in Children by New Point-of-care Instruments\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, children, asthma, CF, point-of-care\n- **摘要**：研究兒童哮喘、囊性纖維症患者的呼氣分析可行性。\n- **作者**：Maastricht University Medical Center | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT03377686)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Soft ionization by chemical reaction in transfer-high-resolution mass spectrometry for clinical exhaled breath profiling.](https://pubmed.ncbi.nlm.nih.gov/41832327/)**  \n  研究使用HRMS分析呼氣VOC，並探討其在臨床應用中的可行性。 ｜ 2026\n- ▓▓▓▓░ **[[CT] Breath Analysis in Children by New Point-of-care Instruments](https://clinicaltrials.gov/study/NCT03377686)**  \n  研究兒童哮喘、囊性纖維症患者的呼氣分析可行性。 ｜ 2016\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Lung Cancer Indicator Detection](https://clinicaltrials.gov/study/NCT02612532)**  \n  研究呼氣VOC用於肺癌診斷的診斷準確性。 ｜ 2015\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Identification of Volatile Organic Compounds in Exhaled Air During Exacerbation of Chronic Obstructive Pulmonary Disease](https://clinicaltrials.gov/study/NCT02529891)**  \n  研究呼氣VOC與慢性阻塞性肺病急性惡化之間的關係。 ｜ 2014\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] The Use of Breath Volatile Organic Compounds in Early Detection of Acute Pulmonary Exacerbations in Cystic Fibrosis](https://clinicaltrials.gov/study/NCT05944367)**  \n  研究利用呼氣VOC診斷囊性纖維化肺部感染，具有潛在應用價值。 ｜ 2021\n\n---\n*報告生成時間：2026-05-23 07:03:18*\n"
     },
@@ -22587,10 +22587,6 @@
     {
       "date": "2026-05-18_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-18\n\n> 執行時間：07:02:27 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1058 |\n| 資料庫相關總數 | 871 |\n| 相關文獻平均分 | 4.03 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Volatilomic response to targeted cancer therapy in vitro.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：VOC, cancer, therapy, mTORci, lipidome\n- **摘要**：研究了藥物反應對大腸癌細胞呼氣VOC的影響。\n- **作者**：Leung Philip K H, Kim Innah, Das Bibek, Hanna George B | **年份**：2025 | DOI: `10.1038/s41598-025-04886-5` | [連結](https://pubmed.ncbi.nlm.nih.gov/40461777/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Volatilomic response to targeted cancer therapy in vitro.](https://pubmed.ncbi.nlm.nih.gov/40461777/)**  \n  研究了藥物反應對大腸癌細胞呼氣VOC的影響。 ｜ 2025\n\n---\n*報告生成時間：2026-05-18 07:02:27*\n"
-    },
-    {
-      "date": "2026-05-17_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-17\n\n> 執行時間：07:02:10 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1057 |\n| 資料庫相關總數 | 870 |\n| 相關文獻平均分 | 4.03 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-17 07:02:10*\n"
     }
   ]
 }

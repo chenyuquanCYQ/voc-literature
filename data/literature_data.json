@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1076,
-    "relevant": 889,
-    "today": 1,
-    "this_week": 11,
+    "total": 1078,
+    "relevant": 891,
+    "today": 2,
+    "this_week": 9,
     "avg_score": 4.04,
-    "updated_at": "2026-05-27T07:02:32"
+    "updated_at": "2026-05-28T07:02:33"
   },
   "stats": {
-    "total": 1076,
-    "relevant": 889,
-    "today": 1,
-    "this_week": 11,
+    "total": 1078,
+    "relevant": 891,
+    "today": 2,
+    "this_week": 9,
     "avg_score": 4.04,
     "by_category": {
-      "voc_breath": 281,
+      "voc_breath": 283,
       "disease_cancer": 207,
       "sensor_hardware": 137,
       "infection": 70,
@@ -27,10 +27,10 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 209,
+      "clinicaltrials": 210,
       "import": 488,
       "openalex": 121,
-      "pubmed": 129,
+      "pubmed": 130,
       "serper_scholar": 129
     },
     "by_score": {
@@ -38,7 +38,7 @@
       "2": 11,
       "3": 230,
       "4": 355,
-      "5": 292
+      "5": 294
     },
     "by_year": {
       "1985": 1,
@@ -63,9 +63,9 @@
       "2021": 55,
       "2022": 56,
       "2023": 52,
-      "2024": 69,
+      "2024": 70,
       "2025": 64,
-      "2026": 19
+      "2026": 20
     },
     "daily_trend": [
       {
@@ -139,9 +139,18 @@
       {
         "date": "2026-05-26",
         "count": 1
+      },
+      {
+        "date": "2026-05-27",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-05-27 23:02:32",
+        "found": 243,
+        "new_added": 2
+      },
       {
         "run_at": "2026-05-26 23:02:30",
         "found": 243,
@@ -186,11 +195,6 @@
         "run_at": "2026-05-18 23:03:29",
         "found": 244,
         "new_added": 7
-      },
-      {
-        "run_at": "2026-05-17 23:02:27",
-        "found": 243,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -206,8 +210,8 @@
       },
       {
         "category": "voc_breath",
-        "avg_score": 4.27,
-        "count": 281
+        "avg_score": 4.28,
+        "count": 283
       },
       {
         "category": "disease_chronic",
@@ -252,6 +256,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1078,
+      "title": "[CT] Breathomics in the Diagnosis and Prediction of Radiotherapy-Induced Oropharyngeal Mucositis in Head and Neck Tumors",
+      "authors": "Nanfang Hospital, Southern Medical University",
+      "year": 2024,
+      "journal": "ClinicalTrials.gov (Head and Neck Tumors, Breathomics, Volatile Organic Compounds, Radiotherapy-induced Oral Mucositis)",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breathomics",
+        "VOC",
+        "radiotherapy",
+        "oropharyngeal mucositis",
+        "head and neck tumor"
+      ],
+      "one_line": "研究呼氣VOC在頭頸癌放療引起的口腔黏膜炎的診斷與預測。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06767488",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-27 23:02:32"
+    },
+    {
+      "id": 1077,
+      "title": "A review of ageing related biomarkers in breath.",
+      "authors": "Vosshage Kartini I, Swift James R, Kim Ayoung, Brooke-Wavell Katherine, Soltoggio Andrea et al.",
+      "year": 2026,
+      "journal": "Ageing research reviews",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "ageing",
+        "VOCs",
+        "exhaled breath",
+        "biomarkers"
+      ],
+      "one_line": "综述了呼气VOC与衰老相关的生物标志物研究。",
+      "doi": "10.1016/j.arr.2026.103066",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730370/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-05-27 23:02:32"
+    },
     {
       "id": 1076,
       "title": "[CT] Differentiation of Benign and Malignant Pulmonary Nodules by Volatile Organic Compounds in Human Exhaled Breath",
@@ -22605,6 +22653,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-28_0702",
+      "content": "# VOC 文獻監控日報 — 2026-05-28\n\n> 執行時間：07:02:33 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1078 |\n| 資料庫相關總數 | 891 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### A review of ageing related biomarkers in breath.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, ageing, VOCs, exhaled breath, biomarkers\n- **摘要**：综述了呼气VOC与衰老相关的生物标志物研究。\n- **作者**：Vosshage Kartini I, Swift James R, Kim Ayoung, Brooke-Wavell Katherine, Soltoggio Andrea et al. | **年份**：2026 | DOI: `10.1016/j.arr.2026.103066` | [連結](https://pubmed.ncbi.nlm.nih.gov/41730370/)\n\n### [CT] Breathomics in the Diagnosis and Prediction of Radiotherapy-Induced Oropharyngeal Mucositis in Head and Neck Tumors\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breathomics, VOC, radiotherapy, oropharyngeal mucositis, head and neck tumor\n- **摘要**：研究呼氣VOC在頭頸癌放療引起的口腔黏膜炎的診斷與預測。\n- **作者**：Nanfang Hospital, Southern Medical University | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06767488)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[A review of ageing related biomarkers in breath.](https://pubmed.ncbi.nlm.nih.gov/41730370/)**  \n  综述了呼气VOC与衰老相关的生物标志物研究。 ｜ 2026\n- ▓▓▓▓▓ **[[CT] Breathomics in the Diagnosis and Prediction of Radiotherapy-Induced Oropharyngeal Mucositis in Head and Neck Tumors](https://clinicaltrials.gov/study/NCT06767488)**  \n  研究呼氣VOC在頭頸癌放療引起的口腔黏膜炎的診斷與預測。 ｜ 2024\n\n---\n*報告生成時間：2026-05-28 07:02:33*\n"
+    },
+    {
       "date": "2026-05-27_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-27\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1076 |\n| 資料庫相關總數 | 889 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Differentiation of Benign and Malignant Pulmonary Nodules by Volatile Organic Compounds in Human Exhaled Breath\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, AI model, pulmonary nodules\n- **摘要**：利用呼氣VOC和AI模型，區分肺部良惡性結節。\n- **作者**：ChromX Health | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06518655)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Differentiation of Benign and Malignant Pulmonary Nodules by Volatile Organic Compounds in Human Exhaled Breath](https://clinicaltrials.gov/study/NCT06518655)**  \n  利用呼氣VOC和AI模型，區分肺部良惡性結節。 ｜ 2024\n\n---\n*報告生成時間：2026-05-27 07:02:31*\n"
     },
@@ -22627,10 +22679,6 @@
     {
       "date": "2026-05-22_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-22\n\n> 執行時間：07:02:02 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1069 |\n| 資料庫相關總數 | 882 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-22 07:02:02*\n"
-    },
-    {
-      "date": "2026-05-21_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-21\n\n> 執行時間：07:02:28 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1069 |\n| 資料庫相關總數 | 882 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compounds in Cystic Fibrosis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, cystic fibrosis, VOC biomarker, infection, electronic nose\n- **摘要**：利用呼氣VOC診斷囊性纖維化患者下呼吸道感染。\n- **作者**：Landon Pediatric Foundation | **年份**：2009 | [連結](https://clinicaltrials.gov/study/NCT01379040)\n\n## 📂 依類別分類\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Volatile Organic Compounds in Cystic Fibrosis](https://clinicaltrials.gov/study/NCT01379040)**  \n  利用呼氣VOC診斷囊性纖維化患者下呼吸道感染。 ｜ 2009\n\n---\n*報告生成時間：2026-05-21 07:02:29*\n"
     }
   ]
 }

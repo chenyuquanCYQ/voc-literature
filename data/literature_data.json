@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1079,
-    "relevant": 892,
+    "total": 1080,
+    "relevant": 893,
     "today": 1,
-    "this_week": 10,
+    "this_week": 7,
     "avg_score": 4.04,
-    "updated_at": "2026-05-29T07:02:31"
+    "updated_at": "2026-05-30T07:03:18"
   },
   "stats": {
-    "total": 1079,
-    "relevant": 892,
+    "total": 1080,
+    "relevant": 893,
     "today": 1,
-    "this_week": 10,
+    "this_week": 7,
     "avg_score": 4.04,
     "by_category": {
-      "voc_breath": 284,
+      "voc_breath": 285,
       "disease_cancer": 207,
       "sensor_hardware": 137,
       "infection": 70,
@@ -27,7 +27,7 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 211,
+      "clinicaltrials": 212,
       "import": 488,
       "openalex": 121,
       "pubmed": 130,
@@ -38,7 +38,7 @@
       "2": 11,
       "3": 230,
       "4": 356,
-      "5": 294
+      "5": 295
     },
     "by_year": {
       "1985": 1,
@@ -55,7 +55,7 @@
       "2013": 20,
       "2014": 24,
       "2015": 30,
-      "2016": 29,
+      "2016": 30,
       "2017": 29,
       "2018": 31,
       "2019": 38,
@@ -147,9 +147,18 @@
       {
         "date": "2026-05-28",
         "count": 1
+      },
+      {
+        "date": "2026-05-29",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-05-29 23:03:17",
+        "found": 242,
+        "new_added": 1
+      },
       {
         "run_at": "2026-05-28 23:02:30",
         "found": 243,
@@ -194,11 +203,6 @@
         "run_at": "2026-05-20 23:02:25",
         "found": 244,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-05-19 23:02:48",
-        "found": 244,
-        "new_added": 3
       }
     ],
     "category_score": [
@@ -214,8 +218,8 @@
       },
       {
         "category": "voc_breath",
-        "avg_score": 4.27,
-        "count": 284
+        "avg_score": 4.28,
+        "count": 285
       },
       {
         "category": "disease_chronic",
@@ -260,6 +264,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1080,
+      "title": "[CT] Diagnosis of Common Oral Diseases by Signature Volatile Profiles",
+      "authors": "Hadassah Medical Organization",
+      "year": 2016,
+      "journal": "ClinicalTrials.gov (Caries, Periodontitis)",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "oral diseases",
+        "GC-MS",
+        "VOC biomarker",
+        "diagnosis"
+      ],
+      "one_line": "利用呼氣VOC診斷口腔疾病，並開發非侵入式診斷工具。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT02931032",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-05-29 23:03:17"
+    },
     {
       "id": 1079,
       "title": "[CT] Breath Analysis Based Disease Biomarkers",
@@ -22679,6 +22705,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-05-30_0703",
+      "content": "# VOC 文獻監控日報 — 2026-05-30\n\n> 執行時間：07:03:18 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1080 |\n| 資料庫相關總數 | 893 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Diagnosis of Common Oral Diseases by Signature Volatile Profiles\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, oral diseases, GC-MS, VOC biomarker, diagnosis\n- **摘要**：利用呼氣VOC診斷口腔疾病，並開發非侵入式診斷工具。\n- **作者**：Hadassah Medical Organization | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02931032)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Diagnosis of Common Oral Diseases by Signature Volatile Profiles](https://clinicaltrials.gov/study/NCT02931032)**  \n  利用呼氣VOC診斷口腔疾病，並開發非侵入式診斷工具。 ｜ 2016\n\n---\n*報告生成時間：2026-05-30 07:03:18*\n"
+    },
+    {
       "date": "2026-05-29_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-29\n\n> 執行時間：07:02:30 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1079 |\n| 資料庫相關總數 | 892 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Breath Analysis Based Disease Biomarkers\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, disease biomarkers, clinical test, VOC, diagnosis\n- **摘要**：研究開發基於呼氣分析的疾病診斷或預後臨床檢測。\n- **作者**：Mayo Clinic | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT04341012)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Breath Analysis Based Disease Biomarkers](https://clinicaltrials.gov/study/NCT04341012)**  \n  研究開發基於呼氣分析的疾病診斷或預後臨床檢測。 ｜ 2019\n\n---\n*報告生成時間：2026-05-29 07:02:30*\n"
     },
@@ -22701,10 +22731,6 @@
     {
       "date": "2026-05-24_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-24\n\n> 執行時間：07:02:07 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1074 |\n| 資料庫相關總數 | 887 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-24 07:02:07*\n"
-    },
-    {
-      "date": "2026-05-23_0703",
-      "content": "# VOC 文獻監控日報 — 2026-05-23\n\n> 執行時間：07:03:18 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1074 |\n| 資料庫相關總數 | 887 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Soft ionization by chemical reaction in transfer-high-resolution mass spectrometry for clinical exhaled breath profiling.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOC, metabolomics, HRMS, clinical\n- **摘要**：研究使用HRMS分析呼氣VOC，並探討其在臨床應用中的可行性。\n- **作者**：Roquencourt Camille, Lamy Elodie, Hunzinger Nicolas, Salvator Hélène, Devillier Philippe et al. | **年份**：2026 | DOI: `10.1007/s00216-026-06425-1` | [連結](https://pubmed.ncbi.nlm.nih.gov/41832327/)\n\n### [CT] Lung Cancer Indicator Detection\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, FAIMS, exhaled VOC\n- **摘要**：研究呼氣VOC用於肺癌診斷的診斷準確性。\n- **作者**：Owlstone Ltd | **年份**：2015 | [連結](https://clinicaltrials.gov/study/NCT02612532)\n\n### [CT] Identification of Volatile Organic Compounds in Exhaled Air During Exacerbation of Chronic Obstructive Pulmonary Disease\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, COPD, VOC biomarker, exacerbation, chronic disease\n- **摘要**：研究呼氣VOC與慢性阻塞性肺病急性惡化之間的關係。\n- **作者**：Centre Hospitalier Universitaire de Saint Etienne | **年份**：2014 | [連結](https://clinicaltrials.gov/study/NCT02529891)\n\n### [CT] The Use of Breath Volatile Organic Compounds in Early Detection of Acute Pulmonary Exacerbations in Cystic Fibrosis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cystic fibrosis, pulmonary infection, VOC biomarker, exhaled breath\n- **摘要**：研究利用呼氣VOC診斷囊性纖維化肺部感染，具有潛在應用價值。\n- **作者**：Papworth Hospital NHS Foundation Trust | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT05944367)\n\n### [CT] Breath Analysis in Children by New Point-of-care Instruments\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, children, asthma, CF, point-of-care\n- **摘要**：研究兒童哮喘、囊性纖維症患者的呼氣分析可行性。\n- **作者**：Maastricht University Medical Center | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT03377686)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Soft ionization by chemical reaction in transfer-high-resolution mass spectrometry for clinical exhaled breath profiling.](https://pubmed.ncbi.nlm.nih.gov/41832327/)**  \n  研究使用HRMS分析呼氣VOC，並探討其在臨床應用中的可行性。 ｜ 2026\n- ▓▓▓▓░ **[[CT] Breath Analysis in Children by New Point-of-care Instruments](https://clinicaltrials.gov/study/NCT03377686)**  \n  研究兒童哮喘、囊性纖維症患者的呼氣分析可行性。 ｜ 2016\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Lung Cancer Indicator Detection](https://clinicaltrials.gov/study/NCT02612532)**  \n  研究呼氣VOC用於肺癌診斷的診斷準確性。 ｜ 2015\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Identification of Volatile Organic Compounds in Exhaled Air During Exacerbation of Chronic Obstructive Pulmonary Disease](https://clinicaltrials.gov/study/NCT02529891)**  \n  研究呼氣VOC與慢性阻塞性肺病急性惡化之間的關係。 ｜ 2014\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] The Use of Breath Volatile Organic Compounds in Early Detection of Acute Pulmonary Exacerbations in Cystic Fibrosis](https://clinicaltrials.gov/study/NCT05944367)**  \n  研究利用呼氣VOC診斷囊性纖維化肺部感染，具有潛在應用價值。 ｜ 2021\n\n---\n*報告生成時間：2026-05-23 07:03:18*\n"
     }
   ]
 }

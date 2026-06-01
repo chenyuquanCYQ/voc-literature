@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1080,
-    "relevant": 893,
-    "today": 0,
-    "this_week": 6,
-    "avg_score": 4.04,
-    "updated_at": "2026-06-01T07:02:04"
+    "total": 1083,
+    "relevant": 896,
+    "today": 3,
+    "this_week": 8,
+    "avg_score": 4.05,
+    "updated_at": "2026-06-02T07:02:53"
   },
   "stats": {
-    "total": 1080,
-    "relevant": 893,
-    "today": 0,
-    "this_week": 6,
-    "avg_score": 4.04,
+    "total": 1083,
+    "relevant": 896,
+    "today": 3,
+    "this_week": 8,
+    "avg_score": 4.05,
     "by_category": {
-      "voc_breath": 285,
-      "disease_cancer": 207,
+      "voc_breath": 287,
+      "disease_cancer": 208,
       "sensor_hardware": 137,
       "infection": 70,
       "disease_chronic": 70,
@@ -27,18 +27,18 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 212,
+      "clinicaltrials": 214,
       "import": 488,
       "openalex": 121,
-      "pubmed": 130,
+      "pubmed": 131,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 11,
       "3": 230,
-      "4": 356,
-      "5": 295
+      "4": 358,
+      "5": 296
     },
     "by_year": {
       "1985": 1,
@@ -49,7 +49,7 @@
       "2007": 5,
       "2008": 7,
       "2009": 14,
-      "2010": 10,
+      "2010": 11,
       "2011": 25,
       "2012": 17,
       "2013": 20,
@@ -61,17 +61,13 @@
       "2019": 38,
       "2020": 40,
       "2021": 55,
-      "2022": 56,
+      "2022": 57,
       "2023": 52,
-      "2024": 70,
+      "2024": 71,
       "2025": 64,
       "2026": 20
     },
     "daily_trend": [
-      {
-        "date": "2026-05-01",
-        "count": 16
-      },
       {
         "date": "2026-05-04",
         "count": 4
@@ -151,9 +147,18 @@
       {
         "date": "2026-05-29",
         "count": 1
+      },
+      {
+        "date": "2026-06-01",
+        "count": 3
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-01 23:02:52",
+        "found": 243,
+        "new_added": 3
+      },
       {
         "run_at": "2026-05-31 23:02:03",
         "found": 244,
@@ -198,18 +203,13 @@
         "run_at": "2026-05-23 23:02:07",
         "found": 244,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-05-22 23:03:18",
-        "found": 244,
-        "new_added": 5
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.53,
-        "count": 207
+        "count": 208
       },
       {
         "category": "infection",
@@ -219,7 +219,7 @@
       {
         "category": "voc_breath",
         "avg_score": 4.28,
-        "count": 285
+        "count": 287
       },
       {
         "category": "disease_chronic",
@@ -264,6 +264,72 @@
     ]
   },
   "literature": [
+    {
+      "id": 1083,
+      "title": "[CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma",
+      "authors": "Imperial College London",
+      "year": 2022,
+      "journal": "ClinicalTrials.gov (PDAC - Pancreatic Ductal Adenocarcinoma, Pancreatic Cancer)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "pancreatic cancer",
+        "VOC biomarker",
+        "early detection",
+        "non-invasive"
+      ],
+      "one_line": "研究開發呼氣VOC檢測胰腺癌，用於早期診斷。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT05727020",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-01 23:02:52"
+    },
+    {
+      "id": 1082,
+      "title": "[CT] Reduction of Asthma Exacerbation Rate in Children by Non-invasive Monitoring of Inflammatory Markers in Exhaled Breath (Condensate): the RASTER Study",
+      "authors": "Maastricht University Medical Center",
+      "year": 2010,
+      "journal": "ClinicalTrials.gov (Asthma, Children, Home Monitoring, Exhaled Breath Condensate, Non-invasive Inflammatory Markers)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "asthma",
+        "exacerbation",
+        "inflammatory markers",
+        "condensate"
+      ],
+      "one_line": "研究呼氣冷凝物中的炎症標記物，預測哮喘惡化。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT01239238",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-01 23:02:52"
+    },
+    {
+      "id": 1081,
+      "title": "HS-GC-MS analysis of volatile organic compounds after hyperoxia-induced oxidative stress: a validation study.",
+      "authors": "Lilien Thijs A, Fenn Dominic W, Brinkman Paul, Hagens Laura A, Smit Marry R et al.",
+      "year": 2024,
+      "journal": "Intensive care medicine experimental",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "VOC",
+        "oxidative stress",
+        "GC-MS",
+        "hyperoxia"
+      ],
+      "one_line": "研究呼氣VOC在氧化壓力下的變化，並評估其診斷價值。",
+      "doi": "10.1186/s40635-024-00600-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38345723/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-06-01 23:02:52"
+    },
     {
       "id": 1080,
       "title": "[CT] Diagnosis of Common Oral Diseases by Signature Volatile Profiles",
@@ -22705,6 +22771,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-02_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-02\n\n> 執行時間：07:02:53 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1083 |\n| 資料庫相關總數 | 896 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, pancreatic cancer, VOC biomarker, early detection, non-invasive\n- **摘要**：研究開發呼氣VOC檢測胰腺癌，用於早期診斷。\n- **作者**：Imperial College London | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05727020)\n\n### HS-GC-MS analysis of volatile organic compounds after hyperoxia-induced oxidative stress: a validation study.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, VOC, oxidative stress, GC-MS, hyperoxia\n- **摘要**：研究呼氣VOC在氧化壓力下的變化，並評估其診斷價值。\n- **作者**：Lilien Thijs A, Fenn Dominic W, Brinkman Paul, Hagens Laura A, Smit Marry R et al. | **年份**：2024 | DOI: `10.1186/s40635-024-00600-3` | [連結](https://pubmed.ncbi.nlm.nih.gov/38345723/)\n\n### [CT] Reduction of Asthma Exacerbation Rate in Children by Non-invasive Monitoring of Inflammatory Markers in Exhaled Breath (Condensate): the RASTER Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, asthma, exacerbation, inflammatory markers, condensate\n- **摘要**：研究呼氣冷凝物中的炎症標記物，預測哮喘惡化。\n- **作者**：Maastricht University Medical Center | **年份**：2010 | [連結](https://clinicaltrials.gov/study/NCT01239238)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[HS-GC-MS analysis of volatile organic compounds after hyperoxia-induced oxidative stress: a validation study.](https://pubmed.ncbi.nlm.nih.gov/38345723/)**  \n  研究呼氣VOC在氧化壓力下的變化，並評估其診斷價值。 ｜ 2024\n- ▓▓▓▓░ **[[CT] Reduction of Asthma Exacerbation Rate in Children by Non-invasive Monitoring of Inflammatory Markers in Exhaled Breath (Condensate): the RASTER Study](https://clinicaltrials.gov/study/NCT01239238)**  \n  研究呼氣冷凝物中的炎症標記物，預測哮喘惡化。 ｜ 2010\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma](https://clinicaltrials.gov/study/NCT05727020)**  \n  研究開發呼氣VOC檢測胰腺癌，用於早期診斷。 ｜ 2022\n\n---\n*報告生成時間：2026-06-02 07:02:53*\n"
+    },
+    {
       "date": "2026-06-01_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-01\n\n> 執行時間：07:02:03 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1080 |\n| 資料庫相關總數 | 893 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-01 07:02:03*\n"
     },
@@ -22727,10 +22797,6 @@
     {
       "date": "2026-05-27_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-27\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1076 |\n| 資料庫相關總數 | 889 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Differentiation of Benign and Malignant Pulmonary Nodules by Volatile Organic Compounds in Human Exhaled Breath\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, AI model, pulmonary nodules\n- **摘要**：利用呼氣VOC和AI模型，區分肺部良惡性結節。\n- **作者**：ChromX Health | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06518655)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Differentiation of Benign and Malignant Pulmonary Nodules by Volatile Organic Compounds in Human Exhaled Breath](https://clinicaltrials.gov/study/NCT06518655)**  \n  利用呼氣VOC和AI模型，區分肺部良惡性結節。 ｜ 2024\n\n---\n*報告生成時間：2026-05-27 07:02:31*\n"
-    },
-    {
-      "date": "2026-05-26_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-26\n\n> 執行時間：07:02:35 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1075 |\n| 資料庫相關總數 | 888 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Diagnosis by Volatile Organic Compounds in Exhaled Breath in Exhaled Breath from Patients with Gastric and Colorectal Cancers.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, gastric cancer, colorectal cancer, VOC biomarker, early diagnosis\n- **摘要**：研究利用呼氣VOC診斷胃癌和結直腸癌，具有高度相關性。\n- **作者**：Chung Jinwook, Akter Salima, Han Sunhee, Shin Yoonhwa, Choi Tae Gyu et al. | **年份**：2022 | DOI: `10.3390/ijms24010129` | [連結](https://pubmed.ncbi.nlm.nih.gov/36613569/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Diagnosis by Volatile Organic Compounds in Exhaled Breath in Exhaled Breath from Patients with Gastric and Colorectal Cancers.](https://pubmed.ncbi.nlm.nih.gov/36613569/)**  \n  研究利用呼氣VOC診斷胃癌和結直腸癌，具有高度相關性。 ｜ 2022\n\n---\n*報告生成時間：2026-05-26 07:02:35*\n"
     }
   ]
 }

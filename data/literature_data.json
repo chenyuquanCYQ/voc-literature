@@ -1,25 +1,25 @@
 {
   "meta": {
-    "total": 1084,
-    "relevant": 897,
+    "total": 1085,
+    "relevant": 898,
     "today": 1,
-    "this_week": 8,
-    "avg_score": 4.05,
-    "updated_at": "2026-06-03T07:02:36"
+    "this_week": 9,
+    "avg_score": 4.04,
+    "updated_at": "2026-06-04T07:02:25"
   },
   "stats": {
-    "total": 1084,
-    "relevant": 897,
+    "total": 1085,
+    "relevant": 898,
     "today": 1,
-    "this_week": 8,
-    "avg_score": 4.05,
+    "this_week": 9,
+    "avg_score": 4.04,
     "by_category": {
       "voc_breath": 288,
       "disease_cancer": 208,
       "sensor_hardware": 137,
       "infection": 70,
       "disease_chronic": 70,
-      "method_tech": 56,
+      "method_tech": 57,
       "voc_liquid": 28,
       "ai_model": 19,
       "subhealth": 9,
@@ -27,7 +27,7 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 215,
+      "clinicaltrials": 216,
       "import": 488,
       "openalex": 121,
       "pubmed": 131,
@@ -36,7 +36,7 @@
     "by_score": {
       "1": 1,
       "2": 11,
-      "3": 230,
+      "3": 231,
       "4": 359,
       "5": 296
     },
@@ -50,7 +50,7 @@
       "2008": 7,
       "2009": 14,
       "2010": 11,
-      "2011": 25,
+      "2011": 26,
       "2012": 17,
       "2013": 20,
       "2014": 24,
@@ -155,9 +155,18 @@
       {
         "date": "2026-06-02",
         "count": 1
+      },
+      {
+        "date": "2026-06-03",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-03 23:02:24",
+        "found": 243,
+        "new_added": 1
+      },
       {
         "run_at": "2026-06-02 23:02:36",
         "found": 228,
@@ -202,11 +211,6 @@
         "run_at": "2026-05-25 23:02:34",
         "found": 244,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-05-24 23:02:07",
-        "found": 244,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -238,7 +242,7 @@
       {
         "category": "method_tech",
         "avg_score": 3.39,
-        "count": 56
+        "count": 57
       },
       {
         "category": "odor_medicine",
@@ -268,6 +272,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1085,
+      "title": "[CT] Grain Fibre and Gut Health",
+      "authors": "University of Eastern Finland",
+      "year": 2011,
+      "journal": "ClinicalTrials.gov (Intestinal Disorder, Glucose Metabolism Disorders, Inflammation)",
+      "category": "method_tech",
+      "score": 3.0,
+      "tags": [
+        "gut health",
+        "fermentation",
+        "metabolic health",
+        "dietary fiber",
+        "immunomodulatory"
+      ],
+      "one_line": "研究腸道發酵對穀物纖維代謝健康影響的技術方法。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03550365",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-03 23:02:24"
+    },
     {
       "id": 1084,
       "title": "[CT] The Effect of Low or High Dietary Fiber Diet on Volatile Organic Compounds in Exhaled Breath of Healthy Individuals",
@@ -22797,6 +22823,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-04_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-04\n\n> 執行時間：07:02:25 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1085 |\n| 資料庫相關總數 | 898 |\n| 相關文獻平均分 | 4.04 |\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[[CT] Grain Fibre and Gut Health](https://clinicaltrials.gov/study/NCT03550365)**  \n  研究腸道發酵對穀物纖維代謝健康影響的技術方法。 ｜ 2011\n\n---\n*報告生成時間：2026-06-04 07:02:25*\n"
+    },
+    {
       "date": "2026-06-03_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-03\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1084 |\n| 資料庫相關總數 | 897 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] The Effect of Low or High Dietary Fiber Diet on Volatile Organic Compounds in Exhaled Breath of Healthy Individuals\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, dietary fiber, VOC, metabolites, fermentation\n- **摘要**：研究飲食纖維對健康成人呼氣VOC影響，具有臨床意義。\n- **作者**：Örebro University, Sweden | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07594600)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] The Effect of Low or High Dietary Fiber Diet on Volatile Organic Compounds in Exhaled Breath of Healthy Individuals](https://clinicaltrials.gov/study/NCT07594600)**  \n  研究飲食纖維對健康成人呼氣VOC影響，具有臨床意義。 ｜ 2026\n\n---\n*報告生成時間：2026-06-03 07:02:36*\n"
     },
@@ -22819,10 +22849,6 @@
     {
       "date": "2026-05-29_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-29\n\n> 執行時間：07:02:30 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1079 |\n| 資料庫相關總數 | 892 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Breath Analysis Based Disease Biomarkers\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, disease biomarkers, clinical test, VOC, diagnosis\n- **摘要**：研究開發基於呼氣分析的疾病診斷或預後臨床檢測。\n- **作者**：Mayo Clinic | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT04341012)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Breath Analysis Based Disease Biomarkers](https://clinicaltrials.gov/study/NCT04341012)**  \n  研究開發基於呼氣分析的疾病診斷或預後臨床檢測。 ｜ 2019\n\n---\n*報告生成時間：2026-05-29 07:02:30*\n"
-    },
-    {
-      "date": "2026-05-28_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-28\n\n> 執行時間：07:02:33 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1078 |\n| 資料庫相關總數 | 891 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### A review of ageing related biomarkers in breath.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, ageing, VOCs, exhaled breath, biomarkers\n- **摘要**：综述了呼气VOC与衰老相关的生物标志物研究。\n- **作者**：Vosshage Kartini I, Swift James R, Kim Ayoung, Brooke-Wavell Katherine, Soltoggio Andrea et al. | **年份**：2026 | DOI: `10.1016/j.arr.2026.103066` | [連結](https://pubmed.ncbi.nlm.nih.gov/41730370/)\n\n### [CT] Breathomics in the Diagnosis and Prediction of Radiotherapy-Induced Oropharyngeal Mucositis in Head and Neck Tumors\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breathomics, VOC, radiotherapy, oropharyngeal mucositis, head and neck tumor\n- **摘要**：研究呼氣VOC在頭頸癌放療引起的口腔黏膜炎的診斷與預測。\n- **作者**：Nanfang Hospital, Southern Medical University | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06767488)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[A review of ageing related biomarkers in breath.](https://pubmed.ncbi.nlm.nih.gov/41730370/)**  \n  综述了呼气VOC与衰老相关的生物标志物研究。 ｜ 2026\n- ▓▓▓▓▓ **[[CT] Breathomics in the Diagnosis and Prediction of Radiotherapy-Induced Oropharyngeal Mucositis in Head and Neck Tumors](https://clinicaltrials.gov/study/NCT06767488)**  \n  研究呼氣VOC在頭頸癌放療引起的口腔黏膜炎的診斷與預測。 ｜ 2024\n\n---\n*報告生成時間：2026-05-28 07:02:33*\n"
     }
   ]
 }

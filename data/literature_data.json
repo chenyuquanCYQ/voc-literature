@@ -1,24 +1,24 @@
 {
   "meta": {
-    "total": 1085,
-    "relevant": 898,
-    "today": 1,
+    "total": 1088,
+    "relevant": 901,
+    "today": 3,
     "this_week": 9,
-    "avg_score": 4.04,
-    "updated_at": "2026-06-04T07:02:25"
+    "avg_score": 4.05,
+    "updated_at": "2026-06-05T07:02:45"
   },
   "stats": {
-    "total": 1085,
-    "relevant": 898,
-    "today": 1,
+    "total": 1088,
+    "relevant": 901,
+    "today": 3,
     "this_week": 9,
-    "avg_score": 4.04,
+    "avg_score": 4.05,
     "by_category": {
-      "voc_breath": 288,
-      "disease_cancer": 208,
+      "voc_breath": 289,
+      "disease_cancer": 209,
       "sensor_hardware": 137,
+      "disease_chronic": 71,
       "infection": 70,
-      "disease_chronic": 70,
       "method_tech": 57,
       "voc_liquid": 28,
       "ai_model": 19,
@@ -27,7 +27,7 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 216,
+      "clinicaltrials": 219,
       "import": 488,
       "openalex": 121,
       "pubmed": 131,
@@ -36,9 +36,9 @@
     "by_score": {
       "1": 1,
       "2": 11,
-      "3": 231,
+      "3": 232,
       "4": 359,
-      "5": 296
+      "5": 298
     },
     "by_year": {
       "1985": 1,
@@ -57,21 +57,17 @@
       "2015": 30,
       "2016": 30,
       "2017": 29,
-      "2018": 31,
+      "2018": 32,
       "2019": 38,
       "2020": 40,
       "2021": 55,
       "2022": 57,
       "2023": 52,
       "2024": 71,
-      "2025": 64,
+      "2025": 66,
       "2026": 21
     },
     "daily_trend": [
-      {
-        "date": "2026-05-04",
-        "count": 4
-      },
       {
         "date": "2026-05-05",
         "count": 5
@@ -159,9 +155,18 @@
       {
         "date": "2026-06-03",
         "count": 1
+      },
+      {
+        "date": "2026-06-04",
+        "count": 3
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-04 23:02:43",
+        "found": 244,
+        "new_added": 3
+      },
       {
         "run_at": "2026-06-03 23:02:24",
         "found": 243,
@@ -206,18 +211,13 @@
         "run_at": "2026-05-26 23:02:30",
         "found": 243,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-05-25 23:02:34",
-        "found": 244,
-        "new_added": 1
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.53,
-        "count": 208
+        "avg_score": 4.54,
+        "count": 209
       },
       {
         "category": "infection",
@@ -226,13 +226,13 @@
       },
       {
         "category": "voc_breath",
-        "avg_score": 4.27,
-        "count": 288
+        "avg_score": 4.28,
+        "count": 289
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.06,
-        "count": 70
+        "avg_score": 4.04,
+        "count": 71
       },
       {
         "category": "voc_liquid",
@@ -272,6 +272,72 @@
     ]
   },
   "literature": [
+    {
+      "id": 1088,
+      "title": "[CT] Systems Pharmacology Approach to Uncontrolled Pediatric Asthma",
+      "authors": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+      "year": 2018,
+      "journal": "ClinicalTrials.gov (Pediatric Asthma, Uncontrolled Asthma)",
+      "category": "disease_chronic",
+      "score": 3.0,
+      "tags": [
+        "asthma",
+        "pediatrics",
+        "metabolomics",
+        "chronic disease",
+        "multi-omics"
+      ],
+      "one_line": "研究兒童哮喘的系統藥理學方法，涉及多組學數據分析。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04865575",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-04 23:02:43"
+    },
+    {
+      "id": 1087,
+      "title": "[CT] Rapid Diagnostic Technology for AUGIB Based on Analysis of VOCs in Exhaled Breath",
+      "authors": "Beijing 302 Hospital",
+      "year": 2025,
+      "journal": "ClinicalTrials.gov (Volatile Organic Compound, Gastrointestinal Hemorrhage)",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "AUGIB",
+        "VOC biomarker",
+        "diagnostic",
+        "exhaled breath"
+      ],
+      "one_line": "利用呼氣VOC診斷上消化道出血，具有高度相關性。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06877507",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-04 23:02:42"
+    },
+    {
+      "id": 1086,
+      "title": "[CT] A Simple Breath Test to Detect Liver Cancer and Monitor Liver Conditions",
+      "authors": "Imperial College London",
+      "year": 2025,
+      "journal": "ClinicalTrials.gov (Liver Cirrhosis, Hepatocellular Carcinoma (HCC), Cholangiocarcinoma, Cholangitis, Sclerosing)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "liver cancer",
+        "VOC biomarker",
+        "non-invasive",
+        "hepatic"
+      ],
+      "one_line": "利用呼氣VOC檢測肝癌及監測肝臟狀況的研究。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06864195",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-04 23:02:42"
+    },
     {
       "id": 1085,
       "title": "[CT] Grain Fibre and Gut Health",
@@ -22823,6 +22889,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-05_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-05\n\n> 執行時間：07:02:44 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1088 |\n| 資料庫相關總數 | 901 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] A Simple Breath Test to Detect Liver Cancer and Monitor Liver Conditions\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver cancer, VOC biomarker, non-invasive, hepatic\n- **摘要**：利用呼氣VOC檢測肝癌及監測肝臟狀況的研究。\n- **作者**：Imperial College London | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06864195)\n\n### [CT] Rapid Diagnostic Technology for AUGIB Based on Analysis of VOCs in Exhaled Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, AUGIB, VOC biomarker, diagnostic, exhaled breath\n- **摘要**：利用呼氣VOC診斷上消化道出血，具有高度相關性。\n- **作者**：Beijing 302 Hospital | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06877507)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] A Simple Breath Test to Detect Liver Cancer and Monitor Liver Conditions](https://clinicaltrials.gov/study/NCT06864195)**  \n  利用呼氣VOC檢測肝癌及監測肝臟狀況的研究。 ｜ 2025\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Rapid Diagnostic Technology for AUGIB Based on Analysis of VOCs in Exhaled Breath](https://clinicaltrials.gov/study/NCT06877507)**  \n  利用呼氣VOC診斷上消化道出血，具有高度相關性。 ｜ 2025\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] Systems Pharmacology Approach to Uncontrolled Pediatric Asthma](https://clinicaltrials.gov/study/NCT04865575)**  \n  研究兒童哮喘的系統藥理學方法，涉及多組學數據分析。 ｜ 2018\n\n---\n*報告生成時間：2026-06-05 07:02:44*\n"
+    },
+    {
       "date": "2026-06-04_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-04\n\n> 執行時間：07:02:25 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1085 |\n| 資料庫相關總數 | 898 |\n| 相關文獻平均分 | 4.04 |\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[[CT] Grain Fibre and Gut Health](https://clinicaltrials.gov/study/NCT03550365)**  \n  研究腸道發酵對穀物纖維代謝健康影響的技術方法。 ｜ 2011\n\n---\n*報告生成時間：2026-06-04 07:02:25*\n"
     },
@@ -22845,10 +22915,6 @@
     {
       "date": "2026-05-30_0703",
       "content": "# VOC 文獻監控日報 — 2026-05-30\n\n> 執行時間：07:03:18 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1080 |\n| 資料庫相關總數 | 893 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Diagnosis of Common Oral Diseases by Signature Volatile Profiles\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, oral diseases, GC-MS, VOC biomarker, diagnosis\n- **摘要**：利用呼氣VOC診斷口腔疾病，並開發非侵入式診斷工具。\n- **作者**：Hadassah Medical Organization | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02931032)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Diagnosis of Common Oral Diseases by Signature Volatile Profiles](https://clinicaltrials.gov/study/NCT02931032)**  \n  利用呼氣VOC診斷口腔疾病，並開發非侵入式診斷工具。 ｜ 2016\n\n---\n*報告生成時間：2026-05-30 07:03:18*\n"
-    },
-    {
-      "date": "2026-05-29_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-29\n\n> 執行時間：07:02:30 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1079 |\n| 資料庫相關總數 | 892 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Breath Analysis Based Disease Biomarkers\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, disease biomarkers, clinical test, VOC, diagnosis\n- **摘要**：研究開發基於呼氣分析的疾病診斷或預後臨床檢測。\n- **作者**：Mayo Clinic | **年份**：2019 | [連結](https://clinicaltrials.gov/study/NCT04341012)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Breath Analysis Based Disease Biomarkers](https://clinicaltrials.gov/study/NCT04341012)**  \n  研究開發基於呼氣分析的疾病診斷或預後臨床檢測。 ｜ 2019\n\n---\n*報告生成時間：2026-05-29 07:02:30*\n"
     }
   ]
 }

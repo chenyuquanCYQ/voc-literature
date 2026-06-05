@@ -1,23 +1,23 @@
 {
   "meta": {
-    "total": 1088,
-    "relevant": 901,
+    "total": 1091,
+    "relevant": 904,
     "today": 3,
-    "this_week": 9,
+    "this_week": 12,
     "avg_score": 4.05,
-    "updated_at": "2026-06-05T07:02:45"
+    "updated_at": "2026-06-06T07:02:58"
   },
   "stats": {
-    "total": 1088,
-    "relevant": 901,
+    "total": 1091,
+    "relevant": 904,
     "today": 3,
-    "this_week": 9,
+    "this_week": 12,
     "avg_score": 4.05,
     "by_category": {
-      "voc_breath": 289,
+      "voc_breath": 291,
       "disease_cancer": 209,
       "sensor_hardware": 137,
-      "disease_chronic": 71,
+      "disease_chronic": 72,
       "infection": 70,
       "method_tech": 57,
       "voc_liquid": 28,
@@ -27,7 +27,7 @@
       "other": 4
     },
     "by_source": {
-      "clinicaltrials": 219,
+      "clinicaltrials": 222,
       "import": 488,
       "openalex": 121,
       "pubmed": 131,
@@ -36,9 +36,9 @@
     "by_score": {
       "1": 1,
       "2": 11,
-      "3": 232,
-      "4": 359,
-      "5": 298
+      "3": 233,
+      "4": 360,
+      "5": 299
     },
     "by_year": {
       "1985": 1,
@@ -59,23 +59,15 @@
       "2017": 29,
       "2018": 32,
       "2019": 38,
-      "2020": 40,
+      "2020": 41,
       "2021": 55,
-      "2022": 57,
+      "2022": 59,
       "2023": 52,
       "2024": 71,
       "2025": 66,
       "2026": 21
     },
     "daily_trend": [
-      {
-        "date": "2026-05-05",
-        "count": 5
-      },
-      {
-        "date": "2026-05-06",
-        "count": 3
-      },
       {
         "date": "2026-05-07",
         "count": 5
@@ -159,9 +151,18 @@
       {
         "date": "2026-06-04",
         "count": 3
+      },
+      {
+        "date": "2026-06-05",
+        "count": 3
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-05 23:02:56",
+        "found": 243,
+        "new_added": 3
+      },
       {
         "run_at": "2026-06-04 23:02:43",
         "found": 244,
@@ -206,11 +207,6 @@
         "run_at": "2026-05-27 23:02:32",
         "found": 243,
         "new_added": 2
-      },
-      {
-        "run_at": "2026-05-26 23:02:30",
-        "found": 243,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -227,12 +223,12 @@
       {
         "category": "voc_breath",
         "avg_score": 4.28,
-        "count": 289
+        "count": 291
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.04,
-        "count": 71
+        "avg_score": 4.03,
+        "count": 72
       },
       {
         "category": "voc_liquid",
@@ -272,6 +268,72 @@
     ]
   },
   "literature": [
+    {
+      "id": 1091,
+      "title": "[CT] The e-BILD Study: Effects of E-cigarettes on Lung Health in Teenagers.",
+      "authors": "Insel Gruppe AG, University Hospital Bern",
+      "year": 2022,
+      "journal": "ClinicalTrials.gov (Vaping, Lung Diseases)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "e-cigarettes",
+        "teenagers",
+        "lung health",
+        "VOCs",
+        "metabolites"
+      ],
+      "one_line": "研究電子煙對青少年肺部健康的影響，涉及呼氣 VOC 和代謝物。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT05105555",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-05 23:02:55"
+    },
+    {
+      "id": 1090,
+      "title": "[CT] The Interaction and Regulation Mechanism of Different Exercise Patterns With Metabolic Syndrome and Related Metabolic Diseases",
+      "authors": "Peking University Third Hospital",
+      "year": 2022,
+      "journal": "ClinicalTrials.gov (Obesity, Metabolic Syndrome)",
+      "category": "disease_chronic",
+      "score": 3.0,
+      "tags": [
+        "metabolic syndrome",
+        "exercise intervention",
+        "blood metabolomics",
+        "urine analysis",
+        "RCT"
+      ],
+      "one_line": "研究運動干預對代謝綜合徵的影響，涉及血液和尿液代謝物分析。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04984005",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-05 23:02:55"
+    },
+    {
+      "id": 1089,
+      "title": "[CT] Volatile Organic Compounds (VOCs) of Exhaled Breath in Patients With GI Bleeding",
+      "authors": "Seoul National University Hospital",
+      "year": 2020,
+      "journal": "ClinicalTrials.gov (Gastrointestinal Hemorrhage, Volatile Organic Compounds)",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "GI bleeding",
+        "VOCs",
+        "exhaled breath",
+        "case-control study"
+      ],
+      "one_line": "研究消化道出血患者呼氣中的揮發性有機化合物差異。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04226079",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-05 23:02:55"
+    },
     {
       "id": 1088,
       "title": "[CT] Systems Pharmacology Approach to Uncontrolled Pediatric Asthma",
@@ -22889,6 +22951,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-06_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-06\n\n> 執行時間：07:02:57 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1091 |\n| 資料庫相關總數 | 904 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compounds (VOCs) of Exhaled Breath in Patients With GI Bleeding\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, GI bleeding, VOCs, exhaled breath, case-control study\n- **摘要**：研究消化道出血患者呼氣中的揮發性有機化合物差異。\n- **作者**：Seoul National University Hospital | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04226079)\n\n### [CT] The e-BILD Study: Effects of E-cigarettes on Lung Health in Teenagers.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：e-cigarettes, teenagers, lung health, VOCs, metabolites\n- **摘要**：研究電子煙對青少年肺部健康的影響，涉及呼氣 VOC 和代謝物。\n- **作者**：Insel Gruppe AG, University Hospital Bern | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05105555)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compounds (VOCs) of Exhaled Breath in Patients With GI Bleeding](https://clinicaltrials.gov/study/NCT04226079)**  \n  研究消化道出血患者呼氣中的揮發性有機化合物差異。 ｜ 2020\n- ▓▓▓▓░ **[[CT] The e-BILD Study: Effects of E-cigarettes on Lung Health in Teenagers.](https://clinicaltrials.gov/study/NCT05105555)**  \n  研究電子煙對青少年肺部健康的影響，涉及呼氣 VOC 和代謝物。 ｜ 2022\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] The Interaction and Regulation Mechanism of Different Exercise Patterns With Metabolic Syndrome and Related Metabolic Diseases](https://clinicaltrials.gov/study/NCT04984005)**  \n  研究運動干預對代謝綜合徵的影響，涉及血液和尿液代謝物分析。 ｜ 2022\n\n---\n*報告生成時間：2026-06-06 07:02:57*\n"
+    },
+    {
       "date": "2026-06-05_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-05\n\n> 執行時間：07:02:44 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1088 |\n| 資料庫相關總數 | 901 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] A Simple Breath Test to Detect Liver Cancer and Monitor Liver Conditions\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver cancer, VOC biomarker, non-invasive, hepatic\n- **摘要**：利用呼氣VOC檢測肝癌及監測肝臟狀況的研究。\n- **作者**：Imperial College London | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06864195)\n\n### [CT] Rapid Diagnostic Technology for AUGIB Based on Analysis of VOCs in Exhaled Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, AUGIB, VOC biomarker, diagnostic, exhaled breath\n- **摘要**：利用呼氣VOC診斷上消化道出血，具有高度相關性。\n- **作者**：Beijing 302 Hospital | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06877507)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] A Simple Breath Test to Detect Liver Cancer and Monitor Liver Conditions](https://clinicaltrials.gov/study/NCT06864195)**  \n  利用呼氣VOC檢測肝癌及監測肝臟狀況的研究。 ｜ 2025\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Rapid Diagnostic Technology for AUGIB Based on Analysis of VOCs in Exhaled Breath](https://clinicaltrials.gov/study/NCT06877507)**  \n  利用呼氣VOC診斷上消化道出血，具有高度相關性。 ｜ 2025\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] Systems Pharmacology Approach to Uncontrolled Pediatric Asthma](https://clinicaltrials.gov/study/NCT04865575)**  \n  研究兒童哮喘的系統藥理學方法，涉及多組學數據分析。 ｜ 2018\n\n---\n*報告生成時間：2026-06-05 07:02:44*\n"
     },
@@ -22911,10 +22977,6 @@
     {
       "date": "2026-05-31_0702",
       "content": "# VOC 文獻監控日報 — 2026-05-31\n\n> 執行時間：07:02:04 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1080 |\n| 資料庫相關總數 | 893 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-31 07:02:04*\n"
-    },
-    {
-      "date": "2026-05-30_0703",
-      "content": "# VOC 文獻監控日報 — 2026-05-30\n\n> 執行時間：07:03:18 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1080 |\n| 資料庫相關總數 | 893 |\n| 相關文獻平均分 | 4.04 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Diagnosis of Common Oral Diseases by Signature Volatile Profiles\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, oral diseases, GC-MS, VOC biomarker, diagnosis\n- **摘要**：利用呼氣VOC診斷口腔疾病，並開發非侵入式診斷工具。\n- **作者**：Hadassah Medical Organization | **年份**：2016 | [連結](https://clinicaltrials.gov/study/NCT02931032)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Diagnosis of Common Oral Diseases by Signature Volatile Profiles](https://clinicaltrials.gov/study/NCT02931032)**  \n  利用呼氣VOC診斷口腔疾病，並開發非侵入式診斷工具。 ｜ 2016\n\n---\n*報告生成時間：2026-05-30 07:03:18*\n"
     }
   ]
 }

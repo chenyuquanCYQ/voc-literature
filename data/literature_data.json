@@ -2,16 +2,16 @@
   "meta": {
     "total": 1091,
     "relevant": 904,
-    "today": 3,
-    "this_week": 12,
+    "today": 0,
+    "this_week": 11,
     "avg_score": 4.05,
-    "updated_at": "2026-06-06T07:02:58"
+    "updated_at": "2026-06-07T07:02:03"
   },
   "stats": {
     "total": 1091,
     "relevant": 904,
-    "today": 3,
-    "this_week": 12,
+    "today": 0,
+    "this_week": 11,
     "avg_score": 4.05,
     "by_category": {
       "voc_breath": 291,
@@ -159,6 +159,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-06-06 23:02:02",
+        "found": 243,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-06-05 23:02:56",
         "found": 243,
         "new_added": 3
@@ -202,11 +207,6 @@
         "run_at": "2026-05-28 23:02:30",
         "found": 243,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-05-27 23:02:32",
-        "found": 243,
-        "new_added": 2
       }
     ],
     "category_score": [
@@ -22951,6 +22951,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-07_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-07\n\n> 執行時間：07:02:03 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1091 |\n| 資料庫相關總數 | 904 |\n| 相關文獻平均分 | 4.05 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-07 07:02:03*\n"
+    },
+    {
       "date": "2026-06-06_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-06\n\n> 執行時間：07:02:57 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1091 |\n| 資料庫相關總數 | 904 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compounds (VOCs) of Exhaled Breath in Patients With GI Bleeding\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, GI bleeding, VOCs, exhaled breath, case-control study\n- **摘要**：研究消化道出血患者呼氣中的揮發性有機化合物差異。\n- **作者**：Seoul National University Hospital | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04226079)\n\n### [CT] The e-BILD Study: Effects of E-cigarettes on Lung Health in Teenagers.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：e-cigarettes, teenagers, lung health, VOCs, metabolites\n- **摘要**：研究電子煙對青少年肺部健康的影響，涉及呼氣 VOC 和代謝物。\n- **作者**：Insel Gruppe AG, University Hospital Bern | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05105555)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compounds (VOCs) of Exhaled Breath in Patients With GI Bleeding](https://clinicaltrials.gov/study/NCT04226079)**  \n  研究消化道出血患者呼氣中的揮發性有機化合物差異。 ｜ 2020\n- ▓▓▓▓░ **[[CT] The e-BILD Study: Effects of E-cigarettes on Lung Health in Teenagers.](https://clinicaltrials.gov/study/NCT05105555)**  \n  研究電子煙對青少年肺部健康的影響，涉及呼氣 VOC 和代謝物。 ｜ 2022\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] The Interaction and Regulation Mechanism of Different Exercise Patterns With Metabolic Syndrome and Related Metabolic Diseases](https://clinicaltrials.gov/study/NCT04984005)**  \n  研究運動干預對代謝綜合徵的影響，涉及血液和尿液代謝物分析。 ｜ 2022\n\n---\n*報告生成時間：2026-06-06 07:02:57*\n"
     },
@@ -22973,10 +22977,6 @@
     {
       "date": "2026-06-01_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-01\n\n> 執行時間：07:02:03 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1080 |\n| 資料庫相關總數 | 893 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-01 07:02:03*\n"
-    },
-    {
-      "date": "2026-05-31_0702",
-      "content": "# VOC 文獻監控日報 — 2026-05-31\n\n> 執行時間：07:02:04 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1080 |\n| 資料庫相關總數 | 893 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-05-31 07:02:04*\n"
     }
   ]
 }

@@ -5,7 +5,7 @@
     "today": 0,
     "this_week": 11,
     "avg_score": 4.05,
-    "updated_at": "2026-06-07T07:02:03"
+    "updated_at": "2026-06-08T07:02:04"
   },
   "stats": {
     "total": 1091,
@@ -68,10 +68,6 @@
       "2026": 21
     },
     "daily_trend": [
-      {
-        "date": "2026-05-07",
-        "count": 5
-      },
       {
         "date": "2026-05-08",
         "count": 5
@@ -159,6 +155,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-06-07 23:02:04",
+        "found": 243,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-06-06 23:02:02",
         "found": 243,
         "new_added": 0
@@ -201,11 +202,6 @@
       {
         "run_at": "2026-05-29 23:03:17",
         "found": 242,
-        "new_added": 1
-      },
-      {
-        "run_at": "2026-05-28 23:02:30",
-        "found": 243,
         "new_added": 1
       }
     ],
@@ -22951,6 +22947,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-08_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-08\n\n> 執行時間：07:02:04 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1091 |\n| 資料庫相關總數 | 904 |\n| 相關文獻平均分 | 4.05 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-08 07:02:04*\n"
+    },
+    {
       "date": "2026-06-07_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-07\n\n> 執行時間：07:02:03 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1091 |\n| 資料庫相關總數 | 904 |\n| 相關文獻平均分 | 4.05 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-07 07:02:03*\n"
     },
@@ -22973,10 +22973,6 @@
     {
       "date": "2026-06-02_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-02\n\n> 執行時間：07:02:53 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1083 |\n| 資料庫相關總數 | 896 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, pancreatic cancer, VOC biomarker, early detection, non-invasive\n- **摘要**：研究開發呼氣VOC檢測胰腺癌，用於早期診斷。\n- **作者**：Imperial College London | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05727020)\n\n### HS-GC-MS analysis of volatile organic compounds after hyperoxia-induced oxidative stress: a validation study.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, VOC, oxidative stress, GC-MS, hyperoxia\n- **摘要**：研究呼氣VOC在氧化壓力下的變化，並評估其診斷價值。\n- **作者**：Lilien Thijs A, Fenn Dominic W, Brinkman Paul, Hagens Laura A, Smit Marry R et al. | **年份**：2024 | DOI: `10.1186/s40635-024-00600-3` | [連結](https://pubmed.ncbi.nlm.nih.gov/38345723/)\n\n### [CT] Reduction of Asthma Exacerbation Rate in Children by Non-invasive Monitoring of Inflammatory Markers in Exhaled Breath (Condensate): the RASTER Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, asthma, exacerbation, inflammatory markers, condensate\n- **摘要**：研究呼氣冷凝物中的炎症標記物，預測哮喘惡化。\n- **作者**：Maastricht University Medical Center | **年份**：2010 | [連結](https://clinicaltrials.gov/study/NCT01239238)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[HS-GC-MS analysis of volatile organic compounds after hyperoxia-induced oxidative stress: a validation study.](https://pubmed.ncbi.nlm.nih.gov/38345723/)**  \n  研究呼氣VOC在氧化壓力下的變化，並評估其診斷價值。 ｜ 2024\n- ▓▓▓▓░ **[[CT] Reduction of Asthma Exacerbation Rate in Children by Non-invasive Monitoring of Inflammatory Markers in Exhaled Breath (Condensate): the RASTER Study](https://clinicaltrials.gov/study/NCT01239238)**  \n  研究呼氣冷凝物中的炎症標記物，預測哮喘惡化。 ｜ 2010\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma](https://clinicaltrials.gov/study/NCT05727020)**  \n  研究開發呼氣VOC檢測胰腺癌，用於早期診斷。 ｜ 2022\n\n---\n*報告生成時間：2026-06-02 07:02:53*\n"
-    },
-    {
-      "date": "2026-06-01_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-01\n\n> 執行時間：07:02:03 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1080 |\n| 資料庫相關總數 | 893 |\n| 相關文獻平均分 | 4.04 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-01 07:02:03*\n"
     }
   ]
 }

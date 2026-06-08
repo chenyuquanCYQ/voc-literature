@@ -1,77 +1,75 @@
 {
   "meta": {
-    "total": 1091,
-    "relevant": 904,
-    "today": 0,
-    "this_week": 11,
+    "total": 1137,
+    "relevant": 947,
+    "today": 46,
+    "this_week": 54,
     "avg_score": 4.05,
-    "updated_at": "2026-06-08T07:02:04"
+    "updated_at": "2026-06-09T07:11:58"
   },
   "stats": {
-    "total": 1091,
-    "relevant": 904,
-    "today": 0,
-    "this_week": 11,
+    "total": 1137,
+    "relevant": 947,
+    "today": 46,
+    "this_week": 54,
     "avg_score": 4.05,
     "by_category": {
-      "voc_breath": 291,
-      "disease_cancer": 209,
-      "sensor_hardware": 137,
-      "disease_chronic": 72,
-      "infection": 70,
-      "method_tech": 57,
-      "voc_liquid": 28,
-      "ai_model": 19,
+      "voc_breath": 300,
+      "disease_cancer": 217,
+      "sensor_hardware": 141,
+      "disease_chronic": 78,
+      "infection": 74,
+      "method_tech": 61,
+      "voc_liquid": 34,
+      "ai_model": 20,
       "subhealth": 9,
       "odor_medicine": 8,
-      "other": 4
+      "other": 5
     },
     "by_source": {
       "clinicaltrials": 222,
       "import": 488,
-      "openalex": 121,
-      "pubmed": 131,
+      "openalex": 166,
+      "pubmed": 132,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
-      "2": 11,
-      "3": 233,
-      "4": 360,
-      "5": 299
+      "2": 12,
+      "3": 239,
+      "4": 377,
+      "5": 318
     },
     "by_year": {
       "1985": 1,
       "1991": 1,
+      "1995": 1,
       "2003": 1,
-      "2005": 3,
+      "2004": 1,
+      "2005": 5,
       "2006": 1,
-      "2007": 5,
+      "2007": 9,
       "2008": 7,
-      "2009": 14,
-      "2010": 11,
-      "2011": 26,
+      "2009": 16,
+      "2010": 13,
+      "2011": 27,
       "2012": 17,
       "2013": 20,
-      "2014": 24,
-      "2015": 30,
-      "2016": 30,
-      "2017": 29,
-      "2018": 32,
-      "2019": 38,
-      "2020": 41,
-      "2021": 55,
-      "2022": 59,
-      "2023": 52,
-      "2024": 71,
+      "2014": 31,
+      "2015": 32,
+      "2016": 34,
+      "2017": 32,
+      "2018": 35,
+      "2019": 39,
+      "2020": 42,
+      "2021": 57,
+      "2022": 60,
+      "2023": 56,
+      "2024": 72,
       "2025": 66,
-      "2026": 21
+      "2026": 22
     },
     "daily_trend": [
-      {
-        "date": "2026-05-08",
-        "count": 5
-      },
       {
         "date": "2026-05-11",
         "count": 7
@@ -151,9 +149,18 @@
       {
         "date": "2026-06-05",
         "count": 3
+      },
+      {
+        "date": "2026-06-08",
+        "count": 46
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-08 23:11:56",
+        "found": 239,
+        "new_added": 46
+      },
       {
         "run_at": "2026-06-07 23:02:04",
         "found": 243,
@@ -198,43 +205,43 @@
         "run_at": "2026-05-30 23:02:04",
         "found": 244,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-05-29 23:03:17",
-        "found": 242,
-        "new_added": 1
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.54,
-        "count": 209
+        "count": 217
       },
       {
         "category": "infection",
-        "avg_score": 4.49,
-        "count": 70
+        "avg_score": 4.45,
+        "count": 74
       },
       {
         "category": "voc_breath",
-        "avg_score": 4.28,
-        "count": 291
+        "avg_score": 4.29,
+        "count": 300
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.03,
-        "count": 72
+        "avg_score": 4.09,
+        "count": 78
       },
       {
         "category": "voc_liquid",
-        "avg_score": 3.93,
-        "count": 28
+        "avg_score": 3.97,
+        "count": 34
       },
       {
         "category": "method_tech",
-        "avg_score": 3.39,
-        "count": 57
+        "avg_score": 3.41,
+        "count": 61
+      },
+      {
+        "category": "ai_model",
+        "avg_score": 3.4,
+        "count": 20
       },
       {
         "category": "odor_medicine",
@@ -242,14 +249,9 @@
         "count": 8
       },
       {
-        "category": "ai_model",
-        "avg_score": 3.37,
-        "count": 19
-      },
-      {
         "category": "sensor_hardware",
-        "avg_score": 3.15,
-        "count": 137
+        "avg_score": 3.16,
+        "count": 141
       },
       {
         "category": "subhealth",
@@ -258,12 +260,1004 @@
       },
       {
         "category": "other",
-        "avg_score": 1.75,
-        "count": 4
+        "avg_score": 1.8,
+        "count": 5
       }
     ]
   },
   "literature": [
+    {
+      "id": 1137,
+      "title": "Interpretable Machine Learning on Metabolomics Data Reveals Biomarkers for Parkinson’s Disease",
+      "authors": "J. Diana Zhang, Chonghua Xue, Vijaya B. Kolachalama, William A. Donald",
+      "year": 2023,
+      "journal": "ACS Central Science",
+      "category": "ai_model",
+      "score": 4.0,
+      "tags": [
+        "metabolomics",
+        "machine learning",
+        "Parkinson's Disease",
+        "biomarkers",
+        "NN"
+      ],
+      "one_line": "利用機器學習分析代謝體數據，識別帕金森氏症的生物標記。",
+      "doi": "10.1021/acscentsci.2c01468",
+      "url": "https://doi.org/10.1021/acscentsci.2c01468",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:56"
+    },
+    {
+      "id": 1136,
+      "title": "Exhaled Breath Metabolomics for the Diagnosis of Pneumonia in Intubated and Mechanically-Ventilated Intensive Care Unit (ICU)-Patients",
+      "authors": "Pouline M. P. van Oort, Sanne de Bruin, Hans Weda, Hugo Knobel, Marcus J. Schultz et al.",
+      "year": 2017,
+      "journal": "International Journal of Molecular Sciences",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "pneumonia",
+        "ICU",
+        "GC-MS",
+        "VOC biomarker"
+      ],
+      "one_line": "研究利用呼氣分析診斷加護病房肺炎，具有明確的臨床應用。",
+      "doi": "10.3390/ijms18020449",
+      "url": "https://doi.org/10.3390/ijms18020449",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:55"
+    },
+    {
+      "id": 1135,
+      "title": "Metal oxide-based gas sensor array for VOCs determination in complex mixtures using machine learning",
+      "authors": "Shivam Singh, S Sajana, Poornima Varma, Gajje Sreelekha, Chandranath Adak et al.",
+      "year": 2024,
+      "journal": "Microchimica Acta",
+      "category": "sensor_hardware",
+      "score": 4.0,
+      "tags": [
+        "gas sensor",
+        "metal oxide",
+        "machine learning",
+        "VOC detection",
+        "electronic nose"
+      ],
+      "one_line": "研究使用金屬氧化物感測器陣列與機器學習辨識呼氣中的VOC。",
+      "doi": "10.1007/s00604-024-06258-8",
+      "url": "https://doi.org/10.1007/s00604-024-06258-8",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:55"
+    },
+    {
+      "id": 1134,
+      "title": "Breath biopsy of breast cancer using sensor array signals and machine learning analysis",
+      "authors": "Hsiao‐Yu Yang, Yi‐Chia Wang, Hsinyi Peng, Chi‐Hsiang Huang",
+      "year": 2021,
+      "journal": "Scientific Reports",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breast cancer",
+        "breath analysis",
+        "electronic nose",
+        "machine learning",
+        "VOC biomarker"
+      ],
+      "one_line": "利用電子鼻和機器學習分析呼氣中的揮發性物質診斷乳癌。",
+      "doi": "10.1038/s41598-020-80570-0",
+      "url": "https://doi.org/10.1038/s41598-020-80570-0",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:55"
+    },
+    {
+      "id": 1133,
+      "title": "Determining concentration patterns of volatile compounds in exhaled breath by PTR-MS",
+      "authors": "Konrad Schwarz, Wojciech Filipiak, A Amann",
+      "year": 2009,
+      "journal": "Journal of Breath Research",
+      "category": "method_tech",
+      "score": 4.0,
+      "tags": [
+        "PTR-MS",
+        "exhaled breath",
+        "calibration",
+        "fragmentation",
+        "VOC analysis"
+      ],
+      "one_line": "描述了 PTR-MS 分析呼氣 VOC 的校準與碎片化模式。",
+      "doi": "10.1088/1752-7155/3/2/027002",
+      "url": "https://doi.org/10.1088/1752-7155/3/2/027002",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:55"
+    },
+    {
+      "id": 1132,
+      "title": "Utility of SIFT-MS to evaluate volatile organic compounds in nephropathic patients’ breath",
+      "authors": "Annalisa Romani, Giulia Marrone, Roberto Celotto, Margherita Campo, Chiara Vita et al.",
+      "year": 2022,
+      "journal": "Scientific Reports",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "CKD",
+        "SIFT-MS",
+        "VOC biomarker",
+        "renal disease"
+      ],
+      "one_line": "利用 SIFT-MS 分析腎病患者呼氣 VOC，並探討其診斷價值。",
+      "doi": "10.1038/s41598-022-14152-7",
+      "url": "https://doi.org/10.1038/s41598-022-14152-7",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:55"
+    },
+    {
+      "id": 1131,
+      "title": "Clinical applications of breath testing",
+      "authors": "Kelly Paschke, Alquam Mashir, Raed A. Dweik",
+      "year": 2010,
+      "journal": "F1000 Medicine Reports",
+      "category": "method_tech",
+      "score": 3.0,
+      "tags": [
+        "breath testing",
+        "sensor technology",
+        "detection technologies"
+      ],
+      "one_line": "概述了呼氣檢測的臨床應用潛力及相關技術發展。",
+      "doi": "10.3410/m2-56",
+      "url": "https://doi.org/10.3410/m2-56",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:55"
+    },
+    {
+      "id": 1130,
+      "title": "An electronic nose in the discrimination of patients with asthma and controls",
+      "authors": "Silvano Dragonieri, Robert Schot, Bart Mertens, Saskia le Cessie, Stefanie A. Gauw et al.",
+      "year": 2007,
+      "journal": "Journal of Allergy and Clinical Immunology",
+      "category": "sensor_hardware",
+      "score": 3.0,
+      "tags": [
+        "electronic nose",
+        "asthma",
+        "breath analysis",
+        "sensor"
+      ],
+      "one_line": "利用電子鼻區分哮喘患者與健康控制組的研究。",
+      "doi": "10.1016/j.jaci.2007.05.043",
+      "url": "https://doi.org/10.1016/j.jaci.2007.05.043",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:55"
+    },
+    {
+      "id": 1129,
+      "title": "Detection of Lung Cancer by Sensor Array Analyses of Exhaled Breath",
+      "authors": "Roberto F. Machado, Daniel Laskowski, Olivia Deffenderfer, Timothy Burch, Shuo Zheng et al.",
+      "year": 2005,
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "electronic nose",
+        "sensor array",
+        "VOC"
+      ],
+      "one_line": "利用電子鼻分析呼氣，可有效診斷肺癌。",
+      "doi": "10.1164/rccm.200409-1184oc",
+      "url": "https://doi.org/10.1164/rccm.200409-1184oc",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:54"
+    },
+    {
+      "id": 1128,
+      "title": "Advances in healthcare wearable devices",
+      "authors": "Sheikh Muhammad Asher Iqbal, Imad Mahgoub, E Du, Mary Ann Leavitt, Waseem Asghar",
+      "year": 2021,
+      "journal": "npj Flexible Electronics",
+      "category": "other",
+      "score": 2.0,
+      "tags": [
+        "wearable devices",
+        "healthcare",
+        "physiological diseases"
+      ],
+      "one_line": "文獻探討醫療穿戴裝置，未聚焦呼氣代謝體學相關議題。",
+      "doi": "10.1038/s41528-021-00107-x",
+      "url": "https://doi.org/10.1038/s41528-021-00107-x",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:54"
+    },
+    {
+      "id": 1127,
+      "title": "A wearable cardiac ultrasound imager",
+      "authors": "Hongjie Hu, Hao Huang, Mohan Li, Xiaoxiang Gao, Lu Yin et al.",
+      "year": 2023,
+      "journal": "Nature",
+      "category": "other",
+      "score": 0,
+      "tags": [],
+      "one_line": "本研究為可穿戴式心臟超音波影像器，與VOC無關。",
+      "doi": "10.1038/s41586-022-05498-z",
+      "url": "https://doi.org/10.1038/s41586-022-05498-z",
+      "source": "openalex",
+      "is_relevant": false,
+      "created_at": "2026-06-08 23:11:54"
+    },
+    {
+      "id": 1126,
+      "title": "Smart wearable body sensors for patient self-assessment and monitoring",
+      "authors": "Geoff Appelboom, Elvis Camacho, Mickey Abraham, Samuel S. Bruce, Emmanuel Dumont et al.",
+      "year": 2014,
+      "journal": "Archives of Public Health",
+      "category": "sensor_hardware",
+      "score": 3.0,
+      "tags": [
+        "wearable sensors",
+        "physiological monitoring",
+        "remote monitoring",
+        "healthcare technology"
+      ],
+      "one_line": "探討智慧型穿戴式感測器在醫療保健中的應用與潛力。",
+      "doi": "10.1186/2049-3258-72-28",
+      "url": "https://doi.org/10.1186/2049-3258-72-28",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:54"
+    },
+    {
+      "id": 1125,
+      "title": "Noninvasive Alcohol Monitoring Using a Wearable Tattoo-Based Iontophoretic-Biosensing System",
+      "authors": "Jayoung Kim, Itthipon Jeerapan, Somayeh Imani, Thomas N. Cho, Amay J. Bandodkar et al.",
+      "year": 2016,
+      "journal": "ACS Sensors",
+      "category": "voc_liquid",
+      "score": 4.0,
+      "tags": [
+        "sweat",
+        "alcohol",
+        "biosensor",
+        "wearable",
+        "amperometry"
+      ],
+      "one_line": "利用皮膚貼片監測汗液中的酒精濃度，具有潛在應用價值。",
+      "doi": "10.1021/acssensors.6b00356",
+      "url": "https://doi.org/10.1021/acssensors.6b00356",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:54"
+    },
+    {
+      "id": 1124,
+      "title": "A high performance wearable strain sensor with advanced thermal management for motion monitoring",
+      "authors": "Cenxiao Tan, Zhigang Dong, Yehua Li, Haiguang Zhao, Xingyi Huang et al.",
+      "year": 2020,
+      "journal": "Nature Communications",
+      "category": "sensor_hardware",
+      "score": 2.0,
+      "tags": [
+        "wearable sensor",
+        "strain sensor",
+        "thermal management",
+        "nanocomposites"
+      ],
+      "one_line": "本研究為可穿戴式應變感測器，關注熱管理而非VOC。",
+      "doi": "10.1038/s41467-020-17301-6",
+      "url": "https://doi.org/10.1038/s41467-020-17301-6",
+      "source": "openalex",
+      "is_relevant": false,
+      "created_at": "2026-06-08 23:11:54"
+    },
+    {
+      "id": 1123,
+      "title": "A Real-Time Health Monitoring System for Remote Cardiac Patients Using Smartphone and Wearable Sensors",
+      "authors": "Priyanka Kakria, Nitin Kumar Tripathi, Peerapong Kitipawang",
+      "year": 2015,
+      "journal": "International Journal of Telemedicine and Applications",
+      "category": "other",
+      "score": 0,
+      "tags": [],
+      "one_line": "此研究為遠端心臟病患監測系統，未涉及呼氣或揮發性有機化合物。",
+      "doi": "10.1155/2015/373474",
+      "url": "https://doi.org/10.1155/2015/373474",
+      "source": "openalex",
+      "is_relevant": false,
+      "created_at": "2026-06-08 23:11:54"
+    },
+    {
+      "id": 1122,
+      "title": "Exhaled breath condensate: methodological recommendations and unresolved questions",
+      "authors": "Ildikó Horváth, J.F. Hunt, Peter J. Barnes",
+      "year": 2005,
+      "journal": "European Respiratory Journal",
+      "category": "method_tech",
+      "score": 4.0,
+      "tags": [
+        "exhaled breath condensate",
+        "EBC",
+        "collection method",
+        "tidal breathing",
+        "respiratory diseases"
+      ],
+      "one_line": "提供呼氣冷凝物的採集方法建議與未來研究方向。",
+      "doi": "10.1183/09031936.05.00029705",
+      "url": "https://doi.org/10.1183/09031936.05.00029705",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:54"
+    },
+    {
+      "id": 1121,
+      "title": "Pediatric Sepsis Diagnosis, Management, and Sub-phenotypes",
+      "authors": "Scott L. Weiss, Julie C. Fitzgerald",
+      "year": 2023,
+      "journal": "PEDIATRICS",
+      "category": "infection",
+      "score": 3.0,
+      "tags": [
+        "sepsis",
+        "pediatrics",
+        "biomarkers",
+        "screening",
+        "early diagnosis"
+      ],
+      "one_line": "研究兒童敗血症的診斷、管理和亞型，提及生物標記物篩查。",
+      "doi": "10.1542/peds.2023-062967",
+      "url": "https://doi.org/10.1542/peds.2023-062967",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:53"
+    },
+    {
+      "id": 1120,
+      "title": "Electronic-nose Applications in Forensic Science and for Analysis of Volatile Biomarkers in the Human Breath",
+      "authors": "Wilson AD",
+      "year": 2014,
+      "journal": "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY",
+      "category": "sensor_hardware",
+      "score": 4.0,
+      "tags": [
+        "electronic nose",
+        "E-nose",
+        "forensic science",
+        "biomedical",
+        "breath analysis"
+      ],
+      "one_line": "探討電子鼻在法醫學及呼氣生物標記物分析中的應用。",
+      "doi": "10.15744/2348-9804.1.s103",
+      "url": "https://doi.org/10.15744/2348-9804.1.s103",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:53"
+    },
+    {
+      "id": 1119,
+      "title": "A Pilot Study Exploring the Use of Breath Analysis to Differentiate Healthy Cattle from Cattle Experimentally Infected with Mycobacterium bovis",
+      "authors": "Christine Ellis, Randal S. Stahl, Pauline Nol, W. Ray Waters, Mitchell V. Palmer et al.",
+      "year": 2014,
+      "journal": "PLoS ONE",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "Mycobacterium bovis",
+        "cattle",
+        "GC-MS",
+        "veterinary medicine"
+      ],
+      "one_line": "利用呼氣分析區分健康牛隻與感染牛結核的初步研究。",
+      "doi": "10.1371/journal.pone.0089280",
+      "url": "https://doi.org/10.1371/journal.pone.0089280",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:53"
+    },
+    {
+      "id": 1118,
+      "title": "Detection of Sepsis in Preterm Infants by Fecal Volatile Organic Compounds Analysis",
+      "authors": "Daniel J.C. Berkhout, Hendrik J. Niemarkt, Martin Buijck, Mirjam M. van Weissenbruch, Paul Brinkman et al.",
+      "year": 2016,
+      "journal": "Journal of Pediatric Gastroenterology and Nutrition",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "fecal VOC",
+        "sepsis",
+        "preterm infants",
+        "electronic nose",
+        "microbiota"
+      ],
+      "one_line": "利用糞便VOC分析預測早產兒的敗血症。",
+      "doi": "10.1097/mpg.0000000000001471",
+      "url": "https://doi.org/10.1097/mpg.0000000000001471",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:53"
+    },
+    {
+      "id": 1117,
+      "title": "Breath-print analysis by e-nose for classifying and monitoring chronic liver disease: a proof-of-concept study",
+      "authors": "Antonio De Vincentis, Giorgio Pennazza, Marco Santonico, Umberto Vespasiani‐Gentilucci, Giovanni Galati et al.",
+      "year": 2016,
+      "journal": "Scientific Reports",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "liver disease",
+        "e-nose",
+        "CLD",
+        "cirrhosis"
+      ],
+      "one_line": "利用電子鼻分析肝臟疾病的呼氣揮發性有機化合物。",
+      "doi": "10.1038/srep25337",
+      "url": "https://doi.org/10.1038/srep25337",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:53"
+    },
+    {
+      "id": 1116,
+      "title": "Determination of volatile organic compounds in exhaled breath of heart failure patients by needle trap micro-extraction coupled with gas chromatography-tandem mass spectrometry",
+      "authors": "Denise Biagini, Tommaso Lomonaco, Silvia Ghimenti, Francesca G. Bellagambi, Massimo Onor et al.",
+      "year": 2017,
+      "journal": "Journal of Breath Research",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "heart failure",
+        "exacerbation",
+        "acetone",
+        "breath VOC",
+        "GC-MS"
+      ],
+      "one_line": "研究心臟衰竭患者呼氣VOC變化，發現丙酮可作為惡化指標。",
+      "doi": "10.1088/1752-7163/aa94e7",
+      "url": "https://doi.org/10.1088/1752-7163/aa94e7",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:53"
+    },
+    {
+      "id": 1115,
+      "title": "Volatile Markers for Cancer in Exhaled Breath—Could They Be the Signature of the Gut Microbiota?",
+      "authors": "Manohar Prasad Bhandari, Inese Poļaka, Reinis Vangravs, Linda Mežmale, Viktors Veliks et al.",
+      "year": 2023,
+      "journal": "Molecules",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "cancer",
+        "gut microbiota",
+        "GC-MS",
+        "VOC biomarker"
+      ],
+      "one_line": "研究呼氣中的揮發性有機化合物與腸道菌群在胃癌患者中的關聯。",
+      "doi": "10.3390/molecules28083488",
+      "url": "https://doi.org/10.3390/molecules28083488",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:53"
+    },
+    {
+      "id": 1114,
+      "title": "Natural menstrual rhythm and oral contraception diversely affect exhaled breath compositions",
+      "authors": "Pritam Sukul, Jochen K. Schubert, Phillip Trefz, Wolfram Miekisch",
+      "year": 2018,
+      "journal": "Scientific Reports",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "menstrual cycle",
+        "VOCs",
+        "mass spectrometry",
+        "exhaled metabolites"
+      ],
+      "one_line": "研究月經週期和口服避孕藥對女性呼氣 VOC 的影響。",
+      "doi": "10.1038/s41598-018-29221-z",
+      "url": "https://doi.org/10.1038/s41598-018-29221-z",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:52"
+    },
+    {
+      "id": 1113,
+      "title": "Automated Detection of Diabetes From Exhaled Human Breath Using Deep Hybrid Architecture",
+      "authors": "Navaneeth Bhaskar, Vinayak K. Bairagi, Ekkarat Boonchieng, Mousami V. Munot",
+      "year": 2023,
+      "journal": "IEEE Access",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "diabetes",
+        "exhaled breath",
+        "acetone",
+        "deep learning",
+        "CNN"
+      ],
+      "one_line": "利用呼氣乙酮濃度，深度學習診斷糖尿病的自動化醫療系統。",
+      "doi": "10.1109/access.2023.3278278",
+      "url": "https://doi.org/10.1109/access.2023.3278278",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:52"
+    },
+    {
+      "id": 1112,
+      "title": "Exhaled volatile substances in children suffering from type 1 diabetes mellitus: results from a cross-sectional study",
+      "authors": "Phillip Trefz, Juliane Obermeier, Ruth Lehbrink, Jochen K. Schubert, Wolfram Miekisch et al.",
+      "year": 2019,
+      "journal": "Scientific Reports",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "voc_breath",
+        "diabetes",
+        "T1DM",
+        "PTR-TOF",
+        "metabolic control"
+      ],
+      "one_line": "研究兒童1型糖尿病患者呼氣VOC，用於代謝監測。",
+      "doi": "10.1038/s41598-019-52165-x",
+      "url": "https://doi.org/10.1038/s41598-019-52165-x",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:52"
+    },
+    {
+      "id": 1111,
+      "title": "A study of the volatile organic compounds exhaled by lung cancer cells in vitro for breath diagnosis",
+      "authors": "Xing Chen, Fengjuan Xu, Yue Wang, Yuefeng Pan, Deji Lu et al.",
+      "year": 2007,
+      "journal": "Cancer",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "VOC biomarker",
+        "GC-MS",
+        "in vitro"
+      ],
+      "one_line": "研究肺癌細胞呼出的揮發性有機化合物，用於診斷。",
+      "doi": "10.1002/cncr.22844",
+      "url": "https://doi.org/10.1002/cncr.22844",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:52"
+    },
+    {
+      "id": 1110,
+      "title": "Development and Mining of a Volatile Organic Compound Database",
+      "authors": "Azian Azamimi Abdullah, Md. Altaf-Ul-Amin, Naoaki Ono, Tetsuo Sato, Tadao Sugiura et al.",
+      "year": 2015,
+      "journal": "BioMed Research International",
+      "category": "voc_breath",
+      "score": 3.0,
+      "tags": [
+        "VOC",
+        "database",
+        "biomarker",
+        "health care",
+        "ecology"
+      ],
+      "one_line": "建立VOC資料庫，用於生物互動和健康照護研究。",
+      "doi": "10.1155/2015/139254",
+      "url": "https://doi.org/10.1155/2015/139254",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:52"
+    },
+    {
+      "id": 1109,
+      "title": "Differentiating Coeliac Disease from Irritable Bowel Syndrome by Urinary Volatile Organic Compound Analysis – A Pilot Study",
+      "authors": "Ramesh Arasaradnam, Eric W. Westenbrink, Michael McFarlane, Ruth Harbord, Samantha Chambers et al.",
+      "year": 2014,
+      "journal": "PLoS ONE",
+      "category": "voc_liquid",
+      "score": 5.0,
+      "tags": [
+        "urinary VOCs",
+        "coeliac disease",
+        "IBS",
+        "FAIMS",
+        "GC-MS"
+      ],
+      "one_line": "尿液VOC分析可區分乳糜瀉和腸躁症，具有高敏感性和特異性。",
+      "doi": "10.1371/journal.pone.0107312",
+      "url": "https://doi.org/10.1371/journal.pone.0107312",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:52"
+    },
+    {
+      "id": 1108,
+      "title": "Volatile organic compounds in the breath of patients with schizophrenia.",
+      "authors": "Michael Phillips, Gerald A. Ring Erickson, M Sabas, Jillian Smith, Joel Greenberg",
+      "year": 1995,
+      "journal": "Journal of Clinical Pathology",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "schizophrenia",
+        "GC-MS",
+        "VOC biomarker",
+        "pattern recognition"
+      ],
+      "one_line": "研究精神病患呼氣中的揮發性有機化合物，用於診斷潛力。",
+      "doi": "10.1136/jcp.48.5.466",
+      "url": "https://doi.org/10.1136/jcp.48.5.466",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:52"
+    },
+    {
+      "id": 1107,
+      "title": "Hydrochromic conjugated polymers for human sweat pore mapping",
+      "authors": "Joosub Lee, Minkyeong Pyo, Sang Hwa Lee, Jaeyong Kim, Moonsoo Ra et al.",
+      "year": 2014,
+      "journal": "Nature Communications",
+      "category": "voc_liquid",
+      "score": 3.0,
+      "tags": [
+        "sweat",
+        "sensor",
+        "hydrochromic polymer",
+        "fingerprint analysis",
+        "diagnostics"
+      ],
+      "one_line": "利用水感測器繪製汗孔圖，可應用於診斷。",
+      "doi": "10.1038/ncomms4736",
+      "url": "https://doi.org/10.1038/ncomms4736",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:52"
+    },
+    {
+      "id": 1106,
+      "title": "Metabolomics of Volatile Organic Compounds in Cystic Fibrosis Patients and Controls",
+      "authors": "C. M. H. H. T. Robroeks, Joep J B N van Berkel, Jan W. Dallinga, Quirijn Jöbsis, Luc J. I. Zimmermann et al.",
+      "year": 2010,
+      "journal": "Pediatric Research",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "cystic fibrosis",
+        "breath VOC",
+        "metabolomics",
+        "disease"
+      ],
+      "one_line": "研究囊性纖維化患者呼氣中的揮發性有機化合物代謝體。",
+      "doi": "10.1203/pdr.0b013e3181df4ea0",
+      "url": "https://doi.org/10.1203/pdr.0b013e3181df4ea0",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:51"
+    },
+    {
+      "id": 1105,
+      "title": "Volatilomic insight of head and neck cancer via the effects observed on saliva metabolites",
+      "authors": "Ravindra Taware, Khushman Taunk, Jorge A. M. Pereira, Amey Shirolkar, Dharmesh Soneji et al.",
+      "year": 2018,
+      "journal": "Scientific Reports",
+      "category": "voc_liquid",
+      "score": 5.0,
+      "tags": [
+        "saliva",
+        "head and neck cancer",
+        "VOC",
+        "GC-MS",
+        "metabolites"
+      ],
+      "one_line": "研究頭頸癌患者唾液揮發性有機物，用於診斷和理解代謝變化。",
+      "doi": "10.1038/s41598-018-35854-x",
+      "url": "https://doi.org/10.1038/s41598-018-35854-x",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:51"
+    },
+    {
+      "id": 1104,
+      "title": "Metabolomics for Biomarker Discovery in Gastroenterological Cancer",
+      "authors": "Shin Nishiumi, Makoto Suzuki, Takashi Kobayashi, Atsuki Matsubara, Takeshi Azuma et al.",
+      "year": 2014,
+      "journal": "Metabolites",
+      "category": "disease_cancer",
+      "score": 4.0,
+      "tags": [
+        "metabolomics",
+        "gastroenterological cancer",
+        "biomarker discovery",
+        "diagnosis",
+        "clinical"
+      ],
+      "one_line": "研究利用代謝體學分析胃腸道癌症的診斷標記物。",
+      "doi": "10.3390/metabo4030547",
+      "url": "https://doi.org/10.3390/metabo4030547",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:51"
+    },
+    {
+      "id": 1103,
+      "title": "Differentiation of oral bacteria in in vitro cultures and human saliva by secondary electrospray ionization – mass spectrometry",
+      "authors": "Lukas Bregy, Annick R. Müggler, Pablo Sinues, Diego García‐Gómez, Yannick Suter et al.",
+      "year": 2015,
+      "journal": "Scientific Reports",
+      "category": "voc_liquid",
+      "score": 4.0,
+      "tags": [
+        "saliva",
+        "VOC",
+        "mass spectrometry",
+        "periodontitis",
+        "bacterial metabolites"
+      ],
+      "one_line": "利用質譜分析唾液中細菌揮發性代謝物，用於診斷牙周炎。",
+      "doi": "10.1038/srep15163",
+      "url": "https://doi.org/10.1038/srep15163",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:51"
+    },
+    {
+      "id": 1102,
+      "title": "Optimisation of Urine Sample Preparation for Headspace-Solid Phase Microextraction Gas Chromatography-Mass Spectrometry: Altering Sample pH, Sulphuric Acid Concentration and Phase Ratio",
+      "authors": "Prashant Aggarwal, James Baker, Mark T. Boyd, Séamus Coyle, C Probert et al.",
+      "year": 2020,
+      "journal": "Metabolites",
+      "category": "method_tech",
+      "score": 4.0,
+      "tags": [
+        "urine",
+        "SPME",
+        "GC-MS",
+        "sample preparation",
+        "optimization"
+      ],
+      "one_line": "優化尿液樣品前處理方法，提升VOC檢測效率。",
+      "doi": "10.3390/metabo10120482",
+      "url": "https://doi.org/10.3390/metabo10120482",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:51"
+    },
+    {
+      "id": 1101,
+      "title": "Diagnosis of lung cancer by the analysis of exhaled breath with a colorimetric sensor array",
+      "authors": "Peter J. Mazzone, Jeffrey Hammel, Raed A. Dweik, Jonggeol Na, Carmen Czich et al.",
+      "year": 2007,
+      "journal": "Thorax",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "sensor array",
+        "VOC biomarker",
+        "diagnosis"
+      ],
+      "one_line": "利用色譜感測器陣列分析呼氣，用於肺癌診斷的實驗研究。",
+      "doi": "10.1136/thx.2006.072892",
+      "url": "https://doi.org/10.1136/thx.2006.072892",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:51"
+    },
+    {
+      "id": 1100,
+      "title": "Factors that influence the volatile organic compound content in human breath",
+      "authors": "Lionel Blanchet, A. Smolinska, Agnieszka Barańska, Ettje F. Tigchelaar, Morris A. Swertz et al.",
+      "year": 2017,
+      "journal": "Journal of Breath Research",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "VOCs",
+        "exogenous factors",
+        "GC-MS",
+        "biomarkers"
+      ],
+      "one_line": "研究呼氣中VOC含量受多種因素影響，需控制干擾因子。",
+      "doi": "10.1088/1752-7163/aa5cc5",
+      "url": "https://doi.org/10.1088/1752-7163/aa5cc5",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:51"
+    },
+    {
+      "id": 1099,
+      "title": "Volatile organic compounds as diagnostic biomarkers in gastrointestinal and liver diseases.",
+      "authors": "C Probert, Iftikhar Ahmed, Tanzeela Khalid, Emmanuel Johnson, Stephen J. Smith et al.",
+      "year": 2009,
+      "journal": "PubMed",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "gastrointestinal diseases",
+        "liver diseases",
+        "VOC biomarkers",
+        "non-invasive diagnosis"
+      ],
+      "one_line": "研究呼氣VOC在胃腸和肝臟疾病診斷中的應用。",
+      "doi": "",
+      "url": "https://openalex.org/W1500730898",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:50"
+    },
+    {
+      "id": 1098,
+      "title": "Volatile Organic Compound Emissions from Humans Indoors",
+      "authors": "Xiaochen Tang, Pawel K. Misztal, William W. Nazaroff, Allen H. Goldstein",
+      "year": 2016,
+      "journal": "Environmental Science & Technology",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath VOCs",
+        "human emissions",
+        "PTR-MS",
+        "indoor air quality",
+        "metabolic emissions"
+      ],
+      "one_line": "研究了人體排放的VOC，並量化其在教室空氣中的貢獻。",
+      "doi": "10.1021/acs.est.6b04415",
+      "url": "https://doi.org/10.1021/acs.est.6b04415",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:50"
+    },
+    {
+      "id": 1097,
+      "title": "Association of domestic exposure to volatile organic compounds with asthma in young children",
+      "authors": "Krassi Rumchev",
+      "year": 2004,
+      "journal": "Thorax",
+      "category": "disease_chronic",
+      "score": 4.0,
+      "tags": [
+        "asthma",
+        "VOC exposure",
+        "children",
+        "environmental health",
+        "chronic disease"
+      ],
+      "one_line": "研究了居家 VOCs 與兒童哮喘的關聯，具有慢性病應用價值。",
+      "doi": "10.1136/thx.2003.013680",
+      "url": "https://doi.org/10.1136/thx.2003.013680",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:50"
+    },
+    {
+      "id": 1096,
+      "title": "Volatile organic compounds from feces and their potential for diagnosis of gastrointestinal disease",
+      "authors": "Catherine E. Garner, Stephen J. Smith, Ben de Lacy Costello, Paul White, R.C. Spencer et al.",
+      "year": 2007,
+      "journal": "The FASEB Journal",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "feces",
+        "VOCs",
+        "gastrointestinal disease",
+        "GC-MS",
+        "Campylobacter"
+      ],
+      "one_line": "研究糞便中的揮發性有機化合物，用於診斷腸道疾病。",
+      "doi": "10.1096/fj.06-6927com",
+      "url": "https://doi.org/10.1096/fj.06-6927com",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:50"
+    },
+    {
+      "id": 1095,
+      "title": "Exhaled Breath Analysis for Lung Cancer Detection Using Ion Mobility Spectrometry",
+      "authors": "Hiroshi Handa, Ayano Usuba, Sasidhar Maddula, Jan Baumbach, Masamichi Mineshita et al.",
+      "year": 2014,
+      "journal": "PLoS ONE",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "IMS",
+        "VOC biomarker",
+        "n-Dodecane"
+      ],
+      "one_line": "利用呼氣分析檢測肺癌，並發現了 n-Dodecane 的生物標記意義。",
+      "doi": "10.1371/journal.pone.0114555",
+      "url": "https://doi.org/10.1371/journal.pone.0114555",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:50"
+    },
+    {
+      "id": 1094,
+      "title": "Assessment of a Noninvasive Exhaled Breath Test for the Diagnosis of Oesophagogastric Cancer",
+      "authors": "Sheraz R. Markar, Tom Wiggins, Stefan Antonowicz, Sung‐Tong Chin, Andrea Romano et al.",
+      "year": 2018,
+      "journal": "JAMA Oncology",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "esophageal cancer",
+        "gastric cancer",
+        "SIFT-MS",
+        "VOC biomarker"
+      ],
+      "one_line": "研究呼氣分析用於食道胃癌診斷，並使用 SIFT-MS 技術。",
+      "doi": "10.1001/jamaoncol.2018.0991",
+      "url": "https://doi.org/10.1001/jamaoncol.2018.0991",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:50"
+    },
+    {
+      "id": 1093,
+      "title": "Exhaled Breath Analysis with a Colorimetric Sensor Array for the Identification and Characterization of Lung Cancer",
+      "authors": "Peter J. Mazzone, Xiao Feng Wang, Yaomin Xu, Tarek Mekhail, Mary C. Beukemann et al.",
+      "year": 2011,
+      "journal": "Journal of Thoracic Oncology",
+      "category": "disease_cancer",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "colorimetric sensor",
+        "VOC",
+        "cancer diagnosis"
+      ],
+      "one_line": "利用呼氣分析診斷肺癌，涉及VOC和感測器技術。",
+      "doi": "10.1097/jto.0b013e318233d80f",
+      "url": "https://doi.org/10.1097/jto.0b013e318233d80f",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:50"
+    },
+    {
+      "id": 1092,
+      "title": "Preliminary Descriptive Study on the Conservation of Human Sweat Odor: Impact of Storage Temperature and Duration on the Stability of Volatile Organic Compounds in Sorbent Samples.",
+      "authors": "Leemans Michelle, Cuzuel Vincent, Maidodou Laetitia, Delaplanche Solène, Steyer Damien et al.",
+      "year": 2026,
+      "journal": "International journal of analytical chemistry",
+      "category": "voc_liquid",
+      "score": 4.0,
+      "tags": [
+        "sweat",
+        "VOC",
+        "storage stability",
+        "sorbent",
+        "conservation"
+      ],
+      "one_line": "研究汗液中VOC的儲存穩定性，探討溫度和時間影響。",
+      "doi": "10.1155/ianc/7684776",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42253767/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-06-08 23:11:47"
+    },
     {
       "id": 1091,
       "title": "[CT] The e-BILD Study: Effects of E-cigarettes on Lung Health in Teenagers.",
@@ -22947,6 +23941,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-09_0711",
+      "content": "# VOC 文獻監控日報 — 2026-06-09\n\n> 執行時間：07:11:57 | 新增 **46** 篇 | 相關 **43** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 46 |\n| 本次相關文獻 | 43 |\n| 資料庫累計總數 | 1137 |\n| 資料庫相關總數 | 947 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Assessment of a Noninvasive Exhaled Breath Test for the Diagnosis of Oesophagogastric Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, esophageal cancer, gastric cancer, SIFT-MS, VOC biomarker\n- **摘要**：研究呼氣分析用於食道胃癌診斷，並使用 SIFT-MS 技術。\n- **作者**：Sheraz R. Markar, Tom Wiggins, Stefan Antonowicz, Sung‐Tong Chin, Andrea Romano et al. | **年份**：2018 | DOI: `10.1001/jamaoncol.2018.0991` | [連結](https://doi.org/10.1001/jamaoncol.2018.0991)\n\n### Exhaled Breath Analysis for Lung Cancer Detection Using Ion Mobility Spectrometry\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, IMS, VOC biomarker, n-Dodecane\n- **摘要**：利用呼氣分析檢測肺癌，並發現了 n-Dodecane 的生物標記意義。\n- **作者**：Hiroshi Handa, Ayano Usuba, Sasidhar Maddula, Jan Baumbach, Masamichi Mineshita et al. | **年份**：2014 | DOI: `10.1371/journal.pone.0114555` | [連結](https://doi.org/10.1371/journal.pone.0114555)\n\n### Volatile organic compounds as diagnostic biomarkers in gastrointestinal and liver diseases.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, gastrointestinal diseases, liver diseases, VOC biomarkers, non-invasive diagnosis\n- **摘要**：研究呼氣VOC在胃腸和肝臟疾病診斷中的應用。\n- **作者**：C Probert, Iftikhar Ahmed, Tanzeela Khalid, Emmanuel Johnson, Stephen J. Smith et al. | **年份**：2009 | [連結](https://openalex.org/W1500730898)\n\n### Factors that influence the volatile organic compound content in human breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOCs, exogenous factors, GC-MS, biomarkers\n- **摘要**：研究呼氣中VOC含量受多種因素影響，需控制干擾因子。\n- **作者**：Lionel Blanchet, A. Smolinska, Agnieszka Barańska, Ettje F. Tigchelaar, Morris A. Swertz et al. | **年份**：2017 | DOI: `10.1088/1752-7163/aa5cc5` | [連結](https://doi.org/10.1088/1752-7163/aa5cc5)\n\n### Diagnosis of lung cancer by the analysis of exhaled breath with a colorimetric sensor array\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, sensor array, VOC biomarker, diagnosis\n- **摘要**：利用色譜感測器陣列分析呼氣，用於肺癌診斷的實驗研究。\n- **作者**：Peter J. Mazzone, Jeffrey Hammel, Raed A. Dweik, Jonggeol Na, Carmen Czich et al. | **年份**：2007 | DOI: `10.1136/thx.2006.072892` | [連結](https://doi.org/10.1136/thx.2006.072892)\n\n### Volatilomic insight of head and neck cancer via the effects observed on saliva metabolites\n\n- **類別**：液態 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：saliva, head and neck cancer, VOC, GC-MS, metabolites\n- **摘要**：研究頭頸癌患者唾液揮發性有機物，用於診斷和理解代謝變化。\n- **作者**：Ravindra Taware, Khushman Taunk, Jorge A. M. Pereira, Amey Shirolkar, Dharmesh Soneji et al. | **年份**：2018 | DOI: `10.1038/s41598-018-35854-x` | [連結](https://doi.org/10.1038/s41598-018-35854-x)\n\n### Volatile organic compounds in the breath of patients with schizophrenia.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, schizophrenia, GC-MS, VOC biomarker, pattern recognition\n- **摘要**：研究精神病患呼氣中的揮發性有機化合物，用於診斷潛力。\n- **作者**：Michael Phillips, Gerald A. Ring Erickson, M Sabas, Jillian Smith, Joel Greenberg | **年份**：1995 | DOI: `10.1136/jcp.48.5.466` | [連結](https://doi.org/10.1136/jcp.48.5.466)\n\n### Differentiating Coeliac Disease from Irritable Bowel Syndrome by Urinary Volatile Organic Compound Analysis – A Pilot Study\n\n- **類別**：液態 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：urinary VOCs, coeliac disease, IBS, FAIMS, GC-MS\n- **摘要**：尿液VOC分析可區分乳糜瀉和腸躁症，具有高敏感性和特異性。\n- **作者**：Ramesh Arasaradnam, Eric W. Westenbrink, Michael McFarlane, Ruth Harbord, Samantha Chambers et al. | **年份**：2014 | DOI: `10.1371/journal.pone.0107312` | [連結](https://doi.org/10.1371/journal.pone.0107312)\n\n### A study of the volatile organic compounds exhaled by lung cancer cells in vitro for breath diagnosis\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, GC-MS, in vitro\n- **摘要**：研究肺癌細胞呼出的揮發性有機化合物，用於診斷。\n- **作者**：Xing Chen, Fengjuan Xu, Yue Wang, Yuefeng Pan, Deji Lu et al. | **年份**：2007 | DOI: `10.1002/cncr.22844` | [連結](https://doi.org/10.1002/cncr.22844)\n\n### Exhaled volatile substances in children suffering from type 1 diabetes mellitus: results from a cross-sectional study\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：voc_breath, diabetes, T1DM, PTR-TOF, metabolic control\n- **摘要**：研究兒童1型糖尿病患者呼氣VOC，用於代謝監測。\n- **作者**：Phillip Trefz, Juliane Obermeier, Ruth Lehbrink, Jochen K. Schubert, Wolfram Miekisch et al. | **年份**：2019 | DOI: `10.1038/s41598-019-52165-x` | [連結](https://doi.org/10.1038/s41598-019-52165-x)\n\n### Automated Detection of Diabetes From Exhaled Human Breath Using Deep Hybrid Architecture\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：diabetes, exhaled breath, acetone, deep learning, CNN\n- **摘要**：利用呼氣乙酮濃度，深度學習診斷糖尿病的自動化醫療系統。\n- **作者**：Navaneeth Bhaskar, Vinayak K. Bairagi, Ekkarat Boonchieng, Mousami V. Munot | **年份**：2023 | DOI: `10.1109/access.2023.3278278` | [連結](https://doi.org/10.1109/access.2023.3278278)\n\n### Natural menstrual rhythm and oral contraception diversely affect exhaled breath compositions\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, menstrual cycle, VOCs, mass spectrometry, exhaled metabolites\n- **摘要**：研究月經週期和口服避孕藥對女性呼氣 VOC 的影響。\n- **作者**：Pritam Sukul, Jochen K. Schubert, Phillip Trefz, Wolfram Miekisch | **年份**：2018 | DOI: `10.1038/s41598-018-29221-z` | [連結](https://doi.org/10.1038/s41598-018-29221-z)\n\n### Volatile Markers for Cancer in Exhaled Breath—Could They Be the Signature of the Gut Microbiota?\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cancer, gut microbiota, GC-MS, VOC biomarker\n- **摘要**：研究呼氣中的揮發性有機化合物與腸道菌群在胃癌患者中的關聯。\n- **作者**：Manohar Prasad Bhandari, Inese Poļaka, Reinis Vangravs, Linda Mežmale, Viktors Veliks et al. | **年份**：2023 | DOI: `10.3390/molecules28083488` | [連結](https://doi.org/10.3390/molecules28083488)\n\n### Determination of volatile organic compounds in exhaled breath of heart failure patients by needle trap micro-extraction coupled with gas chromatography-tandem mass spectrometry\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：heart failure, exacerbation, acetone, breath VOC, GC-MS\n- **摘要**：研究心臟衰竭患者呼氣VOC變化，發現丙酮可作為惡化指標。\n- **作者**：Denise Biagini, Tommaso Lomonaco, Silvia Ghimenti, Francesca G. Bellagambi, Massimo Onor et al. | **年份**：2017 | DOI: `10.1088/1752-7163/aa94e7` | [連結](https://doi.org/10.1088/1752-7163/aa94e7)\n\n### Breath-print analysis by e-nose for classifying and monitoring chronic liver disease: a proof-of-concept study\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver disease, e-nose, CLD, cirrhosis\n- **摘要**：利用電子鼻分析肝臟疾病的呼氣揮發性有機化合物。\n- **作者**：Antonio De Vincentis, Giorgio Pennazza, Marco Santonico, Umberto Vespasiani‐Gentilucci, Giovanni Galati et al. | **年份**：2016 | DOI: `10.1038/srep25337` | [連結](https://doi.org/10.1038/srep25337)\n\n### Detection of Lung Cancer by Sensor Array Analyses of Exhaled Breath\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, electronic nose, sensor array, VOC\n- **摘要**：利用電子鼻分析呼氣，可有效診斷肺癌。\n- **作者**：Roberto F. Machado, Daniel Laskowski, Olivia Deffenderfer, Timothy Burch, Shuo Zheng et al. | **年份**：2005 | DOI: `10.1164/rccm.200409-1184oc` | [連結](https://doi.org/10.1164/rccm.200409-1184oc)\n\n### Utility of SIFT-MS to evaluate volatile organic compounds in nephropathic patients’ breath\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, CKD, SIFT-MS, VOC biomarker, renal disease\n- **摘要**：利用 SIFT-MS 分析腎病患者呼氣 VOC，並探討其診斷價值。\n- **作者**：Annalisa Romani, Giulia Marrone, Roberto Celotto, Margherita Campo, Chiara Vita et al. | **年份**：2022 | DOI: `10.1038/s41598-022-14152-7` | [連結](https://doi.org/10.1038/s41598-022-14152-7)\n\n### Breath biopsy of breast cancer using sensor array signals and machine learning analysis\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breast cancer, breath analysis, electronic nose, machine learning, VOC biomarker\n- **摘要**：利用電子鼻和機器學習分析呼氣中的揮發性物質診斷乳癌。\n- **作者**：Hsiao‐Yu Yang, Yi‐Chia Wang, Hsinyi Peng, Chi‐Hsiang Huang | **年份**：2021 | DOI: `10.1038/s41598-020-80570-0` | [連結](https://doi.org/10.1038/s41598-020-80570-0)\n\n### Exhaled Breath Metabolomics for the Diagnosis of Pneumonia in Intubated and Mechanically-Ventilated Intensive Care Unit (ICU)-Patients\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, pneumonia, ICU, GC-MS, VOC biomarker\n- **摘要**：研究利用呼氣分析診斷加護病房肺炎，具有明確的臨床應用。\n- **作者**：Pouline M. P. van Oort, Sanne de Bruin, Hans Weda, Hugo Knobel, Marcus J. Schultz et al. | **年份**：2017 | DOI: `10.3390/ijms18020449` | [連結](https://doi.org/10.3390/ijms18020449)\n\n### Preliminary Descriptive Study on the Conservation of Human Sweat Odor: Impact of Storage Temperature and Duration on the Stability of Volatile Organic Compounds in Sorbent Samples.\n\n- **類別**：液態 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：sweat, VOC, storage stability, sorbent, conservation\n- **摘要**：研究汗液中VOC的儲存穩定性，探討溫度和時間影響。\n- **作者**：Leemans Michelle, Cuzuel Vincent, Maidodou Laetitia, Delaplanche Solène, Steyer Damien et al. | **年份**：2026 | DOI: `10.1155/ianc/7684776` | [連結](https://pubmed.ncbi.nlm.nih.gov/42253767/)\n\n### Exhaled Breath Analysis with a Colorimetric Sensor Array for the Identification and Characterization of Lung Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, lung cancer, colorimetric sensor, VOC, cancer diagnosis\n- **摘要**：利用呼氣分析診斷肺癌，涉及VOC和感測器技術。\n- **作者**：Peter J. Mazzone, Xiao Feng Wang, Yaomin Xu, Tarek Mekhail, Mary C. Beukemann et al. | **年份**：2011 | DOI: `10.1097/jto.0b013e318233d80f` | [連結](https://doi.org/10.1097/jto.0b013e318233d80f)\n\n### Volatile organic compounds from feces and their potential for diagnosis of gastrointestinal disease\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：feces, VOCs, gastrointestinal disease, GC-MS, Campylobacter\n- **摘要**：研究糞便中的揮發性有機化合物，用於診斷腸道疾病。\n- **作者**：Catherine E. Garner, Stephen J. Smith, Ben de Lacy Costello, Paul White, R.C. Spencer et al. | **年份**：2007 | DOI: `10.1096/fj.06-6927com` | [連結](https://doi.org/10.1096/fj.06-6927com)\n\n### Association of domestic exposure to volatile organic compounds with asthma in young children\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：asthma, VOC exposure, children, environmental health, chronic disease\n- **摘要**：研究了居家 VOCs 與兒童哮喘的關聯，具有慢性病應用價值。\n- **作者**：Krassi Rumchev | **年份**：2004 | DOI: `10.1136/thx.2003.013680` | [連結](https://doi.org/10.1136/thx.2003.013680)\n\n### Volatile Organic Compound Emissions from Humans Indoors\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath VOCs, human emissions, PTR-MS, indoor air quality, metabolic emissions\n- **摘要**：研究了人體排放的VOC，並量化其在教室空氣中的貢獻。\n- **作者**：Xiaochen Tang, Pawel K. Misztal, William W. Nazaroff, Allen H. Goldstein | **年份**：2016 | DOI: `10.1021/acs.est.6b04415` | [連結](https://doi.org/10.1021/acs.est.6b04415)\n\n### Optimisation of Urine Sample Preparation for Headspace-Solid Phase Microextraction Gas Chromatography-Mass Spectrometry: Altering Sample pH, Sulphuric Acid Concentration and Phase Ratio\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：urine, SPME, GC-MS, sample preparation, optimization\n- **摘要**：優化尿液樣品前處理方法，提升VOC檢測效率。\n- **作者**：Prashant Aggarwal, James Baker, Mark T. Boyd, Séamus Coyle, C Probert et al. | **年份**：2020 | DOI: `10.3390/metabo10120482` | [連結](https://doi.org/10.3390/metabo10120482)\n\n### Differentiation of oral bacteria in in vitro cultures and human saliva by secondary electrospray ionization – mass spectrometry\n\n- **類別**：液態 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：saliva, VOC, mass spectrometry, periodontitis, bacterial metabolites\n- **摘要**：利用質譜分析唾液中細菌揮發性代謝物，用於診斷牙周炎。\n- **作者**：Lukas Bregy, Annick R. Müggler, Pablo Sinues, Diego García‐Gómez, Yannick Suter et al. | **年份**：2015 | DOI: `10.1038/srep15163` | [連結](https://doi.org/10.1038/srep15163)\n\n### Metabolomics for Biomarker Discovery in Gastroenterological Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：metabolomics, gastroenterological cancer, biomarker discovery, diagnosis, clinical\n- **摘要**：研究利用代謝體學分析胃腸道癌症的診斷標記物。\n- **作者**：Shin Nishiumi, Makoto Suzuki, Takashi Kobayashi, Atsuki Matsubara, Takeshi Azuma et al. | **年份**：2014 | DOI: `10.3390/metabo4030547` | [連結](https://doi.org/10.3390/metabo4030547)\n\n### Metabolomics of Volatile Organic Compounds in Cystic Fibrosis Patients and Controls\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cystic fibrosis, breath VOC, metabolomics, disease\n- **摘要**：研究囊性纖維化患者呼氣中的揮發性有機化合物代謝體。\n- **作者**：C. M. H. H. T. Robroeks, Joep J B N van Berkel, Jan W. Dallinga, Quirijn Jöbsis, Luc J. I. Zimmermann et al. | **年份**：2010 | DOI: `10.1203/pdr.0b013e3181df4ea0` | [連結](https://doi.org/10.1203/pdr.0b013e3181df4ea0)\n\n### Detection of Sepsis in Preterm Infants by Fecal Volatile Organic Compounds Analysis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：fecal VOC, sepsis, preterm infants, electronic nose, microbiota\n- **摘要**：利用糞便VOC分析預測早產兒的敗血症。\n- **作者**：Daniel J.C. Berkhout, Hendrik J. Niemarkt, Martin Buijck, Mirjam M. van Weissenbruch, Paul Brinkman et al. | **年份**：2016 | DOI: `10.1097/mpg.0000000000001471` | [連結](https://doi.org/10.1097/mpg.0000000000001471)\n\n### A Pilot Study Exploring the Use of Breath Analysis to Differentiate Healthy Cattle from Cattle Experimentally Infected with Mycobacterium bovis\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, Mycobacterium bovis, cattle, GC-MS, veterinary medicine\n- **摘要**：利用呼氣分析區分健康牛隻與感染牛結核的初步研究。\n- **作者**：Christine Ellis, Randal S. Stahl, Pauline Nol, W. Ray Waters, Mitchell V. Palmer et al. | **年份**：2014 | DOI: `10.1371/journal.pone.0089280` | [連結](https://doi.org/10.1371/journal.pone.0089280)\n\n### Electronic-nose Applications in Forensic Science and for Analysis of Volatile Biomarkers in the Human Breath\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：electronic nose, E-nose, forensic science, biomedical, breath analysis\n- **摘要**：探討電子鼻在法醫學及呼氣生物標記物分析中的應用。\n- **作者**：Wilson AD | **年份**：2014 | DOI: `10.15744/2348-9804.1.s103` | [連結](https://doi.org/10.15744/2348-9804.1.s103)\n\n### Exhaled breath condensate: methodological recommendations and unresolved questions\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：exhaled breath condensate, EBC, collection method, tidal breathing, respiratory diseases\n- **摘要**：提供呼氣冷凝物的採集方法建議與未來研究方向。\n- **作者**：Ildikó Horváth, J.F. Hunt, Peter J. Barnes | **年份**：2005 | DOI: `10.1183/09031936.05.00029705` | [連結](https://doi.org/10.1183/09031936.05.00029705)\n\n### Noninvasive Alcohol Monitoring Using a Wearable Tattoo-Based Iontophoretic-Biosensing System\n\n- **類別**：液態 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：sweat, alcohol, biosensor, wearable, amperometry\n- **摘要**：利用皮膚貼片監測汗液中的酒精濃度，具有潛在應用價值。\n- **作者**：Jayoung Kim, Itthipon Jeerapan, Somayeh Imani, Thomas N. Cho, Amay J. Bandodkar et al. | **年份**：2016 | DOI: `10.1021/acssensors.6b00356` | [連結](https://doi.org/10.1021/acssensors.6b00356)\n\n### Determining concentration patterns of volatile compounds in exhaled breath by PTR-MS\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：PTR-MS, exhaled breath, calibration, fragmentation, VOC analysis\n- **摘要**：描述了 PTR-MS 分析呼氣 VOC 的校準與碎片化模式。\n- **作者**：Konrad Schwarz, Wojciech Filipiak, A Amann | **年份**：2009 | DOI: `10.1088/1752-7155/3/2/027002` | [連結](https://doi.org/10.1088/1752-7155/3/2/027002)\n\n### Metal oxide-based gas sensor array for VOCs determination in complex mixtures using machine learning\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：gas sensor, metal oxide, machine learning, VOC detection, electronic nose\n- **摘要**：研究使用金屬氧化物感測器陣列與機器學習辨識呼氣中的VOC。\n- **作者**：Shivam Singh, S Sajana, Poornima Varma, Gajje Sreelekha, Chandranath Adak et al. | **年份**：2024 | DOI: `10.1007/s00604-024-06258-8` | [連結](https://doi.org/10.1007/s00604-024-06258-8)\n\n### Interpretable Machine Learning on Metabolomics Data Reveals Biomarkers for Parkinson’s Disease\n\n- **類別**：AI模型\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：metabolomics, machine learning, Parkinson's Disease, biomarkers, NN\n- **摘要**：利用機器學習分析代謝體數據，識別帕金森氏症的生物標記。\n- **作者**：J. Diana Zhang, Chonghua Xue, Vijaya B. Kolachalama, William A. Donald | **年份**：2023 | DOI: `10.1021/acscentsci.2c01468` | [連結](https://doi.org/10.1021/acscentsci.2c01468)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（9 篇）\n\n- ▓▓▓▓▓ **[Volatile organic compounds as diagnostic biomarkers in gastrointestinal and liver diseases.](https://openalex.org/W1500730898)**  \n  研究呼氣VOC在胃腸和肝臟疾病診斷中的應用。 ｜ 2009\n- ▓▓▓▓▓ **[Factors that influence the volatile organic compound content in human breath](https://doi.org/10.1088/1752-7163/aa5cc5)**  \n  研究呼氣中VOC含量受多種因素影響，需控制干擾因子。 ｜ 2017\n- ▓▓▓▓▓ **[Volatile organic compounds in the breath of patients with schizophrenia.](https://doi.org/10.1136/jcp.48.5.466)**  \n  研究精神病患呼氣中的揮發性有機化合物，用於診斷潛力。 ｜ 1995\n- ▓▓▓▓▓ **[Natural menstrual rhythm and oral contraception diversely affect exhaled breath compositions](https://doi.org/10.1038/s41598-018-29221-z)**  \n  研究月經週期和口服避孕藥對女性呼氣 VOC 的影響。 ｜ 2018\n- ▓▓▓▓▓ **[Volatile Markers for Cancer in Exhaled Breath—Could They Be the Signature of the Gut Microbiota?](https://doi.org/10.3390/molecules28083488)**  \n  研究呼氣中的揮發性有機化合物與腸道菌群在胃癌患者中的關聯。 ｜ 2023\n- ▓▓▓▓▓ **[Exhaled Breath Metabolomics for the Diagnosis of Pneumonia in Intubated and Mechanically-Ventilated Intensive Care Unit (ICU)-Patients](https://doi.org/10.3390/ijms18020449)**  \n  研究利用呼氣分析診斷加護病房肺炎，具有明確的臨床應用。 ｜ 2017\n- ▓▓▓▓░ **[Volatile Organic Compound Emissions from Humans Indoors](https://doi.org/10.1021/acs.est.6b04415)**  \n  研究了人體排放的VOC，並量化其在教室空氣中的貢獻。 ｜ 2016\n- ▓▓▓▓░ **[Metabolomics of Volatile Organic Compounds in Cystic Fibrosis Patients and Controls](https://doi.org/10.1203/pdr.0b013e3181df4ea0)**  \n  研究囊性纖維化患者呼氣中的揮發性有機化合物代謝體。 ｜ 2010\n- ▓▓▓░░ **[Development and Mining of a Volatile Organic Compound Database](https://doi.org/10.1155/2015/139254)**  \n  建立VOC資料庫，用於生物互動和健康照護研究。 ｜ 2015\n\n### 癌症應用（8 篇）\n\n- ▓▓▓▓▓ **[Assessment of a Noninvasive Exhaled Breath Test for the Diagnosis of Oesophagogastric Cancer](https://doi.org/10.1001/jamaoncol.2018.0991)**  \n  研究呼氣分析用於食道胃癌診斷，並使用 SIFT-MS 技術。 ｜ 2018\n- ▓▓▓▓▓ **[Exhaled Breath Analysis for Lung Cancer Detection Using Ion Mobility Spectrometry](https://doi.org/10.1371/journal.pone.0114555)**  \n  利用呼氣分析檢測肺癌，並發現了 n-Dodecane 的生物標記意義。 ｜ 2014\n- ▓▓▓▓▓ **[Diagnosis of lung cancer by the analysis of exhaled breath with a colorimetric sensor array](https://doi.org/10.1136/thx.2006.072892)**  \n  利用色譜感測器陣列分析呼氣，用於肺癌診斷的實驗研究。 ｜ 2007\n- ▓▓▓▓▓ **[A study of the volatile organic compounds exhaled by lung cancer cells in vitro for breath diagnosis](https://doi.org/10.1002/cncr.22844)**  \n  研究肺癌細胞呼出的揮發性有機化合物，用於診斷。 ｜ 2007\n- ▓▓▓▓▓ **[Detection of Lung Cancer by Sensor Array Analyses of Exhaled Breath](https://doi.org/10.1164/rccm.200409-1184oc)**  \n  利用電子鼻分析呼氣，可有效診斷肺癌。 ｜ 2005\n- ▓▓▓▓▓ **[Breath biopsy of breast cancer using sensor array signals and machine learning analysis](https://doi.org/10.1038/s41598-020-80570-0)**  \n  利用電子鼻和機器學習分析呼氣中的揮發性物質診斷乳癌。 ｜ 2021\n- ▓▓▓▓░ **[Exhaled Breath Analysis with a Colorimetric Sensor Array for the Identification and Characterization of Lung Cancer](https://doi.org/10.1097/jto.0b013e318233d80f)**  \n  利用呼氣分析診斷肺癌，涉及VOC和感測器技術。 ｜ 2011\n- ▓▓▓▓░ **[Metabolomics for Biomarker Discovery in Gastroenterological Cancer](https://doi.org/10.3390/metabo4030547)**  \n  研究利用代謝體學分析胃腸道癌症的診斷標記物。 ｜ 2014\n\n### 液態 VOC（6 篇）\n\n- ▓▓▓▓▓ **[Volatilomic insight of head and neck cancer via the effects observed on saliva metabolites](https://doi.org/10.1038/s41598-018-35854-x)**  \n  研究頭頸癌患者唾液揮發性有機物，用於診斷和理解代謝變化。 ｜ 2018\n- ▓▓▓▓▓ **[Differentiating Coeliac Disease from Irritable Bowel Syndrome by Urinary Volatile Organic Compound Analysis – A Pilot Study](https://doi.org/10.1371/journal.pone.0107312)**  \n  尿液VOC分析可區分乳糜瀉和腸躁症，具有高敏感性和特異性。 ｜ 2014\n- ▓▓▓▓░ **[Preliminary Descriptive Study on the Conservation of Human Sweat Odor: Impact of Storage Temperature and Duration on the Stability of Volatile Organic Compounds in Sorbent Samples.](https://pubmed.ncbi.nlm.nih.gov/42253767/)**  \n  研究汗液中VOC的儲存穩定性，探討溫度和時間影響。 ｜ 2026\n- ▓▓▓▓░ **[Differentiation of oral bacteria in in vitro cultures and human saliva by secondary electrospray ionization – mass spectrometry](https://doi.org/10.1038/srep15163)**  \n  利用質譜分析唾液中細菌揮發性代謝物，用於診斷牙周炎。 ｜ 2015\n- ▓▓▓▓░ **[Noninvasive Alcohol Monitoring Using a Wearable Tattoo-Based Iontophoretic-Biosensing System](https://doi.org/10.1021/acssensors.6b00356)**  \n  利用皮膚貼片監測汗液中的酒精濃度，具有潛在應用價值。 ｜ 2016\n- ▓▓▓░░ **[Hydrochromic conjugated polymers for human sweat pore mapping](https://doi.org/10.1038/ncomms4736)**  \n  利用水感測器繪製汗孔圖，可應用於診斷。 ｜ 2014\n\n### 慢性病（6 篇）\n\n- ▓▓▓▓▓ **[Exhaled volatile substances in children suffering from type 1 diabetes mellitus: results from a cross-sectional study](https://doi.org/10.1038/s41598-019-52165-x)**  \n  研究兒童1型糖尿病患者呼氣VOC，用於代謝監測。 ｜ 2019\n- ▓▓▓▓▓ **[Automated Detection of Diabetes From Exhaled Human Breath Using Deep Hybrid Architecture](https://doi.org/10.1109/access.2023.3278278)**  \n  利用呼氣乙酮濃度，深度學習診斷糖尿病的自動化醫療系統。 ｜ 2023\n- ▓▓▓▓▓ **[Determination of volatile organic compounds in exhaled breath of heart failure patients by needle trap micro-extraction coupled with gas chromatography-tandem mass spectrometry](https://doi.org/10.1088/1752-7163/aa94e7)**  \n  研究心臟衰竭患者呼氣VOC變化，發現丙酮可作為惡化指標。 ｜ 2017\n- ▓▓▓▓▓ **[Breath-print analysis by e-nose for classifying and monitoring chronic liver disease: a proof-of-concept study](https://doi.org/10.1038/srep25337)**  \n  利用電子鼻分析肝臟疾病的呼氣揮發性有機化合物。 ｜ 2016\n- ▓▓▓▓▓ **[Utility of SIFT-MS to evaluate volatile organic compounds in nephropathic patients’ breath](https://doi.org/10.1038/s41598-022-14152-7)**  \n  利用 SIFT-MS 分析腎病患者呼氣 VOC，並探討其診斷價值。 ｜ 2022\n- ▓▓▓▓░ **[Association of domestic exposure to volatile organic compounds with asthma in young children](https://doi.org/10.1136/thx.2003.013680)**  \n  研究了居家 VOCs 與兒童哮喘的關聯，具有慢性病應用價值。 ｜ 2004\n\n### 感染症（4 篇）\n\n- ▓▓▓▓░ **[Volatile organic compounds from feces and their potential for diagnosis of gastrointestinal disease](https://doi.org/10.1096/fj.06-6927com)**  \n  研究糞便中的揮發性有機化合物，用於診斷腸道疾病。 ｜ 2007\n- ▓▓▓▓░ **[Detection of Sepsis in Preterm Infants by Fecal Volatile Organic Compounds Analysis](https://doi.org/10.1097/mpg.0000000000001471)**  \n  利用糞便VOC分析預測早產兒的敗血症。 ｜ 2016\n- ▓▓▓▓░ **[A Pilot Study Exploring the Use of Breath Analysis to Differentiate Healthy Cattle from Cattle Experimentally Infected with Mycobacterium bovis](https://doi.org/10.1371/journal.pone.0089280)**  \n  利用呼氣分析區分健康牛隻與感染牛結核的初步研究。 ｜ 2014\n- ▓▓▓░░ **[Pediatric Sepsis Diagnosis, Management, and Sub-phenotypes](https://doi.org/10.1542/peds.2023-062967)**  \n  研究兒童敗血症的診斷、管理和亞型，提及生物標記物篩查。 ｜ 2023\n\n### 分析方法（4 篇）\n\n- ▓▓▓▓░ **[Optimisation of Urine Sample Preparation for Headspace-Solid Phase Microextraction Gas Chromatography-Mass Spectrometry: Altering Sample pH, Sulphuric Acid Concentration and Phase Ratio](https://doi.org/10.3390/metabo10120482)**  \n  優化尿液樣品前處理方法，提升VOC檢測效率。 ｜ 2020\n- ▓▓▓▓░ **[Exhaled breath condensate: methodological recommendations and unresolved questions](https://doi.org/10.1183/09031936.05.00029705)**  \n  提供呼氣冷凝物的採集方法建議與未來研究方向。 ｜ 2005\n- ▓▓▓▓░ **[Determining concentration patterns of volatile compounds in exhaled breath by PTR-MS](https://doi.org/10.1088/1752-7155/3/2/027002)**  \n  描述了 PTR-MS 分析呼氣 VOC 的校準與碎片化模式。 ｜ 2009\n- ▓▓▓░░ **[Clinical applications of breath testing](https://doi.org/10.3410/m2-56)**  \n  概述了呼氣檢測的臨床應用潛力及相關技術發展。 ｜ 2010\n\n### 感測器（4 篇）\n\n- ▓▓▓▓░ **[Electronic-nose Applications in Forensic Science and for Analysis of Volatile Biomarkers in the Human Breath](https://doi.org/10.15744/2348-9804.1.s103)**  \n  探討電子鼻在法醫學及呼氣生物標記物分析中的應用。 ｜ 2014\n- ▓▓▓▓░ **[Metal oxide-based gas sensor array for VOCs determination in complex mixtures using machine learning](https://doi.org/10.1007/s00604-024-06258-8)**  \n  研究使用金屬氧化物感測器陣列與機器學習辨識呼氣中的VOC。 ｜ 2024\n- ▓▓▓░░ **[Smart wearable body sensors for patient self-assessment and monitoring](https://doi.org/10.1186/2049-3258-72-28)**  \n  探討智慧型穿戴式感測器在醫療保健中的應用與潛力。 ｜ 2014\n- ▓▓▓░░ **[An electronic nose in the discrimination of patients with asthma and controls](https://doi.org/10.1016/j.jaci.2007.05.043)**  \n  利用電子鼻區分哮喘患者與健康控制組的研究。 ｜ 2007\n\n### AI模型（1 篇）\n\n- ▓▓▓▓░ **[Interpretable Machine Learning on Metabolomics Data Reveals Biomarkers for Parkinson’s Disease](https://doi.org/10.1021/acscentsci.2c01468)**  \n  利用機器學習分析代謝體數據，識別帕金森氏症的生物標記。 ｜ 2023\n\n### 其他（1 篇）\n\n- ▓▓░░░ **[Advances in healthcare wearable devices](https://doi.org/10.1038/s41528-021-00107-x)**  \n  文獻探討醫療穿戴裝置，未聚焦呼氣代謝體學相關議題。 ｜ 2021\n\n---\n## ℹ️ 本次排除文獻：3 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-06-09 07:11:57*\n"
+    },
+    {
       "date": "2026-06-08_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-08\n\n> 執行時間：07:02:04 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1091 |\n| 資料庫相關總數 | 904 |\n| 相關文獻平均分 | 4.05 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-08 07:02:04*\n"
     },
@@ -22969,10 +23967,6 @@
     {
       "date": "2026-06-03_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-03\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1084 |\n| 資料庫相關總數 | 897 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] The Effect of Low or High Dietary Fiber Diet on Volatile Organic Compounds in Exhaled Breath of Healthy Individuals\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, dietary fiber, VOC, metabolites, fermentation\n- **摘要**：研究飲食纖維對健康成人呼氣VOC影響，具有臨床意義。\n- **作者**：Örebro University, Sweden | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07594600)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] The Effect of Low or High Dietary Fiber Diet on Volatile Organic Compounds in Exhaled Breath of Healthy Individuals](https://clinicaltrials.gov/study/NCT07594600)**  \n  研究飲食纖維對健康成人呼氣VOC影響，具有臨床意義。 ｜ 2026\n\n---\n*報告生成時間：2026-06-03 07:02:36*\n"
-    },
-    {
-      "date": "2026-06-02_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-02\n\n> 執行時間：07:02:53 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1083 |\n| 資料庫相關總數 | 896 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, pancreatic cancer, VOC biomarker, early detection, non-invasive\n- **摘要**：研究開發呼氣VOC檢測胰腺癌，用於早期診斷。\n- **作者**：Imperial College London | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05727020)\n\n### HS-GC-MS analysis of volatile organic compounds after hyperoxia-induced oxidative stress: a validation study.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, VOC, oxidative stress, GC-MS, hyperoxia\n- **摘要**：研究呼氣VOC在氧化壓力下的變化，並評估其診斷價值。\n- **作者**：Lilien Thijs A, Fenn Dominic W, Brinkman Paul, Hagens Laura A, Smit Marry R et al. | **年份**：2024 | DOI: `10.1186/s40635-024-00600-3` | [連結](https://pubmed.ncbi.nlm.nih.gov/38345723/)\n\n### [CT] Reduction of Asthma Exacerbation Rate in Children by Non-invasive Monitoring of Inflammatory Markers in Exhaled Breath (Condensate): the RASTER Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, asthma, exacerbation, inflammatory markers, condensate\n- **摘要**：研究呼氣冷凝物中的炎症標記物，預測哮喘惡化。\n- **作者**：Maastricht University Medical Center | **年份**：2010 | [連結](https://clinicaltrials.gov/study/NCT01239238)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[HS-GC-MS analysis of volatile organic compounds after hyperoxia-induced oxidative stress: a validation study.](https://pubmed.ncbi.nlm.nih.gov/38345723/)**  \n  研究呼氣VOC在氧化壓力下的變化，並評估其診斷價值。 ｜ 2024\n- ▓▓▓▓░ **[[CT] Reduction of Asthma Exacerbation Rate in Children by Non-invasive Monitoring of Inflammatory Markers in Exhaled Breath (Condensate): the RASTER Study](https://clinicaltrials.gov/study/NCT01239238)**  \n  研究呼氣冷凝物中的炎症標記物，預測哮喘惡化。 ｜ 2010\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compound Assessment in Pancreatic Ductal Adenocarcinoma](https://clinicaltrials.gov/study/NCT05727020)**  \n  研究開發呼氣VOC檢測胰腺癌，用於早期診斷。 ｜ 2022\n\n---\n*報告生成時間：2026-06-02 07:02:53*\n"
     }
   ]
 }

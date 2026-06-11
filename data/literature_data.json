@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1139,
-    "relevant": 949,
+    "total": 1140,
+    "relevant": 950,
     "today": 1,
-    "this_week": 54,
+    "this_week": 55,
     "avg_score": 4.06,
-    "updated_at": "2026-06-11T07:02:34"
+    "updated_at": "2026-06-12T07:02:39"
   },
   "stats": {
-    "total": 1139,
-    "relevant": 949,
+    "total": 1140,
+    "relevant": 950,
     "today": 1,
-    "this_week": 54,
+    "this_week": 55,
     "avg_score": 4.06,
     "by_category": {
       "voc_breath": 302,
-      "disease_cancer": 217,
+      "disease_cancer": 218,
       "sensor_hardware": 141,
       "disease_chronic": 78,
       "infection": 74,
@@ -27,7 +27,7 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 224,
+      "clinicaltrials": 225,
       "import": 488,
       "openalex": 166,
       "pubmed": 132,
@@ -38,7 +38,7 @@
       "2": 12,
       "3": 239,
       "4": 378,
-      "5": 319
+      "5": 320
     },
     "by_year": {
       "1985": 1,
@@ -66,14 +66,10 @@
       "2022": 60,
       "2023": 56,
       "2024": 73,
-      "2025": 66,
+      "2025": 67,
       "2026": 22
     },
     "daily_trend": [
-      {
-        "date": "2026-05-11",
-        "count": 7
-      },
       {
         "date": "2026-05-12",
         "count": 3
@@ -161,9 +157,18 @@
       {
         "date": "2026-06-10",
         "count": 1
+      },
+      {
+        "date": "2026-06-11",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-11 23:02:34",
+        "found": 240,
+        "new_added": 1
+      },
       {
         "run_at": "2026-06-10 23:02:29",
         "found": 239,
@@ -208,18 +213,13 @@
         "run_at": "2026-06-02 23:02:36",
         "found": 228,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-06-01 23:02:52",
-        "found": 243,
-        "new_added": 3
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.54,
-        "count": 217
+        "avg_score": 4.55,
+        "count": 218
       },
       {
         "category": "infection",
@@ -274,6 +274,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1140,
+      "title": "[CT] Precision Medicine for L/GCMN and Melanoma 2",
+      "authors": "Fundacion Clinic per a la Recerca Biomédica",
+      "year": 2025,
+      "journal": "ClinicalTrials.gov (Melanoma (Skin Cancer), Nevi and Melanomas, Congenital Melanocytic Nevus)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analyzer",
+        "melanoma",
+        "metastasis",
+        "VOCs",
+        "precision medicine"
+      ],
+      "one_line": "利用呼氣分析檢測黑色素瘤轉移，具有高度相關性。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06605443",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-11 23:02:34"
+    },
     {
       "id": 1139,
       "title": "[CT] The Role of Volatile Organic Compounds (VOCs), Airway Mucins and the Microbiome in the Early Prediction of Bronchopulmonary Dysplasia (BPD)",
@@ -23993,6 +24015,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-12_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-12\n\n> 執行時間：07:02:35 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Precision Medicine for L/GCMN and Melanoma 2\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analyzer, melanoma, metastasis, VOCs, precision medicine\n- **摘要**：利用呼氣分析檢測黑色素瘤轉移，具有高度相關性。\n- **作者**：Fundacion Clinic per a la Recerca Biomédica | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06605443)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Precision Medicine for L/GCMN and Melanoma 2](https://clinicaltrials.gov/study/NCT06605443)**  \n  利用呼氣分析檢測黑色素瘤轉移，具有高度相關性。 ｜ 2025\n\n---\n*報告生成時間：2026-06-12 07:02:36*\n"
+    },
+    {
       "date": "2026-06-11_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-11\n\n> 執行時間：07:02:32 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1139 |\n| 資料庫相關總數 | 949 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] The Role of Volatile Organic Compounds (VOCs), Airway Mucins and the Microbiome in the Early Prediction of Bronchopulmonary Dysplasia (BPD)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, BPD, VOC biomarkers, early detection, respiratory\n- **摘要**：研究呼氣 VOC 在支氣管肺部異位症早期預測中的作用。\n- **作者**：University Hospital, Antwerp | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06342752)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] The Role of Volatile Organic Compounds (VOCs), Airway Mucins and the Microbiome in the Early Prediction of Bronchopulmonary Dysplasia (BPD)](https://clinicaltrials.gov/study/NCT06342752)**  \n  研究呼氣 VOC 在支氣管肺部異位症早期預測中的作用。 ｜ 2024\n\n---\n*報告生成時間：2026-06-11 07:02:33*\n"
     },
@@ -24015,10 +24041,6 @@
     {
       "date": "2026-06-06_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-06\n\n> 執行時間：07:02:57 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1091 |\n| 資料庫相關總數 | 904 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatile Organic Compounds (VOCs) of Exhaled Breath in Patients With GI Bleeding\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, GI bleeding, VOCs, exhaled breath, case-control study\n- **摘要**：研究消化道出血患者呼氣中的揮發性有機化合物差異。\n- **作者**：Seoul National University Hospital | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04226079)\n\n### [CT] The e-BILD Study: Effects of E-cigarettes on Lung Health in Teenagers.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：e-cigarettes, teenagers, lung health, VOCs, metabolites\n- **摘要**：研究電子煙對青少年肺部健康的影響，涉及呼氣 VOC 和代謝物。\n- **作者**：Insel Gruppe AG, University Hospital Bern | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT05105555)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatile Organic Compounds (VOCs) of Exhaled Breath in Patients With GI Bleeding](https://clinicaltrials.gov/study/NCT04226079)**  \n  研究消化道出血患者呼氣中的揮發性有機化合物差異。 ｜ 2020\n- ▓▓▓▓░ **[[CT] The e-BILD Study: Effects of E-cigarettes on Lung Health in Teenagers.](https://clinicaltrials.gov/study/NCT05105555)**  \n  研究電子煙對青少年肺部健康的影響，涉及呼氣 VOC 和代謝物。 ｜ 2022\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] The Interaction and Regulation Mechanism of Different Exercise Patterns With Metabolic Syndrome and Related Metabolic Diseases](https://clinicaltrials.gov/study/NCT04984005)**  \n  研究運動干預對代謝綜合徵的影響，涉及血液和尿液代謝物分析。 ｜ 2022\n\n---\n*報告生成時間：2026-06-06 07:02:57*\n"
-    },
-    {
-      "date": "2026-06-05_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-05\n\n> 執行時間：07:02:44 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1088 |\n| 資料庫相關總數 | 901 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] A Simple Breath Test to Detect Liver Cancer and Monitor Liver Conditions\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, liver cancer, VOC biomarker, non-invasive, hepatic\n- **摘要**：利用呼氣VOC檢測肝癌及監測肝臟狀況的研究。\n- **作者**：Imperial College London | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06864195)\n\n### [CT] Rapid Diagnostic Technology for AUGIB Based on Analysis of VOCs in Exhaled Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, AUGIB, VOC biomarker, diagnostic, exhaled breath\n- **摘要**：利用呼氣VOC診斷上消化道出血，具有高度相關性。\n- **作者**：Beijing 302 Hospital | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06877507)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] A Simple Breath Test to Detect Liver Cancer and Monitor Liver Conditions](https://clinicaltrials.gov/study/NCT06864195)**  \n  利用呼氣VOC檢測肝癌及監測肝臟狀況的研究。 ｜ 2025\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Rapid Diagnostic Technology for AUGIB Based on Analysis of VOCs in Exhaled Breath](https://clinicaltrials.gov/study/NCT06877507)**  \n  利用呼氣VOC診斷上消化道出血，具有高度相關性。 ｜ 2025\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[[CT] Systems Pharmacology Approach to Uncontrolled Pediatric Asthma](https://clinicaltrials.gov/study/NCT04865575)**  \n  研究兒童哮喘的系統藥理學方法，涉及多組學數據分析。 ｜ 2018\n\n---\n*報告生成時間：2026-06-05 07:02:44*\n"
     }
   ]
 }

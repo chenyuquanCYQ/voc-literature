@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1140,
-    "relevant": 950,
-    "today": 0,
-    "this_week": 49,
+    "total": 1141,
+    "relevant": 951,
+    "today": 1,
+    "this_week": 4,
     "avg_score": 4.06,
-    "updated_at": "2026-06-16T07:02:02"
+    "updated_at": "2026-06-17T07:02:32"
   },
   "stats": {
-    "total": 1140,
-    "relevant": 950,
-    "today": 0,
-    "this_week": 49,
+    "total": 1141,
+    "relevant": 951,
+    "today": 1,
+    "this_week": 4,
     "avg_score": 4.06,
     "by_category": {
       "voc_breath": 302,
-      "disease_cancer": 218,
+      "disease_cancer": 219,
       "sensor_hardware": 141,
       "disease_chronic": 78,
       "infection": 74,
@@ -29,7 +29,7 @@
     "by_source": {
       "clinicaltrials": 225,
       "import": 488,
-      "openalex": 166,
+      "openalex": 167,
       "pubmed": 132,
       "serper_scholar": 129
     },
@@ -38,7 +38,7 @@
       "2": 12,
       "3": 239,
       "4": 378,
-      "5": 320
+      "5": 321
     },
     "by_year": {
       "1985": 1,
@@ -52,7 +52,7 @@
       "2008": 7,
       "2009": 16,
       "2010": 13,
-      "2011": 27,
+      "2011": 28,
       "2012": 17,
       "2013": 20,
       "2014": 31,
@@ -70,10 +70,6 @@
       "2026": 22
     },
     "daily_trend": [
-      {
-        "date": "2026-05-17",
-        "count": 1
-      },
       {
         "date": "2026-05-18",
         "count": 7
@@ -145,9 +141,18 @@
       {
         "date": "2026-06-11",
         "count": 1
+      },
+      {
+        "date": "2026-06-16",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-16 23:02:30",
+        "found": 231,
+        "new_added": 1
+      },
       {
         "run_at": "2026-06-15 23:02:01",
         "found": 237,
@@ -192,18 +197,13 @@
         "run_at": "2026-06-07 23:02:04",
         "found": 243,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-06-06 23:02:02",
-        "found": 243,
-        "new_added": 0
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.55,
-        "count": 218
+        "count": 219
       },
       {
         "category": "infection",
@@ -258,6 +258,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1141,
+      "title": "Diagnosis of head-and-neck cancer from exhaled breath",
+      "authors": "Marwan Hakim, Salem Billan, Ulrike Tisch, Gang Peng, I Dvrokind et al.",
+      "year": 2011,
+      "journal": "British Journal of Cancer",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "head-and-neck cancer",
+        "GC-MS",
+        "NA-NOSE",
+        "VOC biomarker"
+      ],
+      "one_line": "利用呼氣分析診斷頭頸癌，並使用電子鼻和GC-MS技術。",
+      "doi": "10.1038/bjc.2011.128",
+      "url": "https://doi.org/10.1038/bjc.2011.128",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-16 23:02:30"
+    },
     {
       "id": 1140,
       "title": "[CT] Precision Medicine for L/GCMN and Melanoma 2",
@@ -23999,6 +24021,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-17_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-17\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1141 |\n| 資料庫相關總數 | 951 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Diagnosis of head-and-neck cancer from exhaled breath\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, head-and-neck cancer, GC-MS, NA-NOSE, VOC biomarker\n- **摘要**：利用呼氣分析診斷頭頸癌，並使用電子鼻和GC-MS技術。\n- **作者**：Marwan Hakim, Salem Billan, Ulrike Tisch, Gang Peng, I Dvrokind et al. | **年份**：2011 | DOI: `10.1038/bjc.2011.128` | [連結](https://doi.org/10.1038/bjc.2011.128)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Diagnosis of head-and-neck cancer from exhaled breath](https://doi.org/10.1038/bjc.2011.128)**  \n  利用呼氣分析診斷頭頸癌，並使用電子鼻和GC-MS技術。 ｜ 2011\n\n---\n*報告生成時間：2026-06-17 07:02:31*\n"
+    },
+    {
       "date": "2026-06-16_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-16\n\n> 執行時間：07:02:01 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-16 07:02:01*\n"
     },
@@ -24021,10 +24047,6 @@
     {
       "date": "2026-06-11_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-11\n\n> 執行時間：07:02:32 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1139 |\n| 資料庫相關總數 | 949 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] The Role of Volatile Organic Compounds (VOCs), Airway Mucins and the Microbiome in the Early Prediction of Bronchopulmonary Dysplasia (BPD)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, BPD, VOC biomarkers, early detection, respiratory\n- **摘要**：研究呼氣 VOC 在支氣管肺部異位症早期預測中的作用。\n- **作者**：University Hospital, Antwerp | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06342752)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] The Role of Volatile Organic Compounds (VOCs), Airway Mucins and the Microbiome in the Early Prediction of Bronchopulmonary Dysplasia (BPD)](https://clinicaltrials.gov/study/NCT06342752)**  \n  研究呼氣 VOC 在支氣管肺部異位症早期預測中的作用。 ｜ 2024\n\n---\n*報告生成時間：2026-06-11 07:02:33*\n"
-    },
-    {
-      "date": "2026-06-10_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-10\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1138 |\n| 資料庫相關總數 | 948 |\n| 相關文獻平均分 | 4.05 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] The Asthma Bronchial Challenge Study\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：asthma, breath VOCs, bronchial challenge, exhaled breath, VOC profile\n- **摘要**：研究哮喘患者呼氣中VOC的變化，涉及臨床數據。\n- **作者**：University of East Anglia | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03575663)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] The Asthma Bronchial Challenge Study](https://clinicaltrials.gov/study/NCT03575663)**  \n  研究哮喘患者呼氣中VOC的變化，涉及臨床數據。 ｜ 2018\n\n---\n*報告生成時間：2026-06-10 07:02:36*\n"
     }
   ]
 }

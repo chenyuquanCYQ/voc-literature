@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1141,
-    "relevant": 951,
+    "total": 1142,
+    "relevant": 952,
     "today": 1,
-    "this_week": 4,
+    "this_week": 3,
     "avg_score": 4.06,
-    "updated_at": "2026-06-17T07:02:32"
+    "updated_at": "2026-06-18T07:02:36"
   },
   "stats": {
-    "total": 1141,
-    "relevant": 951,
+    "total": 1142,
+    "relevant": 952,
     "today": 1,
-    "this_week": 4,
+    "this_week": 3,
     "avg_score": 4.06,
     "by_category": {
-      "voc_breath": 302,
+      "voc_breath": 303,
       "disease_cancer": 219,
       "sensor_hardware": 141,
       "disease_chronic": 78,
@@ -29,7 +29,7 @@
     "by_source": {
       "clinicaltrials": 225,
       "import": 488,
-      "openalex": 167,
+      "openalex": 168,
       "pubmed": 132,
       "serper_scholar": 129
     },
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 12,
       "3": 239,
-      "4": 378,
+      "4": 379,
       "5": 321
     },
     "by_year": {
@@ -55,7 +55,7 @@
       "2011": 28,
       "2012": 17,
       "2013": 20,
-      "2014": 31,
+      "2014": 32,
       "2015": 32,
       "2016": 34,
       "2017": 32,
@@ -145,9 +145,18 @@
       {
         "date": "2026-06-16",
         "count": 1
+      },
+      {
+        "date": "2026-06-17",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-17 23:02:35",
+        "found": 239,
+        "new_added": 1
+      },
       {
         "run_at": "2026-06-16 23:02:30",
         "found": 231,
@@ -192,11 +201,6 @@
         "run_at": "2026-06-08 23:11:56",
         "found": 239,
         "new_added": 46
-      },
-      {
-        "run_at": "2026-06-07 23:02:04",
-        "found": 243,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -213,7 +217,7 @@
       {
         "category": "voc_breath",
         "avg_score": 4.29,
-        "count": 302
+        "count": 303
       },
       {
         "category": "disease_chronic",
@@ -258,6 +262,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1142,
+      "title": "Metabolite Content Profiling of Bottlenose Dolphin Exhaled Breath",
+      "authors": "Alexander A. Aksenov, Laura C. Yeates, Alberto Pasamontes, Craig Siebe, Yuriy Zrodnikov et al.",
+      "year": 2014,
+      "journal": "Analytical Chemistry",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "cetaceans",
+        "metabolomics",
+        "marine mammal",
+        "exhaled breath"
+      ],
+      "one_line": "研究了海豚呼氣中的揮發性及非揮發性代謝物，建立分析方法。",
+      "doi": "10.1021/ac5024217",
+      "url": "https://doi.org/10.1021/ac5024217",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-17 23:02:34"
+    },
     {
       "id": 1141,
       "title": "Diagnosis of head-and-neck cancer from exhaled breath",
@@ -24021,6 +24047,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-18_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-18\n\n> 執行時間：07:02:35 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1142 |\n| 資料庫相關總數 | 952 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Metabolite Content Profiling of Bottlenose Dolphin Exhaled Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, cetaceans, metabolomics, marine mammal, exhaled breath\n- **摘要**：研究了海豚呼氣中的揮發性及非揮發性代謝物，建立分析方法。\n- **作者**：Alexander A. Aksenov, Laura C. Yeates, Alberto Pasamontes, Craig Siebe, Yuriy Zrodnikov et al. | **年份**：2014 | DOI: `10.1021/ac5024217` | [連結](https://doi.org/10.1021/ac5024217)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Metabolite Content Profiling of Bottlenose Dolphin Exhaled Breath](https://doi.org/10.1021/ac5024217)**  \n  研究了海豚呼氣中的揮發性及非揮發性代謝物，建立分析方法。 ｜ 2014\n\n---\n*報告生成時間：2026-06-18 07:02:35*\n"
+    },
+    {
       "date": "2026-06-17_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-17\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1141 |\n| 資料庫相關總數 | 951 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Diagnosis of head-and-neck cancer from exhaled breath\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, head-and-neck cancer, GC-MS, NA-NOSE, VOC biomarker\n- **摘要**：利用呼氣分析診斷頭頸癌，並使用電子鼻和GC-MS技術。\n- **作者**：Marwan Hakim, Salem Billan, Ulrike Tisch, Gang Peng, I Dvrokind et al. | **年份**：2011 | DOI: `10.1038/bjc.2011.128` | [連結](https://doi.org/10.1038/bjc.2011.128)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Diagnosis of head-and-neck cancer from exhaled breath](https://doi.org/10.1038/bjc.2011.128)**  \n  利用呼氣分析診斷頭頸癌，並使用電子鼻和GC-MS技術。 ｜ 2011\n\n---\n*報告生成時間：2026-06-17 07:02:31*\n"
     },
@@ -24043,10 +24073,6 @@
     {
       "date": "2026-06-12_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-12\n\n> 執行時間：07:02:35 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Precision Medicine for L/GCMN and Melanoma 2\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analyzer, melanoma, metastasis, VOCs, precision medicine\n- **摘要**：利用呼氣分析檢測黑色素瘤轉移，具有高度相關性。\n- **作者**：Fundacion Clinic per a la Recerca Biomédica | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06605443)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Precision Medicine for L/GCMN and Melanoma 2](https://clinicaltrials.gov/study/NCT06605443)**  \n  利用呼氣分析檢測黑色素瘤轉移，具有高度相關性。 ｜ 2025\n\n---\n*報告生成時間：2026-06-12 07:02:36*\n"
-    },
-    {
-      "date": "2026-06-11_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-11\n\n> 執行時間：07:02:32 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1139 |\n| 資料庫相關總數 | 949 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] The Role of Volatile Organic Compounds (VOCs), Airway Mucins and the Microbiome in the Early Prediction of Bronchopulmonary Dysplasia (BPD)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, BPD, VOC biomarkers, early detection, respiratory\n- **摘要**：研究呼氣 VOC 在支氣管肺部異位症早期預測中的作用。\n- **作者**：University Hospital, Antwerp | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06342752)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[[CT] The Role of Volatile Organic Compounds (VOCs), Airway Mucins and the Microbiome in the Early Prediction of Bronchopulmonary Dysplasia (BPD)](https://clinicaltrials.gov/study/NCT06342752)**  \n  研究呼氣 VOC 在支氣管肺部異位症早期預測中的作用。 ｜ 2024\n\n---\n*報告生成時間：2026-06-11 07:02:33*\n"
     }
   ]
 }

@@ -1,25 +1,25 @@
 {
   "meta": {
-    "total": 1142,
-    "relevant": 952,
-    "today": 1,
-    "this_week": 3,
+    "total": 1145,
+    "relevant": 955,
+    "today": 3,
+    "this_week": 5,
     "avg_score": 4.06,
-    "updated_at": "2026-06-18T07:02:36"
+    "updated_at": "2026-06-19T07:03:05"
   },
   "stats": {
-    "total": 1142,
-    "relevant": 952,
-    "today": 1,
-    "this_week": 3,
+    "total": 1145,
+    "relevant": 955,
+    "today": 3,
+    "this_week": 5,
     "avg_score": 4.06,
     "by_category": {
-      "voc_breath": 303,
-      "disease_cancer": 219,
+      "voc_breath": 304,
+      "disease_cancer": 220,
       "sensor_hardware": 141,
       "disease_chronic": 78,
       "infection": 74,
-      "method_tech": 61,
+      "method_tech": 62,
       "voc_liquid": 34,
       "ai_model": 20,
       "subhealth": 9,
@@ -27,7 +27,7 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 225,
+      "clinicaltrials": 228,
       "import": 488,
       "openalex": 168,
       "pubmed": 132,
@@ -36,9 +36,9 @@
     "by_score": {
       "1": 1,
       "2": 12,
-      "3": 239,
-      "4": 379,
-      "5": 321
+      "3": 240,
+      "4": 380,
+      "5": 322
     },
     "by_year": {
       "1985": 1,
@@ -61,23 +61,15 @@
       "2017": 32,
       "2018": 36,
       "2019": 39,
-      "2020": 42,
+      "2020": 43,
       "2021": 57,
       "2022": 60,
-      "2023": 56,
-      "2024": 73,
+      "2023": 57,
+      "2024": 74,
       "2025": 67,
       "2026": 22
     },
     "daily_trend": [
-      {
-        "date": "2026-05-18",
-        "count": 7
-      },
-      {
-        "date": "2026-05-19",
-        "count": 3
-      },
       {
         "date": "2026-05-20",
         "count": 1
@@ -149,9 +141,18 @@
       {
         "date": "2026-06-17",
         "count": 1
+      },
+      {
+        "date": "2026-06-18",
+        "count": 3
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-18 23:03:03",
+        "found": 240,
+        "new_added": 3
+      },
       {
         "run_at": "2026-06-17 23:02:35",
         "found": 239,
@@ -196,18 +197,13 @@
         "run_at": "2026-06-09 23:02:35",
         "found": 239,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-06-08 23:11:56",
-        "found": 239,
-        "new_added": 46
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.55,
-        "count": 219
+        "count": 220
       },
       {
         "category": "infection",
@@ -217,7 +213,7 @@
       {
         "category": "voc_breath",
         "avg_score": 4.29,
-        "count": 303
+        "count": 304
       },
       {
         "category": "disease_chronic",
@@ -231,8 +227,8 @@
       },
       {
         "category": "method_tech",
-        "avg_score": 3.41,
-        "count": 61
+        "avg_score": 3.4,
+        "count": 62
       },
       {
         "category": "ai_model",
@@ -262,6 +258,72 @@
     ]
   },
   "literature": [
+    {
+      "id": 1145,
+      "title": "[CT] VOCs vs FIT for Colorectal Cancer Screening",
+      "authors": "Societa Italiana di Chirurgia ColoRettale",
+      "year": 2020,
+      "journal": "ClinicalTrials.gov (Colorectal Cancer, Colorectal Polyp)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "colorectal cancer",
+        "CRC screening",
+        "VOCs",
+        "FIT"
+      ],
+      "one_line": "研究比較呼氣 VOC 與糞便隱血試驗在 CRC 篩檢上的可靠性。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04407416",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-18 23:03:02"
+    },
+    {
+      "id": 1144,
+      "title": "[CT] Vocorder Device Validation in Clinical Settings - Continuous Monitoring of Individuals (Vocorder Clinical Validation-VCV)",
+      "authors": "Mitera Hospital",
+      "year": 2024,
+      "journal": "ClinicalTrials.gov (Cancer of the Breast, Cancer of Stomach, Colon Cancer, Lung Cancers, Kidney Insufficiency)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "continuous monitoring",
+        "portable device",
+        "healthcare",
+        "VOC"
+      ],
+      "one_line": "開發便攜式呼吸分析設備，用於連續健康監測。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06711939",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-18 23:03:02"
+    },
+    {
+      "id": 1143,
+      "title": "[CT] Volatile Sedation for Patients With the Acute Respiratory Distress Syndrome",
+      "authors": "Guy's and St Thomas' NHS Foundation Trust",
+      "year": 2023,
+      "journal": "ClinicalTrials.gov (Acute Respiratory Distress Syndrome, Mechanical Ventilation Complication, Sedation Complication)",
+      "category": "method_tech",
+      "score": 3.0,
+      "tags": [
+        "volatile sedation",
+        "inhalation",
+        "ventilator",
+        "ICU",
+        "anesthesia"
+      ],
+      "one_line": "研究呼吸機使用者的吸入性鎮靜，涉及氣體分析。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06014138",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-18 23:03:02"
+    },
     {
       "id": 1142,
       "title": "Metabolite Content Profiling of Bottlenose Dolphin Exhaled Breath",
@@ -24047,6 +24109,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-19_0703",
+      "content": "# VOC 文獻監控日報 — 2026-06-19\n\n> 執行時間：07:03:04 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1145 |\n| 資料庫相關總數 | 955 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] VOCs vs FIT for Colorectal Cancer Screening\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, colorectal cancer, CRC screening, VOCs, FIT\n- **摘要**：研究比較呼氣 VOC 與糞便隱血試驗在 CRC 篩檢上的可靠性。\n- **作者**：Societa Italiana di Chirurgia ColoRettale | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04407416)\n\n### [CT] Vocorder Device Validation in Clinical Settings - Continuous Monitoring of Individuals (Vocorder Clinical Validation-VCV)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, continuous monitoring, portable device, healthcare, VOC\n- **摘要**：開發便攜式呼吸分析設備，用於連續健康監測。\n- **作者**：Mitera Hospital | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06711939)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] VOCs vs FIT for Colorectal Cancer Screening](https://clinicaltrials.gov/study/NCT04407416)**  \n  研究比較呼氣 VOC 與糞便隱血試驗在 CRC 篩檢上的可靠性。 ｜ 2020\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Vocorder Device Validation in Clinical Settings - Continuous Monitoring of Individuals (Vocorder Clinical Validation-VCV)](https://clinicaltrials.gov/study/NCT06711939)**  \n  開發便攜式呼吸分析設備，用於連續健康監測。 ｜ 2024\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[[CT] Volatile Sedation for Patients With the Acute Respiratory Distress Syndrome](https://clinicaltrials.gov/study/NCT06014138)**  \n  研究呼吸機使用者的吸入性鎮靜，涉及氣體分析。 ｜ 2023\n\n---\n*報告生成時間：2026-06-19 07:03:04*\n"
+    },
+    {
       "date": "2026-06-18_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-18\n\n> 執行時間：07:02:35 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1142 |\n| 資料庫相關總數 | 952 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Metabolite Content Profiling of Bottlenose Dolphin Exhaled Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, cetaceans, metabolomics, marine mammal, exhaled breath\n- **摘要**：研究了海豚呼氣中的揮發性及非揮發性代謝物，建立分析方法。\n- **作者**：Alexander A. Aksenov, Laura C. Yeates, Alberto Pasamontes, Craig Siebe, Yuriy Zrodnikov et al. | **年份**：2014 | DOI: `10.1021/ac5024217` | [連結](https://doi.org/10.1021/ac5024217)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Metabolite Content Profiling of Bottlenose Dolphin Exhaled Breath](https://doi.org/10.1021/ac5024217)**  \n  研究了海豚呼氣中的揮發性及非揮發性代謝物，建立分析方法。 ｜ 2014\n\n---\n*報告生成時間：2026-06-18 07:02:35*\n"
     },
@@ -24069,10 +24135,6 @@
     {
       "date": "2026-06-13_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-13\n\n> 執行時間：07:02:07 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-13 07:02:07*\n"
-    },
-    {
-      "date": "2026-06-12_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-12\n\n> 執行時間：07:02:35 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Precision Medicine for L/GCMN and Melanoma 2\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analyzer, melanoma, metastasis, VOCs, precision medicine\n- **摘要**：利用呼氣分析檢測黑色素瘤轉移，具有高度相關性。\n- **作者**：Fundacion Clinic per a la Recerca Biomédica | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06605443)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Precision Medicine for L/GCMN and Melanoma 2](https://clinicaltrials.gov/study/NCT06605443)**  \n  利用呼氣分析檢測黑色素瘤轉移，具有高度相關性。 ｜ 2025\n\n---\n*報告生成時間：2026-06-12 07:02:36*\n"
     }
   ]
 }

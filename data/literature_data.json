@@ -2,15 +2,15 @@
   "meta": {
     "total": 1145,
     "relevant": 955,
-    "today": 3,
+    "today": 0,
     "this_week": 5,
     "avg_score": 4.06,
-    "updated_at": "2026-06-19T07:03:05"
+    "updated_at": "2026-06-20T07:02:09"
   },
   "stats": {
     "total": 1145,
     "relevant": 955,
-    "today": 3,
+    "today": 0,
     "this_week": 5,
     "avg_score": 4.06,
     "by_category": {
@@ -149,6 +149,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-06-19 23:02:09",
+        "found": 240,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-06-18 23:03:03",
         "found": 240,
         "new_added": 3
@@ -190,11 +195,6 @@
       },
       {
         "run_at": "2026-06-10 23:02:29",
-        "found": 239,
-        "new_added": 1
-      },
-      {
-        "run_at": "2026-06-09 23:02:35",
         "found": 239,
         "new_added": 1
       }
@@ -24109,6 +24109,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-20_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-20\n\n> 執行時間：07:02:09 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1145 |\n| 資料庫相關總數 | 955 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-20 07:02:09*\n"
+    },
+    {
       "date": "2026-06-19_0703",
       "content": "# VOC 文獻監控日報 — 2026-06-19\n\n> 執行時間：07:03:04 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1145 |\n| 資料庫相關總數 | 955 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] VOCs vs FIT for Colorectal Cancer Screening\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, colorectal cancer, CRC screening, VOCs, FIT\n- **摘要**：研究比較呼氣 VOC 與糞便隱血試驗在 CRC 篩檢上的可靠性。\n- **作者**：Societa Italiana di Chirurgia ColoRettale | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04407416)\n\n### [CT] Vocorder Device Validation in Clinical Settings - Continuous Monitoring of Individuals (Vocorder Clinical Validation-VCV)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, continuous monitoring, portable device, healthcare, VOC\n- **摘要**：開發便攜式呼吸分析設備，用於連續健康監測。\n- **作者**：Mitera Hospital | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06711939)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] VOCs vs FIT for Colorectal Cancer Screening](https://clinicaltrials.gov/study/NCT04407416)**  \n  研究比較呼氣 VOC 與糞便隱血試驗在 CRC 篩檢上的可靠性。 ｜ 2020\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Vocorder Device Validation in Clinical Settings - Continuous Monitoring of Individuals (Vocorder Clinical Validation-VCV)](https://clinicaltrials.gov/study/NCT06711939)**  \n  開發便攜式呼吸分析設備，用於連續健康監測。 ｜ 2024\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[[CT] Volatile Sedation for Patients With the Acute Respiratory Distress Syndrome](https://clinicaltrials.gov/study/NCT06014138)**  \n  研究呼吸機使用者的吸入性鎮靜，涉及氣體分析。 ｜ 2023\n\n---\n*報告生成時間：2026-06-19 07:03:04*\n"
     },
@@ -24131,10 +24135,6 @@
     {
       "date": "2026-06-14_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-14\n\n> 執行時間：07:02:00 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-14 07:02:00*\n"
-    },
-    {
-      "date": "2026-06-13_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-13\n\n> 執行時間：07:02:07 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-13 07:02:07*\n"
     }
   ]
 }

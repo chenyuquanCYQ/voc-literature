@@ -1,22 +1,22 @@
 {
   "meta": {
-    "total": 1145,
-    "relevant": 955,
-    "today": 0,
-    "this_week": 5,
+    "total": 1146,
+    "relevant": 956,
+    "today": 1,
+    "this_week": 6,
     "avg_score": 4.06,
-    "updated_at": "2026-06-21T07:01:57"
+    "updated_at": "2026-06-22T07:02:27"
   },
   "stats": {
-    "total": 1145,
-    "relevant": 955,
-    "today": 0,
-    "this_week": 5,
+    "total": 1146,
+    "relevant": 956,
+    "today": 1,
+    "this_week": 6,
     "avg_score": 4.06,
     "by_category": {
       "voc_breath": 304,
       "disease_cancer": 220,
-      "sensor_hardware": 141,
+      "sensor_hardware": 142,
       "disease_chronic": 78,
       "infection": 74,
       "method_tech": 62,
@@ -29,7 +29,7 @@
     "by_source": {
       "clinicaltrials": 228,
       "import": 488,
-      "openalex": 168,
+      "openalex": 169,
       "pubmed": 132,
       "serper_scholar": 129
     },
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 12,
       "3": 240,
-      "4": 380,
+      "4": 381,
       "5": 322
     },
     "by_year": {
@@ -65,7 +65,7 @@
       "2021": 57,
       "2022": 60,
       "2023": 57,
-      "2024": 74,
+      "2024": 75,
       "2025": 67,
       "2026": 22
     },
@@ -141,9 +141,18 @@
       {
         "date": "2026-06-18",
         "count": 3
+      },
+      {
+        "date": "2026-06-21",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-21 23:02:24",
+        "found": 241,
+        "new_added": 1
+      },
       {
         "run_at": "2026-06-20 23:01:56",
         "found": 240,
@@ -188,11 +197,6 @@
         "run_at": "2026-06-12 23:02:07",
         "found": 240,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-06-11 23:02:34",
-        "found": 240,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -238,8 +242,8 @@
       },
       {
         "category": "sensor_hardware",
-        "avg_score": 3.16,
-        "count": 141
+        "avg_score": 3.17,
+        "count": 142
       },
       {
         "category": "subhealth",
@@ -254,6 +258,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1146,
+      "title": "Recent Progress of Exhaled Gas‐Based Diagnosis Based on Field Effect Transistor Sensors",
+      "authors": "Guojia Lu, Tao Ji, Shuqing He, Fujin Ai, Li Yan et al.",
+      "year": 2024,
+      "journal": "Advanced Functional Materials",
+      "category": "sensor_hardware",
+      "score": 4.0,
+      "tags": [
+        "exhaled gas",
+        "FET sensors",
+        "disease diagnosis",
+        "breath analysis",
+        "sensors"
+      ],
+      "one_line": "探討利用場效電晶體感測器進行呼氣疾病診斷的技術發展。",
+      "doi": "10.1002/adfm.202309111",
+      "url": "https://doi.org/10.1002/adfm.202309111",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-06-21 23:02:23"
+    },
     {
       "id": 1145,
       "title": "[CT] VOCs vs FIT for Colorectal Cancer Screening",
@@ -24105,6 +24131,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-22_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-22\n\n> 執行時間：07:02:26 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1146 |\n| 資料庫相關總數 | 956 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Recent Progress of Exhaled Gas‐Based Diagnosis Based on Field Effect Transistor Sensors\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：exhaled gas, FET sensors, disease diagnosis, breath analysis, sensors\n- **摘要**：探討利用場效電晶體感測器進行呼氣疾病診斷的技術發展。\n- **作者**：Guojia Lu, Tao Ji, Shuqing He, Fujin Ai, Li Yan et al. | **年份**：2024 | DOI: `10.1002/adfm.202309111` | [連結](https://doi.org/10.1002/adfm.202309111)\n\n## 📂 依類別分類\n\n### 感測器（1 篇）\n\n- ▓▓▓▓░ **[Recent Progress of Exhaled Gas‐Based Diagnosis Based on Field Effect Transistor Sensors](https://doi.org/10.1002/adfm.202309111)**  \n  探討利用場效電晶體感測器進行呼氣疾病診斷的技術發展。 ｜ 2024\n\n---\n*報告生成時間：2026-06-22 07:02:26*\n"
+    },
+    {
       "date": "2026-06-21_0701",
       "content": "# VOC 文獻監控日報 — 2026-06-21\n\n> 執行時間：07:01:57 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1145 |\n| 資料庫相關總數 | 955 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-21 07:01:57*\n"
     },
@@ -24127,10 +24157,6 @@
     {
       "date": "2026-06-16_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-16\n\n> 執行時間：07:02:01 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-16 07:02:01*\n"
-    },
-    {
-      "date": "2026-06-15_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-15\n\n> 執行時間：07:02:03 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1140 |\n| 資料庫相關總數 | 950 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-15 07:02:03*\n"
     }
   ]
 }

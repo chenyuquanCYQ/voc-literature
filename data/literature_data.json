@@ -1,24 +1,24 @@
 {
   "meta": {
-    "total": 1149,
-    "relevant": 959,
-    "today": 3,
-    "this_week": 9,
+    "total": 1153,
+    "relevant": 963,
+    "today": 4,
+    "this_week": 12,
     "avg_score": 4.06,
-    "updated_at": "2026-06-23T07:02:49"
+    "updated_at": "2026-06-24T07:03:09"
   },
   "stats": {
-    "total": 1149,
-    "relevant": 959,
-    "today": 3,
-    "this_week": 9,
+    "total": 1153,
+    "relevant": 963,
+    "today": 4,
+    "this_week": 12,
     "avg_score": 4.06,
     "by_category": {
-      "voc_breath": 306,
-      "disease_cancer": 221,
+      "voc_breath": 307,
+      "disease_cancer": 223,
       "sensor_hardware": 142,
       "disease_chronic": 78,
-      "infection": 74,
+      "infection": 75,
       "method_tech": 62,
       "voc_liquid": 34,
       "ai_model": 20,
@@ -27,18 +27,18 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 229,
+      "clinicaltrials": 232,
       "import": 488,
       "openalex": 169,
-      "pubmed": 134,
+      "pubmed": 135,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 12,
       "3": 240,
-      "4": 381,
-      "5": 325
+      "4": 383,
+      "5": 327
     },
     "by_year": {
       "1985": 1,
@@ -48,7 +48,7 @@
       "2004": 1,
       "2005": 5,
       "2006": 1,
-      "2007": 9,
+      "2007": 10,
       "2008": 7,
       "2009": 16,
       "2010": 13,
@@ -61,13 +61,13 @@
       "2017": 32,
       "2018": 36,
       "2019": 40,
-      "2020": 44,
+      "2020": 45,
       "2021": 57,
       "2022": 60,
       "2023": 58,
       "2024": 75,
-      "2025": 67,
-      "2026": 22
+      "2025": 68,
+      "2026": 23
     },
     "daily_trend": [
       {
@@ -145,9 +145,18 @@
       {
         "date": "2026-06-22",
         "count": 3
+      },
+      {
+        "date": "2026-06-23",
+        "count": 4
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-23 23:03:09",
+        "found": 237,
+        "new_added": 4
+      },
       {
         "run_at": "2026-06-22 23:02:48",
         "found": 238,
@@ -192,28 +201,23 @@
         "run_at": "2026-06-14 23:02:02",
         "found": 240,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-06-13 23:01:59",
-        "found": 240,
-        "new_added": 0
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.55,
-        "count": 221
+        "avg_score": 4.56,
+        "count": 223
       },
       {
         "category": "infection",
-        "avg_score": 4.45,
-        "count": 74
+        "avg_score": 4.44,
+        "count": 75
       },
       {
         "category": "voc_breath",
         "avg_score": 4.29,
-        "count": 306
+        "count": 307
       },
       {
         "category": "disease_chronic",
@@ -258,6 +262,94 @@
     ]
   },
   "literature": [
+    {
+      "id": 1153,
+      "title": "[CT] Using Breath Tests to Study Gut Sulfur Changes During Dietary Therapy",
+      "authors": "University of British Columbia",
+      "year": 2026,
+      "journal": "ClinicalTrials.gov (Ulcerative Colitis (UC))",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "gut bacteria",
+        "sulfur compounds",
+        "ulcerative colitis",
+        "dietary therapy"
+      ],
+      "one_line": "研究利用呼氣樣本追蹤腸道細菌活性與疾病變化。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07640659",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-23 23:03:08"
+    },
+    {
+      "id": 1152,
+      "title": "[CT] PAN Alimentary Cancer Exhaled Breath Analysis",
+      "authors": "Imperial College London",
+      "year": 2025,
+      "journal": "ClinicalTrials.gov (Breath Test)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "gastrointestinal cancer",
+        "VOC biomarker",
+        "early diagnosis",
+        "GC-MS"
+      ],
+      "one_line": "利用呼氣分析診斷胃腸道癌症，提高早期診斷率。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06764641",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-23 23:03:08"
+    },
+    {
+      "id": 1151,
+      "title": "[CT] Analysis of Volatile Organic Compounds by Electronic Noses in Hospitalised Patients for an Infection by SARS-COV-2 (COVID-19)",
+      "authors": "Hopital Foch",
+      "year": 2020,
+      "journal": "ClinicalTrials.gov (COVID-19)",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "COVID-19",
+        "SARS-CoV-2",
+        "exhaled air",
+        "electronic nose",
+        "VOC"
+      ],
+      "one_line": "利用電子鼻分析 COVID-19 患者呼氣中的揮發性有機化合物。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04379154",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-23 23:03:08"
+    },
+    {
+      "id": 1150,
+      "title": "New screening method for lung cancer by detecting volatile organic compounds in breath.",
+      "authors": "Belda-Iniesta C, de Castro Carpeño J, Carrasco J A, Moreno V, Casado Sáenz E et al.",
+      "year": 2007,
+      "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "VOC biomarker",
+        "screening",
+        "GC-MS"
+      ],
+      "one_line": "研究肺癌呼氣中的揮發性有機化合物，用於篩查應用。",
+      "doi": "10.1007/s12094-007-0068-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17594950/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-06-23 23:03:08"
+    },
     {
       "id": 1149,
       "title": "[CT] The Detrimental Course of Acute Intestinal Ischemia",
@@ -24197,6 +24289,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-24_0703",
+      "content": "# VOC 文獻監控日報 — 2026-06-24\n\n> 執行時間：07:03:09 | 新增 **4** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 4 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1153 |\n| 資料庫相關總數 | 963 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### New screening method for lung cancer by detecting volatile organic compounds in breath.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, screening, GC-MS\n- **摘要**：研究肺癌呼氣中的揮發性有機化合物，用於篩查應用。\n- **作者**：Belda-Iniesta C, de Castro Carpeño J, Carrasco J A, Moreno V, Casado Sáenz E et al. | **年份**：2007 | DOI: `10.1007/s12094-007-0068-6` | [連結](https://pubmed.ncbi.nlm.nih.gov/17594950/)\n\n### [CT] PAN Alimentary Cancer Exhaled Breath Analysis\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, gastrointestinal cancer, VOC biomarker, early diagnosis, GC-MS\n- **摘要**：利用呼氣分析診斷胃腸道癌症，提高早期診斷率。\n- **作者**：Imperial College London | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06764641)\n\n### [CT] Analysis of Volatile Organic Compounds by Electronic Noses in Hospitalised Patients for an Infection by SARS-COV-2 (COVID-19)\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：COVID-19, SARS-CoV-2, exhaled air, electronic nose, VOC\n- **摘要**：利用電子鼻分析 COVID-19 患者呼氣中的揮發性有機化合物。\n- **作者**：Hopital Foch | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04379154)\n\n### [CT] Using Breath Tests to Study Gut Sulfur Changes During Dietary Therapy\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, gut bacteria, sulfur compounds, ulcerative colitis, dietary therapy\n- **摘要**：研究利用呼氣樣本追蹤腸道細菌活性與疾病變化。\n- **作者**：University of British Columbia | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07640659)\n\n## 📂 依類別分類\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓▓ **[New screening method for lung cancer by detecting volatile organic compounds in breath.](https://pubmed.ncbi.nlm.nih.gov/17594950/)**  \n  研究肺癌呼氣中的揮發性有機化合物，用於篩查應用。 ｜ 2007\n- ▓▓▓▓▓ **[[CT] PAN Alimentary Cancer Exhaled Breath Analysis](https://clinicaltrials.gov/study/NCT06764641)**  \n  利用呼氣分析診斷胃腸道癌症，提高早期診斷率。 ｜ 2025\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Analysis of Volatile Organic Compounds by Electronic Noses in Hospitalised Patients for an Infection by SARS-COV-2 (COVID-19)](https://clinicaltrials.gov/study/NCT04379154)**  \n  利用電子鼻分析 COVID-19 患者呼氣中的揮發性有機化合物。 ｜ 2020\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Using Breath Tests to Study Gut Sulfur Changes During Dietary Therapy](https://clinicaltrials.gov/study/NCT07640659)**  \n  研究利用呼氣樣本追蹤腸道細菌活性與疾病變化。 ｜ 2026\n\n---\n*報告生成時間：2026-06-24 07:03:09*\n"
+    },
+    {
       "date": "2026-06-23_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-23\n\n> 執行時間：07:02:48 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1149 |\n| 資料庫相關總數 | 959 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled breath condensate biomarkers for lung cancer.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath condensate, lung cancer, biomarkers, EBC, cancer diagnostics\n- **摘要**：探討呼氣冷凝物在肺癌診斷和篩查中的生物標記物應用。\n- **作者**：Campanella Annalisa, De Summa Simona, Tommasi Stefania | **年份**：2019 | DOI: `10.1088/1752-7163/ab2f9f` | [連結](https://pubmed.ncbi.nlm.nih.gov/31282387/)\n\n### Exhaled breath analysis in interstitial lung disease.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, ILD, VOC biomarker, GC-MS, electronic nose\n- **摘要**：針對肺間質疾病的呼氣分析研究，探討VOC作為診斷標記物。\n- **作者**：van der Sar Iris G, Wijsenbeek Marlies S, Moor Catharina C | **年份**：2023 | DOI: `10.1097/MCP.0000000000000978` | [連結](https://pubmed.ncbi.nlm.nih.gov/37405699/)\n\n### [CT] The Detrimental Course of Acute Intestinal Ischemia\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, acute intestinal ischemia, VOC biomarker, exhaled breath, GC-MS\n- **摘要**：研究急性腸道缺血的呼氣揮發性有機化合物（VOC）生物標記物。\n- **作者**：Maastricht University | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT05194527)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Exhaled breath analysis in interstitial lung disease.](https://pubmed.ncbi.nlm.nih.gov/37405699/)**  \n  針對肺間質疾病的呼氣分析研究，探討VOC作為診斷標記物。 ｜ 2023\n- ▓▓▓▓▓ **[[CT] The Detrimental Course of Acute Intestinal Ischemia](https://clinicaltrials.gov/study/NCT05194527)**  \n  研究急性腸道缺血的呼氣揮發性有機化合物（VOC）生物標記物。 ｜ 2020\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Exhaled breath condensate biomarkers for lung cancer.](https://pubmed.ncbi.nlm.nih.gov/31282387/)**  \n  探討呼氣冷凝物在肺癌診斷和篩查中的生物標記物應用。 ｜ 2019\n\n---\n*報告生成時間：2026-06-23 07:02:48*\n"
     },
@@ -24219,10 +24315,6 @@
     {
       "date": "2026-06-18_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-18\n\n> 執行時間：07:02:35 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1142 |\n| 資料庫相關總數 | 952 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Metabolite Content Profiling of Bottlenose Dolphin Exhaled Breath\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, cetaceans, metabolomics, marine mammal, exhaled breath\n- **摘要**：研究了海豚呼氣中的揮發性及非揮發性代謝物，建立分析方法。\n- **作者**：Alexander A. Aksenov, Laura C. Yeates, Alberto Pasamontes, Craig Siebe, Yuriy Zrodnikov et al. | **年份**：2014 | DOI: `10.1021/ac5024217` | [連結](https://doi.org/10.1021/ac5024217)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Metabolite Content Profiling of Bottlenose Dolphin Exhaled Breath](https://doi.org/10.1021/ac5024217)**  \n  研究了海豚呼氣中的揮發性及非揮發性代謝物，建立分析方法。 ｜ 2014\n\n---\n*報告生成時間：2026-06-18 07:02:35*\n"
-    },
-    {
-      "date": "2026-06-17_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-17\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1141 |\n| 資料庫相關總數 | 951 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Diagnosis of head-and-neck cancer from exhaled breath\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, head-and-neck cancer, GC-MS, NA-NOSE, VOC biomarker\n- **摘要**：利用呼氣分析診斷頭頸癌，並使用電子鼻和GC-MS技術。\n- **作者**：Marwan Hakim, Salem Billan, Ulrike Tisch, Gang Peng, I Dvrokind et al. | **年份**：2011 | DOI: `10.1038/bjc.2011.128` | [連結](https://doi.org/10.1038/bjc.2011.128)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Diagnosis of head-and-neck cancer from exhaled breath](https://doi.org/10.1038/bjc.2011.128)**  \n  利用呼氣分析診斷頭頸癌，並使用電子鼻和GC-MS技術。 ｜ 2011\n\n---\n*報告生成時間：2026-06-17 07:02:31*\n"
     }
   ]
 }

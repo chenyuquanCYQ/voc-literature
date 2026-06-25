@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1155,
-    "relevant": 965,
-    "today": 2,
-    "this_week": 13,
+    "total": 1156,
+    "relevant": 966,
+    "today": 1,
+    "this_week": 14,
     "avg_score": 4.06,
-    "updated_at": "2026-06-25T07:02:48"
+    "updated_at": "2026-06-26T07:02:39"
   },
   "stats": {
-    "total": 1155,
-    "relevant": 965,
-    "today": 2,
-    "this_week": 13,
+    "total": 1156,
+    "relevant": 966,
+    "today": 1,
+    "this_week": 14,
     "avg_score": 4.06,
     "by_category": {
       "voc_breath": 308,
-      "disease_cancer": 223,
+      "disease_cancer": 224,
       "sensor_hardware": 142,
       "disease_chronic": 78,
       "infection": 75,
@@ -27,7 +27,7 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 233,
+      "clinicaltrials": 234,
       "import": 488,
       "openalex": 169,
       "pubmed": 136,
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 12,
       "3": 241,
-      "4": 383,
+      "4": 384,
       "5": 328
     },
     "by_year": {
@@ -59,7 +59,7 @@
       "2015": 32,
       "2016": 34,
       "2017": 32,
-      "2018": 36,
+      "2018": 37,
       "2019": 40,
       "2020": 45,
       "2021": 57,
@@ -70,10 +70,6 @@
       "2026": 24
     },
     "daily_trend": [
-      {
-        "date": "2026-05-26",
-        "count": 1
-      },
       {
         "date": "2026-05-27",
         "count": 2
@@ -149,9 +145,18 @@
       {
         "date": "2026-06-24",
         "count": 2
+      },
+      {
+        "date": "2026-06-25",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-25 23:02:34",
+        "found": 235,
+        "new_added": 1
+      },
       {
         "run_at": "2026-06-24 23:02:46",
         "found": 234,
@@ -196,18 +201,13 @@
         "run_at": "2026-06-16 23:02:30",
         "found": 231,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-06-15 23:02:01",
-        "found": 237,
-        "new_added": 0
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.56,
-        "count": 223
+        "avg_score": 4.55,
+        "count": 224
       },
       {
         "category": "infection",
@@ -262,6 +262,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1156,
+      "title": "[CT] Investigating the Microbiome and Volatile Organic Compound Profile of Children With Neuroblastoma",
+      "authors": "Medical University of Graz",
+      "year": 2018,
+      "journal": "ClinicalTrials.gov (Microbial Colonization, Neuroblastoma, Children, Only)",
+      "category": "disease_cancer",
+      "score": 4.0,
+      "tags": [
+        "neuroblastoma",
+        "microbiome",
+        "volatile organic compound",
+        "children cancer",
+        "mucositis"
+      ],
+      "one_line": "研究兒童神經母細胞瘤患者的微生物群與揮發性有機化合物。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT03545542",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-25 23:02:34"
+    },
     {
       "id": 1155,
       "title": "[CT] Evaluation of the Bioavailability of Amino Acids From Purple Bacteria",
@@ -24332,6 +24354,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-26_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-26\n\n> 執行時間：07:02:37 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1156 |\n| 資料庫相關總數 | 966 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Investigating the Microbiome and Volatile Organic Compound Profile of Children With Neuroblastoma\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：neuroblastoma, microbiome, volatile organic compound, children cancer, mucositis\n- **摘要**：研究兒童神經母細胞瘤患者的微生物群與揮發性有機化合物。\n- **作者**：Medical University of Graz | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03545542)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓░ **[[CT] Investigating the Microbiome and Volatile Organic Compound Profile of Children With Neuroblastoma](https://clinicaltrials.gov/study/NCT03545542)**  \n  研究兒童神經母細胞瘤患者的微生物群與揮發性有機化合物。 ｜ 2018\n\n---\n*報告生成時間：2026-06-26 07:02:38*\n"
+    },
+    {
       "date": "2026-06-25_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-25\n\n> 執行時間：07:02:47 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1155 |\n| 資料庫相關總數 | 965 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Identification of exhaled volatile organic compounds that characterize asthma phenotypes: A J-VOCSA study.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：asthma, exhaled VOCs, GC-MS, phenotypes, biomarkers\n- **摘要**：研究哮喘不同表型的呼氣揮發性有機化合物特徵。\n- **作者**：Suzukawa Maho, Ohta Ken, Sugimoto Masahiro, Ohshima Nobuharu, Kobayashi Nobuyuki et al. | **年份**：2024 | DOI: `10.1016/j.alit.2024.04.003` | [連結](https://pubmed.ncbi.nlm.nih.gov/38658257/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Identification of exhaled volatile organic compounds that characterize asthma phenotypes: A J-VOCSA study.](https://pubmed.ncbi.nlm.nih.gov/38658257/)**  \n  研究哮喘不同表型的呼氣揮發性有機化合物特徵。 ｜ 2024\n\n### 液態 VOC（1 篇）\n\n- ▓▓▓░░ **[[CT] Evaluation of the Bioavailability of Amino Acids From Purple Bacteria](https://clinicaltrials.gov/study/NCT07613983)**  \n  研究收集唾液和呼氣樣本，評估揮發性代謝物變化。 ｜ 2026\n\n---\n*報告生成時間：2026-06-25 07:02:47*\n"
     },
@@ -24354,10 +24380,6 @@
     {
       "date": "2026-06-20_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-20\n\n> 執行時間：07:02:09 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1145 |\n| 資料庫相關總數 | 955 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-20 07:02:09*\n"
-    },
-    {
-      "date": "2026-06-19_0703",
-      "content": "# VOC 文獻監控日報 — 2026-06-19\n\n> 執行時間：07:03:04 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1145 |\n| 資料庫相關總數 | 955 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] VOCs vs FIT for Colorectal Cancer Screening\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, colorectal cancer, CRC screening, VOCs, FIT\n- **摘要**：研究比較呼氣 VOC 與糞便隱血試驗在 CRC 篩檢上的可靠性。\n- **作者**：Societa Italiana di Chirurgia ColoRettale | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04407416)\n\n### [CT] Vocorder Device Validation in Clinical Settings - Continuous Monitoring of Individuals (Vocorder Clinical Validation-VCV)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, continuous monitoring, portable device, healthcare, VOC\n- **摘要**：開發便攜式呼吸分析設備，用於連續健康監測。\n- **作者**：Mitera Hospital | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06711939)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[[CT] VOCs vs FIT for Colorectal Cancer Screening](https://clinicaltrials.gov/study/NCT04407416)**  \n  研究比較呼氣 VOC 與糞便隱血試驗在 CRC 篩檢上的可靠性。 ｜ 2020\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Vocorder Device Validation in Clinical Settings - Continuous Monitoring of Individuals (Vocorder Clinical Validation-VCV)](https://clinicaltrials.gov/study/NCT06711939)**  \n  開發便攜式呼吸分析設備，用於連續健康監測。 ｜ 2024\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[[CT] Volatile Sedation for Patients With the Acute Respiratory Distress Syndrome](https://clinicaltrials.gov/study/NCT06014138)**  \n  研究呼吸機使用者的吸入性鎮靜，涉及氣體分析。 ｜ 2023\n\n---\n*報告生成時間：2026-06-19 07:03:04*\n"
     }
   ]
 }

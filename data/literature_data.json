@@ -5,7 +5,7 @@
     "today": 0,
     "this_week": 11,
     "avg_score": 4.06,
-    "updated_at": "2026-06-28T07:02:02"
+    "updated_at": "2026-06-29T07:02:08"
   },
   "stats": {
     "total": 1156,
@@ -70,10 +70,6 @@
       "2026": 24
     },
     "daily_trend": [
-      {
-        "date": "2026-05-28",
-        "count": 1
-      },
       {
         "date": "2026-05-29",
         "count": 1
@@ -149,6 +145,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-06-28 23:02:07",
+        "found": 236,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-06-27 23:02:02",
         "found": 236,
         "new_added": 0
@@ -192,11 +193,6 @@
         "run_at": "2026-06-19 23:02:09",
         "found": 240,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-06-18 23:03:03",
-        "found": 240,
-        "new_added": 3
       }
     ],
     "category_score": [
@@ -24350,6 +24346,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-06-29_0702",
+      "content": "# VOC 文獻監控日報 — 2026-06-29\n\n> 執行時間：07:02:07 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1156 |\n| 資料庫相關總數 | 966 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-29 07:02:07*\n"
+    },
+    {
       "date": "2026-06-28_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-28\n\n> 執行時間：07:02:02 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1156 |\n| 資料庫相關總數 | 966 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-28 07:02:02*\n"
     },
@@ -24372,10 +24372,6 @@
     {
       "date": "2026-06-23_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-23\n\n> 執行時間：07:02:48 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1149 |\n| 資料庫相關總數 | 959 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled breath condensate biomarkers for lung cancer.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath condensate, lung cancer, biomarkers, EBC, cancer diagnostics\n- **摘要**：探討呼氣冷凝物在肺癌診斷和篩查中的生物標記物應用。\n- **作者**：Campanella Annalisa, De Summa Simona, Tommasi Stefania | **年份**：2019 | DOI: `10.1088/1752-7163/ab2f9f` | [連結](https://pubmed.ncbi.nlm.nih.gov/31282387/)\n\n### Exhaled breath analysis in interstitial lung disease.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, ILD, VOC biomarker, GC-MS, electronic nose\n- **摘要**：針對肺間質疾病的呼氣分析研究，探討VOC作為診斷標記物。\n- **作者**：van der Sar Iris G, Wijsenbeek Marlies S, Moor Catharina C | **年份**：2023 | DOI: `10.1097/MCP.0000000000000978` | [連結](https://pubmed.ncbi.nlm.nih.gov/37405699/)\n\n### [CT] The Detrimental Course of Acute Intestinal Ischemia\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, acute intestinal ischemia, VOC biomarker, exhaled breath, GC-MS\n- **摘要**：研究急性腸道缺血的呼氣揮發性有機化合物（VOC）生物標記物。\n- **作者**：Maastricht University | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT05194527)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Exhaled breath analysis in interstitial lung disease.](https://pubmed.ncbi.nlm.nih.gov/37405699/)**  \n  針對肺間質疾病的呼氣分析研究，探討VOC作為診斷標記物。 ｜ 2023\n- ▓▓▓▓▓ **[[CT] The Detrimental Course of Acute Intestinal Ischemia](https://clinicaltrials.gov/study/NCT05194527)**  \n  研究急性腸道缺血的呼氣揮發性有機化合物（VOC）生物標記物。 ｜ 2020\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Exhaled breath condensate biomarkers for lung cancer.](https://pubmed.ncbi.nlm.nih.gov/31282387/)**  \n  探討呼氣冷凝物在肺癌診斷和篩查中的生物標記物應用。 ｜ 2019\n\n---\n*報告生成時間：2026-06-23 07:02:48*\n"
-    },
-    {
-      "date": "2026-06-22_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-22\n\n> 執行時間：07:02:26 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1146 |\n| 資料庫相關總數 | 956 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Recent Progress of Exhaled Gas‐Based Diagnosis Based on Field Effect Transistor Sensors\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：exhaled gas, FET sensors, disease diagnosis, breath analysis, sensors\n- **摘要**：探討利用場效電晶體感測器進行呼氣疾病診斷的技術發展。\n- **作者**：Guojia Lu, Tao Ji, Shuqing He, Fujin Ai, Li Yan et al. | **年份**：2024 | DOI: `10.1002/adfm.202309111` | [連結](https://doi.org/10.1002/adfm.202309111)\n\n## 📂 依類別分類\n\n### 感測器（1 篇）\n\n- ▓▓▓▓░ **[Recent Progress of Exhaled Gas‐Based Diagnosis Based on Field Effect Transistor Sensors](https://doi.org/10.1002/adfm.202309111)**  \n  探討利用場效電晶體感測器進行呼氣疾病診斷的技術發展。 ｜ 2024\n\n---\n*報告生成時間：2026-06-22 07:02:26*\n"
     }
   ]
 }

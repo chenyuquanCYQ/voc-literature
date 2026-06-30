@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1156,
-    "relevant": 966,
-    "today": 0,
-    "this_week": 10,
+    "total": 1157,
+    "relevant": 967,
+    "today": 1,
+    "this_week": 8,
     "avg_score": 4.06,
-    "updated_at": "2026-06-30T07:02:08"
+    "updated_at": "2026-07-01T07:02:27"
   },
   "stats": {
-    "total": 1156,
-    "relevant": 966,
-    "today": 0,
-    "this_week": 10,
+    "total": 1157,
+    "relevant": 967,
+    "today": 1,
+    "this_week": 8,
     "avg_score": 4.06,
     "by_category": {
-      "voc_breath": 308,
+      "voc_breath": 309,
       "disease_cancer": 224,
       "sensor_hardware": 142,
       "disease_chronic": 78,
@@ -27,7 +27,7 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 234,
+      "clinicaltrials": 235,
       "import": 488,
       "openalex": 169,
       "pubmed": 136,
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 12,
       "3": 241,
-      "4": 384,
+      "4": 385,
       "5": 328
     },
     "by_year": {
@@ -64,7 +64,7 @@
       "2020": 45,
       "2021": 57,
       "2022": 60,
-      "2023": 58,
+      "2023": 59,
       "2024": 76,
       "2025": 68,
       "2026": 24
@@ -137,9 +137,18 @@
       {
         "date": "2026-06-25",
         "count": 1
+      },
+      {
+        "date": "2026-06-30",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-06-30 23:02:25",
+        "found": 237,
+        "new_added": 1
+      },
       {
         "run_at": "2026-06-29 23:02:07",
         "found": 235,
@@ -184,11 +193,6 @@
         "run_at": "2026-06-21 23:02:24",
         "found": 241,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-06-20 23:01:56",
-        "found": 240,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -205,7 +209,7 @@
       {
         "category": "voc_breath",
         "avg_score": 4.29,
-        "count": 308
+        "count": 309
       },
       {
         "category": "disease_chronic",
@@ -250,6 +254,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1157,
+      "title": "[CT] Volatilomic Approaches for the Study of CFTR Modulators (VOLATIL-CF)",
+      "authors": "Assistance Publique - Hôpitaux de Paris",
+      "year": 2023,
+      "journal": "ClinicalTrials.gov (Cystic Fibrosis)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "CFTR modulators",
+        "lung condition",
+        "VOC profile",
+        "exhaled breath"
+      ],
+      "one_line": "研究呼氣中的VOC，評估藥物對肺部狀況的影響。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT05726994",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-06-30 23:02:24"
+    },
     {
       "id": 1156,
       "title": "[CT] Investigating the Microbiome and Volatile Organic Compound Profile of Children With Neuroblastoma",
@@ -24342,6 +24368,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-01_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-01\n\n> 執行時間：07:02:26 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1157 |\n| 資料庫相關總數 | 967 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatilomic Approaches for the Study of CFTR Modulators (VOLATIL-CF)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, CFTR modulators, lung condition, VOC profile, exhaled breath\n- **摘要**：研究呼氣中的VOC，評估藥物對肺部狀況的影響。\n- **作者**：Assistance Publique - Hôpitaux de Paris | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT05726994)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Volatilomic Approaches for the Study of CFTR Modulators (VOLATIL-CF)](https://clinicaltrials.gov/study/NCT05726994)**  \n  研究呼氣中的VOC，評估藥物對肺部狀況的影響。 ｜ 2023\n\n---\n*報告生成時間：2026-07-01 07:02:26*\n"
+    },
+    {
       "date": "2026-06-30_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-30\n\n> 執行時間：07:02:08 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1156 |\n| 資料庫相關總數 | 966 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-30 07:02:08*\n"
     },
@@ -24364,10 +24394,6 @@
     {
       "date": "2026-06-25_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-25\n\n> 執行時間：07:02:47 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1155 |\n| 資料庫相關總數 | 965 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Identification of exhaled volatile organic compounds that characterize asthma phenotypes: A J-VOCSA study.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：asthma, exhaled VOCs, GC-MS, phenotypes, biomarkers\n- **摘要**：研究哮喘不同表型的呼氣揮發性有機化合物特徵。\n- **作者**：Suzukawa Maho, Ohta Ken, Sugimoto Masahiro, Ohshima Nobuharu, Kobayashi Nobuyuki et al. | **年份**：2024 | DOI: `10.1016/j.alit.2024.04.003` | [連結](https://pubmed.ncbi.nlm.nih.gov/38658257/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Identification of exhaled volatile organic compounds that characterize asthma phenotypes: A J-VOCSA study.](https://pubmed.ncbi.nlm.nih.gov/38658257/)**  \n  研究哮喘不同表型的呼氣揮發性有機化合物特徵。 ｜ 2024\n\n### 液態 VOC（1 篇）\n\n- ▓▓▓░░ **[[CT] Evaluation of the Bioavailability of Amino Acids From Purple Bacteria](https://clinicaltrials.gov/study/NCT07613983)**  \n  研究收集唾液和呼氣樣本，評估揮發性代謝物變化。 ｜ 2026\n\n---\n*報告生成時間：2026-06-25 07:02:47*\n"
-    },
-    {
-      "date": "2026-06-24_0703",
-      "content": "# VOC 文獻監控日報 — 2026-06-24\n\n> 執行時間：07:03:09 | 新增 **4** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 4 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1153 |\n| 資料庫相關總數 | 963 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### New screening method for lung cancer by detecting volatile organic compounds in breath.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, screening, GC-MS\n- **摘要**：研究肺癌呼氣中的揮發性有機化合物，用於篩查應用。\n- **作者**：Belda-Iniesta C, de Castro Carpeño J, Carrasco J A, Moreno V, Casado Sáenz E et al. | **年份**：2007 | DOI: `10.1007/s12094-007-0068-6` | [連結](https://pubmed.ncbi.nlm.nih.gov/17594950/)\n\n### [CT] PAN Alimentary Cancer Exhaled Breath Analysis\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, gastrointestinal cancer, VOC biomarker, early diagnosis, GC-MS\n- **摘要**：利用呼氣分析診斷胃腸道癌症，提高早期診斷率。\n- **作者**：Imperial College London | **年份**：2025 | [連結](https://clinicaltrials.gov/study/NCT06764641)\n\n### [CT] Analysis of Volatile Organic Compounds by Electronic Noses in Hospitalised Patients for an Infection by SARS-COV-2 (COVID-19)\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：COVID-19, SARS-CoV-2, exhaled air, electronic nose, VOC\n- **摘要**：利用電子鼻分析 COVID-19 患者呼氣中的揮發性有機化合物。\n- **作者**：Hopital Foch | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04379154)\n\n### [CT] Using Breath Tests to Study Gut Sulfur Changes During Dietary Therapy\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, gut bacteria, sulfur compounds, ulcerative colitis, dietary therapy\n- **摘要**：研究利用呼氣樣本追蹤腸道細菌活性與疾病變化。\n- **作者**：University of British Columbia | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07640659)\n\n## 📂 依類別分類\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓▓ **[New screening method for lung cancer by detecting volatile organic compounds in breath.](https://pubmed.ncbi.nlm.nih.gov/17594950/)**  \n  研究肺癌呼氣中的揮發性有機化合物，用於篩查應用。 ｜ 2007\n- ▓▓▓▓▓ **[[CT] PAN Alimentary Cancer Exhaled Breath Analysis](https://clinicaltrials.gov/study/NCT06764641)**  \n  利用呼氣分析診斷胃腸道癌症，提高早期診斷率。 ｜ 2025\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[[CT] Analysis of Volatile Organic Compounds by Electronic Noses in Hospitalised Patients for an Infection by SARS-COV-2 (COVID-19)](https://clinicaltrials.gov/study/NCT04379154)**  \n  利用電子鼻分析 COVID-19 患者呼氣中的揮發性有機化合物。 ｜ 2020\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Using Breath Tests to Study Gut Sulfur Changes During Dietary Therapy](https://clinicaltrials.gov/study/NCT07640659)**  \n  研究利用呼氣樣本追蹤腸道細菌活性與疾病變化。 ｜ 2026\n\n---\n*報告生成時間：2026-06-24 07:03:09*\n"
     }
   ]
 }

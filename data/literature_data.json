@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1157,
-    "relevant": 967,
+    "total": 1158,
+    "relevant": 968,
     "today": 1,
-    "this_week": 8,
+    "this_week": 5,
     "avg_score": 4.06,
-    "updated_at": "2026-07-01T07:02:27"
+    "updated_at": "2026-07-02T07:02:08"
   },
   "stats": {
-    "total": 1157,
-    "relevant": 967,
+    "total": 1158,
+    "relevant": 968,
     "today": 1,
-    "this_week": 8,
+    "this_week": 5,
     "avg_score": 4.06,
     "by_category": {
-      "voc_breath": 309,
+      "voc_breath": 310,
       "disease_cancer": 224,
       "sensor_hardware": 142,
       "disease_chronic": 78,
@@ -30,7 +30,7 @@
       "clinicaltrials": 235,
       "import": 488,
       "openalex": 169,
-      "pubmed": 136,
+      "pubmed": 137,
       "serper_scholar": 129
     },
     "by_score": {
@@ -38,7 +38,7 @@
       "2": 12,
       "3": 241,
       "4": 385,
-      "5": 328
+      "5": 329
     },
     "by_year": {
       "1985": 1,
@@ -67,7 +67,7 @@
       "2023": 59,
       "2024": 76,
       "2025": 68,
-      "2026": 24
+      "2026": 25
     },
     "daily_trend": [
       {
@@ -141,9 +141,18 @@
       {
         "date": "2026-06-30",
         "count": 1
+      },
+      {
+        "date": "2026-07-01",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-07-01 23:02:07",
+        "found": 122,
+        "new_added": 1
+      },
       {
         "run_at": "2026-06-30 23:02:25",
         "found": 237,
@@ -188,11 +197,6 @@
         "run_at": "2026-06-22 23:02:48",
         "found": 238,
         "new_added": 3
-      },
-      {
-        "run_at": "2026-06-21 23:02:24",
-        "found": 241,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -209,7 +213,7 @@
       {
         "category": "voc_breath",
         "avg_score": 4.29,
-        "count": 309
+        "count": 310
       },
       {
         "category": "disease_chronic",
@@ -254,6 +258,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1158,
+      "title": "Breath-Based Detection of Oral Diseases Using Sensors and Machine Learning.",
+      "authors": "Haiek Maisa, Broza Yoav, Farber Adi, Miropolski Maria, Haick Hossam et al.",
+      "year": 2026,
+      "journal": "Journal of dentistry",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "oral diseases",
+        "GC-MS",
+        "machine learning",
+        "nanosensor"
+      ],
+      "one_line": "利用呼氣VOC和機器學習診斷口腔疾病的可行性研究。",
+      "doi": "10.1016/j.jdent.2026.106872",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42379259/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-07-01 23:02:07"
+    },
     {
       "id": 1157,
       "title": "[CT] Volatilomic Approaches for the Study of CFTR Modulators (VOLATIL-CF)",
@@ -24368,6 +24394,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-02_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-02\n\n> 執行時間：07:02:07 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Breath-Based Detection of Oral Diseases Using Sensors and Machine Learning.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, oral diseases, GC-MS, machine learning, nanosensor\n- **摘要**：利用呼氣VOC和機器學習診斷口腔疾病的可行性研究。\n- **作者**：Haiek Maisa, Broza Yoav, Farber Adi, Miropolski Maria, Haick Hossam et al. | **年份**：2026 | DOI: `10.1016/j.jdent.2026.106872` | [連結](https://pubmed.ncbi.nlm.nih.gov/42379259/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Breath-Based Detection of Oral Diseases Using Sensors and Machine Learning.](https://pubmed.ncbi.nlm.nih.gov/42379259/)**  \n  利用呼氣VOC和機器學習診斷口腔疾病的可行性研究。 ｜ 2026\n\n---\n*報告生成時間：2026-07-02 07:02:07*\n"
+    },
+    {
       "date": "2026-07-01_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-01\n\n> 執行時間：07:02:26 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1157 |\n| 資料庫相關總數 | 967 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatilomic Approaches for the Study of CFTR Modulators (VOLATIL-CF)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, CFTR modulators, lung condition, VOC profile, exhaled breath\n- **摘要**：研究呼氣中的VOC，評估藥物對肺部狀況的影響。\n- **作者**：Assistance Publique - Hôpitaux de Paris | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT05726994)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Volatilomic Approaches for the Study of CFTR Modulators (VOLATIL-CF)](https://clinicaltrials.gov/study/NCT05726994)**  \n  研究呼氣中的VOC，評估藥物對肺部狀況的影響。 ｜ 2023\n\n---\n*報告生成時間：2026-07-01 07:02:26*\n"
     },
@@ -24390,10 +24420,6 @@
     {
       "date": "2026-06-26_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-26\n\n> 執行時間：07:02:37 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1156 |\n| 資料庫相關總數 | 966 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Investigating the Microbiome and Volatile Organic Compound Profile of Children With Neuroblastoma\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：neuroblastoma, microbiome, volatile organic compound, children cancer, mucositis\n- **摘要**：研究兒童神經母細胞瘤患者的微生物群與揮發性有機化合物。\n- **作者**：Medical University of Graz | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03545542)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓░ **[[CT] Investigating the Microbiome and Volatile Organic Compound Profile of Children With Neuroblastoma](https://clinicaltrials.gov/study/NCT03545542)**  \n  研究兒童神經母細胞瘤患者的微生物群與揮發性有機化合物。 ｜ 2018\n\n---\n*報告生成時間：2026-06-26 07:02:38*\n"
-    },
-    {
-      "date": "2026-06-25_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-25\n\n> 執行時間：07:02:47 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1155 |\n| 資料庫相關總數 | 965 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Identification of exhaled volatile organic compounds that characterize asthma phenotypes: A J-VOCSA study.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：asthma, exhaled VOCs, GC-MS, phenotypes, biomarkers\n- **摘要**：研究哮喘不同表型的呼氣揮發性有機化合物特徵。\n- **作者**：Suzukawa Maho, Ohta Ken, Sugimoto Masahiro, Ohshima Nobuharu, Kobayashi Nobuyuki et al. | **年份**：2024 | DOI: `10.1016/j.alit.2024.04.003` | [連結](https://pubmed.ncbi.nlm.nih.gov/38658257/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Identification of exhaled volatile organic compounds that characterize asthma phenotypes: A J-VOCSA study.](https://pubmed.ncbi.nlm.nih.gov/38658257/)**  \n  研究哮喘不同表型的呼氣揮發性有機化合物特徵。 ｜ 2024\n\n### 液態 VOC（1 篇）\n\n- ▓▓▓░░ **[[CT] Evaluation of the Bioavailability of Amino Acids From Purple Bacteria](https://clinicaltrials.gov/study/NCT07613983)**  \n  研究收集唾液和呼氣樣本，評估揮發性代謝物變化。 ｜ 2026\n\n---\n*報告生成時間：2026-06-25 07:02:47*\n"
     }
   ]
 }

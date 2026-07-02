@@ -2,16 +2,16 @@
   "meta": {
     "total": 1158,
     "relevant": 968,
-    "today": 1,
-    "this_week": 5,
+    "today": 0,
+    "this_week": 3,
     "avg_score": 4.06,
-    "updated_at": "2026-07-02T07:02:08"
+    "updated_at": "2026-07-03T07:02:08"
   },
   "stats": {
     "total": 1158,
     "relevant": 968,
-    "today": 1,
-    "this_week": 5,
+    "today": 0,
+    "this_week": 3,
     "avg_score": 4.06,
     "by_category": {
       "voc_breath": 310,
@@ -70,10 +70,6 @@
       "2026": 25
     },
     "daily_trend": [
-      {
-        "date": "2026-06-01",
-        "count": 3
-      },
       {
         "date": "2026-06-02",
         "count": 1
@@ -149,6 +145,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-07-02 23:02:07",
+        "found": 237,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-07-01 23:02:07",
         "found": 122,
         "new_added": 1
@@ -192,11 +193,6 @@
         "run_at": "2026-06-23 23:03:09",
         "found": 237,
         "new_added": 4
-      },
-      {
-        "run_at": "2026-06-22 23:02:48",
-        "found": 238,
-        "new_added": 3
       }
     ],
     "category_score": [
@@ -24394,6 +24390,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-03_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-03\n\n> 執行時間：07:02:08 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-03 07:02:08*\n"
+    },
+    {
       "date": "2026-07-02_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-02\n\n> 執行時間：07:02:07 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Breath-Based Detection of Oral Diseases Using Sensors and Machine Learning.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, oral diseases, GC-MS, machine learning, nanosensor\n- **摘要**：利用呼氣VOC和機器學習診斷口腔疾病的可行性研究。\n- **作者**：Haiek Maisa, Broza Yoav, Farber Adi, Miropolski Maria, Haick Hossam et al. | **年份**：2026 | DOI: `10.1016/j.jdent.2026.106872` | [連結](https://pubmed.ncbi.nlm.nih.gov/42379259/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Breath-Based Detection of Oral Diseases Using Sensors and Machine Learning.](https://pubmed.ncbi.nlm.nih.gov/42379259/)**  \n  利用呼氣VOC和機器學習診斷口腔疾病的可行性研究。 ｜ 2026\n\n---\n*報告生成時間：2026-07-02 07:02:07*\n"
     },
@@ -24416,10 +24416,6 @@
     {
       "date": "2026-06-27_0702",
       "content": "# VOC 文獻監控日報 — 2026-06-27\n\n> 執行時間：07:02:06 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1156 |\n| 資料庫相關總數 | 966 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-06-27 07:02:06*\n"
-    },
-    {
-      "date": "2026-06-26_0702",
-      "content": "# VOC 文獻監控日報 — 2026-06-26\n\n> 執行時間：07:02:37 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1156 |\n| 資料庫相關總數 | 966 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Investigating the Microbiome and Volatile Organic Compound Profile of Children With Neuroblastoma\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：neuroblastoma, microbiome, volatile organic compound, children cancer, mucositis\n- **摘要**：研究兒童神經母細胞瘤患者的微生物群與揮發性有機化合物。\n- **作者**：Medical University of Graz | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03545542)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓░ **[[CT] Investigating the Microbiome and Volatile Organic Compound Profile of Children With Neuroblastoma](https://clinicaltrials.gov/study/NCT03545542)**  \n  研究兒童神經母細胞瘤患者的微生物群與揮發性有機化合物。 ｜ 2018\n\n---\n*報告生成時間：2026-06-26 07:02:38*\n"
     }
   ]
 }

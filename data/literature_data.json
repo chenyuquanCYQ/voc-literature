@@ -1,24 +1,24 @@
 {
   "meta": {
-    "total": 1158,
-    "relevant": 968,
-    "today": 0,
-    "this_week": 2,
-    "avg_score": 4.06,
-    "updated_at": "2026-07-07T07:01:52"
+    "total": 1164,
+    "relevant": 974,
+    "today": 6,
+    "this_week": 7,
+    "avg_score": 4.07,
+    "updated_at": "2026-07-08T07:03:19"
   },
   "stats": {
-    "total": 1158,
-    "relevant": 968,
-    "today": 0,
-    "this_week": 2,
-    "avg_score": 4.06,
+    "total": 1164,
+    "relevant": 974,
+    "today": 6,
+    "this_week": 7,
+    "avg_score": 4.07,
     "by_category": {
-      "voc_breath": 310,
-      "disease_cancer": 224,
+      "voc_breath": 313,
+      "disease_cancer": 225,
       "sensor_hardware": 142,
-      "disease_chronic": 78,
-      "infection": 75,
+      "disease_chronic": 79,
+      "infection": 76,
       "method_tech": 62,
       "voc_liquid": 35,
       "ai_model": 20,
@@ -27,18 +27,18 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 235,
+      "clinicaltrials": 237,
       "import": 488,
       "openalex": 169,
-      "pubmed": 137,
+      "pubmed": 141,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 12,
       "3": 241,
-      "4": 385,
-      "5": 329
+      "4": 386,
+      "5": 334
     },
     "by_year": {
       "1985": 1,
@@ -58,14 +58,14 @@
       "2014": 32,
       "2015": 32,
       "2016": 34,
-      "2017": 32,
+      "2017": 33,
       "2018": 37,
       "2019": 40,
       "2020": 45,
       "2021": 57,
-      "2022": 60,
+      "2022": 63,
       "2023": 59,
-      "2024": 76,
+      "2024": 78,
       "2025": 68,
       "2026": 25
     },
@@ -125,9 +125,18 @@
       {
         "date": "2026-07-01",
         "count": 1
+      },
+      {
+        "date": "2026-07-07",
+        "count": 6
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-07-07 23:03:18",
+        "found": 229,
+        "new_added": 6
+      },
       {
         "run_at": "2026-07-06 23:01:51",
         "found": 141,
@@ -172,33 +181,28 @@
         "run_at": "2026-06-28 23:02:07",
         "found": 236,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-06-27 23:02:02",
-        "found": 236,
-        "new_added": 0
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
-        "avg_score": 4.55,
-        "count": 224
+        "avg_score": 4.56,
+        "count": 225
       },
       {
         "category": "infection",
-        "avg_score": 4.44,
-        "count": 75
+        "avg_score": 4.45,
+        "count": 76
       },
       {
         "category": "voc_breath",
-        "avg_score": 4.29,
-        "count": 310
+        "avg_score": 4.3,
+        "count": 313
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.09,
-        "count": 78
+        "avg_score": 4.1,
+        "count": 79
       },
       {
         "category": "voc_liquid",
@@ -238,6 +242,138 @@
     ]
   },
   "literature": [
+    {
+      "id": 1164,
+      "title": "[CT] Breath Mass Spectrometry in Metabolic Syndrome and Metabolically Healthy Obesity",
+      "authors": "I.M. Sechenov First Moscow State Medical University",
+      "year": 2024,
+      "journal": "ClinicalTrials.gov (Metabolic Syndrome, Obesity & Overweight, Metabolically Healthy Obesity)",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "metabolic syndrome",
+        "PTR-MS",
+        "machine learning",
+        "VOC biomarker"
+      ],
+      "one_line": "利用呼氣分析診斷代謝症候群及健康肥胖。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07330297",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-07-07 23:03:17"
+    },
+    {
+      "id": 1163,
+      "title": "[CT] Study Enabling the Collection of Clinical Data Necessary for the Second Phase of Development of the Glycemic Measurement Device by Analysis of Exhaled Air",
+      "authors": "University Hospital, Toulouse",
+      "year": 2024,
+      "journal": "ClinicalTrials.gov (Type 2 Diabetes)",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "diabetes",
+        "glucose measurement",
+        "exhaled VOCs",
+        "non-invasive"
+      ],
+      "one_line": "利用呼氣VOC分析糖尿病血糖水平，並開發相關演算法。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT06614101",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-07-07 23:03:17"
+    },
+    {
+      "id": 1162,
+      "title": "Co-liquefaction with acetone and GC analysis of volatile compounds in exhaled breath as lung cancer biomarkers.",
+      "authors": "Jouyban Abolghasem, Djozan Djavanshir, Mohammadandashti Parastou, Alizadeh-Nabil Aliakbar, Ghorbanpour Hooshangh et al.",
+      "year": 2017,
+      "journal": "BioImpacts : BI",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "GC-MS",
+        "VOC biomarker",
+        "exhaled breath"
+      ],
+      "one_line": "研究呼氣中的揮發性化合物，用於肺癌診斷的提取與分析方法。",
+      "doi": "10.15171/bi.2017.13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28752074/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-07-07 23:03:17"
+    },
+    {
+      "id": 1161,
+      "title": "Moisture-resistant, stretchable NOx gas sensors based on laser-induced graphene for environmental monitoring and breath analysis.",
+      "authors": "Yang Li, Zheng Guanghao, Cao Yaoqian, Meng Chuizhou, Li Yuhang et al.",
+      "year": 2022,
+      "journal": "Microsystems & nanoengineering",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "NOx",
+        "gas sensor",
+        "respiratory diseases",
+        "LIG"
+      ],
+      "one_line": "利用氮氧化物感測器分析呼吸氣體，用於診斷呼吸道疾病。",
+      "doi": "10.1038/s41378-022-00414-x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35818382/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-07-07 23:03:17"
+    },
+    {
+      "id": 1160,
+      "title": "The Use of Breath Analysis in the Management of Lung Cancer: Is It Ready for Primetime?",
+      "authors": "Keogh Rachel J, Riches John C",
+      "year": 2022,
+      "journal": "Current oncology (Toronto, Ont.)",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "VOC biomarker",
+        "GC-MS",
+        "non-invasive"
+      ],
+      "one_line": "研究肺癌的呼氣分析方法，具有診斷和管理潛力。",
+      "doi": "10.3390/curroncol29100578",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36290855/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-07-07 23:03:17"
+    },
+    {
+      "id": 1159,
+      "title": "Detection of SARS-CoV-2 by Canine Olfaction: A Pilot Study.",
+      "authors": "Maurer Maureen, Seto Todd, Guest Claire, Somal Amendeep, Julian Catherine",
+      "year": 2022,
+      "journal": "Open forum infectious diseases",
+      "category": "infection",
+      "score": 5.0,
+      "tags": [
+        "SARS-CoV-2",
+        "COVID-19",
+        "breath analysis",
+        "canine olfaction",
+        "VOC biomarker"
+      ],
+      "one_line": "利用犬隻嗅覺檢測 COVID-19，涉及呼氣 VOC。",
+      "doi": "10.1093/ofid/ofac226",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35818366/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-07-07 23:03:16"
+    },
     {
       "id": 1158,
       "title": "Breath-Based Detection of Oral Diseases Using Sensors and Machine Learning.",
@@ -24374,6 +24510,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-08_0703",
+      "content": "# VOC 文獻監控日報 — 2026-07-08\n\n> 執行時間：07:03:18 | 新增 **6** 篇 | 相關 **6** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 6 |\n| 本次相關文獻 | 6 |\n| 資料庫累計總數 | 1164 |\n| 資料庫相關總數 | 974 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Detection of SARS-CoV-2 by Canine Olfaction: A Pilot Study.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：SARS-CoV-2, COVID-19, breath analysis, canine olfaction, VOC biomarker\n- **摘要**：利用犬隻嗅覺檢測 COVID-19，涉及呼氣 VOC。\n- **作者**：Maurer Maureen, Seto Todd, Guest Claire, Somal Amendeep, Julian Catherine | **年份**：2022 | DOI: `10.1093/ofid/ofac226` | [連結](https://pubmed.ncbi.nlm.nih.gov/35818366/)\n\n### The Use of Breath Analysis in the Management of Lung Cancer: Is It Ready for Primetime?\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, GC-MS, non-invasive\n- **摘要**：研究肺癌的呼氣分析方法，具有診斷和管理潛力。\n- **作者**：Keogh Rachel J, Riches John C | **年份**：2022 | DOI: `10.3390/curroncol29100578` | [連結](https://pubmed.ncbi.nlm.nih.gov/36290855/)\n\n### Co-liquefaction with acetone and GC analysis of volatile compounds in exhaled breath as lung cancer biomarkers.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, GC-MS, VOC biomarker, exhaled breath\n- **摘要**：研究呼氣中的揮發性化合物，用於肺癌診斷的提取與分析方法。\n- **作者**：Jouyban Abolghasem, Djozan Djavanshir, Mohammadandashti Parastou, Alizadeh-Nabil Aliakbar, Ghorbanpour Hooshangh et al. | **年份**：2017 | DOI: `10.15171/bi.2017.13` | [連結](https://pubmed.ncbi.nlm.nih.gov/28752074/)\n\n### [CT] Study Enabling the Collection of Clinical Data Necessary for the Second Phase of Development of the Glycemic Measurement Device by Analysis of Exhaled Air\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, diabetes, glucose measurement, exhaled VOCs, non-invasive\n- **摘要**：利用呼氣VOC分析糖尿病血糖水平，並開發相關演算法。\n- **作者**：University Hospital, Toulouse | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT06614101)\n\n### [CT] Breath Mass Spectrometry in Metabolic Syndrome and Metabolically Healthy Obesity\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, metabolic syndrome, PTR-MS, machine learning, VOC biomarker\n- **摘要**：利用呼氣分析診斷代謝症候群及健康肥胖。\n- **作者**：I.M. Sechenov First Moscow State Medical University | **年份**：2024 | [連結](https://clinicaltrials.gov/study/NCT07330297)\n\n### Moisture-resistant, stretchable NOx gas sensors based on laser-induced graphene for environmental monitoring and breath analysis.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, NOx, gas sensor, respiratory diseases, LIG\n- **摘要**：利用氮氧化物感測器分析呼吸氣體，用於診斷呼吸道疾病。\n- **作者**：Yang Li, Zheng Guanghao, Cao Yaoqian, Meng Chuizhou, Li Yuhang et al. | **年份**：2022 | DOI: `10.1038/s41378-022-00414-x` | [連結](https://pubmed.ncbi.nlm.nih.gov/35818382/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（3 篇）\n\n- ▓▓▓▓▓ **[Co-liquefaction with acetone and GC analysis of volatile compounds in exhaled breath as lung cancer biomarkers.](https://pubmed.ncbi.nlm.nih.gov/28752074/)**  \n  研究呼氣中的揮發性化合物，用於肺癌診斷的提取與分析方法。 ｜ 2017\n- ▓▓▓▓▓ **[[CT] Breath Mass Spectrometry in Metabolic Syndrome and Metabolically Healthy Obesity](https://clinicaltrials.gov/study/NCT07330297)**  \n  利用呼氣分析診斷代謝症候群及健康肥胖。 ｜ 2024\n- ▓▓▓▓░ **[Moisture-resistant, stretchable NOx gas sensors based on laser-induced graphene for environmental monitoring and breath analysis.](https://pubmed.ncbi.nlm.nih.gov/35818382/)**  \n  利用氮氧化物感測器分析呼吸氣體，用於診斷呼吸道疾病。 ｜ 2022\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[Detection of SARS-CoV-2 by Canine Olfaction: A Pilot Study.](https://pubmed.ncbi.nlm.nih.gov/35818366/)**  \n  利用犬隻嗅覺檢測 COVID-19，涉及呼氣 VOC。 ｜ 2022\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[The Use of Breath Analysis in the Management of Lung Cancer: Is It Ready for Primetime?](https://pubmed.ncbi.nlm.nih.gov/36290855/)**  \n  研究肺癌的呼氣分析方法，具有診斷和管理潛力。 ｜ 2022\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Study Enabling the Collection of Clinical Data Necessary for the Second Phase of Development of the Glycemic Measurement Device by Analysis of Exhaled Air](https://clinicaltrials.gov/study/NCT06614101)**  \n  利用呼氣VOC分析糖尿病血糖水平，並開發相關演算法。 ｜ 2024\n\n---\n*報告生成時間：2026-07-08 07:03:18*\n"
+    },
+    {
       "date": "2026-07-07_0701",
       "content": "# VOC 文獻監控日報 — 2026-07-07\n\n> 執行時間：07:01:52 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-07 07:01:52*\n"
     },
@@ -24396,10 +24536,6 @@
     {
       "date": "2026-07-02_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-02\n\n> 執行時間：07:02:07 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Breath-Based Detection of Oral Diseases Using Sensors and Machine Learning.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, oral diseases, GC-MS, machine learning, nanosensor\n- **摘要**：利用呼氣VOC和機器學習診斷口腔疾病的可行性研究。\n- **作者**：Haiek Maisa, Broza Yoav, Farber Adi, Miropolski Maria, Haick Hossam et al. | **年份**：2026 | DOI: `10.1016/j.jdent.2026.106872` | [連結](https://pubmed.ncbi.nlm.nih.gov/42379259/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Breath-Based Detection of Oral Diseases Using Sensors and Machine Learning.](https://pubmed.ncbi.nlm.nih.gov/42379259/)**  \n  利用呼氣VOC和機器學習診斷口腔疾病的可行性研究。 ｜ 2026\n\n---\n*報告生成時間：2026-07-02 07:02:07*\n"
-    },
-    {
-      "date": "2026-07-01_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-01\n\n> 執行時間：07:02:26 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1157 |\n| 資料庫相關總數 | 967 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatilomic Approaches for the Study of CFTR Modulators (VOLATIL-CF)\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, CFTR modulators, lung condition, VOC profile, exhaled breath\n- **摘要**：研究呼氣中的VOC，評估藥物對肺部狀況的影響。\n- **作者**：Assistance Publique - Hôpitaux de Paris | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT05726994)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Volatilomic Approaches for the Study of CFTR Modulators (VOLATIL-CF)](https://clinicaltrials.gov/study/NCT05726994)**  \n  研究呼氣中的VOC，評估藥物對肺部狀況的影響。 ｜ 2023\n\n---\n*報告生成時間：2026-07-01 07:02:26*\n"
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1171,
-    "relevant": 981,
-    "today": 7,
-    "this_week": 13,
+    "total": 1173,
+    "relevant": 983,
+    "today": 2,
+    "this_week": 15,
     "avg_score": 4.07,
-    "updated_at": "2026-07-09T07:03:37"
+    "updated_at": "2026-07-10T07:03:26"
   },
   "stats": {
-    "total": 1171,
-    "relevant": 981,
-    "today": 7,
-    "this_week": 13,
+    "total": 1173,
+    "relevant": 983,
+    "today": 2,
+    "this_week": 15,
     "avg_score": 4.07,
     "by_category": {
       "voc_breath": 315,
-      "disease_cancer": 229,
+      "disease_cancer": 231,
       "sensor_hardware": 142,
       "disease_chronic": 79,
       "infection": 76,
@@ -27,18 +27,18 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 238,
+      "clinicaltrials": 239,
       "import": 488,
       "openalex": 169,
-      "pubmed": 147,
+      "pubmed": 148,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 12,
       "3": 242,
-      "4": 386,
-      "5": 340
+      "4": 387,
+      "5": 341
     },
     "by_year": {
       "1985": 1,
@@ -61,23 +61,15 @@
       "2017": 34,
       "2018": 37,
       "2019": 42,
-      "2020": 45,
+      "2020": 46,
       "2021": 57,
       "2022": 64,
       "2023": 60,
       "2024": 79,
-      "2025": 68,
+      "2025": 69,
       "2026": 25
     },
     "daily_trend": [
-      {
-        "date": "2026-06-08",
-        "count": 46
-      },
-      {
-        "date": "2026-06-09",
-        "count": 1
-      },
       {
         "date": "2026-06-10",
         "count": 1
@@ -133,9 +125,18 @@
       {
         "date": "2026-07-08",
         "count": 7
+      },
+      {
+        "date": "2026-07-09",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-07-09 23:03:24",
+        "found": 239,
+        "new_added": 2
+      },
       {
         "run_at": "2026-07-08 23:03:36",
         "found": 239,
@@ -180,18 +181,13 @@
         "run_at": "2026-06-30 23:02:25",
         "found": 237,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-06-29 23:02:07",
-        "found": 235,
-        "new_added": 0
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.56,
-        "count": 229
+        "count": 231
       },
       {
         "category": "infection",
@@ -246,6 +242,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1173,
+      "title": "[CT] Omic Technologies to Track Resistance to Palbociclib in Metastatic Breast Cancer",
+      "authors": "Centre Oscar Lambret",
+      "year": 2020,
+      "journal": "ClinicalTrials.gov (Advanced Breast Cancer)",
+      "category": "disease_cancer",
+      "score": 4.0,
+      "tags": [
+        "breast cancer",
+        "volatile organic components",
+        "omics profiles",
+        "palbociclib",
+        "treatment response"
+      ],
+      "one_line": "研究乳癌患者對帕博西利克治療的VOC變化，評估耐藥性。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04653740",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-07-09 23:03:24"
+    },
+    {
+      "id": 1172,
+      "title": "Sniffing Out Lung Cancer: Biomimetic Breath Analysis via a Deep Eutectic Solvent-Driven Colorimetric Sensor Array.",
+      "authors": "Pesaran Shiva, Shojaeifard Zahra, Tashkhourian Javad, Fallahi Mohammad Javad, Rezvani Ali Reza et al.",
+      "year": 2025,
+      "journal": "Analytical chemistry",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "colorimetric sensor",
+        "VOC biomarker",
+        "early diagnosis"
+      ],
+      "one_line": "利用氣味感測器陣列，診斷肺癌的有效且非侵入性方法。",
+      "doi": "10.1021/acs.analchem.5c03402",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41359291/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-07-09 23:03:23"
+    },
     {
       "id": 1171,
       "title": "[CT] Prognostic Value of Exhaled Isoprene Levels for Morbidity and Functional Outcome in Cardiosurgical Patients",
@@ -24668,6 +24708,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-10_0703",
+      "content": "# VOC 文獻監控日報 — 2026-07-10\n\n> 執行時間：07:03:25 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1173 |\n| 資料庫相關總數 | 983 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Sniffing Out Lung Cancer: Biomimetic Breath Analysis via a Deep Eutectic Solvent-Driven Colorimetric Sensor Array.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, colorimetric sensor, VOC biomarker, early diagnosis\n- **摘要**：利用氣味感測器陣列，診斷肺癌的有效且非侵入性方法。\n- **作者**：Pesaran Shiva, Shojaeifard Zahra, Tashkhourian Javad, Fallahi Mohammad Javad, Rezvani Ali Reza et al. | **年份**：2025 | DOI: `10.1021/acs.analchem.5c03402` | [連結](https://pubmed.ncbi.nlm.nih.gov/41359291/)\n\n### [CT] Omic Technologies to Track Resistance to Palbociclib in Metastatic Breast Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breast cancer, volatile organic components, omics profiles, palbociclib, treatment response\n- **摘要**：研究乳癌患者對帕博西利克治療的VOC變化，評估耐藥性。\n- **作者**：Centre Oscar Lambret | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04653740)\n\n## 📂 依類別分類\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓▓ **[Sniffing Out Lung Cancer: Biomimetic Breath Analysis via a Deep Eutectic Solvent-Driven Colorimetric Sensor Array.](https://pubmed.ncbi.nlm.nih.gov/41359291/)**  \n  利用氣味感測器陣列，診斷肺癌的有效且非侵入性方法。 ｜ 2025\n- ▓▓▓▓░ **[[CT] Omic Technologies to Track Resistance to Palbociclib in Metastatic Breast Cancer](https://clinicaltrials.gov/study/NCT04653740)**  \n  研究乳癌患者對帕博西利克治療的VOC變化，評估耐藥性。 ｜ 2020\n\n---\n*報告生成時間：2026-07-10 07:03:25*\n"
+    },
+    {
       "date": "2026-07-09_0703",
       "content": "# VOC 文獻監控日報 — 2026-07-09\n\n> 執行時間：07:03:36 | 新增 **7** 篇 | 相關 **7** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 7 |\n| 本次相關文獻 | 7 |\n| 資料庫累計總數 | 1171 |\n| 資料庫相關總數 | 981 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Accuracy and Methodologic Challenges of Volatile Organic Compound-Based Exhaled Breath Tests for Cancer Diagnosis: A Systematic Review and Meta-analysis.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cancer diagnosis, VOC biomarker, systematic review, meta-analysis\n- **摘要**：综述呼气 VOC 在癌症诊断中的准确性和方法学挑战。\n- **作者**：Hanna George B, Boshier Piers R, Markar Sheraz R, Romano Andrea | **年份**：2019 | DOI: `10.1001/jamaoncol.2018.2815` | [連結](https://pubmed.ncbi.nlm.nih.gov/30128487/)\n\n### Critical Review of Volatile Organic Compound Analysis in Breath and In Vitro Cell Culture for Detection of Lung Cancer.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, exhaled breath, biomarker\n- **摘要**：針對肺癌的呼氣 VOC 分析方法回顧與建議。\n- **作者**：Jia Zhunan, Patra Abhijeet, Kutty Viknish Krishnan, Venkatesan Thirumalai | **年份**：2019 | DOI: `10.3390/metabo9030052` | [連結](https://pubmed.ncbi.nlm.nih.gov/30889835/)\n\n### Detection of cancer through exhaled breath: a systematic review.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, cancer detection, exhaled breath, lung cancer, VOC biomarker\n- **摘要**：综述了呼气分析在癌症检测方面的应用及相关技术。\n- **作者**：Krilaviciute Agne, Heiss Jonathan Alexander, Leja Marcis, Kupcinskas Juozas, Haick Hossam et al. | **年份**：2015 | DOI: `10.18632/oncotarget.5938` | [連結](https://pubmed.ncbi.nlm.nih.gov/26440312/)\n\n### Detection of differentiated thyroid carcinoma in exhaled breath with an electronic nose.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, thyroid cancer, electronic nose, diagnosis, non-invasive\n- **摘要**：利用電子鼻分析呼氣，用於甲狀腺癌的診斷可行性研究。\n- **作者**：Scheepers Max H M C, Al-Difaie Zaid J J, Wintjens Anne G W E, Engelen Sanne M E, Havekes Bas et al. | **年份**：2022 | DOI: `10.1088/1752-7163/ac77a9` | [連結](https://pubmed.ncbi.nlm.nih.gov/35688135/)\n\n### Association of Smoking with Metabolic Volatile Organic Compounds in Exhaled Breath.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, smoking, GC-MS, VOC biomarker\n- **摘要**：研究呼氣中的VOC與吸菸行為的關聯，探討肺癌風險評估潛力。\n- **作者**：Chen Xing, Wang Fuyuan, Lin Liquan, Dong Hao, Huang Feifei et al. | **年份**：2017 | DOI: `10.3390/ijms18112235` | [連結](https://pubmed.ncbi.nlm.nih.gov/29068415/)\n\n### [CT] Prognostic Value of Exhaled Isoprene Levels for Morbidity and Functional Outcome in Cardiosurgical Patients\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath VOC, cardiac surgery, isoprene, biomarker, skeletal muscle\n- **摘要**：研究呼氣異戊烯與心臟手術患者的預後相關性。\n- **作者**：University of Rostock | **年份**：2023 | [連結](https://clinicaltrials.gov/study/NCT06175429)\n\n## 📂 依類別分類\n\n### 癌症應用（4 篇）\n\n- ▓▓▓▓▓ **[Accuracy and Methodologic Challenges of Volatile Organic Compound-Based Exhaled Breath Tests for Cancer Diagnosis: A Systematic Review and Meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/30128487/)**  \n  综述呼气 VOC 在癌症诊断中的准确性和方法学挑战。 ｜ 2019\n- ▓▓▓▓▓ **[Critical Review of Volatile Organic Compound Analysis in Breath and In Vitro Cell Culture for Detection of Lung Cancer.](https://pubmed.ncbi.nlm.nih.gov/30889835/)**  \n  針對肺癌的呼氣 VOC 分析方法回顧與建議。 ｜ 2019\n- ▓▓▓▓▓ **[Detection of cancer through exhaled breath: a systematic review.](https://pubmed.ncbi.nlm.nih.gov/26440312/)**  \n  综述了呼气分析在癌症检测方面的应用及相关技术。 ｜ 2015\n- ▓▓▓▓▓ **[Detection of differentiated thyroid carcinoma in exhaled breath with an electronic nose.](https://pubmed.ncbi.nlm.nih.gov/35688135/)**  \n  利用電子鼻分析呼氣，用於甲狀腺癌的診斷可行性研究。 ｜ 2022\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Association of Smoking with Metabolic Volatile Organic Compounds in Exhaled Breath.](https://pubmed.ncbi.nlm.nih.gov/29068415/)**  \n  研究呼氣中的VOC與吸菸行為的關聯，探討肺癌風險評估潛力。 ｜ 2017\n- ▓▓▓▓▓ **[[CT] Prognostic Value of Exhaled Isoprene Levels for Morbidity and Functional Outcome in Cardiosurgical Patients](https://clinicaltrials.gov/study/NCT06175429)**  \n  研究呼氣異戊烯與心臟手術患者的預後相關性。 ｜ 2023\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[Faecal volatile organic compounds differ according to inflammatory bowel disease sub-type, severity, and response to treatment in paediatric patients.](https://pubmed.ncbi.nlm.nih.gov/38922802/)**  \n  研究糞便VOC的組成，與IBD亞型、嚴重程度相關。 ｜ 2024\n\n---\n*報告生成時間：2026-07-09 07:03:36*\n"
     },
@@ -24690,10 +24734,6 @@
     {
       "date": "2026-07-04_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-04\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-04 07:02:11*\n"
-    },
-    {
-      "date": "2026-07-03_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-03\n\n> 執行時間：07:02:08 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-03 07:02:08*\n"
     }
   ]
 }

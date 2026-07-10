@@ -1,23 +1,23 @@
 {
   "meta": {
-    "total": 1173,
-    "relevant": 983,
+    "total": 1175,
+    "relevant": 985,
     "today": 2,
-    "this_week": 15,
+    "this_week": 17,
     "avg_score": 4.07,
-    "updated_at": "2026-07-10T07:03:26"
+    "updated_at": "2026-07-11T07:02:47"
   },
   "stats": {
-    "total": 1173,
-    "relevant": 983,
+    "total": 1175,
+    "relevant": 985,
     "today": 2,
-    "this_week": 15,
+    "this_week": 17,
     "avg_score": 4.07,
     "by_category": {
-      "voc_breath": 315,
+      "voc_breath": 316,
       "disease_cancer": 231,
       "sensor_hardware": 142,
-      "disease_chronic": 79,
+      "disease_chronic": 80,
       "infection": 76,
       "method_tech": 63,
       "voc_liquid": 35,
@@ -27,7 +27,7 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 239,
+      "clinicaltrials": 241,
       "import": 488,
       "openalex": 169,
       "pubmed": 148,
@@ -37,8 +37,8 @@
       "1": 1,
       "2": 12,
       "3": 242,
-      "4": 387,
-      "5": 341
+      "4": 388,
+      "5": 342
     },
     "by_year": {
       "1985": 1,
@@ -50,7 +50,7 @@
       "2006": 1,
       "2007": 10,
       "2008": 7,
-      "2009": 16,
+      "2009": 17,
       "2010": 13,
       "2011": 28,
       "2012": 17,
@@ -63,17 +63,13 @@
       "2019": 42,
       "2020": 46,
       "2021": 57,
-      "2022": 64,
+      "2022": 65,
       "2023": 60,
       "2024": 79,
       "2025": 69,
       "2026": 25
     },
     "daily_trend": [
-      {
-        "date": "2026-06-10",
-        "count": 1
-      },
       {
         "date": "2026-06-11",
         "count": 1
@@ -129,9 +125,18 @@
       {
         "date": "2026-07-09",
         "count": 2
+      },
+      {
+        "date": "2026-07-10",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-07-10 23:02:41",
+        "found": 238,
+        "new_added": 2
+      },
       {
         "run_at": "2026-07-09 23:03:24",
         "found": 239,
@@ -176,11 +181,6 @@
         "run_at": "2026-07-01 23:02:07",
         "found": 122,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-06-30 23:02:25",
-        "found": 237,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -197,12 +197,12 @@
       {
         "category": "voc_breath",
         "avg_score": 4.3,
-        "count": 315
+        "count": 316
       },
       {
         "category": "disease_chronic",
-        "avg_score": 4.1,
-        "count": 79
+        "avg_score": 4.11,
+        "count": 80
       },
       {
         "category": "voc_liquid",
@@ -242,6 +242,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1175,
+      "title": "[CT] Validate Smart Breath Analyzer as Screening Tool for Diabetic, Hepatic, Renal, Lung, and Other Metabolic Disorders",
+      "authors": "Respyr",
+      "year": 2022,
+      "journal": "ClinicalTrials.gov (Diabetes Mellitus, Type 2, Liver Diseases, Kidney Diseases, Lung Diseases, Metabolic Diseases)",
+      "category": "disease_chronic",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "diabetes",
+        "renal disease",
+        "liver disease",
+        "lung disease"
+      ],
+      "one_line": "利用呼氣分析篩查糖尿病、腎臟、肝臟及肺部疾病。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07646015",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-07-10 23:02:40"
+    },
+    {
+      "id": 1174,
+      "title": "[CT] Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "authors": "Catholic University of the Sacred Heart",
+      "year": 2009,
+      "journal": "ClinicalTrials.gov (Asthma)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "asthma",
+        "biosensors",
+        "VOCs",
+        "airway inflammation"
+      ],
+      "one_line": "研究呼氣 VOC 的模式，用於評估哮喘患者的呼吸道炎症。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT00819676",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-07-10 23:02:40"
+    },
     {
       "id": 1173,
       "title": "[CT] Omic Technologies to Track Resistance to Palbociclib in Metastatic Breast Cancer",
@@ -24708,6 +24752,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-11_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-11\n\n> 執行時間：07:02:46 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1175 |\n| 資料庫相關總數 | 985 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Validate Smart Breath Analyzer as Screening Tool for Diabetic, Hepatic, Renal, Lung, and Other Metabolic Disorders\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, diabetes, renal disease, liver disease, lung disease\n- **摘要**：利用呼氣分析篩查糖尿病、腎臟、肝臟及肺部疾病。\n- **作者**：Respyr | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT07646015)\n\n### [CT] Analysis of Exhaled Breath by Biosensors in Adults With Asthma\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, asthma, biosensors, VOCs, airway inflammation\n- **摘要**：研究呼氣 VOC 的模式，用於評估哮喘患者的呼吸道炎症。\n- **作者**：Catholic University of the Sacred Heart | **年份**：2009 | [連結](https://clinicaltrials.gov/study/NCT00819676)\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Validate Smart Breath Analyzer as Screening Tool for Diabetic, Hepatic, Renal, Lung, and Other Metabolic Disorders](https://clinicaltrials.gov/study/NCT07646015)**  \n  利用呼氣分析篩查糖尿病、腎臟、肝臟及肺部疾病。 ｜ 2022\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Analysis of Exhaled Breath by Biosensors in Adults With Asthma](https://clinicaltrials.gov/study/NCT00819676)**  \n  研究呼氣 VOC 的模式，用於評估哮喘患者的呼吸道炎症。 ｜ 2009\n\n---\n*報告生成時間：2026-07-11 07:02:47*\n"
+    },
+    {
       "date": "2026-07-10_0703",
       "content": "# VOC 文獻監控日報 — 2026-07-10\n\n> 執行時間：07:03:25 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1173 |\n| 資料庫相關總數 | 983 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Sniffing Out Lung Cancer: Biomimetic Breath Analysis via a Deep Eutectic Solvent-Driven Colorimetric Sensor Array.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, colorimetric sensor, VOC biomarker, early diagnosis\n- **摘要**：利用氣味感測器陣列，診斷肺癌的有效且非侵入性方法。\n- **作者**：Pesaran Shiva, Shojaeifard Zahra, Tashkhourian Javad, Fallahi Mohammad Javad, Rezvani Ali Reza et al. | **年份**：2025 | DOI: `10.1021/acs.analchem.5c03402` | [連結](https://pubmed.ncbi.nlm.nih.gov/41359291/)\n\n### [CT] Omic Technologies to Track Resistance to Palbociclib in Metastatic Breast Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breast cancer, volatile organic components, omics profiles, palbociclib, treatment response\n- **摘要**：研究乳癌患者對帕博西利克治療的VOC變化，評估耐藥性。\n- **作者**：Centre Oscar Lambret | **年份**：2020 | [連結](https://clinicaltrials.gov/study/NCT04653740)\n\n## 📂 依類別分類\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓▓ **[Sniffing Out Lung Cancer: Biomimetic Breath Analysis via a Deep Eutectic Solvent-Driven Colorimetric Sensor Array.](https://pubmed.ncbi.nlm.nih.gov/41359291/)**  \n  利用氣味感測器陣列，診斷肺癌的有效且非侵入性方法。 ｜ 2025\n- ▓▓▓▓░ **[[CT] Omic Technologies to Track Resistance to Palbociclib in Metastatic Breast Cancer](https://clinicaltrials.gov/study/NCT04653740)**  \n  研究乳癌患者對帕博西利克治療的VOC變化，評估耐藥性。 ｜ 2020\n\n---\n*報告生成時間：2026-07-10 07:03:25*\n"
     },
@@ -24730,10 +24778,6 @@
     {
       "date": "2026-07-05_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-05\n\n> 執行時間：07:02:08 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-05 07:02:08*\n"
-    },
-    {
-      "date": "2026-07-04_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-04\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-04 07:02:11*\n"
     }
   ]
 }

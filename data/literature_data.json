@@ -2,15 +2,15 @@
   "meta": {
     "total": 1175,
     "relevant": 985,
-    "today": 2,
+    "today": 0,
     "this_week": 17,
     "avg_score": 4.07,
-    "updated_at": "2026-07-11T07:02:47"
+    "updated_at": "2026-07-12T07:02:10"
   },
   "stats": {
     "total": 1175,
     "relevant": 985,
-    "today": 2,
+    "today": 0,
     "this_week": 17,
     "avg_score": 4.07,
     "by_category": {
@@ -133,6 +133,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-07-11 23:02:10",
+        "found": 237,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-07-10 23:02:41",
         "found": 238,
         "new_added": 2
@@ -176,11 +181,6 @@
         "run_at": "2026-07-02 23:02:07",
         "found": 237,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-01 23:02:07",
-        "found": 122,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -24752,6 +24752,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-12_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-12\n\n> 執行時間：07:02:10 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1175 |\n| 資料庫相關總數 | 985 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-12 07:02:10*\n"
+    },
+    {
       "date": "2026-07-11_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-11\n\n> 執行時間：07:02:46 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1175 |\n| 資料庫相關總數 | 985 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Validate Smart Breath Analyzer as Screening Tool for Diabetic, Hepatic, Renal, Lung, and Other Metabolic Disorders\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, diabetes, renal disease, liver disease, lung disease\n- **摘要**：利用呼氣分析篩查糖尿病、腎臟、肝臟及肺部疾病。\n- **作者**：Respyr | **年份**：2022 | [連結](https://clinicaltrials.gov/study/NCT07646015)\n\n### [CT] Analysis of Exhaled Breath by Biosensors in Adults With Asthma\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, asthma, biosensors, VOCs, airway inflammation\n- **摘要**：研究呼氣 VOC 的模式，用於評估哮喘患者的呼吸道炎症。\n- **作者**：Catholic University of the Sacred Heart | **年份**：2009 | [連結](https://clinicaltrials.gov/study/NCT00819676)\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Validate Smart Breath Analyzer as Screening Tool for Diabetic, Hepatic, Renal, Lung, and Other Metabolic Disorders](https://clinicaltrials.gov/study/NCT07646015)**  \n  利用呼氣分析篩查糖尿病、腎臟、肝臟及肺部疾病。 ｜ 2022\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Analysis of Exhaled Breath by Biosensors in Adults With Asthma](https://clinicaltrials.gov/study/NCT00819676)**  \n  研究呼氣 VOC 的模式，用於評估哮喘患者的呼吸道炎症。 ｜ 2009\n\n---\n*報告生成時間：2026-07-11 07:02:47*\n"
     },
@@ -24774,10 +24778,6 @@
     {
       "date": "2026-07-06_0701",
       "content": "# VOC 文獻監控日報 — 2026-07-06\n\n> 執行時間：07:01:55 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-06 07:01:55*\n"
-    },
-    {
-      "date": "2026-07-05_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-05\n\n> 執行時間：07:02:08 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1158 |\n| 資料庫相關總數 | 968 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-05 07:02:08*\n"
     }
   ]
 }

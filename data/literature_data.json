@@ -5,7 +5,7 @@
     "today": 0,
     "this_week": 35,
     "avg_score": 4.07,
-    "updated_at": "2026-07-20T07:02:09"
+    "updated_at": "2026-07-21T07:02:11"
   },
   "stats": {
     "total": 1210,
@@ -133,6 +133,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-07-20 23:02:10",
+        "found": 222,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-07-19 23:02:08",
         "found": 221,
         "new_added": 0
@@ -176,11 +181,6 @@
         "run_at": "2026-07-11 23:02:10",
         "found": 237,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-10 23:02:41",
-        "found": 238,
-        "new_added": 2
       }
     ],
     "category_score": [
@@ -25504,6 +25504,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-21_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-21\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1210 |\n| 資料庫相關總數 | 1018 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-21 07:02:11*\n"
+    },
+    {
       "date": "2026-07-20_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-20\n\n> 執行時間：07:02:08 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1210 |\n| 資料庫相關總數 | 1018 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-20 07:02:08*\n"
     },
@@ -25526,10 +25530,6 @@
     {
       "date": "2026-07-15_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-15\n\n> 執行時間：07:02:43 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1177 |\n| 資料庫相關總數 | 987 |\n| 相關文獻平均分 | 4.08 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Real-Time Mass Spectrometry Breath Analysis for the Investigation of Respiratory Tract Infections\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, respiratory infection, PTR-MS, VOC biomarker, real-time\n- **摘要**：研究呼吸道感染的呼氣揮發性有機化合物，使用 PTR-MS 技術。\n- **作者**：Hopital Foch | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07685275)\n\n## 📂 依類別分類\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Real-Time Mass Spectrometry Breath Analysis for the Investigation of Respiratory Tract Infections](https://clinicaltrials.gov/study/NCT07685275)**  \n  研究呼吸道感染的呼氣揮發性有機化合物，使用 PTR-MS 技術。 ｜ 2026\n\n---\n*報告生成時間：2026-07-15 07:02:43*\n"
-    },
-    {
-      "date": "2026-07-14_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-14\n\n> 執行時間：07:02:28 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1176 |\n| 資料庫相關總數 | 986 |\n| 相關文獻平均分 | 4.08 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Miniaturized Breath-based Sensor for the Detection of Hypo- and Hyperglycemia\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, diabetes, hypoglycemia, hyperglycemia, biosensors\n- **摘要**：利用呼氣VOC診斷糖尿病患者的血糖異常事件。\n- **作者**：Indiana University | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07696273)\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Miniaturized Breath-based Sensor for the Detection of Hypo- and Hyperglycemia](https://clinicaltrials.gov/study/NCT07696273)**  \n  利用呼氣VOC診斷糖尿病患者的血糖異常事件。 ｜ 2026\n\n---\n*報告生成時間：2026-07-14 07:02:28*\n"
     }
   ]
 }

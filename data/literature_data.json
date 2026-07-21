@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1210,
-    "relevant": 1018,
-    "today": 0,
+    "total": 1211,
+    "relevant": 1019,
+    "today": 1,
     "this_week": 35,
     "avg_score": 4.07,
-    "updated_at": "2026-07-21T07:02:11"
+    "updated_at": "2026-07-22T07:02:34"
   },
   "stats": {
-    "total": 1210,
-    "relevant": 1018,
-    "today": 0,
+    "total": 1211,
+    "relevant": 1019,
+    "today": 1,
     "this_week": 35,
     "avg_score": 4.07,
     "by_category": {
-      "voc_breath": 319,
+      "voc_breath": 320,
       "disease_cancer": 236,
       "sensor_hardware": 147,
       "disease_chronic": 85,
@@ -27,7 +27,7 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 245,
+      "clinicaltrials": 246,
       "import": 488,
       "openalex": 200,
       "pubmed": 148,
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 12,
       "3": 255,
-      "4": 401,
+      "4": 402,
       "5": 349
     },
     "by_year": {
@@ -62,7 +62,7 @@
       "2018": 45,
       "2019": 43,
       "2020": 48,
-      "2021": 58,
+      "2021": 59,
       "2022": 67,
       "2023": 63,
       "2024": 79,
@@ -70,10 +70,6 @@
       "2026": 28
     },
     "daily_trend": [
-      {
-        "date": "2026-06-21",
-        "count": 1
-      },
       {
         "date": "2026-06-22",
         "count": 3
@@ -129,9 +125,18 @@
       {
         "date": "2026-07-16",
         "count": 2
+      },
+      {
+        "date": "2026-07-21",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-07-21 23:02:32",
+        "found": 222,
+        "new_added": 1
+      },
       {
         "run_at": "2026-07-20 23:02:10",
         "found": 222,
@@ -176,11 +181,6 @@
         "run_at": "2026-07-12 23:02:08",
         "found": 238,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-11 23:02:10",
-        "found": 237,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -197,7 +197,7 @@
       {
         "category": "voc_breath",
         "avg_score": 4.3,
-        "count": 319
+        "count": 320
       },
       {
         "category": "disease_chronic",
@@ -242,6 +242,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1211,
+      "title": "[CT] Metabolomics in Occupational Asthma",
+      "authors": "Oslo University Hospital",
+      "year": 2021,
+      "journal": "ClinicalTrials.gov (Asthma, Occupational)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "occupational asthma",
+        "VOC",
+        "GC-MS",
+        "metabolomics"
+      ],
+      "one_line": "研究職業性哮喘的呼氣揮發性有機化合物，提升診斷準確度。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04301674",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-07-21 23:02:32"
+    },
     {
       "id": 1210,
       "title": "[CT] More Than Just X-Rays - Imaging of Chemotherapy-induced Morphological and Functional Cardiovascular and Lung Changes After Childhood ALL and Other Cancers - a Monocentric Late Effects Study (MaximALL)",
@@ -25504,6 +25526,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-22_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-22\n\n> 執行時間：07:02:33 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1211 |\n| 資料庫相關總數 | 1019 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Metabolomics in Occupational Asthma\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, occupational asthma, VOC, GC-MS, metabolomics\n- **摘要**：研究職業性哮喘的呼氣揮發性有機化合物，提升診斷準確度。\n- **作者**：Oslo University Hospital | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04301674)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Metabolomics in Occupational Asthma](https://clinicaltrials.gov/study/NCT04301674)**  \n  研究職業性哮喘的呼氣揮發性有機化合物，提升診斷準確度。 ｜ 2021\n\n---\n*報告生成時間：2026-07-22 07:02:33*\n"
+    },
+    {
       "date": "2026-07-21_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-21\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1210 |\n| 資料庫相關總數 | 1018 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-21 07:02:11*\n"
     },
@@ -25526,10 +25552,6 @@
     {
       "date": "2026-07-16_0708",
       "content": "# VOC 文獻監控日報 — 2026-07-16\n\n> 執行時間：07:08:36 | 新增 **31** 篇 | 相關 **29** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 31 |\n| 本次相關文獻 | 29 |\n| 資料庫累計總數 | 1208 |\n| 資料庫相關總數 | 1016 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled biomarkers in lung cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, VOC biomarker, exhaled biomarkers, early diagnosis\n- **摘要**：研究肺癌患者呼氣中的生物標記物，用於診斷和篩查。\n- **作者**：Ildikó Horváth, Zsófia Lázár, Nóra Gyulai, Márk Kollai, György Losonczy | **年份**：2009 | DOI: `10.1183/09031936.00142508` | [連結](https://doi.org/10.1183/09031936.00142508)\n\n### A literature survey of all volatiles from healthy human breath and bodily fluids: the human volatilome\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, human volatilome, VOCs, GC-MS, review\n- **摘要**：全面整理了健康人類呼氣及體液中的揮發性有機化合物。\n- **作者**：Natalia Drabińska, Cheryl Flynn, Norman Ratcliffe, Ilaria Belluomo, Antonis Myridakis et al. | **年份**：2021 | DOI: `10.1088/1752-7163/abf1d0` | [連結](https://doi.org/10.1088/1752-7163/abf1d0)\n\n### Significance of Exhaled Breath Test in Clinical Diagnosis: A Special Focus on the Detection of Diabetes Mellitus\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, diabetes mellitus, VOC biomarkers, noninvasive, GC-MS\n- **摘要**：研究呼氣VOC在糖尿病診斷中的重要性及相關技術。\n- **作者**：Souvik Das, Saurabh Pal, Madhuchhanda Mitra | **年份**：2016 | DOI: `10.1007/s40846-016-0164-6` | [連結](https://doi.org/10.1007/s40846-016-0164-6)\n\n### A Review of Biosensors for Non-Invasive Diabetes Monitoring and Screening in Human Exhaled Breath\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：diabetes, exhaled breath, biosensors, acetone, non-invasive\n- **摘要**：回顧呼氣丙酮作為糖尿病診斷的生物感測器應用。\n- **作者**：Fahad Usman, John Ojur Dennis, Abdelaziz Yousif Ahmed, Fabrice Mériaudeau, Olumide Bolarinwa Ayodele et al. | **年份**：2018 | DOI: `10.1109/access.2018.2887066` | [連結](https://doi.org/10.1109/access.2018.2887066)\n\n### Mass spectrometry‐based metabolomics\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：mass spectrometry, metabolomics, analytical chemistry, sample preparation, data analysis\n- **摘要**：概述了質譜基於代謝體學的樣品處理、分離和分析方法。\n- **作者**：Katja Dettmer, Pavel A. Aronov, Bruce D. Hammock | **年份**：2006 | DOI: `10.1002/mas.20108` | [連結](https://doi.org/10.1002/mas.20108)\n\n### Functional metal–organic frameworks as effective sensors of gases and volatile compounds\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：MOF, sensors, gas detection, VOCs, material science\n- **摘要**：探討金屬有機框架作為氣體和揮發性化合物感測器的應用。\n- **作者**：Haiyang Li, Shu‐Na Zhao, Shuang‐Quan Zang, Jing Li | **年份**：2020 | DOI: `10.1039/c9cs00778d` | [連結](https://doi.org/10.1039/c9cs00778d)\n\n### Application of Electronic-Nose Technologies and VOC-Biomarkers for the Noninvasive Early Diagnosis of Gastrointestinal Diseases\n\n- **類別**：氣味醫學\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：electronic nose, VOC biomarkers, gastrointestinal diseases, noninvasive diagnosis, aroma signatures\n- **摘要**：電子鼻技術用於診斷胃腸道疾病，分析揮發性有機化合物。\n- **作者**：A. D. Wilson | **年份**：2018 | DOI: `10.3390/s18082613` | [連結](https://doi.org/10.3390/s18082613)\n\n### A Compendium of Volatile Organic Compounds (VOCs) Released By Human Cell Lines\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：VOC, human cells, biomarkers, volatilome, ISO-11843\n- **摘要**：整理了人體細胞釋放的 VOC 資料庫，並探討其潛在來源。\n- **作者**：Wojciech Filipiak, Paweł Mochalski, Anna Filipiak, Clemens Ager, Raquel Cumeras et al. | **年份**：2016 | DOI: `10.2174/0929867323666160510122913` | [連結](https://doi.org/10.2174/0929867323666160510122913)\n\n### The State of Molecular Biomarkers for the Early Detection of Lung Cancer\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, biomarkers, exhaled breath condensate, early detection\n- **摘要**：探討肺癌早期檢測的分子生物標記，提及呼氣沉積物。\n- **作者**：Mohamed Hassanein, J. Clay Callison, Carol Callaway‐Lane, Melinda C. Aldrich, Eric L. Grogan et al. | **年份**：2012 | DOI: `10.1158/1940-6207.capr-11-0441` | [連結](https://doi.org/10.1158/1940-6207.capr-11-0441)\n\n### Sensors for Enhanced Detection of Acetone as a Potential Tool for Noninvasive Diabetes Monitoring\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：diabetes, acetone, breath analysis, gas sensors, noninvasive\n- **摘要**：探討用於糖尿病監測的呼氣丙酮檢測氣體感測器技術。\n- **作者**：Artur Rydosz | **年份**：2018 | DOI: `10.3390/s18072298` | [連結](https://doi.org/10.3390/s18072298)\n\n### Miniaturized Bio-and Chemical-Sensors for Point-of-Care Monitoring of Chronic Kidney Diseases\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：CKD, biomarkers, sensors, point-of-care, kidney disease\n- **摘要**：針對慢性腎病患者的點對點監測感測器技術回顧。\n- **作者**：Antonio Tricoli, G. Neri | **年份**：2018 | DOI: `10.3390/s18040942` | [連結](https://doi.org/10.3390/s18040942)\n\n### Advances in Mid-Infrared Spectroscopy-Based Sensing Techniques for Exhaled Breath Diagnostics\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：exhaled breath, mid-infrared spectroscopy, sensing techniques, biomarker detection, point-of-care\n- **摘要**：探討呼氣診斷中紅外光譜感測技術的發展與應用。\n- **作者**：Ramya Selvaraj, Nilesh J. Vasa, S. M. Shiva Nagendra, Boris Mizaikoff | **年份**：2020 | DOI: `10.3390/molecules25092227` | [連結](https://doi.org/10.3390/molecules25092227)\n\n### Recent Advances in Sensing Materials Targeting Clinical Volatile Organic Compound (VOC) Biomarkers: A Review\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：sensing materials, VOC sensors, electrochemical, chemiresistive, optical methods\n- **摘要**：回顧了用於偵測呼氣 VOC 的感測器材料及其技術。\n- **作者**：Akhilesh Kumar Pathak, Kankan Swargiary, Nuntaporn Kongsawang, Pannathorn Jitpratak, Noppasin Ajchareeyasoontorn et al. | **年份**：2023 | DOI: `10.3390/bios13010114` | [連結](https://doi.org/10.3390/bios13010114)\n\n### Wearable and flexible electronics for continuous molecular monitoring\n\n- **類別**：感測器\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：wearable sensors, flexible electronics, chemical sensors, molecular monitoring, biosensors\n- **摘要**：探討可穿戴式化學感測器在分子監測上的應用與發展。\n- **作者**：Yiran Yang, Wei Gao | **年份**：2018 | DOI: `10.1039/c7cs00730b` | [連結](https://doi.org/10.1039/c7cs00730b)\n\n### Wearable and flexible electrochemical sensors for sweat analysis: a review\n\n- **類別**：液態 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：sweat, electrochemical sensors, wearable sensors, personalized health monitoring, liquid analyte\n- **摘要**：探討可穿戴式汗液感測器及其在健康監測中的應用。\n- **作者**：Fupeng Gao, Chunxiu Liu, Lichao Zhang, Tiezhu Liu, Zheng Wang et al. | **年份**：2023 | DOI: `10.1038/s41378-022-00443-6` | [連結](https://doi.org/10.1038/s41378-022-00443-6)\n\n### Technologies for Clinical Diagnosis Using Expired Human Breath Analysis\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, spectrometry, gas chromatography, techniques, clinical diagnosis\n- **摘要**：综述了呼气分析的各种技术和相关生物标志物。\n- **作者**：Thalakkotur Lazar Mathew, Prabhahari Pownraj, Sukhananazerin Abdulla, Biji Pullithadathil | **年份**：2015 | DOI: `10.3390/diagnostics5010027` | [連結](https://doi.org/10.3390/diagnostics5010027)\n\n### Recent developments and applications of selected ion flow tube mass spectrometry (SIFT‐MS)\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：SIFT-MS, breath analysis, trace gases, analytical technique\n- **摘要**：文獻描述了 SIFT-MS 技術及其在呼氣分析中的應用。\n- **作者**：David Smith, Patrik Španěl, Nicholas J. Demarais, Vaughan S. Langford, Murray J. McEwan | **年份**：2023 | DOI: `10.1002/mas.21835` | [連結](https://doi.org/10.1002/mas.21835)\n\n## 📂 依類別分類\n\n### 分析方法（11 篇）\n\n- ▓▓▓▓░ **[Mass spectrometry‐based metabolomics](https://doi.org/10.1002/mas.20108)**  \n  概述了質譜基於代謝體學的樣品處理、分離和分析方法。 ｜ 2006\n- ▓▓▓▓░ **[Advances in Mid-Infrared Spectroscopy-Based Sensing Techniques for Exhaled Breath Diagnostics](https://doi.org/10.3390/molecules25092227)**  \n  探討呼氣診斷中紅外光譜感測技術的發展與應用。 ｜ 2020\n- ▓▓▓▓░ **[Technologies for Clinical Diagnosis Using Expired Human Breath Analysis](https://doi.org/10.3390/diagnostics5010027)**  \n  综述了呼气分析的各种技术和相关生物标志物。 ｜ 2015\n- ▓▓▓▓░ **[Recent developments and applications of selected ion flow tube mass spectrometry (SIFT‐MS)](https://doi.org/10.1002/mas.21835)**  \n  文獻描述了 SIFT-MS 技術及其在呼氣分析中的應用。 ｜ 2023\n- ▓▓▓░░ **[Metabolomics for Investigating Physiological and Pathophysiological Processes](https://doi.org/10.1152/physrev.00035.2018)**  \n  概述了代謝體學的技術和在生理及病理過程中的應用。 ｜ 2019\n- ▓▓▓░░ **[Gut Microbiota Profiling: Metabolomics Based Approach to Unravel Compounds Affecting Human Health](https://doi.org/10.3389/fmicb.2016.01144)**  \n  研究腸道菌群代謝體學，涉及分析方法與生物統計。 ｜ 2016\n- ▓▓▓░░ **[Reference materials for MS-based untargeted metabolomics and lipidomics: a review by the metabolomics quality assurance and quality control consortium (mQACC)](https://doi.org/10.1007/s11306-021-01848-6)**  \n  討論了未標定代謝體學的質量控制和標準化方法。 ｜ 2022\n- ▓▓▓░░ **[Unobtrusive Sensing and Wearable Devices for Health Informatics](https://doi.org/10.1109/tbme.2014.2309951)**  \n  探討無侵入式感測器技術在健康資訊獲取中的應用。 ｜ 2014\n- ▓▓▓░░ **[Wearables and the Medical Revolution](https://doi.org/10.2217/pme-2018-0044)**  \n  文獻探討了可穿戴感測器在健康監測和預測方面的應用。 ｜ 2018\n- ▓▓▓░░ **[Metabolomics for the masses: The future of metabolomics in a personalized world](https://doi.org/10.1016/j.nhtm.2017.06.001)**  \n  探討代謝體學在精準醫療中的應用，提及數據挖掘和 AI。 ｜ 2017\n- ▓▓▓░░ **[Beyond genomics: understanding exposotypes through metabolomics](https://doi.org/10.1186/s40246-018-0134-x)**  \n  探討代謝體學在流行病學研究中的應用與挑戰。 ｜ 2018\n\n### 感測器（5 篇）\n\n- ▓▓▓▓░ **[Functional metal–organic frameworks as effective sensors of gases and volatile compounds](https://doi.org/10.1039/c9cs00778d)**  \n  探討金屬有機框架作為氣體和揮發性化合物感測器的應用。 ｜ 2020\n- ▓▓▓▓░ **[Recent Advances in Sensing Materials Targeting Clinical Volatile Organic Compound (VOC) Biomarkers: A Review](https://doi.org/10.3390/bios13010114)**  \n  回顧了用於偵測呼氣 VOC 的感測器材料及其技術。 ｜ 2023\n- ▓▓▓▓░ **[Wearable and flexible electronics for continuous molecular monitoring](https://doi.org/10.1039/c7cs00730b)**  \n  探討可穿戴式化學感測器在分子監測上的應用與發展。 ｜ 2018\n- ▓▓▓░░ **[End-to-end design of wearable sensors](https://doi.org/10.1038/s41578-022-00460-x)**  \n  研究可穿戴感測器的設計，可能與VOC感測相關。 ｜ 2022\n- ▓▓▓░░ **[Wearable Biodevices Based on Two-Dimensional Materials: From Flexible Sensors to Smart Integrated Systems](https://doi.org/10.1007/s40820-024-01597-w)**  \n  探討二維材料在可穿戴生物感測器中的應用，關注生理訊號監測。 ｜ 2025\n\n### 慢性病（4 篇）\n\n- ▓▓▓▓▓ **[Significance of Exhaled Breath Test in Clinical Diagnosis: A Special Focus on the Detection of Diabetes Mellitus](https://doi.org/10.1007/s40846-016-0164-6)**  \n  研究呼氣VOC在糖尿病診斷中的重要性及相關技術。 ｜ 2016\n- ▓▓▓▓▓ **[A Review of Biosensors for Non-Invasive Diabetes Monitoring and Screening in Human Exhaled Breath](https://doi.org/10.1109/access.2018.2887066)**  \n  回顧呼氣丙酮作為糖尿病診斷的生物感測器應用。 ｜ 2018\n- ▓▓▓▓░ **[Sensors for Enhanced Detection of Acetone as a Potential Tool for Noninvasive Diabetes Monitoring](https://doi.org/10.3390/s18072298)**  \n  探討用於糖尿病監測的呼氣丙酮檢測氣體感測器技術。 ｜ 2018\n- ▓▓▓▓░ **[Miniaturized Bio-and Chemical-Sensors for Point-of-Care Monitoring of Chronic Kidney Diseases](https://doi.org/10.3390/s18040942)**  \n  針對慢性腎病患者的點對點監測感測器技術回顧。 ｜ 2018\n\n### 癌症應用（3 篇）\n\n- ▓▓▓▓▓ **[Exhaled biomarkers in lung cancer](https://doi.org/10.1183/09031936.00142508)**  \n  研究肺癌患者呼氣中的生物標記物，用於診斷和篩查。 ｜ 2009\n- ▓▓▓▓░ **[The State of Molecular Biomarkers for the Early Detection of Lung Cancer](https://doi.org/10.1158/1940-6207.capr-11-0441)**  \n  探討肺癌早期檢測的分子生物標記，提及呼氣沉積物。 ｜ 2012\n- ▓▓▓░░ **[Cancer is a Preventable Disease that Requires Major Lifestyle Changes](https://doi.org/10.1007/s11095-008-9661-9)**  \n  文獻探討癌症預防，提及環境和生活方式因素。 ｜ 2008\n\n### 呼氣 VOC（3 篇）\n\n- ▓▓▓▓▓ **[A literature survey of all volatiles from healthy human breath and bodily fluids: the human volatilome](https://doi.org/10.1088/1752-7163/abf1d0)**  \n  全面整理了健康人類呼氣及體液中的揮發性有機化合物。 ｜ 2021\n- ▓▓▓▓░ **[A Compendium of Volatile Organic Compounds (VOCs) Released By Human Cell Lines](https://doi.org/10.2174/0929867323666160510122913)**  \n  整理了人體細胞釋放的 VOC 資料庫，並探討其潛在來源。 ｜ 2016\n- ▓▓▓░░ **[Exhaled Molecular Fingerprinting in Diagnosis and Monitoring: Validating Volatile Promises](https://doi.org/10.1016/j.molmed.2015.08.001)**  \n  研究呼氣分子指紋在診斷和監測中的應用。 ｜ 2015\n\n### 氣味醫學（1 篇）\n\n- ▓▓▓▓░ **[Application of Electronic-Nose Technologies and VOC-Biomarkers for the Noninvasive Early Diagnosis of Gastrointestinal Diseases](https://doi.org/10.3390/s18082613)**  \n  電子鼻技術用於診斷胃腸道疾病，分析揮發性有機化合物。 ｜ 2018\n\n### 液態 VOC（1 篇）\n\n- ▓▓▓▓░ **[Wearable and flexible electrochemical sensors for sweat analysis: a review](https://doi.org/10.1038/s41378-022-00443-6)**  \n  探討可穿戴式汗液感測器及其在健康監測中的應用。 ｜ 2023\n\n### 感染症（1 篇）\n\n- ▓▓▓░░ **[Diagnostics for neonatal sepsis: current approaches and future directions](https://doi.org/10.1038/pr.2017.134)**  \n  研究新生兒敗血症的診斷方法，可能涉及呼氣代謝物。 ｜ 2017\n\n---\n## ℹ️ 本次排除文獻：2 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-07-16 07:08:36*\n"
-    },
-    {
-      "date": "2026-07-15_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-15\n\n> 執行時間：07:02:43 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1177 |\n| 資料庫相關總數 | 987 |\n| 相關文獻平均分 | 4.08 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Real-Time Mass Spectrometry Breath Analysis for the Investigation of Respiratory Tract Infections\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, respiratory infection, PTR-MS, VOC biomarker, real-time\n- **摘要**：研究呼吸道感染的呼氣揮發性有機化合物，使用 PTR-MS 技術。\n- **作者**：Hopital Foch | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07685275)\n\n## 📂 依類別分類\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[[CT] Real-Time Mass Spectrometry Breath Analysis for the Investigation of Respiratory Tract Infections](https://clinicaltrials.gov/study/NCT07685275)**  \n  研究呼吸道感染的呼氣揮發性有機化合物，使用 PTR-MS 技術。 ｜ 2026\n\n---\n*報告生成時間：2026-07-15 07:02:43*\n"
     }
   ]
 }

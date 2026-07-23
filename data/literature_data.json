@@ -2,16 +2,16 @@
   "meta": {
     "total": 1212,
     "relevant": 1020,
-    "today": 1,
-    "this_week": 35,
+    "today": 0,
+    "this_week": 4,
     "avg_score": 4.06,
-    "updated_at": "2026-07-23T07:02:30"
+    "updated_at": "2026-07-24T07:02:07"
   },
   "stats": {
     "total": 1212,
     "relevant": 1020,
-    "today": 1,
-    "this_week": 35,
+    "today": 0,
+    "this_week": 4,
     "avg_score": 4.06,
     "by_category": {
       "voc_breath": 320,
@@ -70,10 +70,6 @@
       "2026": 28
     },
     "daily_trend": [
-      {
-        "date": "2026-06-22",
-        "count": 3
-      },
       {
         "date": "2026-06-23",
         "count": 4
@@ -137,6 +133,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-07-23 23:02:06",
+        "found": 222,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-07-22 23:02:29",
         "found": 224,
         "new_added": 1
@@ -179,11 +180,6 @@
       {
         "run_at": "2026-07-14 23:02:40",
         "found": 237,
-        "new_added": 1
-      },
-      {
-        "run_at": "2026-07-13 23:02:24",
-        "found": 238,
         "new_added": 1
       }
     ],
@@ -25551,6 +25547,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-24_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-24\n\n> 執行時間：07:02:07 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1212 |\n| 資料庫相關總數 | 1020 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-24 07:02:07*\n"
+    },
+    {
       "date": "2026-07-23_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-23\n\n> 執行時間：07:02:30 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1212 |\n| 資料庫相關總數 | 1020 |\n| 相關文獻平均分 | 4.06 |\n\n## 📂 依類別分類\n\n### 感測器（1 篇）\n\n- ▓▓▓░░ **[Artificial Intelligence Meets Flexible Sensors: Emerging Smart Flexible Sensing Systems Driven by Machine Learning and Artificial Synapses](https://doi.org/10.1007/s40820-023-01235-x)**  \n  探討AI驅動的靈活感測器系統，提升數據獲取與分析能力。 ｜ 2023\n\n---\n*報告生成時間：2026-07-23 07:02:30*\n"
     },
@@ -25573,10 +25573,6 @@
     {
       "date": "2026-07-18_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-18\n\n> 執行時間：07:02:14 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1210 |\n| 資料庫相關總數 | 1018 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-18 07:02:14*\n"
-    },
-    {
-      "date": "2026-07-17_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-17\n\n> 執行時間：07:02:46 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1210 |\n| 資料庫相關總數 | 1018 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Volatil Organic Compounds in Exhaled Air and Sweat After Thoracic Surgery for Carcinological Resection\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：lung cancer, exhaled air, sweat, VOC biomarker, diagnosis\n- **摘要**：研究肺癌患者呼氣和汗液中的揮發性有機化合物，用於診斷與追蹤。\n- **作者**：Hopital Foch | **年份**：2018 | [連結](https://clinicaltrials.gov/study/NCT03803137)\n\n## 📂 依類別分類\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓▓ **[[CT] Volatil Organic Compounds in Exhaled Air and Sweat After Thoracic Surgery for Carcinological Resection](https://clinicaltrials.gov/study/NCT03803137)**  \n  研究肺癌患者呼氣和汗液中的揮發性有機化合物，用於診斷與追蹤。 ｜ 2018\n- ▓▓▓░░ **[[CT] More Than Just X-Rays - Imaging of Chemotherapy-induced Morphological and Functional Cardiovascular and Lung Changes After Childhood ALL and Other Cancers - a Monocentric Late Effects Study (MaximALL)](https://clinicaltrials.gov/study/NCT07705178)**  \n  研究兒童癌症倖存者的心肺健康，涉及影像技術。 ｜ 2026\n\n---\n*報告生成時間：2026-07-17 07:02:46*\n"
     }
   ]
 }

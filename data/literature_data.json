@@ -2,15 +2,15 @@
   "meta": {
     "total": 1213,
     "relevant": 1021,
-    "today": 1,
+    "today": 0,
     "this_week": 3,
     "avg_score": 4.06,
-    "updated_at": "2026-07-26T07:02:42"
+    "updated_at": "2026-07-27T07:02:07"
   },
   "stats": {
     "total": 1213,
     "relevant": 1021,
-    "today": 1,
+    "today": 0,
     "this_week": 3,
     "avg_score": 4.06,
     "by_category": {
@@ -125,6 +125,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-07-26 23:02:06",
+        "found": 222,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-07-25 23:02:40",
         "found": 222,
         "new_added": 1
@@ -168,11 +173,6 @@
         "run_at": "2026-07-17 23:02:14",
         "found": 221,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-16 23:02:42",
-        "found": 222,
-        "new_added": 2
       }
     ],
     "category_score": [
@@ -25561,6 +25561,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-27_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-27\n\n> 執行時間：07:02:06 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1213 |\n| 資料庫相關總數 | 1021 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-27 07:02:06*\n"
+    },
+    {
       "date": "2026-07-26_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-26\n\n> 執行時間：07:02:42 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1213 |\n| 資料庫相關總數 | 1021 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Volatile organic compounds in exhaled breath are independent of systemic inflammatory syndrome caused by intravenous lipopolysaccharide infusion in humans: results from an experiment in healthy volunteers.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath VOC, endotoxemia, GC-MS, biomarker, inflammation\n- **摘要**：研究呼氣VOC在內源性發炎反應中的變化。\n- **作者**：Peters Anna L, Gerritsen Marije G, Brinkman Paul, Zwinderman Koos A H, Vlaar Alexander P J et al. | **年份**：2017 | DOI: `10.1088/1752-7163/aa6545` | [連結](https://pubmed.ncbi.nlm.nih.gov/28397711/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Volatile organic compounds in exhaled breath are independent of systemic inflammatory syndrome caused by intravenous lipopolysaccharide infusion in humans: results from an experiment in healthy volunteers.](https://pubmed.ncbi.nlm.nih.gov/28397711/)**  \n  研究呼氣VOC在內源性發炎反應中的變化。 ｜ 2017\n\n---\n*報告生成時間：2026-07-26 07:02:42*\n"
     },
@@ -25583,10 +25587,6 @@
     {
       "date": "2026-07-21_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-21\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1210 |\n| 資料庫相關總數 | 1018 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-21 07:02:11*\n"
-    },
-    {
-      "date": "2026-07-20_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-20\n\n> 執行時間：07:02:08 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1210 |\n| 資料庫相關總數 | 1018 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-20 07:02:08*\n"
     }
   ]
 }

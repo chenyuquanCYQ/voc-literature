@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1213,
-    "relevant": 1021,
-    "today": 0,
+    "total": 1214,
+    "relevant": 1022,
+    "today": 1,
     "this_week": 3,
     "avg_score": 4.06,
-    "updated_at": "2026-07-28T07:02:59"
+    "updated_at": "2026-07-29T07:02:36"
   },
   "stats": {
-    "total": 1213,
-    "relevant": 1021,
-    "today": 0,
+    "total": 1214,
+    "relevant": 1022,
+    "today": 1,
     "this_week": 3,
     "avg_score": 4.06,
     "by_category": {
-      "voc_breath": 321,
+      "voc_breath": 322,
       "disease_cancer": 236,
       "sensor_hardware": 148,
       "disease_chronic": 85,
@@ -29,7 +29,7 @@
     "by_source": {
       "clinicaltrials": 246,
       "import": 488,
-      "openalex": 201,
+      "openalex": 202,
       "pubmed": 149,
       "serper_scholar": 129
     },
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 12,
       "3": 256,
-      "4": 403,
+      "4": 404,
       "5": 349
     },
     "by_year": {
@@ -55,7 +55,7 @@
       "2011": 28,
       "2012": 18,
       "2013": 20,
-      "2014": 33,
+      "2014": 34,
       "2015": 35,
       "2016": 37,
       "2017": 37,
@@ -121,9 +121,18 @@
       {
         "date": "2026-07-25",
         "count": 1
+      },
+      {
+        "date": "2026-07-28",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-07-28 23:02:35",
+        "found": 222,
+        "new_added": 1
+      },
       {
         "run_at": "2026-07-27 23:02:58",
         "found": 222,
@@ -168,11 +177,6 @@
         "run_at": "2026-07-19 23:02:08",
         "found": 221,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-18 23:02:09",
-        "found": 221,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -189,7 +193,7 @@
       {
         "category": "voc_breath",
         "avg_score": 4.3,
-        "count": 321
+        "count": 322
       },
       {
         "category": "disease_chronic",
@@ -234,6 +238,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1214,
+      "title": "The analysis of volatile organic compounds in exhaled breath and biomarkers in exhaled breath condensate in children – clinical tools or scientific toys?",
+      "authors": "Esther van Mastrigt, J. C. de Jongste, Mariëlle W. Pijnenburg",
+      "year": 2014,
+      "journal": "Clinical & Experimental Allergy",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "children",
+        "respiratory diseases",
+        "VOCs",
+        "metabolomics"
+      ],
+      "one_line": "兒童呼吸道疾病中呼氣VOC和代謝體學的臨床應用文獻回顧。",
+      "doi": "10.1111/cea.12454",
+      "url": "https://doi.org/10.1111/cea.12454",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-07-28 23:02:35"
+    },
     {
       "id": 1213,
       "title": "Volatile organic compounds in exhaled breath are independent of systemic inflammatory syndrome caused by intravenous lipopolysaccharide infusion in humans: results from an experiment in healthy volunteers.",
@@ -25561,6 +25587,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-07-29_0702",
+      "content": "# VOC 文獻監控日報 — 2026-07-29\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1214 |\n| 資料庫相關總數 | 1022 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### The analysis of volatile organic compounds in exhaled breath and biomarkers in exhaled breath condensate in children – clinical tools or scientific toys?\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, children, respiratory diseases, VOCs, metabolomics\n- **摘要**：兒童呼吸道疾病中呼氣VOC和代謝體學的臨床應用文獻回顧。\n- **作者**：Esther van Mastrigt, J. C. de Jongste, Mariëlle W. Pijnenburg | **年份**：2014 | DOI: `10.1111/cea.12454` | [連結](https://doi.org/10.1111/cea.12454)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[The analysis of volatile organic compounds in exhaled breath and biomarkers in exhaled breath condensate in children – clinical tools or scientific toys?](https://doi.org/10.1111/cea.12454)**  \n  兒童呼吸道疾病中呼氣VOC和代謝體學的臨床應用文獻回顧。 ｜ 2014\n\n---\n*報告生成時間：2026-07-29 07:02:36*\n"
+    },
+    {
       "date": "2026-07-28_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-28\n\n> 執行時間：07:02:58 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1213 |\n| 資料庫相關總數 | 1021 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-28 07:02:58*\n"
     },
@@ -25583,10 +25613,6 @@
     {
       "date": "2026-07-23_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-23\n\n> 執行時間：07:02:30 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1212 |\n| 資料庫相關總數 | 1020 |\n| 相關文獻平均分 | 4.06 |\n\n## 📂 依類別分類\n\n### 感測器（1 篇）\n\n- ▓▓▓░░ **[Artificial Intelligence Meets Flexible Sensors: Emerging Smart Flexible Sensing Systems Driven by Machine Learning and Artificial Synapses](https://doi.org/10.1007/s40820-023-01235-x)**  \n  探討AI驅動的靈活感測器系統，提升數據獲取與分析能力。 ｜ 2023\n\n---\n*報告生成時間：2026-07-23 07:02:30*\n"
-    },
-    {
-      "date": "2026-07-22_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-22\n\n> 執行時間：07:02:33 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1211 |\n| 資料庫相關總數 | 1019 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### [CT] Metabolomics in Occupational Asthma\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, occupational asthma, VOC, GC-MS, metabolomics\n- **摘要**：研究職業性哮喘的呼氣揮發性有機化合物，提升診斷準確度。\n- **作者**：Oslo University Hospital | **年份**：2021 | [連結](https://clinicaltrials.gov/study/NCT04301674)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Metabolomics in Occupational Asthma](https://clinicaltrials.gov/study/NCT04301674)**  \n  研究職業性哮喘的呼氣揮發性有機化合物，提升診斷準確度。 ｜ 2021\n\n---\n*報告生成時間：2026-07-22 07:02:33*\n"
     }
   ]
 }

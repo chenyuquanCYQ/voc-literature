@@ -1,25 +1,25 @@
 {
   "meta": {
-    "total": 1214,
-    "relevant": 1022,
-    "today": 0,
-    "this_week": 2,
+    "total": 1216,
+    "relevant": 1024,
+    "today": 2,
+    "this_week": 3,
     "avg_score": 4.06,
-    "updated_at": "2026-08-01T07:02:09"
+    "updated_at": "2026-08-02T07:02:45"
   },
   "stats": {
-    "total": 1214,
-    "relevant": 1022,
-    "today": 0,
-    "this_week": 2,
+    "total": 1216,
+    "relevant": 1024,
+    "today": 2,
+    "this_week": 3,
     "avg_score": 4.06,
     "by_category": {
       "voc_breath": 322,
-      "disease_cancer": 236,
+      "disease_cancer": 237,
       "sensor_hardware": 148,
       "disease_chronic": 85,
       "infection": 78,
-      "method_tech": 74,
+      "method_tech": 75,
       "voc_liquid": 36,
       "ai_model": 20,
       "subhealth": 9,
@@ -29,16 +29,16 @@
     "by_source": {
       "clinicaltrials": 246,
       "import": 488,
-      "openalex": 202,
-      "pubmed": 149,
+      "openalex": 203,
+      "pubmed": 150,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 12,
-      "3": 256,
+      "3": 257,
       "4": 404,
-      "5": 349
+      "5": 350
     },
     "by_year": {
       "1985": 1,
@@ -62,12 +62,12 @@
       "2018": 45,
       "2019": 43,
       "2020": 48,
-      "2021": 59,
+      "2021": 60,
       "2022": 67,
       "2023": 64,
       "2024": 79,
       "2025": 70,
-      "2026": 28
+      "2026": 29
     },
     "daily_trend": [
       {
@@ -117,9 +117,18 @@
       {
         "date": "2026-07-28",
         "count": 1
+      },
+      {
+        "date": "2026-08-01",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-01 23:02:44",
+        "found": 222,
+        "new_added": 2
+      },
       {
         "run_at": "2026-07-31 23:02:08",
         "found": 221,
@@ -164,18 +173,13 @@
         "run_at": "2026-07-23 23:02:06",
         "found": 222,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-22 23:02:29",
-        "found": 224,
-        "new_added": 1
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.55,
-        "count": 236
+        "count": 237
       },
       {
         "category": "infection",
@@ -210,7 +214,7 @@
       {
         "category": "method_tech",
         "avg_score": 3.39,
-        "count": 74
+        "count": 75
       },
       {
         "category": "sensor_hardware",
@@ -230,6 +234,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1216,
+      "title": "A review of environmental occurrence, toxicity, biotransformation and biomonitoring of volatile organic compounds",
+      "authors": "Adela Jing Li, Vineet Kumar Pal, Kurunthachalam Kannan",
+      "year": 2021,
+      "journal": "Environmental Chemistry and Ecotoxicology",
+      "category": "method_tech",
+      "score": 3.0,
+      "tags": [
+        "VOC",
+        "biomonitoring",
+        "exposure assessment",
+        "environmental occurrence",
+        "toxicity"
+      ],
+      "one_line": "文獻描述了VOC的環境存在、毒性及生物監測方法。",
+      "doi": "10.1016/j.enceco.2021.01.001",
+      "url": "https://doi.org/10.1016/j.enceco.2021.01.001",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-08-01 23:02:44"
+    },
+    {
+      "id": 1215,
+      "title": "A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.",
+      "authors": "Hernández Camarillo Maribel, Campos-González Joshua, Vera-Nuñez Fernando, Hernández-López Enrique, Perez-Padilla Rogelio et al.",
+      "year": 2026,
+      "journal": "Journal of breath research",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "PTR-ToF-MS",
+        "VOC biomarker",
+        "early detection"
+      ],
+      "one_line": "利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。",
+      "doi": "10.1088/1752-7163/ae8ffc",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42497886/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-01 23:02:44"
+    },
     {
       "id": 1214,
       "title": "The analysis of volatile organic compounds in exhaled breath and biomarkers in exhaled breath condensate in children – clinical tools or scientific toys?",
@@ -25579,6 +25627,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-02_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-02\n\n> 執行時間：07:02:45 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1216 |\n| 資料庫相關總數 | 1024 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, PTR-ToF-MS, VOC biomarker, early detection\n- **摘要**：利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。\n- **作者**：Hernández Camarillo Maribel, Campos-González Joshua, Vera-Nuñez Fernando, Hernández-López Enrique, Perez-Padilla Rogelio et al. | **年份**：2026 | DOI: `10.1088/1752-7163/ae8ffc` | [連結](https://pubmed.ncbi.nlm.nih.gov/42497886/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.](https://pubmed.ncbi.nlm.nih.gov/42497886/)**  \n  利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。 ｜ 2026\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[A review of environmental occurrence, toxicity, biotransformation and biomonitoring of volatile organic compounds](https://doi.org/10.1016/j.enceco.2021.01.001)**  \n  文獻描述了VOC的環境存在、毒性及生物監測方法。 ｜ 2021\n\n---\n*報告生成時間：2026-08-02 07:02:45*\n"
+    },
+    {
       "date": "2026-08-01_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-01\n\n> 執行時間：07:02:09 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1214 |\n| 資料庫相關總數 | 1022 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-01 07:02:09*\n"
     },
@@ -25601,10 +25653,6 @@
     {
       "date": "2026-07-27_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-27\n\n> 執行時間：07:02:06 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1213 |\n| 資料庫相關總數 | 1021 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-27 07:02:06*\n"
-    },
-    {
-      "date": "2026-07-26_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-26\n\n> 執行時間：07:02:42 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1213 |\n| 資料庫相關總數 | 1021 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Volatile organic compounds in exhaled breath are independent of systemic inflammatory syndrome caused by intravenous lipopolysaccharide infusion in humans: results from an experiment in healthy volunteers.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath VOC, endotoxemia, GC-MS, biomarker, inflammation\n- **摘要**：研究呼氣VOC在內源性發炎反應中的變化。\n- **作者**：Peters Anna L, Gerritsen Marije G, Brinkman Paul, Zwinderman Koos A H, Vlaar Alexander P J et al. | **年份**：2017 | DOI: `10.1088/1752-7163/aa6545` | [連結](https://pubmed.ncbi.nlm.nih.gov/28397711/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Volatile organic compounds in exhaled breath are independent of systemic inflammatory syndrome caused by intravenous lipopolysaccharide infusion in humans: results from an experiment in healthy volunteers.](https://pubmed.ncbi.nlm.nih.gov/28397711/)**  \n  研究呼氣VOC在內源性發炎反應中的變化。 ｜ 2017\n\n---\n*報告生成時間：2026-07-26 07:02:42*\n"
     }
   ]
 }

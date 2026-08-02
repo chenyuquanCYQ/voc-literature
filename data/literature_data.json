@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1216,
-    "relevant": 1024,
-    "today": 2,
-    "this_week": 3,
-    "avg_score": 4.06,
-    "updated_at": "2026-08-02T07:02:45"
+    "total": 1217,
+    "relevant": 1025,
+    "today": 1,
+    "this_week": 4,
+    "avg_score": 4.07,
+    "updated_at": "2026-08-03T07:02:34"
   },
   "stats": {
-    "total": 1216,
-    "relevant": 1024,
-    "today": 2,
-    "this_week": 3,
-    "avg_score": 4.06,
+    "total": 1217,
+    "relevant": 1025,
+    "today": 1,
+    "this_week": 4,
+    "avg_score": 4.07,
     "by_category": {
       "voc_breath": 322,
-      "disease_cancer": 237,
+      "disease_cancer": 238,
       "sensor_hardware": 148,
       "disease_chronic": 85,
       "infection": 78,
@@ -30,7 +30,7 @@
       "clinicaltrials": 246,
       "import": 488,
       "openalex": 203,
-      "pubmed": 150,
+      "pubmed": 151,
       "serper_scholar": 129
     },
     "by_score": {
@@ -38,7 +38,7 @@
       "2": 12,
       "3": 257,
       "4": 404,
-      "5": 350
+      "5": 351
     },
     "by_year": {
       "1985": 1,
@@ -67,7 +67,7 @@
       "2023": 64,
       "2024": 79,
       "2025": 70,
-      "2026": 29
+      "2026": 30
     },
     "daily_trend": [
       {
@@ -121,9 +121,18 @@
       {
         "date": "2026-08-01",
         "count": 2
+      },
+      {
+        "date": "2026-08-02",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-02 23:02:33",
+        "found": 222,
+        "new_added": 1
+      },
       {
         "run_at": "2026-08-01 23:02:44",
         "found": 222,
@@ -168,18 +177,13 @@
         "run_at": "2026-07-24 23:02:09",
         "found": 222,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-23 23:02:06",
-        "found": 222,
-        "new_added": 0
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.55,
-        "count": 237
+        "count": 238
       },
       {
         "category": "infection",
@@ -234,6 +238,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1217,
+      "title": "Harnessing Exhaled Breath for Lung Cancer Early Detection-Results From the ExPeL Study.",
+      "authors": "Patel Danita Kasi, D'Cruz Leon, Ahmed Waqar, Chauhan Anoop, Bakerly Nawar Diar et al.",
+      "year": 2026,
+      "journal": "Clinical and translational science",
+      "category": "disease_cancer",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "lung cancer",
+        "early detection",
+        "machine learning",
+        "EBC"
+      ],
+      "one_line": "利用呼氣冷凝物及機器學習輔助肺癌早期檢測研究。",
+      "doi": "10.1111/cts.70687",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42528019/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-02 23:02:33"
+    },
     {
       "id": 1216,
       "title": "A review of environmental occurrence, toxicity, biotransformation and biomonitoring of volatile organic compounds",
@@ -25627,6 +25653,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-03_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-03\n\n> 執行時間：07:02:34 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1217 |\n| 資料庫相關總數 | 1025 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Harnessing Exhaled Breath for Lung Cancer Early Detection-Results From the ExPeL Study.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, early detection, machine learning, EBC\n- **摘要**：利用呼氣冷凝物及機器學習輔助肺癌早期檢測研究。\n- **作者**：Patel Danita Kasi, D'Cruz Leon, Ahmed Waqar, Chauhan Anoop, Bakerly Nawar Diar et al. | **年份**：2026 | DOI: `10.1111/cts.70687` | [連結](https://pubmed.ncbi.nlm.nih.gov/42528019/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Harnessing Exhaled Breath for Lung Cancer Early Detection-Results From the ExPeL Study.](https://pubmed.ncbi.nlm.nih.gov/42528019/)**  \n  利用呼氣冷凝物及機器學習輔助肺癌早期檢測研究。 ｜ 2026\n\n---\n*報告生成時間：2026-08-03 07:02:34*\n"
+    },
+    {
       "date": "2026-08-02_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-02\n\n> 執行時間：07:02:45 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1216 |\n| 資料庫相關總數 | 1024 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, PTR-ToF-MS, VOC biomarker, early detection\n- **摘要**：利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。\n- **作者**：Hernández Camarillo Maribel, Campos-González Joshua, Vera-Nuñez Fernando, Hernández-López Enrique, Perez-Padilla Rogelio et al. | **年份**：2026 | DOI: `10.1088/1752-7163/ae8ffc` | [連結](https://pubmed.ncbi.nlm.nih.gov/42497886/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.](https://pubmed.ncbi.nlm.nih.gov/42497886/)**  \n  利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。 ｜ 2026\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[A review of environmental occurrence, toxicity, biotransformation and biomonitoring of volatile organic compounds](https://doi.org/10.1016/j.enceco.2021.01.001)**  \n  文獻描述了VOC的環境存在、毒性及生物監測方法。 ｜ 2021\n\n---\n*報告生成時間：2026-08-02 07:02:45*\n"
     },
@@ -25649,10 +25679,6 @@
     {
       "date": "2026-07-28_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-28\n\n> 執行時間：07:02:58 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1213 |\n| 資料庫相關總數 | 1021 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-28 07:02:58*\n"
-    },
-    {
-      "date": "2026-07-27_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-27\n\n> 執行時間：07:02:06 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1213 |\n| 資料庫相關總數 | 1021 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-27 07:02:06*\n"
     }
   ]
 }

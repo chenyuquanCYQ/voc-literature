@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 1217,
-    "relevant": 1025,
+    "total": 1218,
+    "relevant": 1026,
     "today": 1,
-    "this_week": 4,
+    "this_week": 5,
     "avg_score": 4.07,
-    "updated_at": "2026-08-03T07:02:34"
+    "updated_at": "2026-08-04T07:02:52"
   },
   "stats": {
-    "total": 1217,
-    "relevant": 1025,
+    "total": 1218,
+    "relevant": 1026,
     "today": 1,
-    "this_week": 4,
+    "this_week": 5,
     "avg_score": 4.07,
     "by_category": {
       "voc_breath": 322,
@@ -19,7 +19,7 @@
       "sensor_hardware": 148,
       "disease_chronic": 85,
       "infection": 78,
-      "method_tech": 75,
+      "method_tech": 76,
       "voc_liquid": 36,
       "ai_model": 20,
       "subhealth": 9,
@@ -29,7 +29,7 @@
     "by_source": {
       "clinicaltrials": 246,
       "import": 488,
-      "openalex": 203,
+      "openalex": 204,
       "pubmed": 151,
       "serper_scholar": 129
     },
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 12,
       "3": 257,
-      "4": 404,
+      "4": 405,
       "5": 351
     },
     "by_year": {
@@ -63,7 +63,7 @@
       "2019": 43,
       "2020": 48,
       "2021": 60,
-      "2022": 67,
+      "2022": 68,
       "2023": 64,
       "2024": 79,
       "2025": 70,
@@ -125,9 +125,18 @@
       {
         "date": "2026-08-02",
         "count": 1
+      },
+      {
+        "date": "2026-08-03",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-03 23:02:51",
+        "found": 222,
+        "new_added": 1
+      },
       {
         "run_at": "2026-08-02 23:02:33",
         "found": 222,
@@ -172,11 +181,6 @@
         "run_at": "2026-07-25 23:02:40",
         "found": 222,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-07-24 23:02:09",
-        "found": 222,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -218,7 +222,7 @@
       {
         "category": "method_tech",
         "avg_score": 3.39,
-        "count": 75
+        "count": 76
       },
       {
         "category": "sensor_hardware",
@@ -238,6 +242,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1218,
+      "title": "Headspace solid-phase microextraction: Fundamentals and recent advances",
+      "authors": "Carlina Lancioni, Cecilia B. Castells, Roberto Candal, Marcos Tascón",
+      "year": 2022,
+      "journal": "Advances in Sample Preparation",
+      "category": "method_tech",
+      "score": 4.0,
+      "tags": [
+        "SPME",
+        "headspace extraction",
+        "sample preparation",
+        "volatile compounds",
+        "bioanalysis"
+      ],
+      "one_line": "介紹了固相微萃取技術及其在生物分析中的應用。",
+      "doi": "10.1016/j.sampre.2022.100035",
+      "url": "https://doi.org/10.1016/j.sampre.2022.100035",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-08-03 23:02:50"
+    },
     {
       "id": 1217,
       "title": "Harnessing Exhaled Breath for Lung Cancer Early Detection-Results From the ExPeL Study.",
@@ -25653,6 +25679,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-04_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-04\n\n> 執行時間：07:02:51 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1218 |\n| 資料庫相關總數 | 1026 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Headspace solid-phase microextraction: Fundamentals and recent advances\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：SPME, headspace extraction, sample preparation, volatile compounds, bioanalysis\n- **摘要**：介紹了固相微萃取技術及其在生物分析中的應用。\n- **作者**：Carlina Lancioni, Cecilia B. Castells, Roberto Candal, Marcos Tascón | **年份**：2022 | DOI: `10.1016/j.sampre.2022.100035` | [連結](https://doi.org/10.1016/j.sampre.2022.100035)\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Headspace solid-phase microextraction: Fundamentals and recent advances](https://doi.org/10.1016/j.sampre.2022.100035)**  \n  介紹了固相微萃取技術及其在生物分析中的應用。 ｜ 2022\n\n---\n*報告生成時間：2026-08-04 07:02:51*\n"
+    },
+    {
       "date": "2026-08-03_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-03\n\n> 執行時間：07:02:34 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1217 |\n| 資料庫相關總數 | 1025 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Harnessing Exhaled Breath for Lung Cancer Early Detection-Results From the ExPeL Study.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, early detection, machine learning, EBC\n- **摘要**：利用呼氣冷凝物及機器學習輔助肺癌早期檢測研究。\n- **作者**：Patel Danita Kasi, D'Cruz Leon, Ahmed Waqar, Chauhan Anoop, Bakerly Nawar Diar et al. | **年份**：2026 | DOI: `10.1111/cts.70687` | [連結](https://pubmed.ncbi.nlm.nih.gov/42528019/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Harnessing Exhaled Breath for Lung Cancer Early Detection-Results From the ExPeL Study.](https://pubmed.ncbi.nlm.nih.gov/42528019/)**  \n  利用呼氣冷凝物及機器學習輔助肺癌早期檢測研究。 ｜ 2026\n\n---\n*報告生成時間：2026-08-03 07:02:34*\n"
     },
@@ -25675,10 +25705,6 @@
     {
       "date": "2026-07-29_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-29\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1214 |\n| 資料庫相關總數 | 1022 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### The analysis of volatile organic compounds in exhaled breath and biomarkers in exhaled breath condensate in children – clinical tools or scientific toys?\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, children, respiratory diseases, VOCs, metabolomics\n- **摘要**：兒童呼吸道疾病中呼氣VOC和代謝體學的臨床應用文獻回顧。\n- **作者**：Esther van Mastrigt, J. C. de Jongste, Mariëlle W. Pijnenburg | **年份**：2014 | DOI: `10.1111/cea.12454` | [連結](https://doi.org/10.1111/cea.12454)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[The analysis of volatile organic compounds in exhaled breath and biomarkers in exhaled breath condensate in children – clinical tools or scientific toys?](https://doi.org/10.1111/cea.12454)**  \n  兒童呼吸道疾病中呼氣VOC和代謝體學的臨床應用文獻回顧。 ｜ 2014\n\n---\n*報告生成時間：2026-07-29 07:02:36*\n"
-    },
-    {
-      "date": "2026-07-28_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-28\n\n> 執行時間：07:02:58 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1213 |\n| 資料庫相關總數 | 1021 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-28 07:02:58*\n"
     }
   ]
 }

@@ -1,25 +1,25 @@
 {
   "meta": {
-    "total": 1218,
-    "relevant": 1026,
-    "today": 1,
-    "this_week": 5,
+    "total": 1220,
+    "relevant": 1028,
+    "today": 2,
+    "this_week": 6,
     "avg_score": 4.07,
-    "updated_at": "2026-08-04T07:02:52"
+    "updated_at": "2026-08-05T07:02:56"
   },
   "stats": {
-    "total": 1218,
-    "relevant": 1026,
-    "today": 1,
-    "this_week": 5,
+    "total": 1220,
+    "relevant": 1028,
+    "today": 2,
+    "this_week": 6,
     "avg_score": 4.07,
     "by_category": {
-      "voc_breath": 322,
+      "voc_breath": 323,
       "disease_cancer": 238,
       "sensor_hardware": 148,
       "disease_chronic": 85,
       "infection": 78,
-      "method_tech": 76,
+      "method_tech": 77,
       "voc_liquid": 36,
       "ai_model": 20,
       "subhealth": 9,
@@ -27,9 +27,9 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 246,
+      "clinicaltrials": 247,
       "import": 488,
-      "openalex": 204,
+      "openalex": 205,
       "pubmed": 151,
       "serper_scholar": 129
     },
@@ -37,7 +37,7 @@
       "1": 1,
       "2": 12,
       "3": 257,
-      "4": 405,
+      "4": 407,
       "5": 351
     },
     "by_year": {
@@ -61,13 +61,13 @@
       "2017": 37,
       "2018": 45,
       "2019": 43,
-      "2020": 48,
+      "2020": 49,
       "2021": 60,
       "2022": 68,
       "2023": 64,
       "2024": 79,
       "2025": 70,
-      "2026": 30
+      "2026": 31
     },
     "daily_trend": [
       {
@@ -129,9 +129,18 @@
       {
         "date": "2026-08-03",
         "count": 1
+      },
+      {
+        "date": "2026-08-04",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-04 23:02:55",
+        "found": 225,
+        "new_added": 2
+      },
       {
         "run_at": "2026-08-03 23:02:51",
         "found": 222,
@@ -176,11 +185,6 @@
         "run_at": "2026-07-26 23:02:06",
         "found": 222,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-25 23:02:40",
-        "found": 222,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -196,8 +200,8 @@
       },
       {
         "category": "voc_breath",
-        "avg_score": 4.3,
-        "count": 322
+        "avg_score": 4.29,
+        "count": 323
       },
       {
         "category": "disease_chronic",
@@ -215,14 +219,14 @@
         "count": 9
       },
       {
+        "category": "method_tech",
+        "avg_score": 3.4,
+        "count": 77
+      },
+      {
         "category": "ai_model",
         "avg_score": 3.4,
         "count": 20
-      },
-      {
-        "category": "method_tech",
-        "avg_score": 3.39,
-        "count": 76
       },
       {
         "category": "sensor_hardware",
@@ -242,6 +246,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1220,
+      "title": "[CT] Lung Health and Breath Biomarkers: Acute Effects of Inhaled Cannabis",
+      "authors": "Hannah Harris",
+      "year": 2026,
+      "journal": "ClinicalTrials.gov (Cannabis Use, Tobacco, Biomarkers)",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath biomarkers",
+        "cannabis",
+        "lung health",
+        "VOC",
+        "inhalation"
+      ],
+      "one_line": "研究吸入大麻對肺部健康和呼氣生物標記的影響。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07694466",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-08-04 23:02:54"
+    },
+    {
+      "id": 1219,
+      "title": "Quantification of volatile metabolites in exhaled breath by selected ion flow tube mass spectrometry, SIFT-MS",
+      "authors": "Patrik Španěl, David Smith",
+      "year": 2020,
+      "journal": "Clinical mass spectrometry",
+      "category": "method_tech",
+      "score": 4.0,
+      "tags": [
+        "SIFT-MS",
+        "breath analysis",
+        "volatile metabolites",
+        "quantitative analysis",
+        "VOC"
+      ],
+      "one_line": "介紹了使用 SIFT-MS 分析呼氣揮發性代謝物的技術。",
+      "doi": "10.1016/j.clinms.2020.02.001",
+      "url": "https://doi.org/10.1016/j.clinms.2020.02.001",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-08-04 23:02:54"
+    },
     {
       "id": 1218,
       "title": "Headspace solid-phase microextraction: Fundamentals and recent advances",
@@ -25679,6 +25727,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-05_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-05\n\n> 執行時間：07:02:55 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1220 |\n| 資料庫相關總數 | 1028 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Quantification of volatile metabolites in exhaled breath by selected ion flow tube mass spectrometry, SIFT-MS\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：SIFT-MS, breath analysis, volatile metabolites, quantitative analysis, VOC\n- **摘要**：介紹了使用 SIFT-MS 分析呼氣揮發性代謝物的技術。\n- **作者**：Patrik Španěl, David Smith | **年份**：2020 | DOI: `10.1016/j.clinms.2020.02.001` | [連結](https://doi.org/10.1016/j.clinms.2020.02.001)\n\n### [CT] Lung Health and Breath Biomarkers: Acute Effects of Inhaled Cannabis\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath biomarkers, cannabis, lung health, VOC, inhalation\n- **摘要**：研究吸入大麻對肺部健康和呼氣生物標記的影響。\n- **作者**：Hannah Harris | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07694466)\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Quantification of volatile metabolites in exhaled breath by selected ion flow tube mass spectrometry, SIFT-MS](https://doi.org/10.1016/j.clinms.2020.02.001)**  \n  介紹了使用 SIFT-MS 分析呼氣揮發性代謝物的技術。 ｜ 2020\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Lung Health and Breath Biomarkers: Acute Effects of Inhaled Cannabis](https://clinicaltrials.gov/study/NCT07694466)**  \n  研究吸入大麻對肺部健康和呼氣生物標記的影響。 ｜ 2026\n\n---\n*報告生成時間：2026-08-05 07:02:55*\n"
+    },
+    {
       "date": "2026-08-04_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-04\n\n> 執行時間：07:02:51 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1218 |\n| 資料庫相關總數 | 1026 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Headspace solid-phase microextraction: Fundamentals and recent advances\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：SPME, headspace extraction, sample preparation, volatile compounds, bioanalysis\n- **摘要**：介紹了固相微萃取技術及其在生物分析中的應用。\n- **作者**：Carlina Lancioni, Cecilia B. Castells, Roberto Candal, Marcos Tascón | **年份**：2022 | DOI: `10.1016/j.sampre.2022.100035` | [連結](https://doi.org/10.1016/j.sampre.2022.100035)\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Headspace solid-phase microextraction: Fundamentals and recent advances](https://doi.org/10.1016/j.sampre.2022.100035)**  \n  介紹了固相微萃取技術及其在生物分析中的應用。 ｜ 2022\n\n---\n*報告生成時間：2026-08-04 07:02:51*\n"
     },
@@ -25701,10 +25753,6 @@
     {
       "date": "2026-07-30_0702",
       "content": "# VOC 文獻監控日報 — 2026-07-30\n\n> 執行時間：07:02:13 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1214 |\n| 資料庫相關總數 | 1022 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-07-30 07:02:13*\n"
-    },
-    {
-      "date": "2026-07-29_0702",
-      "content": "# VOC 文獻監控日報 — 2026-07-29\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1214 |\n| 資料庫相關總數 | 1022 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### The analysis of volatile organic compounds in exhaled breath and biomarkers in exhaled breath condensate in children – clinical tools or scientific toys?\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, children, respiratory diseases, VOCs, metabolomics\n- **摘要**：兒童呼吸道疾病中呼氣VOC和代謝體學的臨床應用文獻回顧。\n- **作者**：Esther van Mastrigt, J. C. de Jongste, Mariëlle W. Pijnenburg | **年份**：2014 | DOI: `10.1111/cea.12454` | [連結](https://doi.org/10.1111/cea.12454)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[The analysis of volatile organic compounds in exhaled breath and biomarkers in exhaled breath condensate in children – clinical tools or scientific toys?](https://doi.org/10.1111/cea.12454)**  \n  兒童呼吸道疾病中呼氣VOC和代謝體學的臨床應用文獻回顧。 ｜ 2014\n\n---\n*報告生成時間：2026-07-29 07:02:36*\n"
     }
   ]
 }

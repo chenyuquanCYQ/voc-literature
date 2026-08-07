@@ -2,15 +2,15 @@
   "meta": {
     "total": 1225,
     "relevant": 1033,
-    "today": 2,
+    "today": 0,
     "this_week": 11,
     "avg_score": 4.07,
-    "updated_at": "2026-08-07T07:02:49"
+    "updated_at": "2026-08-08T07:02:18"
   },
   "stats": {
     "total": 1225,
     "relevant": 1033,
-    "today": 2,
+    "today": 0,
     "this_week": 11,
     "avg_score": 4.07,
     "by_category": {
@@ -71,10 +71,6 @@
       "2026": 31
     },
     "daily_trend": [
-      {
-        "date": "2026-07-07",
-        "count": 6
-      },
       {
         "date": "2026-07-08",
         "count": 7
@@ -146,6 +142,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-08-07 23:02:17",
+        "found": 222,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-08-06 23:02:47",
         "found": 221,
         "new_added": 2
@@ -189,11 +190,6 @@
         "run_at": "2026-07-29 23:02:13",
         "found": 221,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-28 23:02:35",
-        "found": 222,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -25846,6 +25842,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-08_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-08\n\n> 執行時間：07:02:17 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1225 |\n| 資料庫相關總數 | 1033 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-08 07:02:17*\n"
+    },
+    {
       "date": "2026-08-07_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-07\n\n> 執行時間：07:02:48 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1225 |\n| 資料庫相關總數 | 1033 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Review—Non-Invasive Monitoring of Human Health by Exhaled Breath Analysis: A Comprehensive Review\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOCs, disease monitoring, non-invasive, biomarkers\n- **摘要**：全面性文獻回顧，探討呼氣分析在疾病監測中的應用。\n- **作者**：Sagnik Das, M. Pal | **年份**：2020 | DOI: `10.1149/1945-7111/ab67a6` | [連結](https://doi.org/10.1149/1945-7111/ab67a6)\n\n### Human breath metabolomics using an optimized non-invasive exhaled breath condensate sampler\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath condensate, sampling method, EBC, mass spectrometry, metabolomics\n- **摘要**：研究了呼氣冷凝液採集裝置設計對代謝體學分析的影響。\n- **作者**：Konstantin Zamuruyev, Alexander A. Aksenov, Alberto Pasamontes, Joshua Brown, Dayna R. Pettit et al. | **年份**：2016 | DOI: `10.1088/1752-7163/11/1/016001` | [連結](https://doi.org/10.1088/1752-7163/11/1/016001)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Review—Non-Invasive Monitoring of Human Health by Exhaled Breath Analysis: A Comprehensive Review](https://doi.org/10.1149/1945-7111/ab67a6)**  \n  全面性文獻回顧，探討呼氣分析在疾病監測中的應用。 ｜ 2020\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Human breath metabolomics using an optimized non-invasive exhaled breath condensate sampler](https://doi.org/10.1088/1752-7163/11/1/016001)**  \n  研究了呼氣冷凝液採集裝置設計對代謝體學分析的影響。 ｜ 2016\n\n---\n*報告生成時間：2026-08-07 07:02:48*\n"
     },
@@ -25868,10 +25868,6 @@
     {
       "date": "2026-08-02_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-02\n\n> 執行時間：07:02:45 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1216 |\n| 資料庫相關總數 | 1024 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, PTR-ToF-MS, VOC biomarker, early detection\n- **摘要**：利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。\n- **作者**：Hernández Camarillo Maribel, Campos-González Joshua, Vera-Nuñez Fernando, Hernández-López Enrique, Perez-Padilla Rogelio et al. | **年份**：2026 | DOI: `10.1088/1752-7163/ae8ffc` | [連結](https://pubmed.ncbi.nlm.nih.gov/42497886/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.](https://pubmed.ncbi.nlm.nih.gov/42497886/)**  \n  利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。 ｜ 2026\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[A review of environmental occurrence, toxicity, biotransformation and biomonitoring of volatile organic compounds](https://doi.org/10.1016/j.enceco.2021.01.001)**  \n  文獻描述了VOC的環境存在、毒性及生物監測方法。 ｜ 2021\n\n---\n*報告生成時間：2026-08-02 07:02:45*\n"
-    },
-    {
-      "date": "2026-08-01_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-01\n\n> 執行時間：07:02:09 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1214 |\n| 資料庫相關總數 | 1022 |\n| 相關文獻平均分 | 4.06 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-01 07:02:09*\n"
     }
   ]
 }

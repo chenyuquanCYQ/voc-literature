@@ -1,25 +1,25 @@
 {
   "meta": {
-    "total": 1225,
-    "relevant": 1033,
-    "today": 0,
-    "this_week": 11,
+    "total": 1230,
+    "relevant": 1038,
+    "today": 5,
+    "this_week": 14,
     "avg_score": 4.07,
-    "updated_at": "2026-08-08T07:02:18"
+    "updated_at": "2026-08-09T07:03:27"
   },
   "stats": {
-    "total": 1225,
-    "relevant": 1033,
-    "today": 0,
-    "this_week": 11,
+    "total": 1230,
+    "relevant": 1038,
+    "today": 5,
+    "this_week": 14,
     "avg_score": 4.07,
     "by_category": {
-      "voc_breath": 326,
+      "voc_breath": 328,
       "disease_cancer": 238,
       "sensor_hardware": 148,
       "disease_chronic": 86,
-      "method_tech": 78,
-      "infection": 78,
+      "method_tech": 80,
+      "infection": 79,
       "voc_liquid": 36,
       "ai_model": 20,
       "subhealth": 9,
@@ -29,16 +29,16 @@
     "by_source": {
       "clinicaltrials": 247,
       "import": 488,
-      "openalex": 210,
-      "pubmed": 151,
+      "openalex": 214,
+      "pubmed": 152,
       "serper_scholar": 129
     },
     "by_score": {
       "1": 1,
       "2": 12,
       "3": 257,
-      "4": 410,
-      "5": 353
+      "4": 413,
+      "5": 355
     },
     "by_year": {
       "1985": 1,
@@ -50,35 +50,27 @@
       "2005": 5,
       "2006": 2,
       "2007": 10,
-      "2008": 8,
+      "2008": 10,
       "2009": 18,
       "2010": 13,
-      "2011": 28,
+      "2011": 29,
       "2012": 18,
       "2013": 21,
       "2014": 34,
       "2015": 35,
       "2016": 38,
-      "2017": 37,
+      "2017": 38,
       "2018": 45,
       "2019": 43,
       "2020": 51,
       "2021": 60,
       "2022": 68,
       "2023": 64,
-      "2024": 79,
+      "2024": 80,
       "2025": 70,
       "2026": 31
     },
     "daily_trend": [
-      {
-        "date": "2026-07-08",
-        "count": 7
-      },
-      {
-        "date": "2026-07-09",
-        "count": 2
-      },
       {
         "date": "2026-07-10",
         "count": 2
@@ -138,9 +130,18 @@
       {
         "date": "2026-08-06",
         "count": 2
+      },
+      {
+        "date": "2026-08-08",
+        "count": 5
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-08 23:03:26",
+        "found": 220,
+        "new_added": 5
+      },
       {
         "run_at": "2026-08-07 23:02:17",
         "found": 222,
@@ -185,11 +186,6 @@
         "run_at": "2026-07-30 23:02:08",
         "found": 220,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-07-29 23:02:13",
-        "found": 221,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -201,12 +197,12 @@
       {
         "category": "infection",
         "avg_score": 4.44,
-        "count": 78
+        "count": 79
       },
       {
         "category": "voc_breath",
-        "avg_score": 4.29,
-        "count": 326
+        "avg_score": 4.3,
+        "count": 328
       },
       {
         "category": "disease_chronic",
@@ -225,8 +221,8 @@
       },
       {
         "category": "method_tech",
-        "avg_score": 3.41,
-        "count": 78
+        "avg_score": 3.42,
+        "count": 80
       },
       {
         "category": "ai_model",
@@ -251,6 +247,116 @@
     ]
   },
   "literature": [
+    {
+      "id": 1230,
+      "title": "Inhaled today, not gone tomorrow: pharmacokinetics and environmental exposure of volatiles in exhaled breath",
+      "authors": "Jonathan Beauchamp",
+      "year": 2011,
+      "journal": "Journal of Breath Research",
+      "category": "method_tech",
+      "score": 4.0,
+      "tags": [
+        "breath analysis",
+        "pharmacokinetics",
+        "environmental exposure",
+        "non-invasive",
+        "GC-MS"
+      ],
+      "one_line": "探討呼氣分析在藥代動力學和環境暴露研究中的應用。",
+      "doi": "10.1088/1752-7155/5/3/037103",
+      "url": "https://doi.org/10.1088/1752-7155/5/3/037103",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-08-08 23:03:26"
+    },
+    {
+      "id": 1229,
+      "title": "On the use of Tedlar® bags for breath-gas sampling and analysis",
+      "authors": "Jonathan Beauchamp, Jens Herbig, R A Gutmann, Armin Hansel",
+      "year": 2008,
+      "journal": "Journal of Breath Research",
+      "category": "method_tech",
+      "score": 4.0,
+      "tags": [
+        "breath sampling",
+        "Tedlar bag",
+        "PTR-MS",
+        "storage stability",
+        "VOC analysis"
+      ],
+      "one_line": "評估了 Tedlar 袋在呼氣 VOC 採集和儲存方面的適用性。",
+      "doi": "10.1088/1752-7155/2/4/046001",
+      "url": "https://doi.org/10.1088/1752-7155/2/4/046001",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-08-08 23:03:26"
+    },
+    {
+      "id": 1228,
+      "title": "Compounds enhanced in a mass spectrometric profile of smokers' exhaled breath versus non-smokers as determined in a pilot study using PTR-MS",
+      "authors": "Ievgeniia Kushch, Konrad Schwarz, Lukas Schwentner, Bettina Baumann, Alexander Dzien et al.",
+      "year": 2008,
+      "journal": "Journal of Breath Research",
+      "category": "voc_breath",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "smokers",
+        "PTR-MS",
+        "lung cancer",
+        "VOC biomarker"
+      ],
+      "one_line": "研究了吸煙者和非吸煙者的呼氣成分差異，使用 PTR-MS 技術。",
+      "doi": "10.1088/1752-7155/2/2/026002",
+      "url": "https://doi.org/10.1088/1752-7155/2/2/026002",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-08-08 23:03:25"
+    },
+    {
+      "id": 1227,
+      "title": "Breath acetone as a potential marker in clinical practice",
+      "authors": "Veronika Ruzsányi, Miklós Péter Kalapos",
+      "year": 2017,
+      "journal": "Journal of Breath Research",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breath acetone",
+        "diabetes mellitus",
+        "lung cancer",
+        "ketosis",
+        "clinical marker"
+      ],
+      "one_line": "探討呼氣丙酮作為臨床診斷的潛在標記物。",
+      "doi": "10.1088/1752-7163/aa66d3",
+      "url": "https://doi.org/10.1088/1752-7163/aa66d3",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-08-08 23:03:25"
+    },
+    {
+      "id": 1226,
+      "title": "Exhaled breath analysis: A promising triage test for tuberculosis in young children.",
+      "authors": "Bijker Else M, Smith Jonathan P, Mchembere Walter, McCarthy Kimberly D, Oord Henny et al.",
+      "year": 2024,
+      "journal": "Tuberculosis (Edinburgh, Scotland)",
+      "category": "infection",
+      "score": 5.0,
+      "tags": [
+        "breath analysis",
+        "tuberculosis",
+        "machine learning",
+        "pediatric",
+        "VOC"
+      ],
+      "one_line": "研究利用呼氣分析輔助兒童肺結核的篩檢，並應用機器學習。",
+      "doi": "10.1016/j.tube.2024.102566",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39332067/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-08 23:03:25"
+    },
     {
       "id": 1225,
       "title": "Human breath metabolomics using an optimized non-invasive exhaled breath condensate sampler",
@@ -25842,6 +25948,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-09_0703",
+      "content": "# VOC 文獻監控日報 — 2026-08-09\n\n> 執行時間：07:03:26 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1230 |\n| 資料庫相關總數 | 1038 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled breath analysis: A promising triage test for tuberculosis in young children.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, tuberculosis, machine learning, pediatric, VOC\n- **摘要**：研究利用呼氣分析輔助兒童肺結核的篩檢，並應用機器學習。\n- **作者**：Bijker Else M, Smith Jonathan P, Mchembere Walter, McCarthy Kimberly D, Oord Henny et al. | **年份**：2024 | DOI: `10.1016/j.tube.2024.102566` | [連結](https://pubmed.ncbi.nlm.nih.gov/39332067/)\n\n### Compounds enhanced in a mass spectrometric profile of smokers' exhaled breath versus non-smokers as determined in a pilot study using PTR-MS\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, smokers, PTR-MS, lung cancer, VOC biomarker\n- **摘要**：研究了吸煙者和非吸煙者的呼氣成分差異，使用 PTR-MS 技術。\n- **作者**：Ievgeniia Kushch, Konrad Schwarz, Lukas Schwentner, Bettina Baumann, Alexander Dzien et al. | **年份**：2008 | DOI: `10.1088/1752-7155/2/2/026002` | [連結](https://doi.org/10.1088/1752-7155/2/2/026002)\n\n### Breath acetone as a potential marker in clinical practice\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath acetone, diabetes mellitus, lung cancer, ketosis, clinical marker\n- **摘要**：探討呼氣丙酮作為臨床診斷的潛在標記物。\n- **作者**：Veronika Ruzsányi, Miklós Péter Kalapos | **年份**：2017 | DOI: `10.1088/1752-7163/aa66d3` | [連結](https://doi.org/10.1088/1752-7163/aa66d3)\n\n### On the use of Tedlar® bags for breath-gas sampling and analysis\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath sampling, Tedlar bag, PTR-MS, storage stability, VOC analysis\n- **摘要**：評估了 Tedlar 袋在呼氣 VOC 採集和儲存方面的適用性。\n- **作者**：Jonathan Beauchamp, Jens Herbig, R A Gutmann, Armin Hansel | **年份**：2008 | DOI: `10.1088/1752-7155/2/4/046001` | [連結](https://doi.org/10.1088/1752-7155/2/4/046001)\n\n### Inhaled today, not gone tomorrow: pharmacokinetics and environmental exposure of volatiles in exhaled breath\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, pharmacokinetics, environmental exposure, non-invasive, GC-MS\n- **摘要**：探討呼氣分析在藥代動力學和環境暴露研究中的應用。\n- **作者**：Jonathan Beauchamp | **年份**：2011 | DOI: `10.1088/1752-7155/5/3/037103` | [連結](https://doi.org/10.1088/1752-7155/5/3/037103)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Compounds enhanced in a mass spectrometric profile of smokers' exhaled breath versus non-smokers as determined in a pilot study using PTR-MS](https://doi.org/10.1088/1752-7155/2/2/026002)**  \n  研究了吸煙者和非吸煙者的呼氣成分差異，使用 PTR-MS 技術。 ｜ 2008\n- ▓▓▓▓░ **[Breath acetone as a potential marker in clinical practice](https://doi.org/10.1088/1752-7163/aa66d3)**  \n  探討呼氣丙酮作為臨床診斷的潛在標記物。 ｜ 2017\n\n### 分析方法（2 篇）\n\n- ▓▓▓▓░ **[On the use of Tedlar® bags for breath-gas sampling and analysis](https://doi.org/10.1088/1752-7155/2/4/046001)**  \n  評估了 Tedlar 袋在呼氣 VOC 採集和儲存方面的適用性。 ｜ 2008\n- ▓▓▓▓░ **[Inhaled today, not gone tomorrow: pharmacokinetics and environmental exposure of volatiles in exhaled breath](https://doi.org/10.1088/1752-7155/5/3/037103)**  \n  探討呼氣分析在藥代動力學和環境暴露研究中的應用。 ｜ 2011\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[Exhaled breath analysis: A promising triage test for tuberculosis in young children.](https://pubmed.ncbi.nlm.nih.gov/39332067/)**  \n  研究利用呼氣分析輔助兒童肺結核的篩檢，並應用機器學習。 ｜ 2024\n\n---\n*報告生成時間：2026-08-09 07:03:26*\n"
+    },
+    {
       "date": "2026-08-08_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-08\n\n> 執行時間：07:02:17 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1225 |\n| 資料庫相關總數 | 1033 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-08 07:02:17*\n"
     },
@@ -25864,10 +25974,6 @@
     {
       "date": "2026-08-03_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-03\n\n> 執行時間：07:02:34 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1217 |\n| 資料庫相關總數 | 1025 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Harnessing Exhaled Breath for Lung Cancer Early Detection-Results From the ExPeL Study.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, early detection, machine learning, EBC\n- **摘要**：利用呼氣冷凝物及機器學習輔助肺癌早期檢測研究。\n- **作者**：Patel Danita Kasi, D'Cruz Leon, Ahmed Waqar, Chauhan Anoop, Bakerly Nawar Diar et al. | **年份**：2026 | DOI: `10.1111/cts.70687` | [連結](https://pubmed.ncbi.nlm.nih.gov/42528019/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[Harnessing Exhaled Breath for Lung Cancer Early Detection-Results From the ExPeL Study.](https://pubmed.ncbi.nlm.nih.gov/42528019/)**  \n  利用呼氣冷凝物及機器學習輔助肺癌早期檢測研究。 ｜ 2026\n\n---\n*報告生成時間：2026-08-03 07:02:34*\n"
-    },
-    {
-      "date": "2026-08-02_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-02\n\n> 執行時間：07:02:45 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1216 |\n| 資料庫相關總數 | 1024 |\n| 相關文獻平均分 | 4.06 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, lung cancer, PTR-ToF-MS, VOC biomarker, early detection\n- **摘要**：利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。\n- **作者**：Hernández Camarillo Maribel, Campos-González Joshua, Vera-Nuñez Fernando, Hernández-López Enrique, Perez-Padilla Rogelio et al. | **年份**：2026 | DOI: `10.1088/1752-7163/ae8ffc` | [連結](https://pubmed.ncbi.nlm.nih.gov/42497886/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓▓ **[A novel approach to non-invasive lung cancer screening via exhaled breath analysis using proton transfer reaction time-of-flight mass spectrometry.](https://pubmed.ncbi.nlm.nih.gov/42497886/)**  \n  利用呼氣分析診斷肺癌，具有明確的臨床實驗結果。 ｜ 2026\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[A review of environmental occurrence, toxicity, biotransformation and biomonitoring of volatile organic compounds](https://doi.org/10.1016/j.enceco.2021.01.001)**  \n  文獻描述了VOC的環境存在、毒性及生物監測方法。 ｜ 2021\n\n---\n*報告生成時間：2026-08-02 07:02:45*\n"
     }
   ]
 }

@@ -100,6 +100,14 @@
 
   /* ── Loading ── */
   #loading { text-align: center; padding: 60px; color: #64748b; font-size: 1.1rem; }
+  /* ── Chart totals & benchmark note ── */
+  .chart-total { float: right; font-size: .85rem; font-weight: 700; color: #1a3a5c; letter-spacing: .01em; }
+  .chart-total .sub { font-weight: 500; color: #64748b; font-size: .78rem; }
+  .chart-note { margin-top: 12px; padding-top: 9px; border-top: 1px dashed #e2e8f0;
+                font-size: .75rem; color: #64748b; line-height: 1.6; }
+  .chart-note b { color: #1a3a5c; }
+  .cov-bar { height: 6px; background: #e2e8f0; border-radius: 3px; margin: 7px 0 5px; overflow: hidden; }
+  .cov-bar span { display: block; height: 100%; background: #6366f1; border-radius: 3px; }
 </style>
 </head>
 <body>
@@ -209,12 +217,13 @@
   </div>
   <div class="grid-2">
     <div class="card">
-      <h3>📄 年份分佈 — 研究期刊文獻</h3>
+      <h3>📄 年份分佈 — 研究期刊文獻<span class="chart-total" id="total-journal"></span></h3>
       <canvas id="chart-year-journal" height="200"></canvas>
     </div>
     <div class="card">
-      <h3>🏥 年份分佈 — 臨床研究案（ClinicalTrials.gov）</h3>
+      <h3>🏥 年份分佈 — 臨床研究案（ClinicalTrials.gov）<span class="chart-total" id="total-ct"></span></h3>
       <canvas id="chart-year-ct" height="200"></canvas>
+      <div class="chart-note" id="ct-coverage"></div>
     </div>
   </div>
   <div class="card-full">
@@ -466,11 +475,36 @@ function renderStats() {
     return dist;
   }
 
+  // ── 外部基準：修改這裡即可更新對照數字 ──
+  const CT_BENCHMARK = {
+    total:  2236,
+    label:  "Owlstone Medical",
+    asOf:   "2026/04",
+    url:    "https://www.owlstonemedical.com/about/blog/2018/dec/07/breath-analysis-clinical-trials/"
+  };
+
   const litJournals = allLit.filter(p => !String(p.source || "").toLowerCase().includes("clinicaltrials"));
   const litCT       = allLit.filter(p =>  String(p.source || "").toLowerCase().includes("clinicaltrials"));
 
   const yearJournalDist = buildYearDist(litJournals);
   const yearCTDist      = buildYearDist(litCT);
+
+  // ── 總數標示 ──
+  const nf = n => n.toLocaleString("en-US");
+  const relOf = arr => arr.filter(p => p.is_relevant === 1 || p.is_relevant === true).length;
+
+  document.getElementById("total-journal").innerHTML =
+    nf(litJournals.length) + " 筆 <span class=\"sub\">（相關 " + nf(relOf(litJournals)) + "）</span>";
+  document.getElementById("total-ct").innerHTML =
+    nf(litCT.length) + " 筆 <span class=\"sub\">（相關 " + nf(relOf(litCT)) + "）</span>";
+
+  const covPct = CT_BENCHMARK.total ? (litCT.length / CT_BENCHMARK.total * 100) : 0;
+  document.getElementById("ct-coverage").innerHTML =
+    '外部基準：ClinicalTrials.gov 全量約 <b>' + nf(CT_BENCHMARK.total) + '</b> 件'
+  + ' （<a href="' + CT_BENCHMARK.url + '" target="_blank" rel="noopener">' + CT_BENCHMARK.label + '</a>，' + CT_BENCHMARK.asOf + ' 更新）'
+  + '<div class="cov-bar"><span style="width:' + Math.min(covPct, 100).toFixed(1) + '%"></span></div>'
+  + '本庫已收錄 <b>' + nf(litCT.length) + '</b> 件，覆蓋率 <b>' + covPct.toFixed(1) + '%</b>。'
+  + '基準採全文寬口徑檢索（含呼氣僅為次要指標之試驗），與本庫收錄標準不完全一致，僅供量級參考。';
 
   const yearJKeys = Object.keys(yearJournalDist).sort();
   charts.yearJournal = new Chart(document.getElementById("chart-year-journal"), {

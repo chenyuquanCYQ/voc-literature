@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 1644,
+    "total": 1645,
     "relevant": 1412,
-    "today": 414,
-    "this_week": 428,
+    "today": 1,
+    "this_week": 427,
     "avg_score": 3.89,
-    "updated_at": "2026-08-10T07:02:31"
+    "updated_at": "2026-08-11T07:02:51"
   },
   "stats": {
-    "total": 1644,
+    "total": 1645,
     "relevant": 1412,
-    "today": 414,
-    "this_week": 428,
+    "today": 1,
+    "this_week": 427,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 473,
@@ -29,7 +29,7 @@
     "by_source": {
       "clinicaltrials": 307,
       "import": 488,
-      "openalex": 215,
+      "openalex": 216,
       "pubmed": 152,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
@@ -89,10 +89,6 @@
       "2026": 53
     },
     "daily_trend": [
-      {
-        "date": "2026-07-10",
-        "count": 2
-      },
       {
         "date": "2026-07-13",
         "count": 1
@@ -156,9 +152,18 @@
       {
         "date": "2026-08-09",
         "count": 414
+      },
+      {
+        "date": "2026-08-10",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-10 23:02:50",
+        "found": 216,
+        "new_added": 1
+      },
       {
         "run_at": "2026-08-09 23:02:31",
         "found": 221,
@@ -203,11 +208,6 @@
         "run_at": "2026-08-01 23:02:44",
         "found": 222,
         "new_added": 2
-      },
-      {
-        "run_at": "2026-07-31 23:02:08",
-        "found": 221,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -269,6 +269,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1645,
+      "title": "Microextraction by Packed Sorbent (MEPS) and Solid-Phase Microextraction (SPME) as Sample Preparation Procedures for the Metabolomic Profiling of Urine",
+      "authors": "Catarina L. Silva, Carina Cavaco, Rosa Perestrelo, Jorge A. M. Pereira, José S. Câmara",
+      "year": 2014,
+      "journal": "Metabolites",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "metabolomics",
+        "urine",
+        "sample preparation",
+        "MEPS",
+        "SPME"
+      ],
+      "one_line": "這篇綜述探討了尿液代謝體學分析中樣品製備的重要性，並回顧了 MEPS 和 SPME 技術。",
+      "doi": "10.3390/metabo4010071",
+      "url": "https://doi.org/10.3390/metabo4010071",
+      "source": "openalex",
+      "is_relevant": false,
+      "created_at": "2026-08-10 23:02:50"
+    },
     {
       "id": 1644,
       "title": "Non-Invasive Biomarkers for Early Detection of Breast Cancer",
@@ -34973,6 +34995,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-11_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-11\n\n> 執行時間：07:02:50 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1645 |\n| 資料庫相關總數 | 1412 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-08-11 07:02:50*\n"
+    },
+    {
       "date": "2026-08-10_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-10\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1644 |\n| 資料庫相關總數 | 1412 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[Non-Invasive Biomarkers for Early Detection of Breast Cancer](https://doi.org/10.3390/cancers12102767)**  \n  這篇綜述探討了乳癌早期診斷中呼氣揮發性有機化合物的應用。 ｜ 2020\n\n---\n*報告生成時間：2026-08-10 07:02:31*\n"
     },
@@ -34995,10 +35021,6 @@
     {
       "date": "2026-08-05_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-05\n\n> 執行時間：07:02:55 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1220 |\n| 資料庫相關總數 | 1028 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Quantification of volatile metabolites in exhaled breath by selected ion flow tube mass spectrometry, SIFT-MS\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：SIFT-MS, breath analysis, volatile metabolites, quantitative analysis, VOC\n- **摘要**：介紹了使用 SIFT-MS 分析呼氣揮發性代謝物的技術。\n- **作者**：Patrik Španěl, David Smith | **年份**：2020 | DOI: `10.1016/j.clinms.2020.02.001` | [連結](https://doi.org/10.1016/j.clinms.2020.02.001)\n\n### [CT] Lung Health and Breath Biomarkers: Acute Effects of Inhaled Cannabis\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath biomarkers, cannabis, lung health, VOC, inhalation\n- **摘要**：研究吸入大麻對肺部健康和呼氣生物標記的影響。\n- **作者**：Hannah Harris | **年份**：2026 | [連結](https://clinicaltrials.gov/study/NCT07694466)\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Quantification of volatile metabolites in exhaled breath by selected ion flow tube mass spectrometry, SIFT-MS](https://doi.org/10.1016/j.clinms.2020.02.001)**  \n  介紹了使用 SIFT-MS 分析呼氣揮發性代謝物的技術。 ｜ 2020\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[[CT] Lung Health and Breath Biomarkers: Acute Effects of Inhaled Cannabis](https://clinicaltrials.gov/study/NCT07694466)**  \n  研究吸入大麻對肺部健康和呼氣生物標記的影響。 ｜ 2026\n\n---\n*報告生成時間：2026-08-05 07:02:55*\n"
-    },
-    {
-      "date": "2026-08-04_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-04\n\n> 執行時間：07:02:51 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1218 |\n| 資料庫相關總數 | 1026 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Headspace solid-phase microextraction: Fundamentals and recent advances\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：SPME, headspace extraction, sample preparation, volatile compounds, bioanalysis\n- **摘要**：介紹了固相微萃取技術及其在生物分析中的應用。\n- **作者**：Carlina Lancioni, Cecilia B. Castells, Roberto Candal, Marcos Tascón | **年份**：2022 | DOI: `10.1016/j.sampre.2022.100035` | [連結](https://doi.org/10.1016/j.sampre.2022.100035)\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Headspace solid-phase microextraction: Fundamentals and recent advances](https://doi.org/10.1016/j.sampre.2022.100035)**  \n  介紹了固相微萃取技術及其在生物分析中的應用。 ｜ 2022\n\n---\n*報告生成時間：2026-08-04 07:02:51*\n"
     }
   ]
 }

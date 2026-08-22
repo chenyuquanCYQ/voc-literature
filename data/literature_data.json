@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1646,
-    "relevant": 1413,
-    "today": 1,
-    "this_week": 426,
+    "total": 1649,
+    "relevant": 1416,
+    "today": 3,
+    "this_week": 3,
     "avg_score": 3.89,
-    "updated_at": "2026-08-13T07:02:38"
+    "updated_at": "2026-08-23T07:03:22"
   },
   "stats": {
-    "total": 1646,
-    "relevant": 1413,
-    "today": 1,
-    "this_week": 426,
+    "total": 1649,
+    "relevant": 1416,
+    "today": 3,
+    "this_week": 3,
     "avg_score": 3.89,
     "by_category": {
-      "voc_breath": 473,
-      "disease_cancer": 255,
+      "voc_breath": 475,
+      "disease_cancer": 256,
       "sensor_hardware": 211,
       "disease_chronic": 173,
       "method_tech": 102,
@@ -30,7 +30,7 @@
       "clinicaltrials": 307,
       "import": 488,
       "openalex": 216,
-      "pubmed": 153,
+      "pubmed": 156,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -38,8 +38,8 @@
     "by_score": {
       "1": 1,
       "2": 19,
-      "3": 481,
-      "4": 539,
+      "3": 482,
+      "4": 541,
       "5": 373
     },
     "by_year": {
@@ -72,7 +72,7 @@
       "2009": 20,
       "2010": 14,
       "2011": 36,
-      "2012": 28,
+      "2012": 29,
       "2013": 32,
       "2014": 44,
       "2015": 45,
@@ -84,31 +84,11 @@
       "2021": 78,
       "2022": 86,
       "2023": 73,
-      "2024": 110,
+      "2024": 111,
       "2025": 104,
-      "2026": 53
+      "2026": 54
     },
     "daily_trend": [
-      {
-        "date": "2026-07-14",
-        "count": 1
-      },
-      {
-        "date": "2026-07-15",
-        "count": 31
-      },
-      {
-        "date": "2026-07-16",
-        "count": 2
-      },
-      {
-        "date": "2026-07-21",
-        "count": 1
-      },
-      {
-        "date": "2026-07-22",
-        "count": 1
-      },
       {
         "date": "2026-07-25",
         "count": 1
@@ -156,9 +136,18 @@
       {
         "date": "2026-08-12",
         "count": 1
+      },
+      {
+        "date": "2026-08-22",
+        "count": 3
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-22 23:03:20",
+        "found": 215,
+        "new_added": 3
+      },
       {
         "run_at": "2026-08-12 23:02:37",
         "found": 216,
@@ -203,18 +192,13 @@
         "run_at": "2026-08-04 23:02:55",
         "found": 225,
         "new_added": 2
-      },
-      {
-        "run_at": "2026-08-03 23:02:51",
-        "found": 222,
-        "new_added": 1
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.51,
-        "count": 255
+        "count": 256
       },
       {
         "category": "infection",
@@ -224,7 +208,7 @@
       {
         "category": "voc_breath",
         "avg_score": 3.99,
-        "count": 473
+        "count": 475
       },
       {
         "category": "voc_liquid",
@@ -269,6 +253,72 @@
     ]
   },
   "literature": [
+    {
+      "id": 1649,
+      "title": "Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.",
+      "authors": "Mustafina Malika, Krasovskiy Stanislav, Cherniak Alexander, Silantyev Artemiy, Avdeev Sergey et al.",
+      "year": 2026,
+      "journal": "Journal of breath research",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "cystic fibrosis",
+        "exhaled breath",
+        "volatile organic compounds",
+        "biomarkers",
+        "respiratory disease"
+      ],
+      "one_line": "這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。",
+      "doi": "10.1088/1752-7163/ae9be1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42617629/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-22 23:03:20"
+    },
+    {
+      "id": 1648,
+      "title": "Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.",
+      "authors": "Zhang Feiran, Li Pengfei, Lu Yanke, Han Yehong, Yan Hongyuan",
+      "year": 2024,
+      "journal": "Analytical chemistry",
+      "category": "disease_cancer",
+      "score": 4.0,
+      "tags": [
+        "lung cancer",
+        "diagnosis",
+        "aldehydes",
+        "exhaled breath",
+        "GC-MS/MS"
+      ],
+      "one_line": "本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。",
+      "doi": "10.1021/acs.analchem.4c03328",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39269845/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-22 23:03:19"
+    },
+    {
+      "id": 1647,
+      "title": "The versatile use of exhaled volatile organic compounds in human health and disease.",
+      "authors": "Boots Agnes W, van Berkel Joep J B N, Dallinga Jan W, Smolinska Agnieszka, Wouters Emile F et al.",
+      "year": 2012,
+      "journal": "Journal of breath research",
+      "category": "voc_breath",
+      "score": 3.0,
+      "tags": [
+        "breathomics",
+        "voc",
+        "metabolomics",
+        "diagnosis",
+        "monitoring"
+      ],
+      "one_line": "這篇綜述探討了呼氣揮發性有機化合物在人類健康與疾病診斷和監測中的應用。",
+      "doi": "10.1088/1752-7155/6/2/027108",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22621865/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-22 23:03:19"
+    },
     {
       "id": 1646,
       "title": "Detection ofClostridioides difficileinfection by assessment of exhaled breath volatile organic compounds.",
@@ -35017,6 +35067,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-23_0703",
+      "content": "# VOC 文獻監控日報 — 2026-08-23\n\n> 執行時間：07:03:21 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1649 |\n| 資料庫相關總數 | 1416 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, diagnosis, aldehydes, exhaled breath, GC-MS/MS\n- **摘要**：本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。\n- **作者**：Zhang Feiran, Li Pengfei, Lu Yanke, Han Yehong, Yan Hongyuan | **年份**：2024 | DOI: `10.1021/acs.analchem.4c03328` | [連結](https://pubmed.ncbi.nlm.nih.gov/39269845/)\n\n### Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cystic fibrosis, exhaled breath, volatile organic compounds, biomarkers, respiratory disease\n- **摘要**：這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。\n- **作者**：Mustafina Malika, Krasovskiy Stanislav, Cherniak Alexander, Silantyev Artemiy, Avdeev Sergey et al. | **年份**：2026 | DOI: `10.1088/1752-7163/ae9be1` | [連結](https://pubmed.ncbi.nlm.nih.gov/42617629/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.](https://pubmed.ncbi.nlm.nih.gov/42617629/)**  \n  這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。 ｜ 2026\n- ▓▓▓░░ **[The versatile use of exhaled volatile organic compounds in human health and disease.](https://pubmed.ncbi.nlm.nih.gov/22621865/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在人類健康與疾病診斷和監測中的應用。 ｜ 2012\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓░ **[Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.](https://pubmed.ncbi.nlm.nih.gov/39269845/)**  \n  本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。 ｜ 2024\n\n---\n*報告生成時間：2026-08-23 07:03:21*\n"
+    },
+    {
       "date": "2026-08-13_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-13\n\n> 執行時間：07:02:38 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1646 |\n| 資料庫相關總數 | 1413 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Detection ofClostridioides difficileinfection by assessment of exhaled breath volatile organic compounds.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：clostridioides difficile, cdi, exhaled breath, voc, diagnosis\n- **摘要**：本研究探討呼氣揮發性有機化合物用於診斷艰难梭菌感染。\n- **作者**：John Teny M, Shrestha Nabin K, Hasan Leen, Pappan Kirk, Birch Owen et al. | **年份**：2024 | DOI: `10.1088/1752-7163/ad3572` | [連結](https://pubmed.ncbi.nlm.nih.gov/38502958/)\n\n## 📂 依類別分類\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[Detection ofClostridioides difficileinfection by assessment of exhaled breath volatile organic compounds.](https://pubmed.ncbi.nlm.nih.gov/38502958/)**  \n  本研究探討呼氣揮發性有機化合物用於診斷艰难梭菌感染。 ｜ 2024\n\n---\n*報告生成時間：2026-08-13 07:02:38*\n"
     },
@@ -35039,10 +35093,6 @@
     {
       "date": "2026-08-08_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-08\n\n> 執行時間：07:02:17 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1225 |\n| 資料庫相關總數 | 1033 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-08 07:02:17*\n"
-    },
-    {
-      "date": "2026-08-07_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-07\n\n> 執行時間：07:02:48 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1225 |\n| 資料庫相關總數 | 1033 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Review—Non-Invasive Monitoring of Human Health by Exhaled Breath Analysis: A Comprehensive Review\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, VOCs, disease monitoring, non-invasive, biomarkers\n- **摘要**：全面性文獻回顧，探討呼氣分析在疾病監測中的應用。\n- **作者**：Sagnik Das, M. Pal | **年份**：2020 | DOI: `10.1149/1945-7111/ab67a6` | [連結](https://doi.org/10.1149/1945-7111/ab67a6)\n\n### Human breath metabolomics using an optimized non-invasive exhaled breath condensate sampler\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath condensate, sampling method, EBC, mass spectrometry, metabolomics\n- **摘要**：研究了呼氣冷凝液採集裝置設計對代謝體學分析的影響。\n- **作者**：Konstantin Zamuruyev, Alexander A. Aksenov, Alberto Pasamontes, Joshua Brown, Dayna R. Pettit et al. | **年份**：2016 | DOI: `10.1088/1752-7163/11/1/016001` | [連結](https://doi.org/10.1088/1752-7163/11/1/016001)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓▓ **[Review—Non-Invasive Monitoring of Human Health by Exhaled Breath Analysis: A Comprehensive Review](https://doi.org/10.1149/1945-7111/ab67a6)**  \n  全面性文獻回顧，探討呼氣分析在疾病監測中的應用。 ｜ 2020\n\n### 分析方法（1 篇）\n\n- ▓▓▓▓░ **[Human breath metabolomics using an optimized non-invasive exhaled breath condensate sampler](https://doi.org/10.1088/1752-7163/11/1/016001)**  \n  研究了呼氣冷凝液採集裝置設計對代謝體學分析的影響。 ｜ 2016\n\n---\n*報告生成時間：2026-08-07 07:02:48*\n"
     }
   ]
 }

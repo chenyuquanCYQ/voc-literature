@@ -2,15 +2,15 @@
   "meta": {
     "total": 1649,
     "relevant": 1416,
-    "today": 3,
+    "today": 0,
     "this_week": 3,
     "avg_score": 3.89,
-    "updated_at": "2026-08-23T07:03:22"
+    "updated_at": "2026-08-24T07:02:02"
   },
   "stats": {
     "total": 1649,
     "relevant": 1416,
-    "today": 3,
+    "today": 0,
     "this_week": 3,
     "avg_score": 3.89,
     "by_category": {
@@ -144,6 +144,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-08-23 23:02:01",
+        "found": 215,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-08-22 23:03:20",
         "found": 215,
         "new_added": 3
@@ -187,11 +192,6 @@
         "run_at": "2026-08-05 23:03:00",
         "found": 223,
         "new_added": 3
-      },
-      {
-        "run_at": "2026-08-04 23:02:55",
-        "found": 225,
-        "new_added": 2
       }
     ],
     "category_score": [
@@ -35067,6 +35067,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-24_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-24\n\n> 執行時間：07:02:02 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1649 |\n| 資料庫相關總數 | 1416 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-24 07:02:02*\n"
+    },
+    {
       "date": "2026-08-23_0703",
       "content": "# VOC 文獻監控日報 — 2026-08-23\n\n> 執行時間：07:03:21 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1649 |\n| 資料庫相關總數 | 1416 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, diagnosis, aldehydes, exhaled breath, GC-MS/MS\n- **摘要**：本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。\n- **作者**：Zhang Feiran, Li Pengfei, Lu Yanke, Han Yehong, Yan Hongyuan | **年份**：2024 | DOI: `10.1021/acs.analchem.4c03328` | [連結](https://pubmed.ncbi.nlm.nih.gov/39269845/)\n\n### Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cystic fibrosis, exhaled breath, volatile organic compounds, biomarkers, respiratory disease\n- **摘要**：這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。\n- **作者**：Mustafina Malika, Krasovskiy Stanislav, Cherniak Alexander, Silantyev Artemiy, Avdeev Sergey et al. | **年份**：2026 | DOI: `10.1088/1752-7163/ae9be1` | [連結](https://pubmed.ncbi.nlm.nih.gov/42617629/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.](https://pubmed.ncbi.nlm.nih.gov/42617629/)**  \n  這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。 ｜ 2026\n- ▓▓▓░░ **[The versatile use of exhaled volatile organic compounds in human health and disease.](https://pubmed.ncbi.nlm.nih.gov/22621865/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在人類健康與疾病診斷和監測中的應用。 ｜ 2012\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓░ **[Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.](https://pubmed.ncbi.nlm.nih.gov/39269845/)**  \n  本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。 ｜ 2024\n\n---\n*報告生成時間：2026-08-23 07:03:21*\n"
     },
@@ -35089,10 +35093,6 @@
     {
       "date": "2026-08-09_0703",
       "content": "# VOC 文獻監控日報 — 2026-08-09\n\n> 執行時間：07:03:26 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1230 |\n| 資料庫相關總數 | 1038 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled breath analysis: A promising triage test for tuberculosis in young children.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, tuberculosis, machine learning, pediatric, VOC\n- **摘要**：研究利用呼氣分析輔助兒童肺結核的篩檢，並應用機器學習。\n- **作者**：Bijker Else M, Smith Jonathan P, Mchembere Walter, McCarthy Kimberly D, Oord Henny et al. | **年份**：2024 | DOI: `10.1016/j.tube.2024.102566` | [連結](https://pubmed.ncbi.nlm.nih.gov/39332067/)\n\n### Compounds enhanced in a mass spectrometric profile of smokers' exhaled breath versus non-smokers as determined in a pilot study using PTR-MS\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, smokers, PTR-MS, lung cancer, VOC biomarker\n- **摘要**：研究了吸煙者和非吸煙者的呼氣成分差異，使用 PTR-MS 技術。\n- **作者**：Ievgeniia Kushch, Konrad Schwarz, Lukas Schwentner, Bettina Baumann, Alexander Dzien et al. | **年份**：2008 | DOI: `10.1088/1752-7155/2/2/026002` | [連結](https://doi.org/10.1088/1752-7155/2/2/026002)\n\n### Breath acetone as a potential marker in clinical practice\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath acetone, diabetes mellitus, lung cancer, ketosis, clinical marker\n- **摘要**：探討呼氣丙酮作為臨床診斷的潛在標記物。\n- **作者**：Veronika Ruzsányi, Miklós Péter Kalapos | **年份**：2017 | DOI: `10.1088/1752-7163/aa66d3` | [連結](https://doi.org/10.1088/1752-7163/aa66d3)\n\n### On the use of Tedlar® bags for breath-gas sampling and analysis\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath sampling, Tedlar bag, PTR-MS, storage stability, VOC analysis\n- **摘要**：評估了 Tedlar 袋在呼氣 VOC 採集和儲存方面的適用性。\n- **作者**：Jonathan Beauchamp, Jens Herbig, R A Gutmann, Armin Hansel | **年份**：2008 | DOI: `10.1088/1752-7155/2/4/046001` | [連結](https://doi.org/10.1088/1752-7155/2/4/046001)\n\n### Inhaled today, not gone tomorrow: pharmacokinetics and environmental exposure of volatiles in exhaled breath\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, pharmacokinetics, environmental exposure, non-invasive, GC-MS\n- **摘要**：探討呼氣分析在藥代動力學和環境暴露研究中的應用。\n- **作者**：Jonathan Beauchamp | **年份**：2011 | DOI: `10.1088/1752-7155/5/3/037103` | [連結](https://doi.org/10.1088/1752-7155/5/3/037103)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Compounds enhanced in a mass spectrometric profile of smokers' exhaled breath versus non-smokers as determined in a pilot study using PTR-MS](https://doi.org/10.1088/1752-7155/2/2/026002)**  \n  研究了吸煙者和非吸煙者的呼氣成分差異，使用 PTR-MS 技術。 ｜ 2008\n- ▓▓▓▓░ **[Breath acetone as a potential marker in clinical practice](https://doi.org/10.1088/1752-7163/aa66d3)**  \n  探討呼氣丙酮作為臨床診斷的潛在標記物。 ｜ 2017\n\n### 分析方法（2 篇）\n\n- ▓▓▓▓░ **[On the use of Tedlar® bags for breath-gas sampling and analysis](https://doi.org/10.1088/1752-7155/2/4/046001)**  \n  評估了 Tedlar 袋在呼氣 VOC 採集和儲存方面的適用性。 ｜ 2008\n- ▓▓▓▓░ **[Inhaled today, not gone tomorrow: pharmacokinetics and environmental exposure of volatiles in exhaled breath](https://doi.org/10.1088/1752-7155/5/3/037103)**  \n  探討呼氣分析在藥代動力學和環境暴露研究中的應用。 ｜ 2011\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[Exhaled breath analysis: A promising triage test for tuberculosis in young children.](https://pubmed.ncbi.nlm.nih.gov/39332067/)**  \n  研究利用呼氣分析輔助兒童肺結核的篩檢，並應用機器學習。 ｜ 2024\n\n---\n*報告生成時間：2026-08-09 07:03:26*\n"
-    },
-    {
-      "date": "2026-08-08_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-08\n\n> 執行時間：07:02:17 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1225 |\n| 資料庫相關總數 | 1033 |\n| 相關文獻平均分 | 4.07 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-08 07:02:17*\n"
     }
   ]
 }

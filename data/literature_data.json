@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1649,
-    "relevant": 1416,
-    "today": 0,
-    "this_week": 3,
+    "total": 1651,
+    "relevant": 1418,
+    "today": 2,
+    "this_week": 5,
     "avg_score": 3.89,
-    "updated_at": "2026-08-24T07:02:02"
+    "updated_at": "2026-08-25T07:02:52"
   },
   "stats": {
-    "total": 1649,
-    "relevant": 1416,
-    "today": 0,
-    "this_week": 3,
+    "total": 1651,
+    "relevant": 1418,
+    "today": 2,
+    "this_week": 5,
     "avg_score": 3.89,
     "by_category": {
-      "voc_breath": 475,
-      "disease_cancer": 256,
+      "voc_breath": 476,
+      "disease_cancer": 257,
       "sensor_hardware": 211,
       "disease_chronic": 173,
       "method_tech": 102,
@@ -27,7 +27,7 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 307,
+      "clinicaltrials": 309,
       "import": 488,
       "openalex": 216,
       "pubmed": 156,
@@ -38,7 +38,7 @@
     "by_score": {
       "1": 1,
       "2": 19,
-      "3": 482,
+      "3": 484,
       "4": 541,
       "5": 373
     },
@@ -81,18 +81,14 @@
       "2018": 63,
       "2019": 55,
       "2020": 61,
-      "2021": 78,
+      "2021": 79,
       "2022": 86,
       "2023": 73,
       "2024": 111,
       "2025": 104,
-      "2026": 54
+      "2026": 55
     },
     "daily_trend": [
-      {
-        "date": "2026-07-25",
-        "count": 1
-      },
       {
         "date": "2026-07-28",
         "count": 1
@@ -140,9 +136,18 @@
       {
         "date": "2026-08-22",
         "count": 3
+      },
+      {
+        "date": "2026-08-24",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-24 23:02:47",
+        "found": 217,
+        "new_added": 2
+      },
       {
         "run_at": "2026-08-23 23:02:01",
         "found": 215,
@@ -187,18 +192,13 @@
         "run_at": "2026-08-06 23:02:47",
         "found": 221,
         "new_added": 2
-      },
-      {
-        "run_at": "2026-08-05 23:03:00",
-        "found": 223,
-        "new_added": 3
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.51,
-        "count": 256
+        "count": 257
       },
       {
         "category": "infection",
@@ -208,7 +208,7 @@
       {
         "category": "voc_breath",
         "avg_score": 3.99,
-        "count": 475
+        "count": 476
       },
       {
         "category": "voc_liquid",
@@ -253,6 +253,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1651,
+      "title": "[CT] Exploratory Metabolomics Study of Exhaled Breath in Pulmonary Embolism",
+      "authors": "University Hospital, Strasbourg, France",
+      "year": 2021,
+      "journal": "ClinicalTrials.gov (Pulmonary Embolism)",
+      "category": "voc_breath",
+      "score": 3.0,
+      "tags": [
+        "pulmonary embolism",
+        "breathomics",
+        "ventilation-perfusion",
+        "metabolomics",
+        "diagnosis"
+      ],
+      "one_line": "本研究探討肺栓塞患者呼氣揮發性有機化合物與肺通氣灌注掃描結果的關聯。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT04001179",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-08-24 23:02:47"
+    },
+    {
+      "id": 1650,
+      "title": "[CT] Breath Research Narrow Validation for Gastrointestinal Cancer Detection",
+      "authors": "Imperial College London",
+      "year": 2026,
+      "journal": "ClinicalTrials.gov (Oesophageal Squamous Cell Carcinoma, Oesophageal Adenocarcinoma, Gastric Adenocarcinoma, Pancreatic Ductal Adenocarcinoma (PDAC), Cholangiocarcinoma)",
+      "category": "disease_cancer",
+      "score": 3.0,
+      "tags": [
+        "breath",
+        "voc",
+        "gastrointestinal cancer",
+        "early detection",
+        "biomarker"
+      ],
+      "one_line": "本研究旨在驗證呼氣揮發性有機化合物在腸胃道癌症早期檢測中的應用。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07714538",
+      "source": "clinicaltrials",
+      "is_relevant": true,
+      "created_at": "2026-08-24 23:02:47"
+    },
     {
       "id": 1649,
       "title": "Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.",
@@ -35067,6 +35111,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-25_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-25\n\n> 執行時間：07:02:51 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1651 |\n| 資料庫相關總數 | 1418 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[[CT] Breath Research Narrow Validation for Gastrointestinal Cancer Detection](https://clinicaltrials.gov/study/NCT07714538)**  \n  本研究旨在驗證呼氣揮發性有機化合物在腸胃道癌症早期檢測中的應用。 ｜ 2026\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[[CT] Exploratory Metabolomics Study of Exhaled Breath in Pulmonary Embolism](https://clinicaltrials.gov/study/NCT04001179)**  \n  本研究探討肺栓塞患者呼氣揮發性有機化合物與肺通氣灌注掃描結果的關聯。 ｜ 2021\n\n---\n*報告生成時間：2026-08-25 07:02:51*\n"
+    },
+    {
       "date": "2026-08-24_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-24\n\n> 執行時間：07:02:02 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1649 |\n| 資料庫相關總數 | 1416 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-24 07:02:02*\n"
     },
@@ -35089,10 +35137,6 @@
     {
       "date": "2026-08-10_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-10\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1644 |\n| 資料庫相關總數 | 1412 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[Non-Invasive Biomarkers for Early Detection of Breast Cancer](https://doi.org/10.3390/cancers12102767)**  \n  這篇綜述探討了乳癌早期診斷中呼氣揮發性有機化合物的應用。 ｜ 2020\n\n---\n*報告生成時間：2026-08-10 07:02:31*\n"
-    },
-    {
-      "date": "2026-08-09_0703",
-      "content": "# VOC 文獻監控日報 — 2026-08-09\n\n> 執行時間：07:03:26 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1230 |\n| 資料庫相關總數 | 1038 |\n| 相關文獻平均分 | 4.07 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled breath analysis: A promising triage test for tuberculosis in young children.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, tuberculosis, machine learning, pediatric, VOC\n- **摘要**：研究利用呼氣分析輔助兒童肺結核的篩檢，並應用機器學習。\n- **作者**：Bijker Else M, Smith Jonathan P, Mchembere Walter, McCarthy Kimberly D, Oord Henny et al. | **年份**：2024 | DOI: `10.1016/j.tube.2024.102566` | [連結](https://pubmed.ncbi.nlm.nih.gov/39332067/)\n\n### Compounds enhanced in a mass spectrometric profile of smokers' exhaled breath versus non-smokers as determined in a pilot study using PTR-MS\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐⭐ (5/5)\n- **標籤**：breath analysis, smokers, PTR-MS, lung cancer, VOC biomarker\n- **摘要**：研究了吸煙者和非吸煙者的呼氣成分差異，使用 PTR-MS 技術。\n- **作者**：Ievgeniia Kushch, Konrad Schwarz, Lukas Schwentner, Bettina Baumann, Alexander Dzien et al. | **年份**：2008 | DOI: `10.1088/1752-7155/2/2/026002` | [連結](https://doi.org/10.1088/1752-7155/2/2/026002)\n\n### Breath acetone as a potential marker in clinical practice\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath acetone, diabetes mellitus, lung cancer, ketosis, clinical marker\n- **摘要**：探討呼氣丙酮作為臨床診斷的潛在標記物。\n- **作者**：Veronika Ruzsányi, Miklós Péter Kalapos | **年份**：2017 | DOI: `10.1088/1752-7163/aa66d3` | [連結](https://doi.org/10.1088/1752-7163/aa66d3)\n\n### On the use of Tedlar® bags for breath-gas sampling and analysis\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath sampling, Tedlar bag, PTR-MS, storage stability, VOC analysis\n- **摘要**：評估了 Tedlar 袋在呼氣 VOC 採集和儲存方面的適用性。\n- **作者**：Jonathan Beauchamp, Jens Herbig, R A Gutmann, Armin Hansel | **年份**：2008 | DOI: `10.1088/1752-7155/2/4/046001` | [連結](https://doi.org/10.1088/1752-7155/2/4/046001)\n\n### Inhaled today, not gone tomorrow: pharmacokinetics and environmental exposure of volatiles in exhaled breath\n\n- **類別**：分析方法\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath analysis, pharmacokinetics, environmental exposure, non-invasive, GC-MS\n- **摘要**：探討呼氣分析在藥代動力學和環境暴露研究中的應用。\n- **作者**：Jonathan Beauchamp | **年份**：2011 | DOI: `10.1088/1752-7155/5/3/037103` | [連結](https://doi.org/10.1088/1752-7155/5/3/037103)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓▓ **[Compounds enhanced in a mass spectrometric profile of smokers' exhaled breath versus non-smokers as determined in a pilot study using PTR-MS](https://doi.org/10.1088/1752-7155/2/2/026002)**  \n  研究了吸煙者和非吸煙者的呼氣成分差異，使用 PTR-MS 技術。 ｜ 2008\n- ▓▓▓▓░ **[Breath acetone as a potential marker in clinical practice](https://doi.org/10.1088/1752-7163/aa66d3)**  \n  探討呼氣丙酮作為臨床診斷的潛在標記物。 ｜ 2017\n\n### 分析方法（2 篇）\n\n- ▓▓▓▓░ **[On the use of Tedlar® bags for breath-gas sampling and analysis](https://doi.org/10.1088/1752-7155/2/4/046001)**  \n  評估了 Tedlar 袋在呼氣 VOC 採集和儲存方面的適用性。 ｜ 2008\n- ▓▓▓▓░ **[Inhaled today, not gone tomorrow: pharmacokinetics and environmental exposure of volatiles in exhaled breath](https://doi.org/10.1088/1752-7155/5/3/037103)**  \n  探討呼氣分析在藥代動力學和環境暴露研究中的應用。 ｜ 2011\n\n### 感染症（1 篇）\n\n- ▓▓▓▓▓ **[Exhaled breath analysis: A promising triage test for tuberculosis in young children.](https://pubmed.ncbi.nlm.nih.gov/39332067/)**  \n  研究利用呼氣分析輔助兒童肺結核的篩檢，並應用機器學習。 ｜ 2024\n\n---\n*報告生成時間：2026-08-09 07:03:26*\n"
     }
   ]
 }

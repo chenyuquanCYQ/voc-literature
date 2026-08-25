@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1651,
-    "relevant": 1418,
-    "today": 2,
-    "this_week": 5,
+    "total": 1652,
+    "relevant": 1419,
+    "today": 1,
+    "this_week": 6,
     "avg_score": 3.89,
-    "updated_at": "2026-08-25T07:02:52"
+    "updated_at": "2026-08-26T07:02:40"
   },
   "stats": {
-    "total": 1651,
-    "relevant": 1418,
-    "today": 2,
-    "this_week": 5,
+    "total": 1652,
+    "relevant": 1419,
+    "today": 1,
+    "this_week": 6,
     "avg_score": 3.89,
     "by_category": {
-      "voc_breath": 476,
+      "voc_breath": 477,
       "disease_cancer": 257,
       "sensor_hardware": 211,
       "disease_chronic": 173,
@@ -30,7 +30,7 @@
       "clinicaltrials": 309,
       "import": 488,
       "openalex": 216,
-      "pubmed": 156,
+      "pubmed": 157,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -39,7 +39,7 @@
       "1": 1,
       "2": 19,
       "3": 484,
-      "4": 541,
+      "4": 542,
       "5": 373
     },
     "by_year": {
@@ -83,7 +83,7 @@
       "2020": 61,
       "2021": 79,
       "2022": 86,
-      "2023": 73,
+      "2023": 74,
       "2024": 111,
       "2025": 104,
       "2026": 55
@@ -140,9 +140,18 @@
       {
         "date": "2026-08-24",
         "count": 2
+      },
+      {
+        "date": "2026-08-25",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-25 23:02:39",
+        "found": 217,
+        "new_added": 1
+      },
       {
         "run_at": "2026-08-24 23:02:47",
         "found": 217,
@@ -187,11 +196,6 @@
         "run_at": "2026-08-07 23:02:17",
         "found": 222,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-08-06 23:02:47",
-        "found": 221,
-        "new_added": 2
       }
     ],
     "category_score": [
@@ -208,7 +212,7 @@
       {
         "category": "voc_breath",
         "avg_score": 3.99,
-        "count": 476
+        "count": 477
       },
       {
         "category": "voc_liquid",
@@ -253,6 +257,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1652,
+      "title": "Exhaled Volatile Organic Compounds for Early Prediction of Bronchopulmonary Dysplasia in Infants Born Preterm.",
+      "authors": "Romijn Michelle, van Kaam Anton H, Fenn Dominic, Bos Lieuwe D, van den Akker Chris H P et al.",
+      "year": 2023,
+      "journal": "The Journal of pediatrics",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "preterm infants",
+        "bronchopulmonary dysplasia",
+        "VOCs",
+        "breath analysis",
+        "prediction model"
+      ],
+      "one_line": "本研究探討了呼氣揮發性有機化合物在預測早產兒肺部疾病方面的應用。",
+      "doi": "10.1016/j.jpeds.2023.02.014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36868304/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-25 23:02:39"
+    },
     {
       "id": 1651,
       "title": "[CT] Exploratory Metabolomics Study of Exhaled Breath in Pulmonary Embolism",
@@ -35111,6 +35137,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-26_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-26\n\n> 執行時間：07:02:39 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1652 |\n| 資料庫相關總數 | 1419 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled Volatile Organic Compounds for Early Prediction of Bronchopulmonary Dysplasia in Infants Born Preterm.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：preterm infants, bronchopulmonary dysplasia, VOCs, breath analysis, prediction model\n- **摘要**：本研究探討了呼氣揮發性有機化合物在預測早產兒肺部疾病方面的應用。\n- **作者**：Romijn Michelle, van Kaam Anton H, Fenn Dominic, Bos Lieuwe D, van den Akker Chris H P et al. | **年份**：2023 | DOI: `10.1016/j.jpeds.2023.02.014` | [連結](https://pubmed.ncbi.nlm.nih.gov/36868304/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Exhaled Volatile Organic Compounds for Early Prediction of Bronchopulmonary Dysplasia in Infants Born Preterm.](https://pubmed.ncbi.nlm.nih.gov/36868304/)**  \n  本研究探討了呼氣揮發性有機化合物在預測早產兒肺部疾病方面的應用。 ｜ 2023\n\n---\n*報告生成時間：2026-08-26 07:02:39*\n"
+    },
+    {
       "date": "2026-08-25_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-25\n\n> 執行時間：07:02:51 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1651 |\n| 資料庫相關總數 | 1418 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[[CT] Breath Research Narrow Validation for Gastrointestinal Cancer Detection](https://clinicaltrials.gov/study/NCT07714538)**  \n  本研究旨在驗證呼氣揮發性有機化合物在腸胃道癌症早期檢測中的應用。 ｜ 2026\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[[CT] Exploratory Metabolomics Study of Exhaled Breath in Pulmonary Embolism](https://clinicaltrials.gov/study/NCT04001179)**  \n  本研究探討肺栓塞患者呼氣揮發性有機化合物與肺通氣灌注掃描結果的關聯。 ｜ 2021\n\n---\n*報告生成時間：2026-08-25 07:02:51*\n"
     },
@@ -35133,10 +35163,6 @@
     {
       "date": "2026-08-11_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-11\n\n> 執行時間：07:02:50 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1645 |\n| 資料庫相關總數 | 1412 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-08-11 07:02:50*\n"
-    },
-    {
-      "date": "2026-08-10_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-10\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1644 |\n| 資料庫相關總數 | 1412 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[Non-Invasive Biomarkers for Early Detection of Breast Cancer](https://doi.org/10.3390/cancers12102767)**  \n  這篇綜述探討了乳癌早期診斷中呼氣揮發性有機化合物的應用。 ｜ 2020\n\n---\n*報告生成時間：2026-08-10 07:02:31*\n"
     }
   ]
 }

@@ -2,15 +2,15 @@
   "meta": {
     "total": 1652,
     "relevant": 1419,
-    "today": 1,
+    "today": 0,
     "this_week": 6,
     "avg_score": 3.89,
-    "updated_at": "2026-08-26T07:02:40"
+    "updated_at": "2026-08-27T07:02:12"
   },
   "stats": {
     "total": 1652,
     "relevant": 1419,
-    "today": 1,
+    "today": 0,
     "this_week": 6,
     "avg_score": 3.89,
     "by_category": {
@@ -148,6 +148,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-08-26 23:02:11",
+        "found": 217,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-08-25 23:02:39",
         "found": 217,
         "new_added": 1
@@ -191,11 +196,6 @@
         "run_at": "2026-08-08 23:03:26",
         "found": 220,
         "new_added": 5
-      },
-      {
-        "run_at": "2026-08-07 23:02:17",
-        "found": 222,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -35137,6 +35137,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-27_0702",
+      "content": "# VOC 文獻監控日報 — 2026-08-27\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1652 |\n| 資料庫相關總數 | 1419 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-27 07:02:11*\n"
+    },
+    {
       "date": "2026-08-26_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-26\n\n> 執行時間：07:02:39 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1652 |\n| 資料庫相關總數 | 1419 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled Volatile Organic Compounds for Early Prediction of Bronchopulmonary Dysplasia in Infants Born Preterm.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：preterm infants, bronchopulmonary dysplasia, VOCs, breath analysis, prediction model\n- **摘要**：本研究探討了呼氣揮發性有機化合物在預測早產兒肺部疾病方面的應用。\n- **作者**：Romijn Michelle, van Kaam Anton H, Fenn Dominic, Bos Lieuwe D, van den Akker Chris H P et al. | **年份**：2023 | DOI: `10.1016/j.jpeds.2023.02.014` | [連結](https://pubmed.ncbi.nlm.nih.gov/36868304/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Exhaled Volatile Organic Compounds for Early Prediction of Bronchopulmonary Dysplasia in Infants Born Preterm.](https://pubmed.ncbi.nlm.nih.gov/36868304/)**  \n  本研究探討了呼氣揮發性有機化合物在預測早產兒肺部疾病方面的應用。 ｜ 2023\n\n---\n*報告生成時間：2026-08-26 07:02:39*\n"
     },
@@ -35159,10 +35163,6 @@
     {
       "date": "2026-08-12_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-12\n\n> 執行時間：07:02:09 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1645 |\n| 資料庫相關總數 | 1412 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-12 07:02:09*\n"
-    },
-    {
-      "date": "2026-08-11_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-11\n\n> 執行時間：07:02:50 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1645 |\n| 資料庫相關總數 | 1412 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-08-11 07:02:50*\n"
     }
   ]
 }

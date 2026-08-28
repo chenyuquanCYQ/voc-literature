@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 1657,
+    "total": 1658,
     "relevant": 1424,
-    "today": 5,
-    "this_week": 11,
+    "today": 1,
+    "this_week": 12,
     "avg_score": 3.89,
-    "updated_at": "2026-08-28T07:04:10"
+    "updated_at": "2026-08-29T07:03:09"
   },
   "stats": {
-    "total": 1657,
+    "total": 1658,
     "relevant": 1424,
-    "today": 5,
-    "this_week": 11,
+    "today": 1,
+    "this_week": 12,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 479,
@@ -27,7 +27,7 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 310,
+      "clinicaltrials": 311,
       "import": 488,
       "openalex": 216,
       "pubmed": 161,
@@ -144,9 +144,18 @@
       {
         "date": "2026-08-27",
         "count": 5
+      },
+      {
+        "date": "2026-08-28",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-28 23:03:05",
+        "found": 219,
+        "new_added": 1
+      },
       {
         "run_at": "2026-08-27 23:04:07",
         "found": 215,
@@ -190,11 +199,6 @@
       {
         "run_at": "2026-08-10 23:02:50",
         "found": 216,
-        "new_added": 1
-      },
-      {
-        "run_at": "2026-08-09 23:02:31",
-        "found": 221,
         "new_added": 1
       }
     ],
@@ -257,6 +261,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1658,
+      "title": "[CT] Endurance Trial: Ketone and Carbohydrate Supplementation",
+      "authors": "University of Sao Paulo",
+      "year": 2025,
+      "journal": "ClinicalTrials.gov (Athletic Performance, Exercise, Ketosis, Cognition, Healthy Volunteers)",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "ketone",
+        "cognitive function",
+        "exercise",
+        "blood biomarkers",
+        "PBMCs"
+      ],
+      "one_line": "本研究探討酮體補充對運動員認知功能和身體表現的影響，未涉及呼氣成分分析。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07792876",
+      "source": "clinicaltrials",
+      "is_relevant": false,
+      "created_at": "2026-08-28 23:03:04"
+    },
     {
       "id": 1657,
       "title": "[CT] Analysis of Breath Volatile Organic Compounds Using Mass Spectrometry",
@@ -35247,6 +35273,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-29_0703",
+      "content": "# VOC 文獻監控日報 — 2026-08-29\n\n> 執行時間：07:03:09 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1658 |\n| 資料庫相關總數 | 1424 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-08-29 07:03:09*\n"
+    },
+    {
       "date": "2026-08-28_0704",
       "content": "# VOC 文獻監控日報 — 2026-08-28\n\n> 執行時間：07:04:09 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1657 |\n| 資料庫相關總數 | 1424 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled Volatile Organic Compounds Identify Allergic Patients Among Individuals With Chronic Rhinitis.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：rhinitis, allergy, VOC, exhaled breath, diagnosis\n- **摘要**：\n- **作者**：Sola-Martinez Rosa Alba, Zubiaga-Fernandez Laura, Figuerola Marta, Cruz-Amaya Anyith, Aranda Carlos J et al. | **年份**：2026 | DOI: `10.1111/all.70273` | [連結](https://pubmed.ncbi.nlm.nih.gov/41760380/)\n\n### Machine learning methods on exhaled volatile organic compounds for distinguishing COPD patients from healthy controls.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：copd, exhaled voc, machine learning, diagnosis, respiratory disease\n- **摘要**：本研究利用機器學習分析呼氣揮發性有機化合物，以區分慢性阻塞性肺病患者和健康對照組。\n- **作者**：Phillips Chris O, Syed Yasir, Parthaláin Neil Mac, Zwiggelaar Reyer, Claypole Tim C et al. | **年份**：2012 | DOI: `10.1088/1752-7155/6/3/036003` | [連結](https://pubmed.ncbi.nlm.nih.gov/22759349/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Exhaled Volatile Organic Compounds Identify Allergic Patients Among Individuals With Chronic Rhinitis.](https://pubmed.ncbi.nlm.nih.gov/41760380/)**  \n   ｜ 2026\n- ▓▓▓▓░ **[Machine learning methods on exhaled volatile organic compounds for distinguishing COPD patients from healthy controls.](https://pubmed.ncbi.nlm.nih.gov/22759349/)**  \n  本研究利用機器學習分析呼氣揮發性有機化合物，以區分慢性阻塞性肺病患者和健康對照組。 ｜ 2012\n\n### 癌症應用（2 篇）\n\n- ▓▓▓░░ **[Exhaled breath analysis: novel approach for early detection of lung cancer.](https://pubmed.ncbi.nlm.nih.gov/18599152/)**  \n  這篇文獻探討了使用呼氣冷凝物 (EBC) 在肺癌早期診斷中的潛在應用。 ｜ 2009\n- ▓▓▓░░ **[[CT] Analysis of Breath Volatile Organic Compounds Using Mass Spectrometry](https://clinicaltrials.gov/study/NCT07732686)**  \n  本研究評估呼氣揮發性有機化合物作為癌症篩檢工具的潛力。 ｜ 2026\n\n### 感染症（1 篇）\n\n- ▓▓▓░░ **[36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.](https://pubmed.ncbi.nlm.nih.gov/27885969/)**  \n  本研究探討敗血症對毛細血管反應及 ATP efflux 的影響。 ｜ 2016\n\n---\n*報告生成時間：2026-08-28 07:04:09*\n"
     },
@@ -35269,10 +35299,6 @@
     {
       "date": "2026-08-23_0703",
       "content": "# VOC 文獻監控日報 — 2026-08-23\n\n> 執行時間：07:03:21 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1649 |\n| 資料庫相關總數 | 1416 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, diagnosis, aldehydes, exhaled breath, GC-MS/MS\n- **摘要**：本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。\n- **作者**：Zhang Feiran, Li Pengfei, Lu Yanke, Han Yehong, Yan Hongyuan | **年份**：2024 | DOI: `10.1021/acs.analchem.4c03328` | [連結](https://pubmed.ncbi.nlm.nih.gov/39269845/)\n\n### Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cystic fibrosis, exhaled breath, volatile organic compounds, biomarkers, respiratory disease\n- **摘要**：這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。\n- **作者**：Mustafina Malika, Krasovskiy Stanislav, Cherniak Alexander, Silantyev Artemiy, Avdeev Sergey et al. | **年份**：2026 | DOI: `10.1088/1752-7163/ae9be1` | [連結](https://pubmed.ncbi.nlm.nih.gov/42617629/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.](https://pubmed.ncbi.nlm.nih.gov/42617629/)**  \n  這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。 ｜ 2026\n- ▓▓▓░░ **[The versatile use of exhaled volatile organic compounds in human health and disease.](https://pubmed.ncbi.nlm.nih.gov/22621865/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在人類健康與疾病診斷和監測中的應用。 ｜ 2012\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓░ **[Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.](https://pubmed.ncbi.nlm.nih.gov/39269845/)**  \n  本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。 ｜ 2024\n\n---\n*報告生成時間：2026-08-23 07:03:21*\n"
-    },
-    {
-      "date": "2026-08-13_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-13\n\n> 執行時間：07:02:38 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1646 |\n| 資料庫相關總數 | 1413 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Detection ofClostridioides difficileinfection by assessment of exhaled breath volatile organic compounds.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：clostridioides difficile, cdi, exhaled breath, voc, diagnosis\n- **摘要**：本研究探討呼氣揮發性有機化合物用於診斷艰难梭菌感染。\n- **作者**：John Teny M, Shrestha Nabin K, Hasan Leen, Pappan Kirk, Birch Owen et al. | **年份**：2024 | DOI: `10.1088/1752-7163/ad3572` | [連結](https://pubmed.ncbi.nlm.nih.gov/38502958/)\n\n## 📂 依類別分類\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[Detection ofClostridioides difficileinfection by assessment of exhaled breath volatile organic compounds.](https://pubmed.ncbi.nlm.nih.gov/38502958/)**  \n  本研究探討呼氣揮發性有機化合物用於診斷艰难梭菌感染。 ｜ 2024\n\n---\n*報告生成時間：2026-08-13 07:02:38*\n"
     }
   ]
 }

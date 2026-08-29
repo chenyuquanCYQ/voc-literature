@@ -1,25 +1,25 @@
 {
   "meta": {
-    "total": 1658,
-    "relevant": 1424,
-    "today": 1,
-    "this_week": 12,
+    "total": 1662,
+    "relevant": 1428,
+    "today": 4,
+    "this_week": 13,
     "avg_score": 3.89,
-    "updated_at": "2026-08-29T07:03:09"
+    "updated_at": "2026-08-30T07:03:41"
   },
   "stats": {
-    "total": 1658,
-    "relevant": 1424,
-    "today": 1,
-    "this_week": 12,
+    "total": 1662,
+    "relevant": 1428,
+    "today": 4,
+    "this_week": 13,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 479,
-      "disease_cancer": 259,
+      "disease_cancer": 262,
       "sensor_hardware": 211,
       "disease_chronic": 173,
       "method_tech": 102,
-      "infection": 100,
+      "infection": 101,
       "voc_liquid": 44,
       "ai_model": 22,
       "odor_medicine": 17,
@@ -30,7 +30,7 @@
       "clinicaltrials": 311,
       "import": 488,
       "openalex": 216,
-      "pubmed": 161,
+      "pubmed": 165,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -39,7 +39,7 @@
       "1": 1,
       "2": 19,
       "3": 487,
-      "4": 544,
+      "4": 548,
       "5": 373
     },
     "by_year": {
@@ -75,14 +75,14 @@
       "2012": 30,
       "2013": 32,
       "2014": 44,
-      "2015": 45,
+      "2015": 46,
       "2016": 50,
-      "2017": 47,
+      "2017": 48,
       "2018": 63,
-      "2019": 55,
+      "2019": 56,
       "2020": 61,
       "2021": 79,
-      "2022": 86,
+      "2022": 87,
       "2023": 74,
       "2024": 111,
       "2025": 104,
@@ -148,9 +148,18 @@
       {
         "date": "2026-08-28",
         "count": 1
+      },
+      {
+        "date": "2026-08-29",
+        "count": 4
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-08-29 23:03:39",
+        "found": 216,
+        "new_added": 4
+      },
       {
         "run_at": "2026-08-28 23:03:05",
         "found": 219,
@@ -195,23 +204,18 @@
         "run_at": "2026-08-11 23:02:09",
         "found": 214,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-08-10 23:02:50",
-        "found": 216,
-        "new_added": 1
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.49,
-        "count": 259
+        "count": 262
       },
       {
         "category": "infection",
         "avg_score": 4.29,
-        "count": 100
+        "count": 101
       },
       {
         "category": "voc_breath",
@@ -261,6 +265,94 @@
     ]
   },
   "literature": [
+    {
+      "id": 1662,
+      "title": "Breath analysis by gas chromatography-mass spectrometry and electronic nose to screen for pleural mesothelioma: a cross-sectional case-control study.",
+      "authors": "Lamote Kevin, Brinkman Paul, Vandermeersch Lore, Vynck Matthijs, Sterk Peter J et al.",
+      "year": 2017,
+      "journal": "Oncotarget",
+      "category": "disease_cancer",
+      "score": 4.0,
+      "tags": [
+        "mesothelioma",
+        "GC-MS",
+        "eNose",
+        "VOC",
+        "screening"
+      ],
+      "one_line": "本研究利用呼氣揮發性有機化合物分析，成功區分 MPM 患者和無症狀的石棉暴露人群。",
+      "doi": "10.18632/oncotarget.21335",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29207669/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-29 23:03:38"
+    },
+    {
+      "id": 1661,
+      "title": "Diagnostic Performance of Electronic Noses in Cancer Diagnoses Using Exhaled Breath: A Systematic Review and Meta-analysis.",
+      "authors": "Scheepers Max H M C, Al-Difaie Zaid, Brandts Lloyd, Peeters Andrea, van Grinsven Bart et al.",
+      "year": 2022,
+      "journal": "JAMA network open",
+      "category": "disease_cancer",
+      "score": 4.0,
+      "tags": [
+        "cancer",
+        "exhaled breath",
+        "electronic nose",
+        "diagnosis",
+        "VOC"
+      ],
+      "one_line": "這篇文獻回顧了電子鼻在癌症診斷中運用呼氣揮發性有機化合物的效能。",
+      "doi": "10.1001/jamanetworkopen.2022.19372",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35767259/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-29 23:03:38"
+    },
+    {
+      "id": 1660,
+      "title": "Online breath analysis using metal oxide semiconductor sensors (electronic nose) for diagnosis of lung cancer.",
+      "authors": "Kononov Aleksandr, Korotetsky Boris, Jahatspanian Igor, Gubal Anna, Vasiliev Alexey et al.",
+      "year": 2019,
+      "journal": "Journal of breath research",
+      "category": "disease_cancer",
+      "score": 4.0,
+      "tags": [
+        "lung cancer",
+        "electronic nose",
+        "breath analysis",
+        "diagnosis",
+        "sensor array"
+      ],
+      "one_line": "本研究利用電子鼻分析呼氣樣本，以高準確率篩檢肺癌。",
+      "doi": "10.1088/1752-7163/ab433d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31505480/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-29 23:03:38"
+    },
+    {
+      "id": 1659,
+      "title": "Electronic nose analysis of exhaled breath to diagnose ventilator-associated pneumonia.",
+      "authors": "Schnabel R M, Boumans M L L, Smolinska A, Stobberingh E E, Kaufmann R et al.",
+      "year": 2015,
+      "journal": "Respiratory medicine",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "e-nose",
+        "ventilator-associated pneumonia",
+        "exhaled breath",
+        "diagnosis",
+        "respiratory infection"
+      ],
+      "one_line": "本研究探討電子鼻分析呼氣樣本診斷呼吸器相關肺炎的應用。",
+      "doi": "10.1016/j.rmed.2015.09.014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26440675/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-08-29 23:03:38"
+    },
     {
       "id": 1658,
       "title": "[CT] Endurance Trial: Ketone and Carbohydrate Supplementation",
@@ -35273,6 +35365,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-08-30_0703",
+      "content": "# VOC 文獻監控日報 — 2026-08-30\n\n> 執行時間：07:03:40 | 新增 **4** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 4 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1662 |\n| 資料庫相關總數 | 1428 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Electronic nose analysis of exhaled breath to diagnose ventilator-associated pneumonia.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：e-nose, ventilator-associated pneumonia, exhaled breath, diagnosis, respiratory infection\n- **摘要**：本研究探討電子鼻分析呼氣樣本診斷呼吸器相關肺炎的應用。\n- **作者**：Schnabel R M, Boumans M L L, Smolinska A, Stobberingh E E, Kaufmann R et al. | **年份**：2015 | DOI: `10.1016/j.rmed.2015.09.014` | [連結](https://pubmed.ncbi.nlm.nih.gov/26440675/)\n\n### Online breath analysis using metal oxide semiconductor sensors (electronic nose) for diagnosis of lung cancer.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, electronic nose, breath analysis, diagnosis, sensor array\n- **摘要**：本研究利用電子鼻分析呼氣樣本，以高準確率篩檢肺癌。\n- **作者**：Kononov Aleksandr, Korotetsky Boris, Jahatspanian Igor, Gubal Anna, Vasiliev Alexey et al. | **年份**：2019 | DOI: `10.1088/1752-7163/ab433d` | [連結](https://pubmed.ncbi.nlm.nih.gov/31505480/)\n\n### Diagnostic Performance of Electronic Noses in Cancer Diagnoses Using Exhaled Breath: A Systematic Review and Meta-analysis.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cancer, exhaled breath, electronic nose, diagnosis, VOC\n- **摘要**：這篇文獻回顧了電子鼻在癌症診斷中運用呼氣揮發性有機化合物的效能。\n- **作者**：Scheepers Max H M C, Al-Difaie Zaid, Brandts Lloyd, Peeters Andrea, van Grinsven Bart et al. | **年份**：2022 | DOI: `10.1001/jamanetworkopen.2022.19372` | [連結](https://pubmed.ncbi.nlm.nih.gov/35767259/)\n\n### Breath analysis by gas chromatography-mass spectrometry and electronic nose to screen for pleural mesothelioma: a cross-sectional case-control study.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：mesothelioma, GC-MS, eNose, VOC, screening\n- **摘要**：本研究利用呼氣揮發性有機化合物分析，成功區分 MPM 患者和無症狀的石棉暴露人群。\n- **作者**：Lamote Kevin, Brinkman Paul, Vandermeersch Lore, Vynck Matthijs, Sterk Peter J et al. | **年份**：2017 | DOI: `10.18632/oncotarget.21335` | [連結](https://pubmed.ncbi.nlm.nih.gov/29207669/)\n\n## 📂 依類別分類\n\n### 癌症應用（3 篇）\n\n- ▓▓▓▓░ **[Online breath analysis using metal oxide semiconductor sensors (electronic nose) for diagnosis of lung cancer.](https://pubmed.ncbi.nlm.nih.gov/31505480/)**  \n  本研究利用電子鼻分析呼氣樣本，以高準確率篩檢肺癌。 ｜ 2019\n- ▓▓▓▓░ **[Diagnostic Performance of Electronic Noses in Cancer Diagnoses Using Exhaled Breath: A Systematic Review and Meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/35767259/)**  \n  這篇文獻回顧了電子鼻在癌症診斷中運用呼氣揮發性有機化合物的效能。 ｜ 2022\n- ▓▓▓▓░ **[Breath analysis by gas chromatography-mass spectrometry and electronic nose to screen for pleural mesothelioma: a cross-sectional case-control study.](https://pubmed.ncbi.nlm.nih.gov/29207669/)**  \n  本研究利用呼氣揮發性有機化合物分析，成功區分 MPM 患者和無症狀的石棉暴露人群。 ｜ 2017\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[Electronic nose analysis of exhaled breath to diagnose ventilator-associated pneumonia.](https://pubmed.ncbi.nlm.nih.gov/26440675/)**  \n  本研究探討電子鼻分析呼氣樣本診斷呼吸器相關肺炎的應用。 ｜ 2015\n\n---\n*報告生成時間：2026-08-30 07:03:40*\n"
+    },
+    {
       "date": "2026-08-29_0703",
       "content": "# VOC 文獻監控日報 — 2026-08-29\n\n> 執行時間：07:03:09 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1658 |\n| 資料庫相關總數 | 1424 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-08-29 07:03:09*\n"
     },
@@ -35295,10 +35391,6 @@
     {
       "date": "2026-08-24_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-24\n\n> 執行時間：07:02:02 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1649 |\n| 資料庫相關總數 | 1416 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-24 07:02:02*\n"
-    },
-    {
-      "date": "2026-08-23_0703",
-      "content": "# VOC 文獻監控日報 — 2026-08-23\n\n> 執行時間：07:03:21 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1649 |\n| 資料庫相關總數 | 1416 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, diagnosis, aldehydes, exhaled breath, GC-MS/MS\n- **摘要**：本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。\n- **作者**：Zhang Feiran, Li Pengfei, Lu Yanke, Han Yehong, Yan Hongyuan | **年份**：2024 | DOI: `10.1021/acs.analchem.4c03328` | [連結](https://pubmed.ncbi.nlm.nih.gov/39269845/)\n\n### Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cystic fibrosis, exhaled breath, volatile organic compounds, biomarkers, respiratory disease\n- **摘要**：這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。\n- **作者**：Mustafina Malika, Krasovskiy Stanislav, Cherniak Alexander, Silantyev Artemiy, Avdeev Sergey et al. | **年份**：2026 | DOI: `10.1088/1752-7163/ae9be1` | [連結](https://pubmed.ncbi.nlm.nih.gov/42617629/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Exhaled breath volatile organic compounds in cystic fibrosis: a systematic review.](https://pubmed.ncbi.nlm.nih.gov/42617629/)**  \n  這篇綜述探討了囊性纖維化患者呼氣中的揮發性有機化合物作為潛在生物標記物的應用。 ｜ 2026\n- ▓▓▓░░ **[The versatile use of exhaled volatile organic compounds in human health and disease.](https://pubmed.ncbi.nlm.nih.gov/22621865/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在人類健康與疾病診斷和監測中的應用。 ｜ 2012\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓░ **[Advancing Lung Cancer Diagnosis through NH2-MON-SPME-GC-MS/MS: Enhanced Sensitivity in Aldehyde Biomarker Detection from Exhaled Breath.](https://pubmed.ncbi.nlm.nih.gov/39269845/)**  \n  本研究開發了一種高靈敏度的呼氣醛類生物標記物檢測方法，用於肺癌的早期診斷。 ｜ 2024\n\n---\n*報告生成時間：2026-08-23 07:03:21*\n"
     }
   ]
 }

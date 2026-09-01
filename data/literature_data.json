@@ -1,23 +1,23 @@
 {
   "meta": {
-    "total": 1663,
-    "relevant": 1429,
+    "total": 1664,
+    "relevant": 1430,
     "today": 1,
-    "this_week": 14,
+    "this_week": 12,
     "avg_score": 3.89,
-    "updated_at": "2026-09-01T07:02:41"
+    "updated_at": "2026-09-02T07:03:02"
   },
   "stats": {
-    "total": 1663,
-    "relevant": 1429,
+    "total": 1664,
+    "relevant": 1430,
     "today": 1,
-    "this_week": 14,
+    "this_week": 12,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 480,
       "disease_cancer": 262,
       "sensor_hardware": 211,
-      "disease_chronic": 173,
+      "disease_chronic": 174,
       "method_tech": 102,
       "infection": 101,
       "voc_liquid": 44,
@@ -30,7 +30,7 @@
       "clinicaltrials": 311,
       "import": 488,
       "openalex": 216,
-      "pubmed": 166,
+      "pubmed": 167,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -38,7 +38,7 @@
     "by_score": {
       "1": 1,
       "2": 19,
-      "3": 487,
+      "3": 488,
       "4": 549,
       "5": 373
     },
@@ -79,7 +79,7 @@
       "2016": 50,
       "2017": 48,
       "2018": 63,
-      "2019": 57,
+      "2019": 58,
       "2020": 61,
       "2021": 79,
       "2022": 87,
@@ -89,14 +89,6 @@
       "2026": 57
     },
     "daily_trend": [
-      {
-        "date": "2026-08-01",
-        "count": 2
-      },
-      {
-        "date": "2026-08-02",
-        "count": 1
-      },
       {
         "date": "2026-08-03",
         "count": 1
@@ -156,9 +148,18 @@
       {
         "date": "2026-08-31",
         "count": 1
+      },
+      {
+        "date": "2026-09-01",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-01 23:02:56",
+        "found": 220,
+        "new_added": 1
+      },
       {
         "run_at": "2026-08-31 23:02:38",
         "found": 214,
@@ -203,11 +204,6 @@
         "run_at": "2026-08-23 23:02:01",
         "found": 215,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-08-22 23:03:20",
-        "found": 215,
-        "new_added": 3
       }
     ],
     "category_score": [
@@ -233,8 +229,8 @@
       },
       {
         "category": "disease_chronic",
-        "avg_score": 3.84,
-        "count": 173
+        "avg_score": 3.83,
+        "count": 174
       },
       {
         "category": "ai_model",
@@ -269,6 +265,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1664,
+      "title": "Exhaled Breath Analysis in Obstructive Sleep Apnea Syndrome: A Review of the Literature.",
+      "authors": "Finamore Panaiotis, Scarlata Simone, Cardaci Vittorio, Incalzi Raffaele Antonelli",
+      "year": 2019,
+      "journal": "Medicina (Kaunas, Lithuania)",
+      "category": "disease_chronic",
+      "score": 3.0,
+      "tags": [
+        "obstructive sleep apnea",
+        "exhaled breath",
+        "feno",
+        "ebc",
+        "voc"
+      ],
+      "one_line": "這篇綜述探討了呼氣分析在阻塞性睡眠呼吸暫停症診斷和機制研究中的應用。",
+      "doi": "10.3390/medicina55090538",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31461988/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-01 23:02:56"
+    },
     {
       "id": 1663,
       "title": "Exhaled breath profiling by electronic nose enabled discrimination of allergic rhinitis and extrinsic asthma.",
@@ -35391,6 +35409,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-02_0702",
+      "content": "# VOC 文獻監控日報 — 2026-09-02\n\n> 執行時間：07:02:59 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1664 |\n| 資料庫相關總數 | 1430 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[Exhaled Breath Analysis in Obstructive Sleep Apnea Syndrome: A Review of the Literature.](https://pubmed.ncbi.nlm.nih.gov/31461988/)**  \n  這篇綜述探討了呼氣分析在阻塞性睡眠呼吸暫停症診斷和機制研究中的應用。 ｜ 2019\n\n---\n*報告生成時間：2026-09-02 07:03:01*\n"
+    },
+    {
       "date": "2026-09-01_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-01\n\n> 執行時間：07:02:40 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1663 |\n| 資料庫相關總數 | 1429 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled breath profiling by electronic nose enabled discrimination of allergic rhinitis and extrinsic asthma.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：electronic nose, VOC, asthma, rhinitis, breath profiling\n- **摘要**：本研究利用電子鼻分析呼氣揮發性有機化合物，成功區分過敏性鼻炎和伴隨氣喘的患者。\n- **作者**：Dragonieri Silvano, Quaranta Vitaliano N, Carratu Pierluigi, Ranieri Teresa, Resta Onofrio | **年份**：2019 | DOI: `10.1080/1354750X.2018.1508307` | [連結](https://pubmed.ncbi.nlm.nih.gov/30074408/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Exhaled breath profiling by electronic nose enabled discrimination of allergic rhinitis and extrinsic asthma.](https://pubmed.ncbi.nlm.nih.gov/30074408/)**  \n  本研究利用電子鼻分析呼氣揮發性有機化合物，成功區分過敏性鼻炎和伴隨氣喘的患者。 ｜ 2019\n\n---\n*報告生成時間：2026-09-01 07:02:40*\n"
     },
@@ -35413,10 +35435,6 @@
     {
       "date": "2026-08-27_0702",
       "content": "# VOC 文獻監控日報 — 2026-08-27\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1652 |\n| 資料庫相關總數 | 1419 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-27 07:02:11*\n"
-    },
-    {
-      "date": "2026-08-26_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-26\n\n> 執行時間：07:02:39 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1652 |\n| 資料庫相關總數 | 1419 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled Volatile Organic Compounds for Early Prediction of Bronchopulmonary Dysplasia in Infants Born Preterm.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：preterm infants, bronchopulmonary dysplasia, VOCs, breath analysis, prediction model\n- **摘要**：本研究探討了呼氣揮發性有機化合物在預測早產兒肺部疾病方面的應用。\n- **作者**：Romijn Michelle, van Kaam Anton H, Fenn Dominic, Bos Lieuwe D, van den Akker Chris H P et al. | **年份**：2023 | DOI: `10.1016/j.jpeds.2023.02.014` | [連結](https://pubmed.ncbi.nlm.nih.gov/36868304/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Exhaled Volatile Organic Compounds for Early Prediction of Bronchopulmonary Dysplasia in Infants Born Preterm.](https://pubmed.ncbi.nlm.nih.gov/36868304/)**  \n  本研究探討了呼氣揮發性有機化合物在預測早產兒肺部疾病方面的應用。 ｜ 2023\n\n---\n*報告生成時間：2026-08-26 07:02:39*\n"
     }
   ]
 }

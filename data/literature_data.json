@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 1664,
+    "total": 1665,
     "relevant": 1430,
     "today": 1,
-    "this_week": 12,
+    "this_week": 13,
     "avg_score": 3.89,
-    "updated_at": "2026-09-02T07:03:02"
+    "updated_at": "2026-09-03T07:02:30"
   },
   "stats": {
-    "total": 1664,
+    "total": 1665,
     "relevant": 1430,
     "today": 1,
-    "this_week": 12,
+    "this_week": 13,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 480,
@@ -29,7 +29,7 @@
     "by_source": {
       "clinicaltrials": 311,
       "import": 488,
-      "openalex": 216,
+      "openalex": 217,
       "pubmed": 167,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
@@ -152,9 +152,18 @@
       {
         "date": "2026-09-01",
         "count": 1
+      },
+      {
+        "date": "2026-09-02",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-02 23:02:29",
+        "found": 205,
+        "new_added": 1
+      },
       {
         "run_at": "2026-09-01 23:02:56",
         "found": 220,
@@ -199,11 +208,6 @@
         "run_at": "2026-08-24 23:02:47",
         "found": 217,
         "new_added": 2
-      },
-      {
-        "run_at": "2026-08-23 23:02:01",
-        "found": 215,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -265,6 +269,27 @@
     ]
   },
   "literature": [
+    {
+      "id": 1665,
+      "title": "Cancer treatment and survivorship statistics, 2016",
+      "authors": "Kimberly D. Miller, Rebecca L. Siegel, Chun Chieh Lin, Angela B. Mariotto, Joan L. Kramer et al.",
+      "year": 2016,
+      "journal": "CA A Cancer Journal for Clinicians",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "cancer",
+        "survivorship",
+        "statistics",
+        "epidemiology"
+      ],
+      "one_line": "本研究為癌症生存者統計回顧，未涉及呼氣代謝體學相關內容。",
+      "doi": "10.3322/caac.21349",
+      "url": "https://doi.org/10.3322/caac.21349",
+      "source": "openalex",
+      "is_relevant": false,
+      "created_at": "2026-09-02 23:02:29"
+    },
     {
       "id": 1664,
       "title": "Exhaled Breath Analysis in Obstructive Sleep Apnea Syndrome: A Review of the Literature.",
@@ -35409,6 +35434,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-03_0702",
+      "content": "# VOC 文獻監控日報 — 2026-09-03\n\n> 執行時間：07:02:29 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1665 |\n| 資料庫相關總數 | 1430 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-03 07:02:29*\n"
+    },
+    {
       "date": "2026-09-02_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-02\n\n> 執行時間：07:02:59 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1664 |\n| 資料庫相關總數 | 1430 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[Exhaled Breath Analysis in Obstructive Sleep Apnea Syndrome: A Review of the Literature.](https://pubmed.ncbi.nlm.nih.gov/31461988/)**  \n  這篇綜述探討了呼氣分析在阻塞性睡眠呼吸暫停症診斷和機制研究中的應用。 ｜ 2019\n\n---\n*報告生成時間：2026-09-02 07:03:01*\n"
     },
@@ -35431,10 +35460,6 @@
     {
       "date": "2026-08-28_0704",
       "content": "# VOC 文獻監控日報 — 2026-08-28\n\n> 執行時間：07:04:09 | 新增 **5** 篇 | 相關 **5** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 5 |\n| 本次相關文獻 | 5 |\n| 資料庫累計總數 | 1657 |\n| 資料庫相關總數 | 1424 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled Volatile Organic Compounds Identify Allergic Patients Among Individuals With Chronic Rhinitis.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：rhinitis, allergy, VOC, exhaled breath, diagnosis\n- **摘要**：\n- **作者**：Sola-Martinez Rosa Alba, Zubiaga-Fernandez Laura, Figuerola Marta, Cruz-Amaya Anyith, Aranda Carlos J et al. | **年份**：2026 | DOI: `10.1111/all.70273` | [連結](https://pubmed.ncbi.nlm.nih.gov/41760380/)\n\n### Machine learning methods on exhaled volatile organic compounds for distinguishing COPD patients from healthy controls.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：copd, exhaled voc, machine learning, diagnosis, respiratory disease\n- **摘要**：本研究利用機器學習分析呼氣揮發性有機化合物，以區分慢性阻塞性肺病患者和健康對照組。\n- **作者**：Phillips Chris O, Syed Yasir, Parthaláin Neil Mac, Zwiggelaar Reyer, Claypole Tim C et al. | **年份**：2012 | DOI: `10.1088/1752-7155/6/3/036003` | [連結](https://pubmed.ncbi.nlm.nih.gov/22759349/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Exhaled Volatile Organic Compounds Identify Allergic Patients Among Individuals With Chronic Rhinitis.](https://pubmed.ncbi.nlm.nih.gov/41760380/)**  \n   ｜ 2026\n- ▓▓▓▓░ **[Machine learning methods on exhaled volatile organic compounds for distinguishing COPD patients from healthy controls.](https://pubmed.ncbi.nlm.nih.gov/22759349/)**  \n  本研究利用機器學習分析呼氣揮發性有機化合物，以區分慢性阻塞性肺病患者和健康對照組。 ｜ 2012\n\n### 癌症應用（2 篇）\n\n- ▓▓▓░░ **[Exhaled breath analysis: novel approach for early detection of lung cancer.](https://pubmed.ncbi.nlm.nih.gov/18599152/)**  \n  這篇文獻探討了使用呼氣冷凝物 (EBC) 在肺癌早期診斷中的潛在應用。 ｜ 2009\n- ▓▓▓░░ **[[CT] Analysis of Breath Volatile Organic Compounds Using Mass Spectrometry](https://clinicaltrials.gov/study/NCT07732686)**  \n  本研究評估呼氣揮發性有機化合物作為癌症篩檢工具的潛力。 ｜ 2026\n\n### 感染症（1 篇）\n\n- ▓▓▓░░ **[36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.](https://pubmed.ncbi.nlm.nih.gov/27885969/)**  \n  本研究探討敗血症對毛細血管反應及 ATP efflux 的影響。 ｜ 2016\n\n---\n*報告生成時間：2026-08-28 07:04:09*\n"
-    },
-    {
-      "date": "2026-08-27_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-27\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1652 |\n| 資料庫相關總數 | 1419 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-27 07:02:11*\n"
     }
   ]
 }

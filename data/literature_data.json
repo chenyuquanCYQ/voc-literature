@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1666,
-    "relevant": 1431,
-    "today": 1,
-    "this_week": 14,
+    "total": 1669,
+    "relevant": 1434,
+    "today": 3,
+    "this_week": 11,
     "avg_score": 3.89,
-    "updated_at": "2026-09-04T07:03:26"
+    "updated_at": "2026-09-05T07:03:21"
   },
   "stats": {
-    "total": 1666,
-    "relevant": 1431,
-    "today": 1,
-    "this_week": 14,
+    "total": 1669,
+    "relevant": 1434,
+    "today": 3,
+    "this_week": 11,
     "avg_score": 3.89,
     "by_category": {
-      "voc_breath": 480,
+      "voc_breath": 483,
       "disease_cancer": 263,
       "sensor_hardware": 211,
       "disease_chronic": 174,
@@ -30,7 +30,7 @@
       "clinicaltrials": 312,
       "import": 488,
       "openalex": 217,
-      "pubmed": 167,
+      "pubmed": 170,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -38,8 +38,8 @@
     "by_score": {
       "1": 1,
       "2": 19,
-      "3": 489,
-      "4": 549,
+      "3": 491,
+      "4": 550,
       "5": 373
     },
     "by_year": {
@@ -80,19 +80,15 @@
       "2017": 48,
       "2018": 63,
       "2019": 58,
-      "2020": 61,
+      "2020": 62,
       "2021": 79,
       "2022": 87,
       "2023": 74,
       "2024": 111,
       "2025": 105,
-      "2026": 57
+      "2026": 59
     },
     "daily_trend": [
-      {
-        "date": "2026-08-05",
-        "count": 3
-      },
       {
         "date": "2026-08-06",
         "count": 2
@@ -152,9 +148,18 @@
       {
         "date": "2026-09-03",
         "count": 1
+      },
+      {
+        "date": "2026-09-04",
+        "count": 3
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-04 23:03:19",
+        "found": 218,
+        "new_added": 3
+      },
       {
         "run_at": "2026-09-03 23:03:18",
         "found": 216,
@@ -199,11 +204,6 @@
         "run_at": "2026-08-26 23:02:11",
         "found": 217,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-08-25 23:02:39",
-        "found": 217,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -219,8 +219,8 @@
       },
       {
         "category": "voc_breath",
-        "avg_score": 3.99,
-        "count": 480
+        "avg_score": 3.98,
+        "count": 483
       },
       {
         "category": "voc_liquid",
@@ -265,6 +265,72 @@
     ]
   },
   "literature": [
+    {
+      "id": 1669,
+      "title": "Bioinspired Wettability Engineering Enables Efficient Exhaled Breath Condensate Harvesting for Wearable Respiratory Monitoring.",
+      "authors": "Ouyang Zhirou, Wang Jing, Liu Conghui, Xu Tailin",
+      "year": 2026,
+      "journal": "ACS sensors",
+      "category": "voc_breath",
+      "score": 3.0,
+      "tags": [
+        "breath condensate",
+        "wearable",
+        "monitoring",
+        "bioinspired",
+        "engineering"
+      ],
+      "one_line": "本研究開發了一種生物啟發式的口罩，用於高效採集呼氣冷凝物，並實現呼吸系統生物標記物的實時監測。",
+      "doi": "10.1021/acssensors.6c02449",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42611189/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-04 23:03:19"
+    },
+    {
+      "id": 1668,
+      "title": "Human Breathomics Database.",
+      "authors": "Kuo Tien-Chueh, Tan Cheng-En, Wang San-Yuan, Lin Olivia A, Su Bo-Han et al.",
+      "year": 2020,
+      "journal": "Database : the journal of biological databases and curation",
+      "category": "voc_breath",
+      "score": 4.0,
+      "tags": [
+        "breathomics",
+        "voc",
+        "database",
+        "human",
+        "metabolomics"
+      ],
+      "one_line": "本研究建立了一個包含呼氣揮發性有機化合物、文獻和疾病信息的數據庫。",
+      "doi": "10.1093/database/baz139",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31976536/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-04 23:03:19"
+    },
+    {
+      "id": 1667,
+      "title": "Sweet interference: oral fermentation volatile confounders in exhaled breath revealed by minimal glucose exposure.",
+      "authors": "Chawaguta Anesu, Sanders Daniel, Ruzsanyi Vera, Mayhew Chris A, Petralia Lorenzo Salvatore",
+      "year": 2026,
+      "journal": "Journal of breath research",
+      "category": "voc_breath",
+      "score": 3.0,
+      "tags": [
+        "breathomics",
+        "oral microbiome",
+        "glucose",
+        "confounders",
+        "VOCs"
+      ],
+      "one_line": "本研究探討口服葡萄糖如何影響呼氣揮發性成分，並強調口腔微生物的干擾作用。",
+      "doi": "10.1088/1752-7163/ae9ca5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42626924/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-04 23:03:18"
+    },
     {
       "id": 1666,
       "title": "[CT] The Prevalence and the Pathophysiological Role of Non-Helicobacter Pylori Helicobacter Spp. in Well-defined Gastric Diseases and (Pre-) Malignancies",
@@ -35452,6 +35518,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-05_0703",
+      "content": "# VOC 文獻監控日報 — 2026-09-05\n\n> 執行時間：07:03:20 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1669 |\n| 資料庫相關總數 | 1434 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Human Breathomics Database.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breathomics, voc, database, human, metabolomics\n- **摘要**：本研究建立了一個包含呼氣揮發性有機化合物、文獻和疾病信息的數據庫。\n- **作者**：Kuo Tien-Chueh, Tan Cheng-En, Wang San-Yuan, Lin Olivia A, Su Bo-Han et al. | **年份**：2020 | DOI: `10.1093/database/baz139` | [連結](https://pubmed.ncbi.nlm.nih.gov/31976536/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（3 篇）\n\n- ▓▓▓▓░ **[Human Breathomics Database.](https://pubmed.ncbi.nlm.nih.gov/31976536/)**  \n  本研究建立了一個包含呼氣揮發性有機化合物、文獻和疾病信息的數據庫。 ｜ 2020\n- ▓▓▓░░ **[Sweet interference: oral fermentation volatile confounders in exhaled breath revealed by minimal glucose exposure.](https://pubmed.ncbi.nlm.nih.gov/42626924/)**  \n  本研究探討口服葡萄糖如何影響呼氣揮發性成分，並強調口腔微生物的干擾作用。 ｜ 2026\n- ▓▓▓░░ **[Bioinspired Wettability Engineering Enables Efficient Exhaled Breath Condensate Harvesting for Wearable Respiratory Monitoring.](https://pubmed.ncbi.nlm.nih.gov/42611189/)**  \n  本研究開發了一種生物啟發式的口罩，用於高效採集呼氣冷凝物，並實現呼吸系統生物標記物的實時監測。 ｜ 2026\n\n---\n*報告生成時間：2026-09-05 07:03:20*\n"
+    },
+    {
       "date": "2026-09-04_0703",
       "content": "# VOC 文獻監控日報 — 2026-09-04\n\n> 執行時間：07:03:24 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1666 |\n| 資料庫相關總數 | 1431 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[[CT] The Prevalence and the Pathophysiological Role of Non-Helicobacter Pylori Helicobacter Spp. in Well-defined Gastric Diseases and (Pre-) Malignancies](https://clinicaltrials.gov/study/NCT07770126)**  \n  本研究旨在探討非幽門螺旋桿菌螺旋菌在胃癌及相關疾病患者中的流行率。 ｜ 2025\n\n---\n*報告生成時間：2026-09-04 07:03:25*\n"
     },
@@ -35474,10 +35544,6 @@
     {
       "date": "2026-08-30_0703",
       "content": "# VOC 文獻監控日報 — 2026-08-30\n\n> 執行時間：07:03:40 | 新增 **4** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 4 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1662 |\n| 資料庫相關總數 | 1428 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Electronic nose analysis of exhaled breath to diagnose ventilator-associated pneumonia.\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：e-nose, ventilator-associated pneumonia, exhaled breath, diagnosis, respiratory infection\n- **摘要**：本研究探討電子鼻分析呼氣樣本診斷呼吸器相關肺炎的應用。\n- **作者**：Schnabel R M, Boumans M L L, Smolinska A, Stobberingh E E, Kaufmann R et al. | **年份**：2015 | DOI: `10.1016/j.rmed.2015.09.014` | [連結](https://pubmed.ncbi.nlm.nih.gov/26440675/)\n\n### Online breath analysis using metal oxide semiconductor sensors (electronic nose) for diagnosis of lung cancer.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, electronic nose, breath analysis, diagnosis, sensor array\n- **摘要**：本研究利用電子鼻分析呼氣樣本，以高準確率篩檢肺癌。\n- **作者**：Kononov Aleksandr, Korotetsky Boris, Jahatspanian Igor, Gubal Anna, Vasiliev Alexey et al. | **年份**：2019 | DOI: `10.1088/1752-7163/ab433d` | [連結](https://pubmed.ncbi.nlm.nih.gov/31505480/)\n\n### Diagnostic Performance of Electronic Noses in Cancer Diagnoses Using Exhaled Breath: A Systematic Review and Meta-analysis.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cancer, exhaled breath, electronic nose, diagnosis, VOC\n- **摘要**：這篇文獻回顧了電子鼻在癌症診斷中運用呼氣揮發性有機化合物的效能。\n- **作者**：Scheepers Max H M C, Al-Difaie Zaid, Brandts Lloyd, Peeters Andrea, van Grinsven Bart et al. | **年份**：2022 | DOI: `10.1001/jamanetworkopen.2022.19372` | [連結](https://pubmed.ncbi.nlm.nih.gov/35767259/)\n\n### Breath analysis by gas chromatography-mass spectrometry and electronic nose to screen for pleural mesothelioma: a cross-sectional case-control study.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：mesothelioma, GC-MS, eNose, VOC, screening\n- **摘要**：本研究利用呼氣揮發性有機化合物分析，成功區分 MPM 患者和無症狀的石棉暴露人群。\n- **作者**：Lamote Kevin, Brinkman Paul, Vandermeersch Lore, Vynck Matthijs, Sterk Peter J et al. | **年份**：2017 | DOI: `10.18632/oncotarget.21335` | [連結](https://pubmed.ncbi.nlm.nih.gov/29207669/)\n\n## 📂 依類別分類\n\n### 癌症應用（3 篇）\n\n- ▓▓▓▓░ **[Online breath analysis using metal oxide semiconductor sensors (electronic nose) for diagnosis of lung cancer.](https://pubmed.ncbi.nlm.nih.gov/31505480/)**  \n  本研究利用電子鼻分析呼氣樣本，以高準確率篩檢肺癌。 ｜ 2019\n- ▓▓▓▓░ **[Diagnostic Performance of Electronic Noses in Cancer Diagnoses Using Exhaled Breath: A Systematic Review and Meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/35767259/)**  \n  這篇文獻回顧了電子鼻在癌症診斷中運用呼氣揮發性有機化合物的效能。 ｜ 2022\n- ▓▓▓▓░ **[Breath analysis by gas chromatography-mass spectrometry and electronic nose to screen for pleural mesothelioma: a cross-sectional case-control study.](https://pubmed.ncbi.nlm.nih.gov/29207669/)**  \n  本研究利用呼氣揮發性有機化合物分析，成功區分 MPM 患者和無症狀的石棉暴露人群。 ｜ 2017\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[Electronic nose analysis of exhaled breath to diagnose ventilator-associated pneumonia.](https://pubmed.ncbi.nlm.nih.gov/26440675/)**  \n  本研究探討電子鼻分析呼氣樣本診斷呼吸器相關肺炎的應用。 ｜ 2015\n\n---\n*報告生成時間：2026-08-30 07:03:40*\n"
-    },
-    {
-      "date": "2026-08-29_0703",
-      "content": "# VOC 文獻監控日報 — 2026-08-29\n\n> 執行時間：07:03:09 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1658 |\n| 資料庫相關總數 | 1424 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-08-29 07:03:09*\n"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 1669,
+    "total": 1670,
     "relevant": 1434,
-    "today": 0,
-    "this_week": 11,
+    "today": 1,
+    "this_week": 8,
     "avg_score": 3.89,
-    "updated_at": "2026-09-06T07:02:05"
+    "updated_at": "2026-09-07T07:02:44"
   },
   "stats": {
-    "total": 1669,
+    "total": 1670,
     "relevant": 1434,
-    "today": 0,
-    "this_week": 11,
+    "today": 1,
+    "this_week": 8,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 483,
@@ -29,7 +29,7 @@
     "by_source": {
       "clinicaltrials": 312,
       "import": 488,
-      "openalex": 217,
+      "openalex": 218,
       "pubmed": 170,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
@@ -90,10 +90,6 @@
     },
     "daily_trend": [
       {
-        "date": "2026-08-06",
-        "count": 2
-      },
-      {
         "date": "2026-08-08",
         "count": 5
       },
@@ -152,9 +148,18 @@
       {
         "date": "2026-09-04",
         "count": 3
+      },
+      {
+        "date": "2026-09-06",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-06 23:02:40",
+        "found": 220,
+        "new_added": 1
+      },
       {
         "run_at": "2026-09-05 23:02:04",
         "found": 217,
@@ -199,11 +204,6 @@
         "run_at": "2026-08-28 23:03:05",
         "found": 219,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-08-27 23:04:07",
-        "found": 215,
-        "new_added": 5
       }
     ],
     "category_score": [
@@ -265,6 +265,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1670,
+      "title": "Nutrimetabolomics: An Integrative Action for Metabolomic Analyses in Human Nutritional Studies",
+      "authors": "Marynka Ulaszewska, Christoph H. Weinert, Alessia Trimigno, Reto Portmann, Cristina Andrés‐Lacueva et al.",
+      "year": 2018,
+      "journal": "Molecular Nutrition & Food Research",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "nutrimetabolomics",
+        "methodology",
+        "nutrition",
+        "metabolomics",
+        "human studies"
+      ],
+      "one_line": "這篇綜述探討營養代謝體學的方法論，沒有涉及呼氣成分的量測。",
+      "doi": "10.1002/mnfr.201800384",
+      "url": "https://doi.org/10.1002/mnfr.201800384",
+      "source": "openalex",
+      "is_relevant": false,
+      "created_at": "2026-09-06 23:02:40"
+    },
     {
       "id": 1669,
       "title": "Bioinspired Wettability Engineering Enables Efficient Exhaled Breath Condensate Harvesting for Wearable Respiratory Monitoring.",
@@ -35518,6 +35540,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-07_0702",
+      "content": "# VOC 文獻監控日報 — 2026-09-07\n\n> 執行時間：07:02:43 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1670 |\n| 資料庫相關總數 | 1434 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-07 07:02:43*\n"
+    },
+    {
       "date": "2026-09-06_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-06\n\n> 執行時間：07:02:05 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1669 |\n| 資料庫相關總數 | 1434 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-09-06 07:02:05*\n"
     },
@@ -35540,10 +35566,6 @@
     {
       "date": "2026-09-01_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-01\n\n> 執行時間：07:02:40 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1663 |\n| 資料庫相關總數 | 1429 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled breath profiling by electronic nose enabled discrimination of allergic rhinitis and extrinsic asthma.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：electronic nose, VOC, asthma, rhinitis, breath profiling\n- **摘要**：本研究利用電子鼻分析呼氣揮發性有機化合物，成功區分過敏性鼻炎和伴隨氣喘的患者。\n- **作者**：Dragonieri Silvano, Quaranta Vitaliano N, Carratu Pierluigi, Ranieri Teresa, Resta Onofrio | **年份**：2019 | DOI: `10.1080/1354750X.2018.1508307` | [連結](https://pubmed.ncbi.nlm.nih.gov/30074408/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Exhaled breath profiling by electronic nose enabled discrimination of allergic rhinitis and extrinsic asthma.](https://pubmed.ncbi.nlm.nih.gov/30074408/)**  \n  本研究利用電子鼻分析呼氣揮發性有機化合物，成功區分過敏性鼻炎和伴隨氣喘的患者。 ｜ 2019\n\n---\n*報告生成時間：2026-09-01 07:02:40*\n"
-    },
-    {
-      "date": "2026-08-31_0702",
-      "content": "# VOC 文獻監控日報 — 2026-08-31\n\n> 執行時間：07:02:11 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1662 |\n| 資料庫相關總數 | 1428 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-08-31 07:02:11*\n"
     }
   ]
 }

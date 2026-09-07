@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total": 1670,
-    "relevant": 1434,
-    "today": 1,
-    "this_week": 8,
+    "total": 1672,
+    "relevant": 1436,
+    "today": 2,
+    "this_week": 9,
     "avg_score": 3.89,
-    "updated_at": "2026-09-07T07:02:44"
+    "updated_at": "2026-09-08T07:03:39"
   },
   "stats": {
-    "total": 1670,
-    "relevant": 1434,
-    "today": 1,
-    "this_week": 8,
+    "total": 1672,
+    "relevant": 1436,
+    "today": 2,
+    "this_week": 9,
     "avg_score": 3.89,
     "by_category": {
-      "voc_breath": 483,
-      "disease_cancer": 263,
+      "voc_breath": 484,
+      "disease_cancer": 264,
       "sensor_hardware": 211,
       "disease_chronic": 174,
       "method_tech": 102,
@@ -30,7 +30,7 @@
       "clinicaltrials": 312,
       "import": 488,
       "openalex": 218,
-      "pubmed": 170,
+      "pubmed": 172,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -38,7 +38,7 @@
     "by_score": {
       "1": 1,
       "2": 19,
-      "3": 491,
+      "3": 493,
       "4": 550,
       "5": 373
     },
@@ -84,15 +84,11 @@
       "2021": 79,
       "2022": 87,
       "2023": 74,
-      "2024": 111,
+      "2024": 112,
       "2025": 105,
-      "2026": 59
+      "2026": 60
     },
     "daily_trend": [
-      {
-        "date": "2026-08-08",
-        "count": 5
-      },
       {
         "date": "2026-08-09",
         "count": 414
@@ -152,9 +148,18 @@
       {
         "date": "2026-09-06",
         "count": 1
+      },
+      {
+        "date": "2026-09-07",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-07 23:03:36",
+        "found": 220,
+        "new_added": 2
+      },
       {
         "run_at": "2026-09-06 23:02:40",
         "found": 220,
@@ -199,18 +204,13 @@
         "run_at": "2026-08-29 23:03:39",
         "found": 216,
         "new_added": 4
-      },
-      {
-        "run_at": "2026-08-28 23:03:05",
-        "found": 219,
-        "new_added": 1
       }
     ],
     "category_score": [
       {
         "category": "disease_cancer",
         "avg_score": 4.48,
-        "count": 263
+        "count": 264
       },
       {
         "category": "infection",
@@ -220,7 +220,7 @@
       {
         "category": "voc_breath",
         "avg_score": 3.98,
-        "count": 483
+        "count": 484
       },
       {
         "category": "voc_liquid",
@@ -265,6 +265,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1672,
+      "title": "Irritable bowel syndrome-specific volatile organic compounds in faecal headspace do not associate with classical symptom-based subtypes.",
+      "authors": "Van Vorstenbosch R, Skawinski M, Jonkers D, Elizalde Vilalta M, Keszthelyi D et al.",
+      "year": 2026,
+      "journal": "Journal of breath research",
+      "category": "voc_breath",
+      "score": 3.0,
+      "tags": [
+        "irritable bowel syndrome",
+        "ibs",
+        "volatile organic compounds",
+        "voc",
+        "faecal headspace"
+      ],
+      "one_line": "本研究探討糞便 headspace 中的揮發性有機化合物與 IBS 患者亞型之間的關聯性。",
+      "doi": "10.1088/1752-7163/ae26be",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41330045/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-07 23:03:36"
+    },
+    {
+      "id": 1671,
+      "title": "Advancements in breath-based diagnostics for pancreatic cancer: Current insights and future perspectives.",
+      "authors": "Tez Mesut, Şahingöz Eda, Martlı Hüseyin Fahri",
+      "year": 2024,
+      "journal": "World journal of gastrointestinal oncology",
+      "category": "disease_cancer",
+      "score": 3.0,
+      "tags": [
+        "breath",
+        "voc",
+        "pancreatic cancer",
+        "diagnosis",
+        "gas chromatography"
+      ],
+      "one_line": "這篇綜述探討了呼氣揮發性有機化合物在胰臟癌診斷上的應用現狀與未來展望。",
+      "doi": "10.4251/wjgo.v16.i6.2300",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38994133/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-07 23:03:35"
+    },
     {
       "id": 1670,
       "title": "Nutrimetabolomics: An Integrative Action for Metabolomic Analyses in Human Nutritional Studies",
@@ -35540,6 +35584,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-08_0703",
+      "content": "# VOC 文獻監控日報 — 2026-09-08\n\n> 執行時間：07:03:38 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1672 |\n| 資料庫相關總數 | 1436 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[Advancements in breath-based diagnostics for pancreatic cancer: Current insights and future perspectives.](https://pubmed.ncbi.nlm.nih.gov/38994133/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在胰臟癌診斷上的應用現狀與未來展望。 ｜ 2024\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Irritable bowel syndrome-specific volatile organic compounds in faecal headspace do not associate with classical symptom-based subtypes.](https://pubmed.ncbi.nlm.nih.gov/41330045/)**  \n  本研究探討糞便 headspace 中的揮發性有機化合物與 IBS 患者亞型之間的關聯性。 ｜ 2026\n\n---\n*報告生成時間：2026-09-08 07:03:38*\n"
+    },
+    {
       "date": "2026-09-07_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-07\n\n> 執行時間：07:02:43 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1670 |\n| 資料庫相關總數 | 1434 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-07 07:02:43*\n"
     },
@@ -35562,10 +35610,6 @@
     {
       "date": "2026-09-02_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-02\n\n> 執行時間：07:02:59 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1664 |\n| 資料庫相關總數 | 1430 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[Exhaled Breath Analysis in Obstructive Sleep Apnea Syndrome: A Review of the Literature.](https://pubmed.ncbi.nlm.nih.gov/31461988/)**  \n  這篇綜述探討了呼氣分析在阻塞性睡眠呼吸暫停症診斷和機制研究中的應用。 ｜ 2019\n\n---\n*報告生成時間：2026-09-02 07:03:01*\n"
-    },
-    {
-      "date": "2026-09-01_0702",
-      "content": "# VOC 文獻監控日報 — 2026-09-01\n\n> 執行時間：07:02:40 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1663 |\n| 資料庫相關總數 | 1429 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhaled breath profiling by electronic nose enabled discrimination of allergic rhinitis and extrinsic asthma.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：electronic nose, VOC, asthma, rhinitis, breath profiling\n- **摘要**：本研究利用電子鼻分析呼氣揮發性有機化合物，成功區分過敏性鼻炎和伴隨氣喘的患者。\n- **作者**：Dragonieri Silvano, Quaranta Vitaliano N, Carratu Pierluigi, Ranieri Teresa, Resta Onofrio | **年份**：2019 | DOI: `10.1080/1354750X.2018.1508307` | [連結](https://pubmed.ncbi.nlm.nih.gov/30074408/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Exhaled breath profiling by electronic nose enabled discrimination of allergic rhinitis and extrinsic asthma.](https://pubmed.ncbi.nlm.nih.gov/30074408/)**  \n  本研究利用電子鼻分析呼氣揮發性有機化合物，成功區分過敏性鼻炎和伴隨氣喘的患者。 ｜ 2019\n\n---\n*報告生成時間：2026-09-01 07:02:40*\n"
     }
   ]
 }

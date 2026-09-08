@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1672,
-    "relevant": 1436,
-    "today": 2,
-    "this_week": 9,
+    "total": 1673,
+    "relevant": 1437,
+    "today": 1,
+    "this_week": 10,
     "avg_score": 3.89,
-    "updated_at": "2026-09-08T07:03:39"
+    "updated_at": "2026-09-09T07:02:53"
   },
   "stats": {
-    "total": 1672,
-    "relevant": 1436,
-    "today": 2,
-    "this_week": 9,
+    "total": 1673,
+    "relevant": 1437,
+    "today": 1,
+    "this_week": 10,
     "avg_score": 3.89,
     "by_category": {
-      "voc_breath": 484,
+      "voc_breath": 485,
       "disease_cancer": 264,
       "sensor_hardware": 211,
       "disease_chronic": 174,
@@ -30,7 +30,7 @@
       "clinicaltrials": 312,
       "import": 488,
       "openalex": 218,
-      "pubmed": 172,
+      "pubmed": 173,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -38,7 +38,7 @@
     "by_score": {
       "1": 1,
       "2": 19,
-      "3": 493,
+      "3": 494,
       "4": 550,
       "5": 373
     },
@@ -84,15 +84,11 @@
       "2021": 79,
       "2022": 87,
       "2023": 74,
-      "2024": 112,
+      "2024": 113,
       "2025": 105,
       "2026": 60
     },
     "daily_trend": [
-      {
-        "date": "2026-08-09",
-        "count": 414
-      },
       {
         "date": "2026-08-10",
         "count": 1
@@ -152,9 +148,18 @@
       {
         "date": "2026-09-07",
         "count": 2
+      },
+      {
+        "date": "2026-09-08",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-08 23:02:51",
+        "found": 216,
+        "new_added": 1
+      },
       {
         "run_at": "2026-09-07 23:03:36",
         "found": 220,
@@ -199,11 +204,6 @@
         "run_at": "2026-08-30 23:02:11",
         "found": 216,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-08-29 23:03:39",
-        "found": 216,
-        "new_added": 4
       }
     ],
     "category_score": [
@@ -220,7 +220,7 @@
       {
         "category": "voc_breath",
         "avg_score": 3.98,
-        "count": 484
+        "count": 485
       },
       {
         "category": "voc_liquid",
@@ -265,6 +265,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1673,
+      "title": "Optimization of volatile organic compounds sampling from dairy cow exhaled breath using polymer-based solid-phase extraction cartridges for gas chromatographic analysis.",
+      "authors": "Eichinger Julia, Reiche Anna-Maria, Dohme-Meier Frigga, Fuchsmann Pascal",
+      "year": 2024,
+      "journal": "Journal of breath research",
+      "category": "voc_breath",
+      "score": 3.0,
+      "tags": [
+        "dairy cow",
+        "exhaled breath",
+        "voc",
+        "spe",
+        "gc-ms"
+      ],
+      "one_line": "本研究評估不同固相萃取試劑對乳牛呼氣揮發性有機化合物採樣的影響。",
+      "doi": "10.1088/1752-7163/ad38d5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38547532/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-08 23:02:50"
+    },
     {
       "id": 1672,
       "title": "Irritable bowel syndrome-specific volatile organic compounds in faecal headspace do not associate with classical symptom-based subtypes.",
@@ -35584,6 +35606,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-09_0702",
+      "content": "# VOC 文獻監控日報 — 2026-09-09\n\n> 執行時間：07:02:53 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1673 |\n| 資料庫相關總數 | 1437 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Optimization of volatile organic compounds sampling from dairy cow exhaled breath using polymer-based solid-phase extraction cartridges for gas chromatographic analysis.](https://pubmed.ncbi.nlm.nih.gov/38547532/)**  \n  本研究評估不同固相萃取試劑對乳牛呼氣揮發性有機化合物採樣的影響。 ｜ 2024\n\n---\n*報告生成時間：2026-09-09 07:02:53*\n"
+    },
+    {
       "date": "2026-09-08_0703",
       "content": "# VOC 文獻監控日報 — 2026-09-08\n\n> 執行時間：07:03:38 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1672 |\n| 資料庫相關總數 | 1436 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[Advancements in breath-based diagnostics for pancreatic cancer: Current insights and future perspectives.](https://pubmed.ncbi.nlm.nih.gov/38994133/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在胰臟癌診斷上的應用現狀與未來展望。 ｜ 2024\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Irritable bowel syndrome-specific volatile organic compounds in faecal headspace do not associate with classical symptom-based subtypes.](https://pubmed.ncbi.nlm.nih.gov/41330045/)**  \n  本研究探討糞便 headspace 中的揮發性有機化合物與 IBS 患者亞型之間的關聯性。 ｜ 2026\n\n---\n*報告生成時間：2026-09-08 07:03:38*\n"
     },
@@ -35606,10 +35632,6 @@
     {
       "date": "2026-09-03_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-03\n\n> 執行時間：07:02:29 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1665 |\n| 資料庫相關總數 | 1430 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-03 07:02:29*\n"
-    },
-    {
-      "date": "2026-09-02_0702",
-      "content": "# VOC 文獻監控日報 — 2026-09-02\n\n> 執行時間：07:02:59 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1664 |\n| 資料庫相關總數 | 1430 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[Exhaled Breath Analysis in Obstructive Sleep Apnea Syndrome: A Review of the Literature.](https://pubmed.ncbi.nlm.nih.gov/31461988/)**  \n  這篇綜述探討了呼氣分析在阻塞性睡眠呼吸暫停症診斷和機制研究中的應用。 ｜ 2019\n\n---\n*報告生成時間：2026-09-02 07:03:01*\n"
     }
   ]
 }

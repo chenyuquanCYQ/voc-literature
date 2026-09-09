@@ -2,16 +2,16 @@
   "meta": {
     "total": 1673,
     "relevant": 1437,
-    "today": 1,
-    "this_week": 10,
+    "today": 0,
+    "this_week": 9,
     "avg_score": 3.89,
-    "updated_at": "2026-09-09T07:02:53"
+    "updated_at": "2026-09-10T07:01:59"
   },
   "stats": {
     "total": 1673,
     "relevant": 1437,
-    "today": 1,
-    "this_week": 10,
+    "today": 0,
+    "this_week": 9,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 485,
@@ -156,6 +156,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-09-09 23:01:58",
+        "found": 220,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-09-08 23:02:51",
         "found": 216,
         "new_added": 1
@@ -199,11 +204,6 @@
         "run_at": "2026-08-31 23:02:38",
         "found": 214,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-08-30 23:02:11",
-        "found": 216,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -35606,6 +35606,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-10_0701",
+      "content": "# VOC 文獻監控日報 — 2026-09-10\n\n> 執行時間：07:01:59 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1673 |\n| 資料庫相關總數 | 1437 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-09-10 07:01:59*\n"
+    },
+    {
       "date": "2026-09-09_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-09\n\n> 執行時間：07:02:53 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1673 |\n| 資料庫相關總數 | 1437 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Optimization of volatile organic compounds sampling from dairy cow exhaled breath using polymer-based solid-phase extraction cartridges for gas chromatographic analysis.](https://pubmed.ncbi.nlm.nih.gov/38547532/)**  \n  本研究評估不同固相萃取試劑對乳牛呼氣揮發性有機化合物採樣的影響。 ｜ 2024\n\n---\n*報告生成時間：2026-09-09 07:02:53*\n"
     },
@@ -35628,10 +35632,6 @@
     {
       "date": "2026-09-04_0703",
       "content": "# VOC 文獻監控日報 — 2026-09-04\n\n> 執行時間：07:03:24 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1666 |\n| 資料庫相關總數 | 1431 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[[CT] The Prevalence and the Pathophysiological Role of Non-Helicobacter Pylori Helicobacter Spp. in Well-defined Gastric Diseases and (Pre-) Malignancies](https://clinicaltrials.gov/study/NCT07770126)**  \n  本研究旨在探討非幽門螺旋桿菌螺旋菌在胃癌及相關疾病患者中的流行率。 ｜ 2025\n\n---\n*報告生成時間：2026-09-04 07:03:25*\n"
-    },
-    {
-      "date": "2026-09-03_0702",
-      "content": "# VOC 文獻監控日報 — 2026-09-03\n\n> 執行時間：07:02:29 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1665 |\n| 資料庫相關總數 | 1430 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-03 07:02:29*\n"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 1676,
+    "total": 1677,
     "relevant": 1439,
-    "today": 3,
-    "this_week": 10,
+    "today": 1,
+    "this_week": 8,
     "avg_score": 3.89,
-    "updated_at": "2026-09-11T07:03:22"
+    "updated_at": "2026-09-14T07:02:37"
   },
   "stats": {
-    "total": 1676,
+    "total": 1677,
     "relevant": 1439,
-    "today": 3,
-    "this_week": 10,
+    "today": 1,
+    "this_week": 8,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 486,
@@ -30,7 +30,7 @@
       "clinicaltrials": 313,
       "import": 488,
       "openalex": 218,
-      "pubmed": 175,
+      "pubmed": 176,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -90,10 +90,6 @@
     },
     "daily_trend": [
       {
-        "date": "2026-08-12",
-        "count": 1
-      },
-      {
         "date": "2026-08-22",
         "count": 3
       },
@@ -152,9 +148,18 @@
       {
         "date": "2026-09-10",
         "count": 3
+      },
+      {
+        "date": "2026-09-13",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-13 23:02:34",
+        "found": 220,
+        "new_added": 1
+      },
       {
         "run_at": "2026-09-10 23:03:19",
         "found": 221,
@@ -198,11 +203,6 @@
       {
         "run_at": "2026-09-02 23:02:29",
         "found": 205,
-        "new_added": 1
-      },
-      {
-        "run_at": "2026-09-01 23:02:56",
-        "found": 220,
         "new_added": 1
       }
     ],
@@ -265,6 +265,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1677,
+      "title": "Current approaches using remote monitoring technology in alcohol use disorder (AUD): an integrative review.",
+      "authors": "Navarro-Ovando Valentina, van Schie Sterre, Garrelfs Imme, Rijksbaron Jop, Rivero Cristian Rodriguez et al.",
+      "year": 2025,
+      "journal": "Alcohol and alcoholism (Oxford, Oxfordshire)",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "alcohol use disorder",
+        "mHealth",
+        "remote monitoring",
+        "breathalyzer",
+        "AUD"
+      ],
+      "one_line": "這篇綜述探討了使用遠端監測技術（包括呼氣分析儀）來監測酒精使用障礙的現狀。",
+      "doi": "10.1093/alcalc/agaf032",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40501058/",
+      "source": "pubmed",
+      "is_relevant": false,
+      "created_at": "2026-09-13 23:02:34"
+    },
     {
       "id": 1676,
       "title": "[CT] Rapid Research in Diagnostics Development for TB Network",
@@ -35671,6 +35693,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-14_0702",
+      "content": "# VOC 文獻監控日報 — 2026-09-14\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1677 |\n| 資料庫相關總數 | 1439 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-14 07:02:36*\n"
+    },
+    {
       "date": "2026-09-11_0703",
       "content": "# VOC 文獻監控日報 — 2026-09-11\n\n> 執行時間：07:03:21 | 新增 **3** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1676 |\n| 資料庫相關總數 | 1439 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhalation metabolomics for noninvasive staging biomarker exploration in silicosis.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：silicosis, breath, metabolomics, staging, lung disease\n- **摘要**：本研究利用呼氣代謝體學篩選出不同矽肺階段的生物標記，並探討其代謝途徑。\n- **作者**：Pan Ao, Xu Mucen, Zhou Huiling, Xu Huan, Wang Linyao et al. | **年份**：2025 | DOI: `10.1088/1752-7163/ae26bf` | [連結](https://pubmed.ncbi.nlm.nih.gov/41330037/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Exhalation metabolomics for noninvasive staging biomarker exploration in silicosis.](https://pubmed.ncbi.nlm.nih.gov/41330037/)**  \n  本研究利用呼氣代謝體學篩選出不同矽肺階段的生物標記，並探討其代謝途徑。 ｜ 2025\n\n### 感測器（1 篇）\n\n- ▓▓▓░░ **[Wearable Humidity Sensor Using Cs3Cu2I5 Metal Halides with Hydroxyl Selective Phase Transition for Breath Monitoring.](https://pubmed.ncbi.nlm.nih.gov/40422050/)**  \n  本研究開發了一種利用 Cs3Cu2I5 物質對羥基氣體敏感的穿戴式呼吸監測感測器。 ｜ 2025\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-11 07:03:21*\n"
     },
@@ -35693,10 +35719,6 @@
     {
       "date": "2026-09-06_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-06\n\n> 執行時間：07:02:05 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1669 |\n| 資料庫相關總數 | 1434 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-09-06 07:02:05*\n"
-    },
-    {
-      "date": "2026-09-05_0703",
-      "content": "# VOC 文獻監控日報 — 2026-09-05\n\n> 執行時間：07:03:20 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 1669 |\n| 資料庫相關總數 | 1434 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Human Breathomics Database.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breathomics, voc, database, human, metabolomics\n- **摘要**：本研究建立了一個包含呼氣揮發性有機化合物、文獻和疾病信息的數據庫。\n- **作者**：Kuo Tien-Chueh, Tan Cheng-En, Wang San-Yuan, Lin Olivia A, Su Bo-Han et al. | **年份**：2020 | DOI: `10.1093/database/baz139` | [連結](https://pubmed.ncbi.nlm.nih.gov/31976536/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（3 篇）\n\n- ▓▓▓▓░ **[Human Breathomics Database.](https://pubmed.ncbi.nlm.nih.gov/31976536/)**  \n  本研究建立了一個包含呼氣揮發性有機化合物、文獻和疾病信息的數據庫。 ｜ 2020\n- ▓▓▓░░ **[Sweet interference: oral fermentation volatile confounders in exhaled breath revealed by minimal glucose exposure.](https://pubmed.ncbi.nlm.nih.gov/42626924/)**  \n  本研究探討口服葡萄糖如何影響呼氣揮發性成分，並強調口腔微生物的干擾作用。 ｜ 2026\n- ▓▓▓░░ **[Bioinspired Wettability Engineering Enables Efficient Exhaled Breath Condensate Harvesting for Wearable Respiratory Monitoring.](https://pubmed.ncbi.nlm.nih.gov/42611189/)**  \n  本研究開發了一種生物啟發式的口罩，用於高效採集呼氣冷凝物，並實現呼吸系統生物標記物的實時監測。 ｜ 2026\n\n---\n*報告生成時間：2026-09-05 07:03:20*\n"
     }
   ]
 }

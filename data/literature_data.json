@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 1681,
-    "relevant": 1443,
-    "today": 4,
-    "this_week": 8,
+    "total": 1682,
+    "relevant": 1444,
+    "today": 1,
+    "this_week": 9,
     "avg_score": 3.89,
-    "updated_at": "2026-09-16T07:03:44"
+    "updated_at": "2026-09-17T07:03:00"
   },
   "stats": {
-    "total": 1681,
-    "relevant": 1443,
-    "today": 4,
-    "this_week": 8,
+    "total": 1682,
+    "relevant": 1444,
+    "today": 1,
+    "this_week": 9,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 488,
@@ -21,7 +21,7 @@
       "method_tech": 102,
       "infection": 101,
       "voc_liquid": 44,
-      "ai_model": 22,
+      "ai_model": 23,
       "odor_medicine": 17,
       "subhealth": 12,
       "other": 5
@@ -30,7 +30,7 @@
       "clinicaltrials": 313,
       "import": 488,
       "openalex": 218,
-      "pubmed": 180,
+      "pubmed": 181,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -38,7 +38,7 @@
     "by_score": {
       "1": 1,
       "2": 19,
-      "3": 496,
+      "3": 497,
       "4": 554,
       "5": 373
     },
@@ -86,7 +86,7 @@
       "2023": 74,
       "2024": 113,
       "2025": 108,
-      "2026": 61
+      "2026": 62
     },
     "daily_trend": [
       {
@@ -156,9 +156,18 @@
       {
         "date": "2026-09-15",
         "count": 4
+      },
+      {
+        "date": "2026-09-16",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-16 23:02:58",
+        "found": 219,
+        "new_added": 1
+      },
       {
         "run_at": "2026-09-15 23:03:41",
         "found": 214,
@@ -203,11 +212,6 @@
         "run_at": "2026-09-05 23:02:04",
         "found": 217,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-09-04 23:03:19",
-        "found": 218,
-        "new_added": 3
       }
     ],
     "category_score": [
@@ -238,8 +242,8 @@
       },
       {
         "category": "ai_model",
-        "avg_score": 3.5,
-        "count": 22
+        "avg_score": 3.48,
+        "count": 23
       },
       {
         "category": "method_tech",
@@ -269,6 +273,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 1682,
+      "title": "Comprehensive application of artificial intelligence in preserved ratio impaired spirometry: A systematic literature review.",
+      "authors": "Wu Qian, Guo Hui, Li Ruihan, Han Jinhuan, Zhang Zhen et al.",
+      "year": 2026,
+      "journal": "PloS one",
+      "category": "ai_model",
+      "score": 3.0,
+      "tags": [
+        "ai",
+        "machine learning",
+        "radiomics",
+        "prism",
+        "respiratory"
+      ],
+      "one_line": "這篇綜述探討了人工智慧在保存比例受損肺功能檢查中的應用。",
+      "doi": "10.1371/journal.pone.0353021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42748063/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-16 23:02:58"
+    },
     {
       "id": 1681,
       "title": "Breath analysis of smokers, non-smokers, and e-cigarette users.",
@@ -35785,6 +35811,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-17_0702",
+      "content": "# VOC 文獻監控日報 — 2026-09-17\n\n> 執行時間：07:02:59 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1682 |\n| 資料庫相關總數 | 1444 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### AI模型（1 篇）\n\n- ▓▓▓░░ **[Comprehensive application of artificial intelligence in preserved ratio impaired spirometry: A systematic literature review.](https://pubmed.ncbi.nlm.nih.gov/42748063/)**  \n  這篇綜述探討了人工智慧在保存比例受損肺功能檢查中的應用。 ｜ 2026\n\n---\n*報告生成時間：2026-09-17 07:02:59*\n"
+    },
+    {
       "date": "2026-09-16_0703",
       "content": "# VOC 文獻監控日報 — 2026-09-16\n\n> 執行時間：07:03:43 | 新增 **4** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 4 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1681 |\n| 資料庫相關總數 | 1443 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Parallel Offline Breath Sampling for Cross-Validated Analysis of Volatile Organic Compound Metabolites.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, voc, metabolites, spme, gc-ms\n- **摘要**：本研究使用兩種離線方法分析健康人群的呼氣揮發性有機化合物，並評估其重現性。\n- **作者**：Schulz Eray, Maciel Mariana, Wang Zhige, Heranjal Shivaum, Liu Xiaowen et al. | **年份**：2025 | DOI: `10.1007/s11306-025-02340-1` | [連結](https://pubmed.ncbi.nlm.nih.gov/40963076/)\n\n### Investigation of sweat VOC profiles in assessment of cancer biomarkers using HS-GC-MS.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cancer, VOC, sweat, diagnosis, GC-MS\n- **摘要**：本研究利用氣體 chromatography-質譜儀分析汗液中的揮發性有機化合物，用於癌症診斷。\n- **作者**：Monedeiro Fernanda, Dos Reis Rodolfo Borges, Peria Fernanda Maris, Sares Cláudia Tarcila Gomes, De Martinis Bruno Spinosa | **年份**：2020 | DOI: `10.1088/1752-7163/ab5b3c` | [連結](https://pubmed.ncbi.nlm.nih.gov/31766027/)\n\n### Breath analysis of smokers, non-smokers, and e-cigarette users.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, VOC, smoker, vaper, GC-MS\n- **摘要**：本研究利用呼氣樣本的揮發性有機化合物分析，成功區分吸菸者、未吸菸者和電子煙使用者。\n- **作者**：Papaefstathiou E, Stylianou M, Andreou C, Agapiou A | **年份**：2020 | DOI: `10.1016/j.jchromb.2020.122349` | [連結](https://pubmed.ncbi.nlm.nih.gov/32920481/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Parallel Offline Breath Sampling for Cross-Validated Analysis of Volatile Organic Compound Metabolites.](https://pubmed.ncbi.nlm.nih.gov/40963076/)**  \n  本研究使用兩種離線方法分析健康人群的呼氣揮發性有機化合物，並評估其重現性。 ｜ 2025\n- ▓▓▓▓░ **[Breath analysis of smokers, non-smokers, and e-cigarette users.](https://pubmed.ncbi.nlm.nih.gov/32920481/)**  \n  本研究利用呼氣樣本的揮發性有機化合物分析，成功區分吸菸者、未吸菸者和電子煙使用者。 ｜ 2020\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓░ **[Investigation of sweat VOC profiles in assessment of cancer biomarkers using HS-GC-MS.](https://pubmed.ncbi.nlm.nih.gov/31766027/)**  \n  本研究利用氣體 chromatography-質譜儀分析汗液中的揮發性有機化合物，用於癌症診斷。 ｜ 2020\n- ▓▓▓░░ **[A Review of Exhaled Volatile Organic Compounds as Emerging Diagnostic Tools for Gastrointestinal Malignancies.](https://pubmed.ncbi.nlm.nih.gov/42604419/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在胃腸道癌診斷中的應用潛力。 ｜ 2026\n\n---\n*報告生成時間：2026-09-16 07:03:43*\n"
     },
@@ -35807,10 +35837,6 @@
     {
       "date": "2026-09-09_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-09\n\n> 執行時間：07:02:53 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1673 |\n| 資料庫相關總數 | 1437 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Optimization of volatile organic compounds sampling from dairy cow exhaled breath using polymer-based solid-phase extraction cartridges for gas chromatographic analysis.](https://pubmed.ncbi.nlm.nih.gov/38547532/)**  \n  本研究評估不同固相萃取試劑對乳牛呼氣揮發性有機化合物採樣的影響。 ｜ 2024\n\n---\n*報告生成時間：2026-09-09 07:02:53*\n"
-    },
-    {
-      "date": "2026-09-08_0703",
-      "content": "# VOC 文獻監控日報 — 2026-09-08\n\n> 執行時間：07:03:38 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1672 |\n| 資料庫相關總數 | 1436 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓░░ **[Advancements in breath-based diagnostics for pancreatic cancer: Current insights and future perspectives.](https://pubmed.ncbi.nlm.nih.gov/38994133/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在胰臟癌診斷上的應用現狀與未來展望。 ｜ 2024\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Irritable bowel syndrome-specific volatile organic compounds in faecal headspace do not associate with classical symptom-based subtypes.](https://pubmed.ncbi.nlm.nih.gov/41330045/)**  \n  本研究探討糞便 headspace 中的揮發性有機化合物與 IBS 患者亞型之間的關聯性。 ｜ 2026\n\n---\n*報告生成時間：2026-09-08 07:03:38*\n"
     }
   ]
 }

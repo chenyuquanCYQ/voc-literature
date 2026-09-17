@@ -1,23 +1,23 @@
 {
   "meta": {
-    "total": 1682,
-    "relevant": 1444,
-    "today": 1,
-    "this_week": 9,
+    "total": 1684,
+    "relevant": 1445,
+    "today": 2,
+    "this_week": 11,
     "avg_score": 3.89,
-    "updated_at": "2026-09-17T07:03:00"
+    "updated_at": "2026-09-18T07:03:07"
   },
   "stats": {
-    "total": 1682,
-    "relevant": 1444,
-    "today": 1,
-    "this_week": 9,
+    "total": 1684,
+    "relevant": 1445,
+    "today": 2,
+    "this_week": 11,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 488,
       "disease_cancer": 266,
       "sensor_hardware": 212,
-      "disease_chronic": 174,
+      "disease_chronic": 175,
       "method_tech": 102,
       "infection": 101,
       "voc_liquid": 44,
@@ -30,7 +30,7 @@
       "clinicaltrials": 313,
       "import": 488,
       "openalex": 218,
-      "pubmed": 181,
+      "pubmed": 183,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -39,7 +39,7 @@
       "1": 1,
       "2": 19,
       "3": 497,
-      "4": 554,
+      "4": 555,
       "5": 373
     },
     "by_year": {
@@ -81,7 +81,7 @@
       "2018": 63,
       "2019": 58,
       "2020": 64,
-      "2021": 79,
+      "2021": 80,
       "2022": 87,
       "2023": 74,
       "2024": 113,
@@ -160,9 +160,18 @@
       {
         "date": "2026-09-16",
         "count": 1
+      },
+      {
+        "date": "2026-09-17",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-17 23:03:04",
+        "found": 222,
+        "new_added": 2
+      },
       {
         "run_at": "2026-09-16 23:02:58",
         "found": 219,
@@ -207,11 +216,6 @@
         "run_at": "2026-09-06 23:02:40",
         "found": 220,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-09-05 23:02:04",
-        "found": 217,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -238,7 +242,7 @@
       {
         "category": "disease_chronic",
         "avg_score": 3.83,
-        "count": 174
+        "count": 175
       },
       {
         "category": "ai_model",
@@ -273,6 +277,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1684,
+      "title": "Digital Biometric Measures in Long COVID: A Secondary Analysis of the STOP-PASC Randomized Clinical Trial.",
+      "authors": "Gunturkun Fatma, Hedlin Haley, Botzheim Bren, Deng Yaowei, Bonilla Hector et al.",
+      "year": 2025,
+      "journal": "JAMA network open",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "long covid",
+        "wearable device",
+        "digital biometric",
+        "pasc",
+        "stanford"
+      ],
+      "one_line": "本研究探討了長新冠患者的數位生理指標變化，但未涉及呼氣成分分析。",
+      "doi": "10.1001/jamanetworkopen.2025.26901",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40810942/",
+      "source": "pubmed",
+      "is_relevant": false,
+      "created_at": "2026-09-17 23:03:04"
+    },
+    {
+      "id": 1683,
+      "title": "Stratification of Patients with Chronic Obstructive Pulmonary Disease Using Volatile Organic Compounds.",
+      "authors": "Exarchos K P, Chronis C, Lipirou L, Sakkas V, Kostikas K",
+      "year": 2021,
+      "journal": "Advances in experimental medicine and biology",
+      "category": "disease_chronic",
+      "score": 4.0,
+      "tags": [
+        "copd",
+        "breath",
+        "voc",
+        "exacerbation",
+        "biomarker"
+      ],
+      "one_line": "本研究利用呼氣揮發性有機化合物分層COPD患者的風險，顯示其在COPD管理上的潛力。",
+      "doi": "10.1007/978-3-030-78771-4_1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34972885/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-17 23:03:04"
+    },
     {
       "id": 1682,
       "title": "Comprehensive application of artificial intelligence in preserved ratio impaired spirometry: A systematic literature review.",
@@ -35811,6 +35859,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-18_0703",
+      "content": "# VOC 文獻監控日報 — 2026-09-18\n\n> 執行時間：07:03:06 | 新增 **2** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1684 |\n| 資料庫相關總數 | 1445 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Stratification of Patients with Chronic Obstructive Pulmonary Disease Using Volatile Organic Compounds.\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：copd, breath, voc, exacerbation, biomarker\n- **摘要**：本研究利用呼氣揮發性有機化合物分層COPD患者的風險，顯示其在COPD管理上的潛力。\n- **作者**：Exarchos K P, Chronis C, Lipirou L, Sakkas V, Kostikas K | **年份**：2021 | DOI: `10.1007/978-3-030-78771-4_1` | [連結](https://pubmed.ncbi.nlm.nih.gov/34972885/)\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓░ **[Stratification of Patients with Chronic Obstructive Pulmonary Disease Using Volatile Organic Compounds.](https://pubmed.ncbi.nlm.nih.gov/34972885/)**  \n  本研究利用呼氣揮發性有機化合物分層COPD患者的風險，顯示其在COPD管理上的潛力。 ｜ 2021\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-18 07:03:06*\n"
+    },
+    {
       "date": "2026-09-17_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-17\n\n> 執行時間：07:02:59 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1682 |\n| 資料庫相關總數 | 1444 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### AI模型（1 篇）\n\n- ▓▓▓░░ **[Comprehensive application of artificial intelligence in preserved ratio impaired spirometry: A systematic literature review.](https://pubmed.ncbi.nlm.nih.gov/42748063/)**  \n  這篇綜述探討了人工智慧在保存比例受損肺功能檢查中的應用。 ｜ 2026\n\n---\n*報告生成時間：2026-09-17 07:02:59*\n"
     },
@@ -35833,10 +35885,6 @@
     {
       "date": "2026-09-10_0701",
       "content": "# VOC 文獻監控日報 — 2026-09-10\n\n> 執行時間：07:01:59 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1673 |\n| 資料庫相關總數 | 1437 |\n| 相關文獻平均分 | 3.89 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-09-10 07:01:59*\n"
-    },
-    {
-      "date": "2026-09-09_0702",
-      "content": "# VOC 文獻監控日報 — 2026-09-09\n\n> 執行時間：07:02:53 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1673 |\n| 資料庫相關總數 | 1437 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Optimization of volatile organic compounds sampling from dairy cow exhaled breath using polymer-based solid-phase extraction cartridges for gas chromatographic analysis.](https://pubmed.ncbi.nlm.nih.gov/38547532/)**  \n  本研究評估不同固相萃取試劑對乳牛呼氣揮發性有機化合物採樣的影響。 ｜ 2024\n\n---\n*報告生成時間：2026-09-09 07:02:53*\n"
     }
   ]
 }

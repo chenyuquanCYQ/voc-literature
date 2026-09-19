@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 1687,
+    "total": 1689,
     "relevant": 1447,
-    "today": 3,
-    "this_week": 11,
+    "today": 2,
+    "this_week": 13,
     "avg_score": 3.89,
-    "updated_at": "2026-09-19T07:03:27"
+    "updated_at": "2026-09-20T07:03:01"
   },
   "stats": {
-    "total": 1687,
+    "total": 1689,
     "relevant": 1447,
-    "today": 3,
-    "this_week": 11,
+    "today": 2,
+    "this_week": 13,
     "avg_score": 3.89,
     "by_category": {
       "voc_breath": 490,
@@ -29,8 +29,8 @@
     "by_source": {
       "clinicaltrials": 313,
       "import": 488,
-      "openalex": 218,
-      "pubmed": 186,
+      "openalex": 219,
+      "pubmed": 187,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -168,9 +168,18 @@
       {
         "date": "2026-09-18",
         "count": 3
+      },
+      {
+        "date": "2026-09-19",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-19 23:02:59",
+        "found": 217,
+        "new_added": 2
+      },
       {
         "run_at": "2026-09-18 23:03:24",
         "found": 222,
@@ -215,11 +224,6 @@
         "run_at": "2026-09-08 23:02:51",
         "found": 216,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-09-07 23:03:36",
-        "found": 220,
-        "new_added": 2
       }
     ],
     "category_score": [
@@ -281,6 +285,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1689,
+      "title": "Electronic Skin: Recent Progress and Future Prospects for Skin‐Attachable Devices for Health Monitoring, Robotics, and Prosthetics",
+      "authors": "Jun Chang Yang, Jaewan Mun, Se Young Kwon, Seongjun Park, Zhenan Bao et al.",
+      "year": 2019,
+      "journal": "Advanced Materials",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "electronic skin",
+        "e-skin",
+        "health monitoring",
+        "robotics",
+        "prosthetics"
+      ],
+      "one_line": "這篇綜述探討電子皮膚的發展與應用，重點不在呼氣成分分析。",
+      "doi": "10.1002/adma.201904765",
+      "url": "https://doi.org/10.1002/adma.201904765",
+      "source": "openalex",
+      "is_relevant": false,
+      "created_at": "2026-09-19 23:02:59"
+    },
+    {
+      "id": 1688,
+      "title": "Analysis of Circulating Tumor DNA Predicts Outcomes of Short-Course Consolidation Immunotherapy in Unresectable Stage III NSCLC.",
+      "authors": "Jun Soyeong, Shukla Nikhil A, Durm Greg, Hui Angela B, Cao Sha et al.",
+      "year": 2024,
+      "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "ctDNA",
+        "immunotherapy",
+        "lung cancer",
+        "minimal residual disease",
+        "consolidation therapy"
+      ],
+      "one_line": "本研究探討 ctDNA 對於非小細胞肺癌免疫治療療效的預測能力，未涉及呼氣成分分析。",
+      "doi": "10.1016/j.jtho.2024.06.024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38971369/",
+      "source": "pubmed",
+      "is_relevant": false,
+      "created_at": "2026-09-19 23:02:59"
+    },
     {
       "id": 1687,
       "title": "Smart Wearable Nanopaper Patch for Continuous Multiplexed Optical Monitoring of Sweat Parameters.",
@@ -35929,6 +35977,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-20_0703",
+      "content": "# VOC 文獻監控日報 — 2026-09-20\n\n> 執行時間：07:03:00 | 新增 **2** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1689 |\n| 資料庫相關總數 | 1447 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：2 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-20 07:03:00*\n"
+    },
+    {
       "date": "2026-09-19_0703",
       "content": "# VOC 文獻監控日報 — 2026-09-19\n\n> 執行時間：07:03:25 | 新增 **3** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1687 |\n| 資料庫相關總數 | 1447 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Short-term modification of breathprint by Elexacaftor/Tezacaftor/Ivacaftor in a paediatric cohort.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cystic fibrosis, breathomics, metabolites, pediatrics, lung function\n- **摘要**：這項研究探討了 Elexacaftor/Tezacaftor/Ivacaftor 對患有囊性纖維症兒童的呼氣代謝物產生影響。\n- **作者**：Bardin Emmanuelle, Hunzinger Nicolas, Lamy Elodie, Roquencourt Camille, Zhou Bingqing et al. | **年份**：2025 | DOI: `10.1016/j.jcf.2025.01.004` | [連結](https://pubmed.ncbi.nlm.nih.gov/39843342/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Short-term modification of breathprint by Elexacaftor/Tezacaftor/Ivacaftor in a paediatric cohort.](https://pubmed.ncbi.nlm.nih.gov/39843342/)**  \n  這項研究探討了 Elexacaftor/Tezacaftor/Ivacaftor 對患有囊性纖維症兒童的呼氣代謝物產生影響。 ｜ 2025\n- ▓▓▓░░ **[Treatment with elexacaftor/tezacaftor/ivacaftor does not alter SpiroNose-derived electronic breath profiles in children with cystic fibrosis.](https://pubmed.ncbi.nlm.nih.gov/41881763/)**  \n  本研究評估 CFTR 藥物對兒童氣喘呼氣揮發性成分的影響。 ｜ 2026\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-19 07:03:26*\n"
     },
@@ -35951,10 +36003,6 @@
     {
       "date": "2026-09-14_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-14\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1677 |\n| 資料庫相關總數 | 1439 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-14 07:02:36*\n"
-    },
-    {
-      "date": "2026-09-11_0703",
-      "content": "# VOC 文獻監控日報 — 2026-09-11\n\n> 執行時間：07:03:21 | 新增 **3** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1676 |\n| 資料庫相關總數 | 1439 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Exhalation metabolomics for noninvasive staging biomarker exploration in silicosis.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：silicosis, breath, metabolomics, staging, lung disease\n- **摘要**：本研究利用呼氣代謝體學篩選出不同矽肺階段的生物標記，並探討其代謝途徑。\n- **作者**：Pan Ao, Xu Mucen, Zhou Huiling, Xu Huan, Wang Linyao et al. | **年份**：2025 | DOI: `10.1088/1752-7163/ae26bf` | [連結](https://pubmed.ncbi.nlm.nih.gov/41330037/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Exhalation metabolomics for noninvasive staging biomarker exploration in silicosis.](https://pubmed.ncbi.nlm.nih.gov/41330037/)**  \n  本研究利用呼氣代謝體學篩選出不同矽肺階段的生物標記，並探討其代謝途徑。 ｜ 2025\n\n### 感測器（1 篇）\n\n- ▓▓▓░░ **[Wearable Humidity Sensor Using Cs3Cu2I5 Metal Halides with Hydroxyl Selective Phase Transition for Breath Monitoring.](https://pubmed.ncbi.nlm.nih.gov/40422050/)**  \n  本研究開發了一種利用 Cs3Cu2I5 物質對羥基氣體敏感的穿戴式呼吸監測感測器。 ｜ 2025\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-11 07:03:21*\n"
     }
   ]
 }

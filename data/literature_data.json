@@ -2,15 +2,15 @@
   "meta": {
     "total": 1690,
     "relevant": 1448,
-    "today": 1,
+    "today": 0,
     "this_week": 13,
     "avg_score": 3.88,
-    "updated_at": "2026-09-22T07:02:32"
+    "updated_at": "2026-09-23T07:02:02"
   },
   "stats": {
     "total": 1690,
     "relevant": 1448,
-    "today": 1,
+    "today": 0,
     "this_week": 13,
     "avg_score": 3.88,
     "by_category": {
@@ -89,10 +89,6 @@
       "2026": 63
     },
     "daily_trend": [
-      {
-        "date": "2026-08-22",
-        "count": 3
-      },
       {
         "date": "2026-08-24",
         "count": 2
@@ -180,6 +176,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-09-22 23:02:02",
+        "found": 217,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-09-21 23:02:30",
         "found": 219,
         "new_added": 1
@@ -223,11 +224,6 @@
         "run_at": "2026-09-13 23:02:34",
         "found": 220,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-09-10 23:03:19",
-        "found": 221,
-        "new_added": 3
       }
     ],
     "category_score": [
@@ -36003,6 +35999,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-23_0702",
+      "content": "# VOC 文獻監控日報 — 2026-09-23\n\n> 執行時間：07:02:02 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1690 |\n| 資料庫相關總數 | 1448 |\n| 相關文獻平均分 | 3.88 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-09-23 07:02:02*\n"
+    },
+    {
       "date": "2026-09-22_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-22\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1690 |\n| 資料庫相關總數 | 1448 |\n| 相關文獻平均分 | 3.88 |\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Comprehensive Two-Dimensional Gas Chromatography-Mass Spectrometry Analysis of Exhaled Breath Compounds after Whole Grain Diets.](https://pubmed.ncbi.nlm.nih.gov/34063191/)**  \n  本研究利用GCxGC-MS分析全穀物飲食後呼氣中的揮發性有機化合物，並發現特定化合物與全穀物飲食相關。 ｜ 2021\n\n---\n*報告生成時間：2026-09-22 07:02:31*\n"
     },
@@ -36025,10 +36025,6 @@
     {
       "date": "2026-09-17_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-17\n\n> 執行時間：07:02:59 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1682 |\n| 資料庫相關總數 | 1444 |\n| 相關文獻平均分 | 3.89 |\n\n## 📂 依類別分類\n\n### AI模型（1 篇）\n\n- ▓▓▓░░ **[Comprehensive application of artificial intelligence in preserved ratio impaired spirometry: A systematic literature review.](https://pubmed.ncbi.nlm.nih.gov/42748063/)**  \n  這篇綜述探討了人工智慧在保存比例受損肺功能檢查中的應用。 ｜ 2026\n\n---\n*報告生成時間：2026-09-17 07:02:59*\n"
-    },
-    {
-      "date": "2026-09-16_0703",
-      "content": "# VOC 文獻監控日報 — 2026-09-16\n\n> 執行時間：07:03:43 | 新增 **4** 篇 | 相關 **4** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 4 |\n| 本次相關文獻 | 4 |\n| 資料庫累計總數 | 1681 |\n| 資料庫相關總數 | 1443 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Parallel Offline Breath Sampling for Cross-Validated Analysis of Volatile Organic Compound Metabolites.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, voc, metabolites, spme, gc-ms\n- **摘要**：本研究使用兩種離線方法分析健康人群的呼氣揮發性有機化合物，並評估其重現性。\n- **作者**：Schulz Eray, Maciel Mariana, Wang Zhige, Heranjal Shivaum, Liu Xiaowen et al. | **年份**：2025 | DOI: `10.1007/s11306-025-02340-1` | [連結](https://pubmed.ncbi.nlm.nih.gov/40963076/)\n\n### Investigation of sweat VOC profiles in assessment of cancer biomarkers using HS-GC-MS.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cancer, VOC, sweat, diagnosis, GC-MS\n- **摘要**：本研究利用氣體 chromatography-質譜儀分析汗液中的揮發性有機化合物，用於癌症診斷。\n- **作者**：Monedeiro Fernanda, Dos Reis Rodolfo Borges, Peria Fernanda Maris, Sares Cláudia Tarcila Gomes, De Martinis Bruno Spinosa | **年份**：2020 | DOI: `10.1088/1752-7163/ab5b3c` | [連結](https://pubmed.ncbi.nlm.nih.gov/31766027/)\n\n### Breath analysis of smokers, non-smokers, and e-cigarette users.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：breath, VOC, smoker, vaper, GC-MS\n- **摘要**：本研究利用呼氣樣本的揮發性有機化合物分析，成功區分吸菸者、未吸菸者和電子煙使用者。\n- **作者**：Papaefstathiou E, Stylianou M, Andreou C, Agapiou A | **年份**：2020 | DOI: `10.1016/j.jchromb.2020.122349` | [連結](https://pubmed.ncbi.nlm.nih.gov/32920481/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Parallel Offline Breath Sampling for Cross-Validated Analysis of Volatile Organic Compound Metabolites.](https://pubmed.ncbi.nlm.nih.gov/40963076/)**  \n  本研究使用兩種離線方法分析健康人群的呼氣揮發性有機化合物，並評估其重現性。 ｜ 2025\n- ▓▓▓▓░ **[Breath analysis of smokers, non-smokers, and e-cigarette users.](https://pubmed.ncbi.nlm.nih.gov/32920481/)**  \n  本研究利用呼氣樣本的揮發性有機化合物分析，成功區分吸菸者、未吸菸者和電子煙使用者。 ｜ 2020\n\n### 癌症應用（2 篇）\n\n- ▓▓▓▓░ **[Investigation of sweat VOC profiles in assessment of cancer biomarkers using HS-GC-MS.](https://pubmed.ncbi.nlm.nih.gov/31766027/)**  \n  本研究利用氣體 chromatography-質譜儀分析汗液中的揮發性有機化合物，用於癌症診斷。 ｜ 2020\n- ▓▓▓░░ **[A Review of Exhaled Volatile Organic Compounds as Emerging Diagnostic Tools for Gastrointestinal Malignancies.](https://pubmed.ncbi.nlm.nih.gov/42604419/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在胃腸道癌診斷中的應用潛力。 ｜ 2026\n\n---\n*報告生成時間：2026-09-16 07:03:43*\n"
     }
   ]
 }

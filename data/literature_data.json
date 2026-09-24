@@ -3,15 +3,15 @@
     "total": 1690,
     "relevant": 1448,
     "today": 0,
-    "this_week": 9,
+    "this_week": 8,
     "avg_score": 3.88,
-    "updated_at": "2026-09-24T07:02:08"
+    "updated_at": "2026-09-25T07:02:02"
   },
   "stats": {
     "total": 1690,
     "relevant": 1448,
     "today": 0,
-    "this_week": 9,
+    "this_week": 8,
     "avg_score": 3.88,
     "by_category": {
       "voc_breath": 491,
@@ -89,10 +89,6 @@
       "2026": 63
     },
     "daily_trend": [
-      {
-        "date": "2026-08-24",
-        "count": 2
-      },
       {
         "date": "2026-08-25",
         "count": 1
@@ -176,6 +172,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-09-24 23:02:01",
+        "found": 220,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-09-23 23:02:07",
         "found": 219,
         "new_added": 0
@@ -219,11 +220,6 @@
         "run_at": "2026-09-15 23:03:41",
         "found": 214,
         "new_added": 4
-      },
-      {
-        "run_at": "2026-09-14 23:02:03",
-        "found": 218,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -35999,6 +35995,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-25_0702",
+      "content": "# VOC 文獻監控日報 — 2026-09-25\n\n> 執行時間：07:02:01 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1690 |\n| 資料庫相關總數 | 1448 |\n| 相關文獻平均分 | 3.88 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-09-25 07:02:01*\n"
+    },
+    {
       "date": "2026-09-24_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-24\n\n> 執行時間：07:02:07 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1690 |\n| 資料庫相關總數 | 1448 |\n| 相關文獻平均分 | 3.88 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-09-24 07:02:08*\n"
     },
@@ -36021,10 +36021,6 @@
     {
       "date": "2026-09-19_0703",
       "content": "# VOC 文獻監控日報 — 2026-09-19\n\n> 執行時間：07:03:25 | 新增 **3** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1687 |\n| 資料庫相關總數 | 1447 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Short-term modification of breathprint by Elexacaftor/Tezacaftor/Ivacaftor in a paediatric cohort.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cystic fibrosis, breathomics, metabolites, pediatrics, lung function\n- **摘要**：這項研究探討了 Elexacaftor/Tezacaftor/Ivacaftor 對患有囊性纖維症兒童的呼氣代謝物產生影響。\n- **作者**：Bardin Emmanuelle, Hunzinger Nicolas, Lamy Elodie, Roquencourt Camille, Zhou Bingqing et al. | **年份**：2025 | DOI: `10.1016/j.jcf.2025.01.004` | [連結](https://pubmed.ncbi.nlm.nih.gov/39843342/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Short-term modification of breathprint by Elexacaftor/Tezacaftor/Ivacaftor in a paediatric cohort.](https://pubmed.ncbi.nlm.nih.gov/39843342/)**  \n  這項研究探討了 Elexacaftor/Tezacaftor/Ivacaftor 對患有囊性纖維症兒童的呼氣代謝物產生影響。 ｜ 2025\n- ▓▓▓░░ **[Treatment with elexacaftor/tezacaftor/ivacaftor does not alter SpiroNose-derived electronic breath profiles in children with cystic fibrosis.](https://pubmed.ncbi.nlm.nih.gov/41881763/)**  \n  本研究評估 CFTR 藥物對兒童氣喘呼氣揮發性成分的影響。 ｜ 2026\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-19 07:03:26*\n"
-    },
-    {
-      "date": "2026-09-18_0703",
-      "content": "# VOC 文獻監控日報 — 2026-09-18\n\n> 執行時間：07:03:06 | 新增 **2** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1684 |\n| 資料庫相關總數 | 1445 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Stratification of Patients with Chronic Obstructive Pulmonary Disease Using Volatile Organic Compounds.\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：copd, breath, voc, exacerbation, biomarker\n- **摘要**：本研究利用呼氣揮發性有機化合物分層COPD患者的風險，顯示其在COPD管理上的潛力。\n- **作者**：Exarchos K P, Chronis C, Lipirou L, Sakkas V, Kostikas K | **年份**：2021 | DOI: `10.1007/978-3-030-78771-4_1` | [連結](https://pubmed.ncbi.nlm.nih.gov/34972885/)\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓░ **[Stratification of Patients with Chronic Obstructive Pulmonary Disease Using Volatile Organic Compounds.](https://pubmed.ncbi.nlm.nih.gov/34972885/)**  \n  本研究利用呼氣揮發性有機化合物分層COPD患者的風險，顯示其在COPD管理上的潛力。 ｜ 2021\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-18 07:03:06*\n"
     }
   ]
 }

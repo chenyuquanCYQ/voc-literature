@@ -1,20 +1,20 @@
 {
   "meta": {
-    "total": 1690,
-    "relevant": 1448,
-    "today": 0,
+    "total": 1692,
+    "relevant": 1449,
+    "today": 2,
     "this_week": 8,
     "avg_score": 3.88,
-    "updated_at": "2026-09-25T07:02:02"
+    "updated_at": "2026-09-26T07:03:11"
   },
   "stats": {
-    "total": 1690,
-    "relevant": 1448,
-    "today": 0,
+    "total": 1692,
+    "relevant": 1449,
+    "today": 2,
     "this_week": 8,
     "avg_score": 3.88,
     "by_category": {
-      "voc_breath": 491,
+      "voc_breath": 492,
       "disease_cancer": 266,
       "sensor_hardware": 212,
       "disease_chronic": 175,
@@ -30,7 +30,7 @@
       "clinicaltrials": 313,
       "import": 488,
       "openalex": 219,
-      "pubmed": 188,
+      "pubmed": 190,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -38,7 +38,7 @@
     "by_score": {
       "1": 1,
       "2": 19,
-      "3": 499,
+      "3": 500,
       "4": 556,
       "5": 373
     },
@@ -77,7 +77,7 @@
       "2014": 44,
       "2015": 46,
       "2016": 50,
-      "2017": 48,
+      "2017": 49,
       "2018": 63,
       "2019": 58,
       "2020": 64,
@@ -89,10 +89,6 @@
       "2026": 63
     },
     "daily_trend": [
-      {
-        "date": "2026-08-25",
-        "count": 1
-      },
       {
         "date": "2026-08-27",
         "count": 5
@@ -168,9 +164,18 @@
       {
         "date": "2026-09-21",
         "count": 1
+      },
+      {
+        "date": "2026-09-25",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-09-25 23:03:08",
+        "found": 218,
+        "new_added": 2
+      },
       {
         "run_at": "2026-09-24 23:02:01",
         "found": 220,
@@ -215,11 +220,6 @@
         "run_at": "2026-09-16 23:02:58",
         "found": 219,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-09-15 23:03:41",
-        "found": 214,
-        "new_added": 4
       }
     ],
     "category_score": [
@@ -236,7 +236,7 @@
       {
         "category": "voc_breath",
         "avg_score": 3.97,
-        "count": 491
+        "count": 492
       },
       {
         "category": "voc_liquid",
@@ -281,6 +281,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 1692,
+      "title": "A consumer wearable device for tracking sleep respiratory events.",
+      "authors": "Tondo Pasquale, Dell'Olio Francesco, Lacedonia Donato, Sabato Roberto, Leccisotti Rosa et al.",
+      "year": 2023,
+      "journal": "Sleep & breathing = Schlaf & Atmung",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "sleep apnea",
+        "wearable device",
+        "respiratory monitoring",
+        "diagnosis",
+        "validation"
+      ],
+      "one_line": "本研究評估穿戴式裝置在睡眠呼吸暫停症篩檢上的應用，但未涉及呼氣成分分析。",
+      "doi": "10.1007/s11325-022-02743-7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36378480/",
+      "source": "pubmed",
+      "is_relevant": false,
+      "created_at": "2026-09-25 23:03:08"
+    },
+    {
+      "id": 1691,
+      "title": "Screening of Obstructive Sleep Apnea Syndrome by Electronic-Nose Analysis of Volatile Organic Compounds.",
+      "authors": "Scarlata Simone, Pennazza Giorgio, Santonico Marco, Santangelo Simona, Rossi Bartoli Isaura et al.",
+      "year": 2017,
+      "journal": "Scientific reports",
+      "category": "voc_breath",
+      "score": 3.0,
+      "tags": [
+        "sleep apnea",
+        "electronic nose",
+        "volatile organic compounds",
+        "screening",
+        "breath analysis"
+      ],
+      "one_line": "本研究使用電子鼻分析呼氣揮發性有機化合物，用於篩選阻塞性睡眠呼吸暫停症候群。",
+      "doi": "10.1038/s41598-017-12108-w",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28931931/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-09-25 23:03:07"
+    },
     {
       "id": 1690,
       "title": "Comprehensive Two-Dimensional Gas Chromatography-Mass Spectrometry Analysis of Exhaled Breath Compounds after Whole Grain Diets.",
@@ -35995,6 +36039,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-09-26_0703",
+      "content": "# VOC 文獻監控日報 — 2026-09-26\n\n> 執行時間：07:03:10 | 新增 **2** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 1692 |\n| 資料庫相關總數 | 1449 |\n| 相關文獻平均分 | 3.88 |\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Screening of Obstructive Sleep Apnea Syndrome by Electronic-Nose Analysis of Volatile Organic Compounds.](https://pubmed.ncbi.nlm.nih.gov/28931931/)**  \n  本研究使用電子鼻分析呼氣揮發性有機化合物，用於篩選阻塞性睡眠呼吸暫停症候群。 ｜ 2017\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-26 07:03:10*\n"
+    },
+    {
       "date": "2026-09-25_0702",
       "content": "# VOC 文獻監控日報 — 2026-09-25\n\n> 執行時間：07:02:01 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1690 |\n| 資料庫相關總數 | 1448 |\n| 相關文獻平均分 | 3.88 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-09-25 07:02:01*\n"
     },
@@ -36017,10 +36065,6 @@
     {
       "date": "2026-09-20_0703",
       "content": "# VOC 文獻監控日報 — 2026-09-20\n\n> 執行時間：07:03:00 | 新增 **2** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 1689 |\n| 資料庫相關總數 | 1447 |\n| 相關文獻平均分 | 3.89 |\n\n---\n## ℹ️ 本次排除文獻：2 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-20 07:03:00*\n"
-    },
-    {
-      "date": "2026-09-19_0703",
-      "content": "# VOC 文獻監控日報 — 2026-09-19\n\n> 執行時間：07:03:25 | 新增 **3** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 1687 |\n| 資料庫相關總數 | 1447 |\n| 相關文獻平均分 | 3.89 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Short-term modification of breathprint by Elexacaftor/Tezacaftor/Ivacaftor in a paediatric cohort.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：cystic fibrosis, breathomics, metabolites, pediatrics, lung function\n- **摘要**：這項研究探討了 Elexacaftor/Tezacaftor/Ivacaftor 對患有囊性纖維症兒童的呼氣代謝物產生影響。\n- **作者**：Bardin Emmanuelle, Hunzinger Nicolas, Lamy Elodie, Roquencourt Camille, Zhou Bingqing et al. | **年份**：2025 | DOI: `10.1016/j.jcf.2025.01.004` | [連結](https://pubmed.ncbi.nlm.nih.gov/39843342/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓▓░ **[Short-term modification of breathprint by Elexacaftor/Tezacaftor/Ivacaftor in a paediatric cohort.](https://pubmed.ncbi.nlm.nih.gov/39843342/)**  \n  這項研究探討了 Elexacaftor/Tezacaftor/Ivacaftor 對患有囊性纖維症兒童的呼氣代謝物產生影響。 ｜ 2025\n- ▓▓▓░░ **[Treatment with elexacaftor/tezacaftor/ivacaftor does not alter SpiroNose-derived electronic breath profiles in children with cystic fibrosis.](https://pubmed.ncbi.nlm.nih.gov/41881763/)**  \n  本研究評估 CFTR 藥物對兒童氣喘呼氣揮發性成分的影響。 ｜ 2026\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-09-19 07:03:26*\n"
     }
   ]
 }

@@ -266,6 +266,22 @@ function switchTab(idx) {
   document.querySelectorAll(".page").forEach((p, i) => p.classList.toggle("active", i === idx));
 }
 
+// 資料新鮮度：頁面更新時間 + 最新一筆新資料日期；超過 STALE_DAYS 天沒有新資料就標紅（2026-11-01 新增）
+const STALE_DAYS = 7;
+function renderFreshness(elId, updatedAt, lastDate, label) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  let html = "頁面更新：" + String(updatedAt || "").replace("T", " ");
+  const d = String(lastDate || "").slice(0, 10);
+  if (d) {
+    const days = Math.floor((Date.now() - new Date(d + "T00:00:00+08:00").getTime()) / 86400000);
+    const stale = days > STALE_DAYS;
+    html += '<br><span style="' + (stale ? 'color:#d64545;font-weight:600' : '') + '">' + label + "：" + d +
+            (stale ? "　⚠ 已 " + days + " 天沒有新資料" : "") + "</span>";
+  }
+  el.innerHTML = html;
+}
+
 // ── Fetch & init ─────────────────────────────────────────────────
 async function init() {
   try {
@@ -276,8 +292,8 @@ async function init() {
     document.querySelectorAll(".page").forEach(p => p.style.display = "");
     document.getElementById("page-0").classList.add("active");
 
-    document.getElementById("updated-at").textContent =
-      "更新時間：" + (ALL_DATA.meta.updated_at || "").replace("T", " ");
+    const lastAdded = (ALL_DATA.literature || []).reduce((m, r) => { const v = r.created_at || ""; return v > m ? v : m; }, "");
+    renderFreshness("updated-at", ALL_DATA.meta.updated_at, lastAdded, "最新收錄");
 
     renderOverview();
     initFilters();

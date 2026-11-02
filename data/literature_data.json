@@ -2,16 +2,16 @@
   "meta": {
     "total": 2164,
     "relevant": 1841,
-    "today": 2,
-    "this_week": 28,
+    "today": 0,
+    "this_week": 26,
     "avg_score": 3.19,
-    "updated_at": "2026-11-02T07:02:33"
+    "updated_at": "2026-11-03T07:02:01"
   },
   "stats": {
     "total": 2164,
     "relevant": 1841,
-    "today": 2,
-    "this_week": 28,
+    "today": 0,
+    "this_week": 26,
     "avg_score": 3.19,
     "by_category": {
       "voc_breath": 525,
@@ -98,10 +98,6 @@
     },
     "daily_trend": [
       {
-        "date": "2026-10-02",
-        "count": 3
-      },
-      {
         "date": "2026-10-03",
         "count": 42
       },
@@ -168,6 +164,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-11-02 23:02:00",
+        "found": 254,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-11-01 23:02:30",
         "found": 246,
         "new_added": 1
@@ -210,11 +211,6 @@
       {
         "run_at": "2026-10-24 23:02:01",
         "found": 236,
-        "new_added": 0
-      },
-      {
-        "run_at": "2026-10-23 23:01:57",
-        "found": 234,
         "new_added": 0
       }
     ],
@@ -45074,6 +45070,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-11-03_0702",
+      "content": "# VOC 文獻監控日報 — 2026-11-03\n\n> 執行時間：07:02:01 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2164 |\n| 資料庫相關總數 | 1841 |\n| 相關文獻平均分 | 3.19 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-11-03 07:02:01*\n"
+    },
+    {
       "date": "2026-11-02_0702",
       "content": "# VOC 文獻監控日報 — 2026-11-02\n\n> 執行時間：07:02:32 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2164 |\n| 資料庫相關總數 | 1841 |\n| 相關文獻平均分 | 3.19 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-11-02 07:02:32*\n"
     },
@@ -45096,10 +45096,6 @@
     {
       "date": "2026-10-28_0708",
       "content": "# VOC 文獻監控日報 — 2026-10-28\n\n> 執行時間：07:08:07 | 新增 **18** 篇 | 相關 **16** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 18 |\n| 本次相關文獻 | 16 |\n| 資料庫累計總數 | 2156 |\n| 資料庫相關總數 | 1835 |\n| 相關文獻平均分 | 3.19 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Volatile Organic Compound Detection And Disease Diagnostics Using Dna-Functionalized Carbon Nanotube Sensor Arrays\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：ovarian cancer, covid-19, electronic nose, sensor, machine learning\n- **摘要**：本研究利用 DNA-功能化碳納米管陣列，從血漿樣本中檢測揮發性有機化合物，用於卵巢癌和 COVID-19 的診斷。\n- **作者**：Christopher E. Kehayias | **年份**：2020 | [連結](https://openalex.org/W3205936814)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（7 篇）\n\n- ▓▓▓░░ **[The identification of hypoxia biomarkers from exhaled breath under normobaric conditions](https://doi.org/10.1088/1752-7155/9/4/047103)**  \n  本研究探討了缺氧狀態下呼氣揮發性有機物的變化，並識別出潛在的缺氧暴露生物標記物。 ｜ 2015\n- ▓▓▓░░ **[Driving progress in exhaled breath biomarkers: Breath Biopsy Conference 2019](https://doi.org/10.1088/1752-7163/ab9424)**  \n  這篇會議報告概述了呼氣揮發性有機化合物分析的最新進展。 ｜ 2020\n- ▓▓▓░░ **[Storage stability of exhaled breath on Tenax TA](https://doi.org/10.1088/1752-7155/10/4/046008)**  \n  本研究探討了呼氣中揮發性有機化合物在不同溫度條件下儲存的穩定性，並提供了儲存建議。 ｜ 2016\n- ▓▓▓░░ **[Medical Diagnosis Using Volatile Organic Compounds Sensors](https://doi.org/10.1142/s0129156422400043)**  \n  這篇綜述回顧了使用奈米材料基的化學阻抗 VOC 感測器進行疾病診斷的最新進展。 ｜ 2022\n- ▓▓▓░░ **[A comprehensive survey on investigation techniques of exhaled breath (EB) for diagnosis of diseases in human body](https://doi.org/10.1016/j.imu.2021.100715)**  \n  這篇綜述探討了呼氣揮發性有機化合物在疾病診斷中的應用及其相關技術。 ｜ 2021\n- ▓▓▓░░ **[Sensor array optimization techniques for exhaled breath analysis to discriminate diabetics using an electronic nose](https://doi.org/10.4218/etrij.2017-0018)**  \n  本研究利用電子鼻優化感測器陣列，以區分糖尿病患者和健康對照組，主要探討呼氣丙酮的檢測。 ｜ 2018\n- ▓▓▓░░ **[In-mouth aroma : breath-by-breath analysis of nose space by PTR-MS while drinking coffee](https://openalex.org/W2802328182)**  \n  本研究使用PTR-MS分析飲用咖啡時口中產生的揮發性氣味。 ｜ 2002\n\n### 癌症應用（5 篇）\n\n- ▓▓▓▓░ **[Volatile Organic Compound Detection And Disease Diagnostics Using Dna-Functionalized Carbon Nanotube Sensor Arrays](https://openalex.org/W3205936814)**  \n  本研究利用 DNA-功能化碳納米管陣列，從血漿樣本中檢測揮發性有機化合物，用於卵巢癌和 COVID-19 的診斷。 ｜ 2020\n- ▓▓▓░░ **[Principles of lung cancer screening – exhaled breath analysis](https://doi.org/10.7707/hmj.633)**  \n  這篇綜述探討了呼氣分析在肺癌篩檢中的潛力，並回顧了相關技術和研究進展。 ｜ 2016\n- ▓▓▓░░ **[68P Exhaled breath analysis of volatile organic compounds (VOC) in diagnosis of lung cancer a meta-analysis](https://doi.org/10.1016/j.annonc.2020.08.2227)**  \n  這篇綜述探討了呼氣揮發性有機化合物在肺癌診斷的應用。 ｜ 2020\n- ▓▓░░░ **[Exhaled breath volatile biomarker analysis for thyroid cancer](https://doi.org/10.1016/j.trsl.2015.01.005)**  \n  本研究探討呼氣揮發性生物標記物在甲狀腺癌診斷上的應用。 ｜ 2015\n- ▓▓░░░ **[Breath Analysis as a Non-invasive Biomarker for Early Detection of Lung Cancer](https://openalex.org/W2903247042)**  \n  本研究探討呼氣分析在肺癌早期檢測中的應用。 ｜ 2014\n\n### 慢性病（2 篇）\n\n- ▓▓▓░░ **[Analysis of Volatile Organic Compounds of Bacterial Origin in Chronic Gastrointestinal Diseases](https://doi.org/10.1097/mib.0b013e31829a91f6)**  \n  本研究探討糞便揮發性有機化合物的組成與慢性腸道疾病的關聯。 ｜ 2013\n- ▓▓▓░░ **[Advances in Breath-Based VOC Analysis for Non-Invasive Diabetes Detection](https://doi.org/10.5281/zenodo.20472508)**  \n  這篇綜述探討了呼氣丙酮在糖尿病檢測中的應用，涵蓋了感測器、電子鼻和機器學習技術。 ｜ 2026\n\n### 感染症（1 篇）\n\n- ▓▓▓░░ **[Whole-body volatile organic compound profiling reveals metabolic pathway perturbations in a murine polymicrobial sepsis model: a feasibility study](https://doi.org/10.3389/fmed.2026.1978491)**  \n  本研究利用小鼠模型，探討敗血症引起的體內揮發性有機化合物變化與代謝途徑的關聯。 ｜ 2026\n\n### 感測器（1 篇）\n\n- ▓▓▓░░ **[Flexible and sensitive pressure sensor with enhanced breathability for advanced wearable health monitoring](https://doi.org/10.1038/s41528-025-00469-6)**  \n  這篇研究開發了結合呼氣樣本的穿戴式壓力感測器，用於血壓預測。 ｜ 2025\n\n---\n## ℹ️ 本次排除文獻：2 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-10-28 07:08:07*\n"
-    },
-    {
-      "date": "2026-10-27_0702",
-      "content": "# VOC 文獻監控日報 — 2026-10-27\n\n> 執行時間：07:02:08 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2138 |\n| 資料庫相關總數 | 1819 |\n| 相關文獻平均分 | 3.19 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-10-27 07:02:08*\n"
     }
   ]
 }

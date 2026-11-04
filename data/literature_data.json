@@ -2,16 +2,16 @@
   "meta": {
     "total": 2165,
     "relevant": 1842,
-    "today": 1,
-    "this_week": 27,
+    "today": 0,
+    "this_week": 9,
     "avg_score": 3.19,
-    "updated_at": "2026-11-04T07:02:38"
+    "updated_at": "2026-11-05T07:02:03"
   },
   "stats": {
     "total": 2165,
     "relevant": 1842,
-    "today": 1,
-    "this_week": 27,
+    "today": 0,
+    "this_week": 9,
     "avg_score": 3.19,
     "by_category": {
       "voc_breath": 526,
@@ -160,6 +160,11 @@
     ],
     "recent_log": [
       {
+        "run_at": "2026-11-04 23:02:03",
+        "found": 253,
+        "new_added": 0
+      },
+      {
         "run_at": "2026-11-03 23:02:37",
         "found": 254,
         "new_added": 1
@@ -203,11 +208,6 @@
         "run_at": "2026-10-26 23:02:08",
         "found": 236,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-10-25 23:02:57",
-        "found": 237,
-        "new_added": 2
       }
     ],
     "category_score": [
@@ -45088,6 +45088,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-11-05_0702",
+      "content": "# VOC 文獻監控日報 — 2026-11-05\n\n> 執行時間：07:02:03 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2165 |\n| 資料庫相關總數 | 1842 |\n| 相關文獻平均分 | 3.19 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-11-05 07:02:03*\n"
+    },
+    {
       "date": "2026-11-04_0702",
       "content": "# VOC 文獻監控日報 — 2026-11-04\n\n> 執行時間：07:02:38 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2165 |\n| 資料庫相關總數 | 1842 |\n| 相關文獻平均分 | 3.19 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Humidity-Strain Synergized Adaptive NO Sensing in a Pd-Carbon Nanocoil Fabric for Respiratory-State Recognition.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：nitric oxide, respiratory monitoring, apnea, asthma, sensor\n- **摘要**：本研究開發了能適應濕度和機械變形的氮氧化物感測器，用於呼吸狀態辨識和呼吸道疾病診斷。\n- **作者**：Zhang Jian, Xia Wei, Ruan Siyang, Yang Zhiwei, Huang Xiao | **年份**：2026 | DOI: `10.1021/acsami.6c14680` | [連結](https://pubmed.ncbi.nlm.nih.gov/42750337/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Humidity-Strain Synergized Adaptive NO Sensing in a Pd-Carbon Nanocoil Fabric for Respiratory-State Recognition.](https://pubmed.ncbi.nlm.nih.gov/42750337/)**  \n  本研究開發了能適應濕度和機械變形的氮氧化物感測器，用於呼吸狀態辨識和呼吸道疾病診斷。 ｜ 2026\n\n---\n*報告生成時間：2026-11-04 07:02:38*\n"
     },
@@ -45110,10 +45114,6 @@
     {
       "date": "2026-10-30_0702",
       "content": "# VOC 文獻監控日報 — 2026-10-30\n\n> 執行時間：07:02:34 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2160 |\n| 資料庫相關總數 | 1838 |\n| 相關文獻平均分 | 3.19 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-10-30 07:02:34*\n"
-    },
-    {
-      "date": "2026-10-29_0703",
-      "content": "# VOC 文獻監控日報 — 2026-10-29\n\n> 執行時間：07:03:15 | 新增 **3** 篇 | 相關 **3** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 3 |\n| 資料庫累計總數 | 2159 |\n| 資料庫相關總數 | 1838 |\n| 相關文獻平均分 | 3.19 |\n\n## 📂 依類別分類\n\n### 呼氣 VOC（2 篇）\n\n- ▓▓▓░░ **[Volatilomics in psychiatric biomarker research: from odor signatures to multiomic integration.](https://pubmed.ncbi.nlm.nih.gov/42927497/)**  \n  這篇綜述探討了呼氣揮發性有機化合物在精神疾病診斷和監控方面的潛力。 ｜ 2026\n- ▓▓▓░░ **[Classification and Prediction of VOCs Using an IoT-Enabled Electronic Nose System-Based Lab Prototype for Breath Sensing Applications](https://doi.org/10.1021/acssensors.4c02731)**  \n  本研究開發了基於電子鼻系統的呼氣分析原型，用於分類和預測呼氣中的揮發性有機化合物。 ｜ 2024\n\n### 感染症（1 篇）\n\n- ▓▓░░░ **[Volatile organic compounds associated with Plasmodium falciparum infection in vitro](https://doi.org/10.1186/s13071-017-2157-x)**  \n  本研究探討了瘧疾寄生蟲感染對培養液中揮發性有機化合物的影響，發現六醛可能作為蚊蟲的誘餌。 ｜ 2017\n\n---\n*報告生成時間：2026-10-29 07:03:15*\n"
     }
   ]
 }

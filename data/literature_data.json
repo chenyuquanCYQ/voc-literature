@@ -1,23 +1,23 @@
 {
   "meta": {
-    "total": 2165,
-    "relevant": 1842,
-    "today": 0,
-    "this_week": 9,
+    "total": 2166,
+    "relevant": 1843,
+    "today": 1,
+    "this_week": 6,
     "avg_score": 3.19,
-    "updated_at": "2026-11-05T07:02:03"
+    "updated_at": "2026-11-06T07:02:38"
   },
   "stats": {
-    "total": 2165,
-    "relevant": 1842,
-    "today": 0,
-    "this_week": 9,
+    "total": 2166,
+    "relevant": 1843,
+    "today": 1,
+    "this_week": 6,
     "avg_score": 3.19,
     "by_category": {
       "voc_breath": 526,
       "null": 317,
       "disease_cancer": 287,
-      "sensor_hardware": 215,
+      "sensor_hardware": 216,
       "disease_chronic": 181,
       "infection": 106,
       "method_tech": 105,
@@ -33,7 +33,7 @@
       "manual": 1,
       "nct_linked": 191,
       "openalex": 286,
-      "pubmed": 210,
+      "pubmed": 211,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -42,7 +42,7 @@
       "0": 317,
       "1": 1,
       "2": 24,
-      "3": 551,
+      "3": 552,
       "4": 574,
       "5": 375
     },
@@ -80,7 +80,7 @@
       "2013": 50,
       "2014": 58,
       "2015": 74,
-      "2016": 69,
+      "2016": 70,
       "2017": 68,
       "2018": 83,
       "2019": 75,
@@ -156,9 +156,18 @@
       {
         "date": "2026-11-03",
         "count": 1
+      },
+      {
+        "date": "2026-11-05",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-11-05 23:02:37",
+        "found": 253,
+        "new_added": 1
+      },
       {
         "run_at": "2026-11-04 23:02:03",
         "found": 253,
@@ -203,11 +212,6 @@
         "run_at": "2026-10-27 23:08:06",
         "found": 253,
         "new_added": 18
-      },
-      {
-        "run_at": "2026-10-26 23:02:08",
-        "found": 236,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -253,8 +257,8 @@
       },
       {
         "category": "sensor_hardware",
-        "avg_score": 3.2,
-        "count": 215
+        "avg_score": 3.19,
+        "count": 216
       },
       {
         "category": "subhealth",
@@ -274,6 +278,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 2166,
+      "title": "Electronic Noses for Well-Being: Breath Analysis and Energy Expenditure.",
+      "authors": "Gardner Julian W, Vincent Timothy A",
+      "year": 2016,
+      "journal": "Sensors (Basel, Switzerland)",
+      "category": "sensor_hardware",
+      "score": 3.0,
+      "tags": [
+        "breath",
+        "vocs",
+        "energy expenditure",
+        "electronic nose",
+        "wearable"
+      ],
+      "one_line": "本文探討了電子鼻在呼吸分析和能量消耗測量方面的應用，並展望了其在醫療保健領域的潛力。",
+      "doi": "10.3390/s16070947",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27347946/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-11-05 23:02:37"
+    },
     {
       "id": 2165,
       "title": "Humidity-Strain Synergized Adaptive NO Sensing in a Pd-Carbon Nanocoil Fabric for Respiratory-State Recognition.",
@@ -45088,6 +45114,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-11-06_0702",
+      "content": "# VOC 文獻監控日報 — 2026-11-06\n\n> 執行時間：07:02:38 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2166 |\n| 資料庫相關總數 | 1843 |\n| 相關文獻平均分 | 3.19 |\n\n## 📂 依類別分類\n\n### 感測器（1 篇）\n\n- ▓▓▓░░ **[Electronic Noses for Well-Being: Breath Analysis and Energy Expenditure.](https://pubmed.ncbi.nlm.nih.gov/27347946/)**  \n  本文探討了電子鼻在呼吸分析和能量消耗測量方面的應用，並展望了其在醫療保健領域的潛力。 ｜ 2016\n\n---\n*報告生成時間：2026-11-06 07:02:38*\n"
+    },
+    {
       "date": "2026-11-05_0702",
       "content": "# VOC 文獻監控日報 — 2026-11-05\n\n> 執行時間：07:02:03 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2165 |\n| 資料庫相關總數 | 1842 |\n| 相關文獻平均分 | 3.19 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-11-05 07:02:03*\n"
     },
@@ -45110,10 +45140,6 @@
     {
       "date": "2026-10-31_0702",
       "content": "# VOC 文獻監控日報 — 2026-10-31\n\n> 執行時間：07:02:51 | 新增 **2** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 2162 |\n| 資料庫相關總數 | 1840 |\n| 相關文獻平均分 | 3.19 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Breath Insights: Advancing Lung Cancer Early-Stage Detection Through AI Algorithms in Non-Invasive VOC Profiling Trials.\n\n- **類別**：癌症應用\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：lung cancer, VOC, breath analysis, AI, early detection\n- **摘要**：本研究利用AI分析呼氣揮發性有機化合物圖譜，可有效偵測早期肺癌。\n- **作者**：Raimundo Bernardo S, Leitão Pedro M, Vinhas Manuel, Pires Maria V, Quintas Laura B et al. | **年份**：2025 | DOI: `10.3390/cancers17101685` | [連結](https://pubmed.ncbi.nlm.nih.gov/40427182/)\n\n## 📂 依類別分類\n\n### 癌症應用（1 篇）\n\n- ▓▓▓▓░ **[Breath Insights: Advancing Lung Cancer Early-Stage Detection Through AI Algorithms in Non-Invasive VOC Profiling Trials.](https://pubmed.ncbi.nlm.nih.gov/40427182/)**  \n  本研究利用AI分析呼氣揮發性有機化合物圖譜，可有效偵測早期肺癌。 ｜ 2025\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Exhaled human breath measurement method for assessing exposure to halogenated volatile organic compounds.](https://pubmed.ncbi.nlm.nih.gov/9166222/)**  \n  本研究開發單次呼氣採集技術，用於評估暴露於鹵代揮發性有機化合物。 ｜ 1997\n\n---\n*報告生成時間：2026-10-31 07:02:51*\n"
-    },
-    {
-      "date": "2026-10-30_0702",
-      "content": "# VOC 文獻監控日報 — 2026-10-30\n\n> 執行時間：07:02:34 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2160 |\n| 資料庫相關總數 | 1838 |\n| 相關文獻平均分 | 3.19 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-10-30 07:02:34*\n"
     }
   ]
 }

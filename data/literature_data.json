@@ -1,15 +1,15 @@
 {
   "meta": {
     "total": 2223,
-    "relevant": 1895,
+    "relevant": 1900,
     "today": 57,
     "this_week": 63,
     "avg_score": 3.2,
-    "updated_at": "2026-11-07T02:48:33"
+    "updated_at": "2026-11-07T02:58:05"
   },
   "stats": {
     "total": 2223,
-    "relevant": 1895,
+    "relevant": 1900,
     "today": 57,
     "this_week": 63,
     "avg_score": 3.2,
@@ -18,10 +18,10 @@
       "null": 317,
       "disease_cancer": 296,
       "sensor_hardware": 216,
-      "disease_chronic": 186,
-      "method_tech": 113,
+      "disease_chronic": 187,
+      "method_tech": 114,
       "infection": 109,
-      "voc_liquid": 55,
+      "voc_liquid": 58,
       "ai_model": 24,
       "odor_medicine": 17,
       "subhealth": 12,
@@ -43,7 +43,7 @@
       "0": 317,
       "1": 1,
       "2": 25,
-      "3": 577,
+      "3": 582,
       "4": 600,
       "5": 375
     },
@@ -80,12 +80,12 @@
       "2012": 44,
       "2013": 51,
       "2014": 58,
-      "2015": 75,
+      "2015": 76,
       "2016": 74,
       "2017": 70,
-      "2018": 88,
-      "2019": 86,
-      "2020": 92,
+      "2018": 90,
+      "2019": 87,
+      "2020": 93,
       "2021": 96,
       "2022": 117,
       "2023": 101,
@@ -236,14 +236,14 @@
         "count": 545
       },
       {
-        "category": "voc_liquid",
-        "avg_score": 3.84,
-        "count": 55
-      },
-      {
         "category": "disease_chronic",
         "avg_score": 3.82,
-        "count": 186
+        "count": 187
+      },
+      {
+        "category": "voc_liquid",
+        "avg_score": 3.79,
+        "count": 58
       },
       {
         "category": "ai_model",
@@ -253,7 +253,7 @@
       {
         "category": "method_tech",
         "avg_score": 3.38,
-        "count": 113
+        "count": 114
       },
       {
         "category": "odor_medicine",
@@ -355,8 +355,8 @@
       "authors": "Ramesh Pulendran Arasaradnam, Michael J. McFarlane, Emma Daulton, Erik Westenbrink, Nicola O’Connell, Subiatu Wurie",
       "year": 2015,
       "journal": "Journal of Gastrointestinal and Liver Diseases",
-      "category": "other",
-      "score": 0,
+      "category": "voc_liquid",
+      "score": 3.0,
       "tags": [
         "NAFLD",
         "NASH",
@@ -368,7 +368,7 @@
       "doi": "10.15403/jgld.2014.1121.242.ury",
       "url": "https://doi.org/10.15403/jgld.2014.1121.242.ury",
       "source": "owlstone_site",
-      "is_relevant": false,
+      "is_relevant": true,
       "created_at": "2026-11-06 18:42:42"
     },
     {
@@ -619,8 +619,8 @@
       "authors": "Waqar Ahmed, Paul Brinkman, Hans Weda, Hugo Knobel, Yun Xu A, Tamara M. E. Nijsen",
       "year": 2018,
       "journal": "Journal of Breath Research",
-      "category": "other",
-      "score": 0,
+      "category": "method_tech",
+      "score": 3.0,
       "tags": [
         "breath analysis",
         "methodology",
@@ -632,7 +632,7 @@
       "doi": "10.1088/1752-7163/aae557",
       "url": "https://doi.org/10.1088/1752-7163/aae557",
       "source": "owlstone_site",
-      "is_relevant": false,
+      "is_relevant": true,
       "created_at": "2026-11-06 18:42:40"
     },
     {
@@ -641,8 +641,8 @@
       "authors": "Monika Maria Widlak, Matthew Neal, Emma Daulton, C. L. Thomas, Claudia Tomkins, B. Singh",
       "year": 2018,
       "journal": "Colorectal Disease",
-      "category": "other",
-      "score": 0,
+      "category": "voc_liquid",
+      "score": 3.0,
       "tags": [
         "crc",
         "colorectal cancer",
@@ -654,7 +654,7 @@
       "doi": "10.1111/codi.14431",
       "url": "https://doi.org/10.1111/codi.14431",
       "source": "owlstone_site",
-      "is_relevant": false,
+      "is_relevant": true,
       "created_at": "2026-11-06 18:42:40"
     },
     {
@@ -773,8 +773,8 @@
       "authors": "Balkees Abderrahman",
       "year": 2019,
       "journal": "Future Oncology",
-      "category": "other",
-      "score": 0,
+      "category": "disease_cancer",
+      "score": 3.0,
       "tags": [
         "cancer",
         "breath",
@@ -786,7 +786,7 @@
       "doi": "10.2217/fon-2019-0091",
       "url": "https://doi.org/10.2217/fon-2019-0091",
       "source": "owlstone_site",
-      "is_relevant": false,
+      "is_relevant": true,
       "created_at": "2026-11-06 18:42:39"
     },
     {
@@ -1870,8 +1870,8 @@
       "authors": "Elina Jokiniitty, Lauri Hokkinen, Pekka S. Kumpulainen, Yrjö Leskinen, Terho J. Lehtimäki et al.",
       "year": 2020,
       "journal": "Biomarkers in Medicine",
-      "category": "other",
-      "score": 0,
+      "category": "voc_liquid",
+      "score": 3.0,
       "tags": [
         "kidney disease",
         "urine",
@@ -1883,7 +1883,7 @@
       "doi": "10.2217/bmm-2020-0085",
       "url": "https://doi.org/10.2217/bmm-2020-0085",
       "source": "openalex",
-      "is_relevant": false,
+      "is_relevant": true,
       "created_at": "2026-10-27 23:08:05"
     },
     {
@@ -39769,7 +39769,7 @@
       "authors": "",
       "year": null,
       "journal": "",
-      "category": "disease_cancer",
+      "category": "disease_chronic",
       "score": 4.0,
       "tags": [
         "癌症",

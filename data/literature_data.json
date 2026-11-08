@@ -1,24 +1,24 @@
 {
   "meta": {
-    "total": 2224,
-    "relevant": 1901,
-    "today": 0,
-    "this_week": 62,
+    "total": 2225,
+    "relevant": 1902,
+    "today": 1,
+    "this_week": 61,
     "avg_score": 3.2,
-    "updated_at": "2026-11-08T07:02:01"
+    "updated_at": "2026-11-09T07:02:37"
   },
   "stats": {
-    "total": 2224,
-    "relevant": 1901,
-    "today": 0,
-    "this_week": 62,
+    "total": 2225,
+    "relevant": 1902,
+    "today": 1,
+    "this_week": 61,
     "avg_score": 3.2,
     "by_category": {
       "voc_breath": 546,
       "null": 317,
       "disease_cancer": 296,
       "sensor_hardware": 216,
-      "disease_chronic": 187,
+      "disease_chronic": 188,
       "method_tech": 114,
       "infection": 109,
       "voc_liquid": 58,
@@ -34,7 +34,7 @@
       "nct_linked": 191,
       "openalex": 286,
       "owlstone_site": 57,
-      "pubmed": 212,
+      "pubmed": 213,
       "pubmed_backfill": 326,
       "scholar_alert": 27,
       "serper_scholar": 129
@@ -43,7 +43,7 @@
       "0": 317,
       "1": 1,
       "2": 25,
-      "3": 583,
+      "3": 584,
       "4": 600,
       "5": 375
     },
@@ -89,7 +89,7 @@
       "2021": 96,
       "2022": 117,
       "2023": 101,
-      "2024": 149,
+      "2024": 150,
       "2025": 141,
       "2026": 84,
       "2027": 7,
@@ -161,9 +161,18 @@
       {
         "date": "2026-11-06",
         "count": 58
+      },
+      {
+        "date": "2026-11-08",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-11-08 23:02:35",
+        "found": 251,
+        "new_added": 1
+      },
       {
         "run_at": "2026-11-07 23:02:00",
         "found": 254,
@@ -208,11 +217,6 @@
         "run_at": "2026-10-30 23:02:50",
         "found": 253,
         "new_added": 2
-      },
-      {
-        "run_at": "2026-10-29 23:02:32",
-        "found": 254,
-        "new_added": 1
       }
     ],
     "category_score": [
@@ -233,8 +237,8 @@
       },
       {
         "category": "disease_chronic",
-        "avg_score": 3.82,
-        "count": 187
+        "avg_score": 3.81,
+        "count": 188
       },
       {
         "category": "voc_liquid",
@@ -279,6 +283,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 2225,
+      "title": "Volatilome: A Novel Tool for Risk Scoring in Ischemic Heart Disease.",
+      "authors": "Marzoog Basheer Abdullah",
+      "year": 2024,
+      "journal": "Current cardiology reviews",
+      "category": "disease_chronic",
+      "score": 3.0,
+      "tags": [
+        "cardiovascular disease",
+        "ischemic heart disease",
+        "risk score",
+        "volatile organic compounds",
+        "breath analysis"
+      ],
+      "one_line": "本研究將呼氣揮發性有機化合物納入心臟疾病風險評估模型，以提升診斷準確性。",
+      "doi": "10.2174/011573403X304090240705063536",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38982923/",
+      "source": "pubmed",
+      "is_relevant": true,
+      "created_at": "2026-11-08 23:02:35"
+    },
     {
       "id": 2224,
       "title": "Volatile organic compounds in exhaled breath as non-invasive biomarkers for Gastrointestinal motility disorders: an exploratory study.",
@@ -46390,6 +46416,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-11-09_0702",
+      "content": "# VOC 文獻監控日報 — 2026-11-09\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2225 |\n| 資料庫相關總數 | 1902 |\n| 相關文獻平均分 | 3.2 |\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[Volatilome: A Novel Tool for Risk Scoring in Ischemic Heart Disease.](https://pubmed.ncbi.nlm.nih.gov/38982923/)**  \n  本研究將呼氣揮發性有機化合物納入心臟疾病風險評估模型，以提升診斷準確性。 ｜ 2024\n\n---\n*報告生成時間：2026-11-09 07:02:36*\n"
+    },
+    {
       "date": "2026-11-08_0702",
       "content": "# VOC 文獻監控日報 — 2026-11-08\n\n> 執行時間：07:02:01 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2224 |\n| 資料庫相關總數 | 1901 |\n| 相關文獻平均分 | 3.2 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-11-08 07:02:01*\n"
     },
@@ -46412,10 +46442,6 @@
     {
       "date": "2026-11-03_0702",
       "content": "# VOC 文獻監控日報 — 2026-11-03\n\n> 執行時間：07:02:01 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2164 |\n| 資料庫相關總數 | 1841 |\n| 相關文獻平均分 | 3.19 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-11-03 07:02:01*\n"
-    },
-    {
-      "date": "2026-11-02_0702",
-      "content": "# VOC 文獻監控日報 — 2026-11-02\n\n> 執行時間：07:02:32 | 新增 **1** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2164 |\n| 資料庫相關總數 | 1841 |\n| 相關文獻平均分 | 3.19 |\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-11-02 07:02:32*\n"
     }
   ]
 }

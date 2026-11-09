@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 2225,
-    "relevant": 1902,
+    "total": 2226,
+    "relevant": 1903,
     "today": 1,
-    "this_week": 61,
+    "this_week": 62,
     "avg_score": 3.2,
-    "updated_at": "2026-11-09T07:02:37"
+    "updated_at": "2026-11-10T07:02:29"
   },
   "stats": {
-    "total": 2225,
-    "relevant": 1902,
+    "total": 2226,
+    "relevant": 1903,
     "today": 1,
-    "this_week": 61,
+    "this_week": 62,
     "avg_score": 3.2,
     "by_category": {
       "voc_breath": 546,
@@ -19,7 +19,7 @@
       "disease_cancer": 296,
       "sensor_hardware": 216,
       "disease_chronic": 188,
-      "method_tech": 114,
+      "method_tech": 115,
       "infection": 109,
       "voc_liquid": 58,
       "ai_model": 24,
@@ -32,7 +32,7 @@
       "import": 488,
       "manual": 1,
       "nct_linked": 191,
-      "openalex": 286,
+      "openalex": 287,
       "owlstone_site": 57,
       "pubmed": 213,
       "pubmed_backfill": 326,
@@ -43,7 +43,7 @@
       "0": 317,
       "1": 1,
       "2": 25,
-      "3": 584,
+      "3": 585,
       "4": 600,
       "5": 375
     },
@@ -73,7 +73,7 @@
       "2005": 17,
       "2006": 15,
       "2007": 21,
-      "2008": 27,
+      "2008": 28,
       "2009": 31,
       "2010": 26,
       "2011": 46,
@@ -165,9 +165,18 @@
       {
         "date": "2026-11-08",
         "count": 1
+      },
+      {
+        "date": "2026-11-09",
+        "count": 1
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-11-09 23:02:28",
+        "found": 253,
+        "new_added": 1
+      },
       {
         "run_at": "2026-11-08 23:02:35",
         "found": 251,
@@ -212,11 +221,6 @@
         "run_at": "2026-10-31 23:01:58",
         "found": 253,
         "new_added": 0
-      },
-      {
-        "run_at": "2026-10-30 23:02:50",
-        "found": 253,
-        "new_added": 2
       }
     ],
     "category_score": [
@@ -252,8 +256,8 @@
       },
       {
         "category": "method_tech",
-        "avg_score": 3.38,
-        "count": 114
+        "avg_score": 3.37,
+        "count": 115
       },
       {
         "category": "odor_medicine",
@@ -283,6 +287,28 @@
     ]
   },
   "literature": [
+    {
+      "id": 2226,
+      "title": "Variability issues in determining the concentration of isoprene in human breath by PTR-MS",
+      "authors": "Barbora Arendacká, Konrad Schwarz, Svorad Štolc, Gejza Wimmer, Viktor Witkovský",
+      "year": 2008,
+      "journal": "Journal of Breath Research",
+      "category": "method_tech",
+      "score": 3.0,
+      "tags": [
+        "PTR-MS",
+        "isoprene",
+        "variability",
+        "breath",
+        "methodology"
+      ],
+      "one_line": "本研究評估了PTR-MS在測量人體呼氣異戊二烯濃度時的變異性，並提出理論模型。",
+      "doi": "10.1088/1752-7155/2/3/037007",
+      "url": "https://doi.org/10.1088/1752-7155/2/3/037007",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-11-09 23:02:28"
+    },
     {
       "id": 2225,
       "title": "Volatilome: A Novel Tool for Risk Scoring in Ischemic Heart Disease.",
@@ -46416,6 +46442,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-11-10_0702",
+      "content": "# VOC 文獻監控日報 — 2026-11-10\n\n> 執行時間：07:02:29 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2226 |\n| 資料庫相關總數 | 1903 |\n| 相關文獻平均分 | 3.2 |\n\n## 📂 依類別分類\n\n### 分析方法（1 篇）\n\n- ▓▓▓░░ **[Variability issues in determining the concentration of isoprene in human breath by PTR-MS](https://doi.org/10.1088/1752-7155/2/3/037007)**  \n  本研究評估了PTR-MS在測量人體呼氣異戊二烯濃度時的變異性，並提出理論模型。 ｜ 2008\n\n---\n*報告生成時間：2026-11-10 07:02:29*\n"
+    },
+    {
       "date": "2026-11-09_0702",
       "content": "# VOC 文獻監控日報 — 2026-11-09\n\n> 執行時間：07:02:36 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2225 |\n| 資料庫相關總數 | 1902 |\n| 相關文獻平均分 | 3.2 |\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓░░ **[Volatilome: A Novel Tool for Risk Scoring in Ischemic Heart Disease.](https://pubmed.ncbi.nlm.nih.gov/38982923/)**  \n  本研究將呼氣揮發性有機化合物納入心臟疾病風險評估模型，以提升診斷準確性。 ｜ 2024\n\n---\n*報告生成時間：2026-11-09 07:02:36*\n"
     },
@@ -46438,10 +46468,6 @@
     {
       "date": "2026-11-04_0702",
       "content": "# VOC 文獻監控日報 — 2026-11-04\n\n> 執行時間：07:02:38 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2165 |\n| 資料庫相關總數 | 1842 |\n| 相關文獻平均分 | 3.19 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Humidity-Strain Synergized Adaptive NO Sensing in a Pd-Carbon Nanocoil Fabric for Respiratory-State Recognition.\n\n- **類別**：呼氣 VOC\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：nitric oxide, respiratory monitoring, apnea, asthma, sensor\n- **摘要**：本研究開發了能適應濕度和機械變形的氮氧化物感測器，用於呼吸狀態辨識和呼吸道疾病診斷。\n- **作者**：Zhang Jian, Xia Wei, Ruan Siyang, Yang Zhiwei, Huang Xiao | **年份**：2026 | DOI: `10.1021/acsami.6c14680` | [連結](https://pubmed.ncbi.nlm.nih.gov/42750337/)\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓▓░ **[Humidity-Strain Synergized Adaptive NO Sensing in a Pd-Carbon Nanocoil Fabric for Respiratory-State Recognition.](https://pubmed.ncbi.nlm.nih.gov/42750337/)**  \n  本研究開發了能適應濕度和機械變形的氮氧化物感測器，用於呼吸狀態辨識和呼吸道疾病診斷。 ｜ 2026\n\n---\n*報告生成時間：2026-11-04 07:02:38*\n"
-    },
-    {
-      "date": "2026-11-03_0702",
-      "content": "# VOC 文獻監控日報 — 2026-11-03\n\n> 執行時間：07:02:01 | 新增 **0** 篇 | 相關 **0** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 0 |\n| 本次相關文獻 | 0 |\n| 資料庫累計總數 | 2164 |\n| 資料庫相關總數 | 1841 |\n| 相關文獻平均分 | 3.19 |\n\n## ℹ️ 本次無新文獻\n\n**原因**：所有結果皆已存在於資料庫\n\n系統運作正常，去重機制有效過濾重複文獻。\n資料庫持續累積中，下次執行可能有新結果。\n\n---\n\n*報告生成時間：2026-11-03 07:02:01*\n"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total": 2229,
-    "relevant": 1905,
-    "today": 3,
-    "this_week": 64,
+    "total": 2231,
+    "relevant": 1906,
+    "today": 2,
+    "this_week": 65,
     "avg_score": 3.2,
-    "updated_at": "2026-11-12T07:03:24"
+    "updated_at": "2026-11-13T07:03:01"
   },
   "stats": {
-    "total": 2229,
-    "relevant": 1905,
-    "today": 3,
-    "this_week": 64,
+    "total": 2231,
+    "relevant": 1906,
+    "today": 2,
+    "this_week": 65,
     "avg_score": 3.2,
     "by_category": {
       "voc_breath": 547,
@@ -20,7 +20,7 @@
       "sensor_hardware": 216,
       "disease_chronic": 189,
       "method_tech": 115,
-      "infection": 109,
+      "infection": 110,
       "voc_liquid": 58,
       "ai_model": 24,
       "odor_medicine": 17,
@@ -28,11 +28,11 @@
       "other": 5
     },
     "by_source": {
-      "clinicaltrials": 507,
+      "clinicaltrials": 508,
       "import": 488,
       "manual": 1,
       "nct_linked": 191,
-      "openalex": 290,
+      "openalex": 291,
       "owlstone_site": 57,
       "pubmed": 213,
       "pubmed_backfill": 326,
@@ -44,7 +44,7 @@
       "1": 1,
       "2": 25,
       "3": 586,
-      "4": 601,
+      "4": 602,
       "5": 375
     },
     "by_year": {
@@ -85,7 +85,7 @@
       "2017": 70,
       "2018": 90,
       "2019": 87,
-      "2020": 93,
+      "2020": 94,
       "2021": 96,
       "2022": 117,
       "2023": 101,
@@ -98,10 +98,6 @@
       "2030": 1
     },
     "daily_trend": [
-      {
-        "date": "2026-10-13",
-        "count": 1
-      },
       {
         "date": "2026-10-15",
         "count": 1
@@ -161,9 +157,18 @@
       {
         "date": "2026-11-11",
         "count": 3
+      },
+      {
+        "date": "2026-11-12",
+        "count": 2
       }
     ],
     "recent_log": [
+      {
+        "run_at": "2026-11-12 23:02:53",
+        "found": 253,
+        "new_added": 2
+      },
       {
         "run_at": "2026-11-11 23:03:22",
         "found": 257,
@@ -208,11 +213,6 @@
         "run_at": "2026-11-03 23:02:37",
         "found": 254,
         "new_added": 1
-      },
-      {
-        "run_at": "2026-11-02 23:02:00",
-        "found": 254,
-        "new_added": 0
       }
     ],
     "category_score": [
@@ -224,7 +224,7 @@
       {
         "category": "infection",
         "avg_score": 4.2,
-        "count": 109
+        "count": 110
       },
       {
         "category": "voc_breath",
@@ -279,6 +279,50 @@
     ]
   },
   "literature": [
+    {
+      "id": 2231,
+      "title": "[CT] A Phase I Clinical Trial of CPU-YL01 Injection in Patients With Chronic Hepatitis B.",
+      "authors": "Jiangsu Chuangyuan Life Science and Technology Co., Ltd.",
+      "year": 2026,
+      "journal": "ClinicalTrials.gov (Chronic Hepatitis B)",
+      "category": "other",
+      "score": 0,
+      "tags": [
+        "hepatitis B",
+        "clinical trial",
+        "pharmacokinetics",
+        "pharmacodynamics",
+        "CPU-YL01"
+      ],
+      "one_line": "本研究為慢性乙型肝炎患者藥物臨床試驗，未涉及呼氣成分分析。",
+      "doi": "",
+      "url": "https://clinicaltrials.gov/study/NCT07918456",
+      "source": "clinicaltrials",
+      "is_relevant": false,
+      "created_at": "2026-11-12 23:02:53"
+    },
+    {
+      "id": 2230,
+      "title": "1229. Volatile Biomarkers of Influenza Infection in the Breath",
+      "authors": "Patrick J. Danaher, Michael Phillips, Peter Schmitt, Stephanie A Richard, Gene Millar et al.",
+      "year": 2020,
+      "journal": "Open Forum Infectious Diseases",
+      "category": "infection",
+      "score": 4.0,
+      "tags": [
+        "influenza",
+        "breath",
+        "voc",
+        "diagnosis",
+        "gc-ms"
+      ],
+      "one_line": "本研究利用呼氣揮發性有機化合物分析，旨在開發流感病毒感染的診斷方法。",
+      "doi": "10.1093/ofid/ofaa439.1414",
+      "url": "https://doi.org/10.1093/ofid/ofaa439.1414",
+      "source": "openalex",
+      "is_relevant": true,
+      "created_at": "2026-11-12 23:02:53"
+    },
     {
       "id": 2229,
       "title": "Metabolomic profiling of exhaled breath condensate identifies a novel biomarker panel for detecting thyroid and breast cancer",
@@ -46494,6 +46538,10 @@
   ],
   "daily_reports": [
     {
+      "date": "2026-11-13_0702",
+      "content": "# VOC 文獻監控日報 — 2026-11-13\n\n> 執行時間：07:02:56 | 新增 **2** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 2 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2231 |\n| 資料庫相關總數 | 1906 |\n| 相關文獻平均分 | 3.2 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### 1229. Volatile Biomarkers of Influenza Infection in the Breath\n\n- **類別**：感染症\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：influenza, breath, voc, diagnosis, gc-ms\n- **摘要**：本研究利用呼氣揮發性有機化合物分析，旨在開發流感病毒感染的診斷方法。\n- **作者**：Patrick J. Danaher, Michael Phillips, Peter Schmitt, Stephanie A Richard, Gene Millar et al. | **年份**：2020 | DOI: `10.1093/ofid/ofaa439.1414` | [連結](https://doi.org/10.1093/ofid/ofaa439.1414)\n\n## 📂 依類別分類\n\n### 感染症（1 篇）\n\n- ▓▓▓▓░ **[1229. Volatile Biomarkers of Influenza Infection in the Breath](https://doi.org/10.1093/ofid/ofaa439.1414)**  \n  本研究利用呼氣揮發性有機化合物分析，旨在開發流感病毒感染的診斷方法。 ｜ 2020\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-11-13 07:02:57*\n"
+    },
+    {
       "date": "2026-11-12_0703",
       "content": "# VOC 文獻監控日報 — 2026-11-12\n\n> 執行時間：07:03:22 | 新增 **3** 篇 | 相關 **2** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 3 |\n| 本次相關文獻 | 2 |\n| 資料庫累計總數 | 2229 |\n| 資料庫相關總數 | 1905 |\n| 相關文獻平均分 | 3.2 |\n\n## ⭐ 重點文獻（評分 4–5）\n\n### Integrating tongue coating microbiome, tongue coating metabolomics, and exhaled breath metabolomics via machine learning to identify chronic atrophic gastritis\n\n- **類別**：慢性病\n- **評分**：⭐⭐⭐⭐ (4.0/5)\n- **標籤**：gastritis, breathomics, metabolomics, CAG, EBC\n- **摘要**：本研究利用呼氣代謝體學分析慢性萎縮性胃炎的診斷。\n- **作者**：Xiaofen Hou, Huanqing Xu, Long Zhu, Shanshan Ding, Yanfeng Shao et al. | **年份**：2026 | DOI: `10.3389/fmicb.2026.1910978` | [連結](https://doi.org/10.3389/fmicb.2026.1910978)\n\n## 📂 依類別分類\n\n### 慢性病（1 篇）\n\n- ▓▓▓▓░ **[Integrating tongue coating microbiome, tongue coating metabolomics, and exhaled breath metabolomics via machine learning to identify chronic atrophic gastritis](https://doi.org/10.3389/fmicb.2026.1910978)**  \n  本研究利用呼氣代謝體學分析慢性萎縮性胃炎的診斷。 ｜ 2026\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Detection of Volatile Organic Compounds as an emerging strategy for Parkinson’s disease diagnosis and monitoring](https://doi.org/10.1038/s41531-025-00993-2)**  \n  這篇綜述探討了揮發性有機化合物在帕金森氏症診斷和監測中的應用。 ｜ 2025\n\n---\n## ℹ️ 本次排除文獻：1 篇（LLM 判定不相關）\n\n---\n*報告生成時間：2026-11-12 07:03:22*\n"
     },
@@ -46516,10 +46564,6 @@
     {
       "date": "2026-11-07_0702",
       "content": "# VOC 文獻監控日報 — 2026-11-07\n\n> 執行時間：07:02:31 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2224 |\n| 資料庫相關總數 | 1901 |\n| 相關文獻平均分 | 3.2 |\n\n## 📂 依類別分類\n\n### 呼氣 VOC（1 篇）\n\n- ▓▓▓░░ **[Volatile organic compounds in exhaled breath as non-invasive biomarkers for Gastrointestinal motility disorders: an exploratory study.](https://pubmed.ncbi.nlm.nih.gov/41462116/)**  \n  本研究探討了呼氣揮發性有機化合物在診斷胃腸蠕動障礙方面的潛力。 ｜ 2025\n\n---\n*報告生成時間：2026-11-07 07:02:31*\n"
-    },
-    {
-      "date": "2026-11-06_0702",
-      "content": "# VOC 文獻監控日報 — 2026-11-06\n\n> 執行時間：07:02:38 | 新增 **1** 篇 | 相關 **1** 篇\n\n---\n\n## 📊 本次執行概覽\n\n| 項目 | 數量 |\n|------|------|\n| 本次搜尋新增 | 1 |\n| 本次相關文獻 | 1 |\n| 資料庫累計總數 | 2166 |\n| 資料庫相關總數 | 1843 |\n| 相關文獻平均分 | 3.19 |\n\n## 📂 依類別分類\n\n### 感測器（1 篇）\n\n- ▓▓▓░░ **[Electronic Noses for Well-Being: Breath Analysis and Energy Expenditure.](https://pubmed.ncbi.nlm.nih.gov/27347946/)**  \n  本文探討了電子鼻在呼吸分析和能量消耗測量方面的應用，並展望了其在醫療保健領域的潛力。 ｜ 2016\n\n---\n*報告生成時間：2026-11-06 07:02:38*\n"
     }
   ]
 }
